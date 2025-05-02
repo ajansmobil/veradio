@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradio.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=cy73w" />
-  <link rel="shortcut icon" href="/img/icon.png?v=cy73w" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=wiqd1" />
+  <link rel="shortcut icon" href="/img/icon.png?v=wiqd1" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,32 +24,32 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=cy73w">
+<link rel="stylesheet" href="style.css?v=wiqd1">
 </head>
 
 <body>
-  <div id="header"><div class="tjpcn">
-  <div class="tjpcntitle">
-    <div class="tjpcntitlebody">
-      <div class="tjpcntitlebodytitle">
+  <div id="header"><div class="zqm7f">
+  <div class="zqm7ftitle">
+    <div class="zqm7ftitlebody">
+      <div class="zqm7ftitlebodytitle">
         Ve Radio Web Sitemize Hoşgeldiniz
       </div>
-      <div class="tjpcntitlebodylang">
+      <div class="zqm7ftitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="tjpcnbody">
-    <a href="/tr"><img src="/img/logo.png?v=cy73w" class="tjpcnbodylogo" /></a>
+  <div class="zqm7fbody">
+    <a href="/tr"><img src="/img/logo.png?v=wiqd1" class="zqm7fbodylogo" /></a>
   </div>
-  <div class="tjpcnmenubody">
-    <div class="tjpcnmenu">
-      <div class="tjpcnmenulistbody">
-        <div class="tjpcnmenulist">
+  <div class="zqm7fmenubody">
+    <div class="zqm7fmenu">
+      <div class="zqm7fmenulistbody">
+        <div class="zqm7fmenulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/sfr0tcsrb1/">Gündem</a><a href="/tr/s5xjpdywyd/">Potkestler</a><a href="/tr/mamkpyytb7/">Yayın Akışı</a><a href="/tr/letwkofslr/">Yayıncılar</a><a href="/tr/gr6zgehrac/">Bilgilendirme</a><a href="/tr/olowwkkcfh/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a href="/tr/gundem/">Gündem</a><a href="/tr/potkestler/">Potkestler</a><a href="/tr/yayin-akisi/">Yayın Akışı</a><a href="/tr/yayincilar/">Yayıncılar</a><a href="/tr/kurumsal/">Bilgilendirme</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
         </div>
       </div>
@@ -58,14 +58,317 @@
 </div>
 
 </div>
-  <div id="content"><div class="body-ka7wo">
-  <div class="body-left-ka7wo">
+  <div id="content"><div class="body-pxwgi">
+  <div class="body-left-pxwgi">
 
   </div>
-  <div class="body-right-ka7wo">
-
+  <div class="body-right-pxwgi">
+    <div id="messages" class="messages-pxwgi"></div>
+    <div class="messages-pxwgi-input">
+      <input id="msgInput" type="text" placeholder="Mesaj yaz..." class="messages-pxwgi-input-input">
+      <button id="sendBtn" class="messages-pxwgi-input-button">Gönder</button>
+    </div>
   </div>
-</div>>
+</div>
+
+
+
+
+<script>
+  const fakeMessages = [
+    { user: 'Ali', text: 'Selam, radyo harika!' },
+    { user: 'Ayşe', text: 'Şarkı çok iyiymiş.' },
+    { user: 'Mehmet', text: 'Yorumlarınızı bekliyorum.' },
+    { user: 'Zeynep', text: 'Sıradaki parça ne?' },
+    { user: 'Can', text: 'Güzel yayın, elinize sağlık.' },
+    { user: 'Elif', text: 'Bir sonraki şarkı için önerim var.' },
+    { user: 'Burak', text: 'Radyo uygulaması çok hoş.' },
+    { user: 'Derya', text: 'Herkese selamlar!' },
+    { user: 'Fatma', text: 'Yayın çok keyifli.' },
+    { user: 'Emre', text: 'Müzikler harika.' }
+  ];
+  let msgIndex = 0;
+  const messagesDiv = document.getElementById('messages');
+  const input = document.getElementById('msgInput');
+  const btn = document.getElementById('sendBtn');
+
+  function isScrolledToBottom() {
+    return messagesDiv.scrollHeight - messagesDiv.scrollTop <= messagesDiv.clientHeight + 5;
+  }
+
+  function addMessage(user, text) {
+    const div = document.createElement('div');
+    div.textContent = user + ': ' + text;
+    div.style.opacity = 0;
+    div.classList.add('message-pxwgi');
+    messagesDiv.appendChild(div);
+
+    setTimeout(() => {
+      div.style.transition = 'opacity 0.5s';
+      div.style.opacity = 1;
+      if (isScrolledToBottom()) {
+        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+      }
+    }, 50);
+  }
+
+  function showFakeMessages() {
+    if (msgIndex < fakeMessages.length) {
+      const m = fakeMessages[msgIndex++];
+      addMessage(m.user, m.text);
+      setTimeout(showFakeMessages, 1500);
+    } else {
+      msgIndex = 0;
+      setTimeout(showFakeMessages, 1500);
+    }
+  }
+
+  btn.onclick = function () {
+    if (input.value.trim()) {
+      addMessage('Sen', input.value);
+      input.value = '';
+    }
+  };
+
+  showFakeMessages();
+</script>
+<div class="sliderxbg08nbody">
+  <div class="sliderxbg08n">
+    <div class="sliderxbg08ntitle">Djler ve Sunucularımız</div>
+    <div class="bg08n swiper-container">
+      <div class="swiper-wrapper"><div href="/img/rchfpz/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img onclick="imgfull('/img/rchfpz/yunus.jpeg')" src="/img/rchfpz/yunus.jpeg" class="modulchildbg08n2" />
+      </div>
+    </div><div href="/img/rchfpz/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img onclick="imgfull('/img/rchfpz/yunus.jpeg')" src="/img/rchfpz/yunus.jpeg" class="modulchildbg08n2" />
+      </div>
+    </div><div href="/img/rchfpz/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img onclick="imgfull('/img/rchfpz/yunus.jpeg')" src="/img/rchfpz/yunus.jpeg" class="modulchildbg08n2" />
+      </div>
+    </div><div href="/img/rchfpz/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img onclick="imgfull('/img/rchfpz/yunus.jpeg')" src="/img/rchfpz/yunus.jpeg" class="modulchildbg08n2" />
+      </div>
+    </div><div href="/img/rchfpz/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img onclick="imgfull('/img/rchfpz/yunus.jpeg')" src="/img/rchfpz/yunus.jpeg" class="modulchildbg08n2" />
+      </div>
+    </div><div href="/img/rchfpz/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img onclick="imgfull('/img/rchfpz/yunus.jpeg')" src="/img/rchfpz/yunus.jpeg" class="modulchildbg08n2" />
+      </div>
+    </div><div href="/img/rchfpz/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img onclick="imgfull('/img/rchfpz/yunus.jpeg')" src="/img/rchfpz/yunus.jpeg" class="modulchildbg08n2" />
+      </div>
+    </div><div href="/img/rchfpz/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img onclick="imgfull('/img/rchfpz/yunus.jpeg')" src="/img/rchfpz/yunus.jpeg" class="modulchildbg08n2" />
+      </div>
+    </div><div href="/img/rchfpz/undefined"  class="swiper-slide">
+      <div class="swiper-slide33">
+        <img onclick="imgfull('/img/rchfpz/yunus.jpeg')" src="/img/rchfpz/yunus.jpeg" class="modulchildbg08n2" />
+      </div>
+    </div></div>
+      <div class="swiper-button-next swiper-button-next-bg08n"></div>
+      <div class="swiper-button-prev swiper-button-prev-bg08n"></div>
+      <div class="swiper-pagination-bg08n"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var jsonslider = {
+    slidesPerView: 2,
+    simulateTouch: true,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination-bg08n",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next-bg08n",
+      prevEl: ".swiper-button-prev-bg08n",
+    },
+    breakpoints: {
+      480: {
+        slidesPerView: 2,
+      },
+      640: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      960: {
+        slidesPerView: "6", // Replace '6' with a number
+      },
+    },
+  };
+  if ("true" === "true") {
+  } else {
+    document.querySelector(".swiper-button-next-bg08n").style.display =
+      "none";
+    document.querySelector(".swiper-button-prev-bg08n").style.display =
+      "none";
+  }
+  var swiper = new Swiper(".bg08n", jsonslider);
+</script>
+<div class="sliderxhdvq1body">
+  Sosyal Medyada Biz
+</div>
+
+<div class="kjoz6">
+  <div class="kjoz6body"><a href="/tr/new-page">
+        <div class="kjoz6bodyitem">
+          <div class="kjoz6bodyitemimg">
+            <img src="/page/j3iwbf2jnt/undefined" alt="New Page">
+          </div>
+          <div class="kjoz6bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="kjoz6bodyitem">
+          <div class="kjoz6bodyitemimg">
+            <img src="/page/j42ntw8wx5/undefined" alt="New Page">
+          </div>
+          <div class="kjoz6bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="kjoz6bodyitem">
+          <div class="kjoz6bodyitemimg">
+            <img src="/page/i33lu60njh/undefined" alt="New Page">
+          </div>
+          <div class="kjoz6bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="kjoz6bodyitem">
+          <div class="kjoz6bodyitemimg">
+            <img src="/page/ev78z9eegd/undefined" alt="New Page">
+          </div>
+          <div class="kjoz6bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="kjoz6bodyitem">
+          <div class="kjoz6bodyitemimg">
+            <img src="/page/lg461es8td/undefined" alt="New Page">
+          </div>
+          <div class="kjoz6bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="kjoz6bodyitem">
+          <div class="kjoz6bodyitemimg">
+            <img src="/page/yt5gwdj7nu/undefined" alt="New Page">
+          </div>
+          <div class="kjoz6bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="kjoz6bodyitem">
+          <div class="kjoz6bodyitemimg">
+            <img src="/page/gjdtdl0f8q/undefined" alt="New Page">
+          </div>
+          <div class="kjoz6bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="kjoz6bodyitem">
+          <div class="kjoz6bodyitemimg">
+            <img src="/page/a5bgwinb2p/undefined" alt="New Page">
+          </div>
+          <div class="kjoz6bodyitemtitle">New Page</div>
+        </div>
+      </a></div>
+</div>
+
+<div class="sliderxkzjdqbody">
+  Sosyal Medyada Biz
+</div>
+
+<div class="sj848">
+  <div class="sj848body"><a href="/tr/new-page">
+        <div class="sj848bodyitem">
+          <div class="sj848bodyitemimg">
+            <img src="/page/j3iwbf2jnt/undefined" alt="New Page">
+          </div>
+          <div class="sj848bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="sj848bodyitem">
+          <div class="sj848bodyitemimg">
+            <img src="/page/j42ntw8wx5/undefined" alt="New Page">
+          </div>
+          <div class="sj848bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="sj848bodyitem">
+          <div class="sj848bodyitemimg">
+            <img src="/page/i33lu60njh/undefined" alt="New Page">
+          </div>
+          <div class="sj848bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="sj848bodyitem">
+          <div class="sj848bodyitemimg">
+            <img src="/page/ev78z9eegd/undefined" alt="New Page">
+          </div>
+          <div class="sj848bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="sj848bodyitem">
+          <div class="sj848bodyitemimg">
+            <img src="/page/lg461es8td/undefined" alt="New Page">
+          </div>
+          <div class="sj848bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="sj848bodyitem">
+          <div class="sj848bodyitemimg">
+            <img src="/page/yt5gwdj7nu/undefined" alt="New Page">
+          </div>
+          <div class="sj848bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="sj848bodyitem">
+          <div class="sj848bodyitemimg">
+            <img src="/page/gjdtdl0f8q/undefined" alt="New Page">
+          </div>
+          <div class="sj848bodyitemtitle">New Page</div>
+        </div>
+      </a><a href="/tr/new-page">
+        <div class="sj848bodyitem">
+          <div class="sj848bodyitemimg">
+            <img src="/page/a5bgwinb2p/undefined" alt="New Page">
+          </div>
+          <div class="sj848bodyitemtitle">New Page</div>
+        </div>
+      </a></div>
+</div>
+
+<div class="sliderxkj179body">
+  <div class="sliderxkj179">
+    <div class="sliderxkj179title">Sosyal Medyada Biz</div>
+    <div class="kj179">
+        <a href="" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/facebook.png" class="kj179-media" />
+        </a>
+        <a href="" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/instagram.png" class="kj179-media" />
+        </a>
+        <a href="" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/linkedin.png" class="kj179-media" />
+        </a>
+        <a href="" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/youtube.png" class="kj179-media" />
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/whatsapp.png" class="kj179-media" />
+        </a>
+        <a href="" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/google-maps.png" class="kj179-media" />
+        </a></div>
+  </div>
+</div>
 
 </div>
   <div id="footer"><footer class="footer">
@@ -98,7 +401,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/sfr0tcsrb1">Gündem</a></li><li class="menu__item"><a class="menu__link" href="/tr/s5xjpdywyd">Potkestler</a></li><li class="menu__item"><a class="menu__link" href="/tr/mamkpyytb7">Yayın Akışı</a></li><li class="menu__item"><a class="menu__link" href="/tr/letwkofslr">Yayıncılar</a></li><li class="menu__item"><a class="menu__link" href="/tr/gr6zgehrac">Bilgilendirme</a></li><li class="menu__item"><a class="menu__link" href="/tr/olowwkkcfh">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/gundem">Gündem</a></li><li class="menu__item"><a class="menu__link" href="/tr/potkestler">Potkestler</a></li><li class="menu__item"><a class="menu__link" href="/tr/yayin-akisi">Yayın Akışı</a></li><li class="menu__item"><a class="menu__link" href="/tr/yayincilar">Yayıncılar</a></li><li class="menu__item"><a class="menu__link" href="/tr/kurumsal">Bilgilendirme</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>Ve Radio 2025 cognite. &copy;</p>
 </footer>
@@ -108,7 +411,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=cy73w"></script>
-<script src="/src/cookie.js?v=cy73w"></script>
+<script type="text/javascript" src="/src/js.js?v=wiqd1"></script>
+<script src="/src/cookie.js?v=wiqd1"></script>
 
 </html>
