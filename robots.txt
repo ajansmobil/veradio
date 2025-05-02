@@ -1,0 +1,3 @@
+User-agent: *
+  Disallow:
+  Sitemap: https://veradio.com/map.xml
