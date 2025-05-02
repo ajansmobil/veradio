@@ -1,13 +1,53 @@
 
-  .rcaev {
+  .nw5ijmenulistbodylist {
+    width: 100%;
+    text-align: right;
+  }
+
+  .nw5ijmenulistbodylist a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1e3046;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+
+  .nw5ijmenumobil {
+    display: none;
+    cursor: pointer;
+  }
+
+
+  .nw5ijmenulistbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nw5ijChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: end;
+  }
+
+  .nw5ij {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #000;
   }
 
-  .rcaevtitle {
+  .nw5ijtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +55,7 @@
     justify-content: center;
   }
 
-  .rcaevtitlebody {
+  .nw5ijtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,47 +63,40 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .rcaevtitlebodytitle {
+  .nw5ijtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .rcaevtitlebodylang {
+  .nw5ijtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .rcaevtitlebodylang ul {
+  .nw5ijtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .rcaevbody {
-    width: var(--max);
+  .nw5ijbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .rcaevmenu {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: var(--max);
-  }
-
-  .rcaevmenulist {
-    width: calc(100% - 20px);
+  .nw5ijmenulist {
+    display: block;
     background-color: #1e3046;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .rcaevmenubody {
+  .nw5ijmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +104,7 @@
     justify-content: center;
   }
 
-  .rcaevmenulist ul {
+  .nw5ijmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .rcaevmenulist ul a {
+  .nw5ijmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,57 +126,87 @@
     white-space: nowrap;
   }
 
-  .rcaevmenulist ul a:hover {
+  .nw5ijmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .rcaevmenulistactive {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    color: #000 !important;
-    cursor: pointer;
+  .nw5ijbodylogo {
+    height: 100px;
+    max-width: 90vw;
   }
-
-  .rcaevmenulistbody {
-    width: 100%;
-  }
-
 
   @media screen and (min-width: 1024px) {
-    .rcaevbodylogo {
-      height: 100px;
-      max-width: 90vw;
-      max-height: 100px;
+    .nw5ijmenumobil {
+      display: none !important;
+    }
+
+    .nw5ijmenulist {
+      display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .rcaevmenu {
+    .nw5ijmenumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: #1e3046;
+      width: 100%;
+    }
+
+    .nw5ijmenumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    .nw5ijmenulist {
+      display: none;
+    }
+
+    .nw5ijbody {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .nw5ijChildren {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nw5ijmenulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .nw5ijmenu {
       overflow-x: auto;
     }
 
-    .rcaevmenulist ul {
-      flex-direction: row;
+    .nw5ijmenulist ul {
+      flex-direction: column;
     }
 
-    .rcaevbodylogo {
-      width: 50vw;
+    .nw5ijbodylogo {
+      height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .rcaevmenulist ul a {
+    .nw5ijmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .mekta {
+  .lohlr {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -151,13 +214,13 @@
     justify-content: center;
     position: relative;
   }
-  .mektacontainertitle {
+  .lohlrcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .mektacontainerlist {
+  .lohlrcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +228,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .mektacontainerlist > div {
+  .lohlrcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .mektacontainerlist:hover {
+  .lohlrcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .mektacontainer {
+  .lohlrcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .mektacontainerbody {
+  .lohlrcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +253,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .mektabody {
+  .lohlrbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .mektacontainerlist > span {
+  .lohlrcontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .mektabody {
+    .lohlrbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .mektacontainerbody {
+    .lohlrcontainerbody {
       padding: 15px;
     }
   }
@@ -237,13 +300,13 @@
       transform: scale(1);
     }
   }
-  .mqx6z-body {
+  .suic7-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .mqx6z-body-chile {
+  .suic7-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -251,10 +314,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .mqx6z-body-chile > div {
+  .suic7-body-chile > div {
     width: 100% !important;
   }
-  .mqx6z2 {
+  .suic72 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -265,21 +328,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .mqx6z {
+  .suic7 {
     display: flex;
     flex-direction: column;
   }
-  .mqx6z > svg {
+  .suic7 > svg {
     width: 100vw;
   }
-  .mqx6zbotton {
+  .suic7botton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .mqx6z-svg {
+  .suic7-svg {
     fill: #fff;
   }
-  .mqx6z-bg {
+  .suic7-bg {
     background-image: url("/img/cwurqi/map.png") !important;
     background-size: cover;
     background-position: center center;
@@ -297,7 +360,7 @@
   }
 
 
-  .sliderxw50d3body {
+  .sliderxnxbnlbody {
     width: 100%;
     display: flex;
     align-items: center;
@@ -305,7 +368,7 @@
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
   }
-  .sliderxw50d3 {
+  .sliderxnxbnl {
     width: calc(var(--max) - 40px);
     display: flex;
     background-color: #f9f9f9;
@@ -316,10 +379,10 @@
     transition: transform 0.3s ease-in-out;
     background-color: #1e3046;
   }
-  .sliderxw50d3:hover {
+  .sliderxnxbnl:hover {
     transform: translateY(-5px);
   }
-  .sliderxw50d3title {
+  .sliderxnxbnltitle {
     width: 60%;
     font-size: 28px;
     padding-right: 15px;
@@ -330,14 +393,14 @@
     justify-content: center;
     border-right: 2px solid #fff;
   }
-  .w50d3 {
+  .nxbnl {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
   }
-  .w50d3-media {
+  .nxbnl-media {
     width: 75px;
     height: 75px;
     border-radius: 8px;
@@ -345,14 +408,14 @@
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-  .w50d3-media:hover {
+  .nxbnl-media:hover {
     transform: scale(1.2);
   }
   @media screen and (max-width: 1200px) {
-    .sliderxw50d3 {
+    .sliderxnxbnl {
       width: calc(var(--max) - 100px) !important;
     }
-    .w50d3-media {
+    .nxbnl-media {
       width: 60px;
       height: 60px;
     }

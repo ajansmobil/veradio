@@ -1,13 +1,53 @@
 
-  .ra9ss {
+  .o8v4smenulistbodylist {
+    width: 100%;
+    text-align: right;
+  }
+
+  .o8v4smenulistbodylist a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1e3046;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+
+  .o8v4smenumobil {
+    display: none;
+    cursor: pointer;
+  }
+
+
+  .o8v4smenulistbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .o8v4sChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: end;
+  }
+
+  .o8v4s {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #000;
   }
 
-  .ra9sstitle {
+  .o8v4stitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +55,7 @@
     justify-content: center;
   }
 
-  .ra9sstitlebody {
+  .o8v4stitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,47 +63,40 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ra9sstitlebodytitle {
+  .o8v4stitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ra9sstitlebodylang {
+  .o8v4stitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ra9sstitlebodylang ul {
+  .o8v4stitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ra9ssbody {
-    width: var(--max);
+  .o8v4sbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .ra9ssmenu {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: var(--max);
-  }
-
-  .ra9ssmenulist {
-    width: calc(100% - 20px);
+  .o8v4smenulist {
+    display: block;
     background-color: #1e3046;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .ra9ssmenubody {
+  .o8v4smenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +104,7 @@
     justify-content: center;
   }
 
-  .ra9ssmenulist ul {
+  .o8v4smenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .ra9ssmenulist ul a {
+  .o8v4smenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,51 +126,81 @@
     white-space: nowrap;
   }
 
-  .ra9ssmenulist ul a:hover {
+  .o8v4smenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ra9ssmenulistactive {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    color: #000 !important;
-    cursor: pointer;
+  .o8v4sbodylogo {
+    height: 100px;
+    max-width: 90vw;
   }
-
-  .ra9ssmenulistbody {
-    width: 100%;
-  }
-
 
   @media screen and (min-width: 1024px) {
-    .ra9ssbodylogo {
-      height: 100px;
-      max-width: 90vw;
-      max-height: 100px;
+    .o8v4smenumobil {
+      display: none !important;
+    }
+
+    .o8v4smenulist {
+      display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .ra9ssmenu {
+    .o8v4smenumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: #1e3046;
+      width: 100%;
+    }
+
+    .o8v4smenumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    .o8v4smenulist {
+      display: none;
+    }
+
+    .o8v4sbody {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .o8v4sChildren {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .o8v4smenulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .o8v4smenu {
       overflow-x: auto;
     }
 
-    .ra9ssmenulist ul {
-      flex-direction: row;
+    .o8v4smenulist ul {
+      flex-direction: column;
     }
 
-    .ra9ssbodylogo {
-      width: 50vw;
+    .o8v4sbodylogo {
+      height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .ra9ssmenulist ul a {
+    .o8v4smenulist ul a {
       font-size: 14px;
     }
   }

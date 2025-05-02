@@ -1,13 +1,53 @@
 
-  .gnqlz {
+  .gdd7gmenulistbodylist {
+    width: 100%;
+    text-align: right;
+  }
+
+  .gdd7gmenulistbodylist a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1e3046;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+
+  .gdd7gmenumobil {
+    display: none;
+    cursor: pointer;
+  }
+
+
+  .gdd7gmenulistbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .gdd7gChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: end;
+  }
+
+  .gdd7g {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #000;
   }
 
-  .gnqlztitle {
+  .gdd7gtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +55,7 @@
     justify-content: center;
   }
 
-  .gnqlztitlebody {
+  .gdd7gtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,47 +63,40 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .gnqlztitlebodytitle {
+  .gdd7gtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .gnqlztitlebodylang {
+  .gdd7gtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .gnqlztitlebodylang ul {
+  .gdd7gtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .gnqlzbody {
-    width: var(--max);
+  .gdd7gbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .gnqlzmenu {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: var(--max);
-  }
-
-  .gnqlzmenulist {
-    width: calc(100% - 20px);
+  .gdd7gmenulist {
+    display: block;
     background-color: #1e3046;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .gnqlzmenubody {
+  .gdd7gmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +104,7 @@
     justify-content: center;
   }
 
-  .gnqlzmenulist ul {
+  .gdd7gmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .gnqlzmenulist ul a {
+  .gdd7gmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,51 +126,81 @@
     white-space: nowrap;
   }
 
-  .gnqlzmenulist ul a:hover {
+  .gdd7gmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .gnqlzmenulistactive {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    color: #000 !important;
-    cursor: pointer;
+  .gdd7gbodylogo {
+    height: 100px;
+    max-width: 90vw;
   }
-
-  .gnqlzmenulistbody {
-    width: 100%;
-  }
-
 
   @media screen and (min-width: 1024px) {
-    .gnqlzbodylogo {
-      height: 100px;
-      max-width: 90vw;
-      max-height: 100px;
+    .gdd7gmenumobil {
+      display: none !important;
+    }
+
+    .gdd7gmenulist {
+      display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .gnqlzmenu {
+    .gdd7gmenumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: #1e3046;
+      width: 100%;
+    }
+
+    .gdd7gmenumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    .gdd7gmenulist {
+      display: none;
+    }
+
+    .gdd7gbody {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .gdd7gChildren {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .gdd7gmenulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .gdd7gmenu {
       overflow-x: auto;
     }
 
-    .gnqlzmenulist ul {
-      flex-direction: row;
+    .gdd7gmenulist ul {
+      flex-direction: column;
     }
 
-    .gnqlzbodylogo {
-      width: 50vw;
+    .gdd7gbodylogo {
+      height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .gnqlzmenulist ul a {
+    .gdd7gmenulist ul a {
       font-size: 14px;
     }
   }

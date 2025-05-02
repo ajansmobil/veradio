@@ -1,13 +1,53 @@
 
-  .c3kny {
+  .czqygmenulistbodylist {
+    width: 100%;
+    text-align: right;
+  }
+
+  .czqygmenulistbodylist a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1e3046;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+
+  .czqygmenumobil {
+    display: none;
+    cursor: pointer;
+  }
+
+
+  .czqygmenulistbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .czqygChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: end;
+  }
+
+  .czqyg {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #000;
   }
 
-  .c3knytitle {
+  .czqygtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +55,7 @@
     justify-content: center;
   }
 
-  .c3knytitlebody {
+  .czqygtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,47 +63,40 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .c3knytitlebodytitle {
+  .czqygtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .c3knytitlebodylang {
+  .czqygtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .c3knytitlebodylang ul {
+  .czqygtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .c3knybody {
-    width: var(--max);
+  .czqygbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .c3knymenu {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: var(--max);
-  }
-
-  .c3knymenulist {
-    width: calc(100% - 20px);
+  .czqygmenulist {
+    display: block;
     background-color: #1e3046;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .c3knymenubody {
+  .czqygmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +104,7 @@
     justify-content: center;
   }
 
-  .c3knymenulist ul {
+  .czqygmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .c3knymenulist ul a {
+  .czqygmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,51 +126,81 @@
     white-space: nowrap;
   }
 
-  .c3knymenulist ul a:hover {
+  .czqygmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .c3knymenulistactive {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    color: #000 !important;
-    cursor: pointer;
+  .czqygbodylogo {
+    height: 100px;
+    max-width: 90vw;
   }
-
-  .c3knymenulistbody {
-    width: 100%;
-  }
-
 
   @media screen and (min-width: 1024px) {
-    .c3knybodylogo {
-      height: 100px;
-      max-width: 90vw;
-      max-height: 100px;
+    .czqygmenumobil {
+      display: none !important;
+    }
+
+    .czqygmenulist {
+      display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .c3knymenu {
+    .czqygmenumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: #1e3046;
+      width: 100%;
+    }
+
+    .czqygmenumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    .czqygmenulist {
+      display: none;
+    }
+
+    .czqygbody {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .czqygChildren {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .czqygmenulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+
+    .czqygmenu {
       overflow-x: auto;
     }
 
-    .c3knymenulist ul {
-      flex-direction: row;
+    .czqygmenulist ul {
+      flex-direction: column;
     }
 
-    .c3knybodylogo {
-      width: 50vw;
+    .czqygbodylogo {
+      height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .c3knymenulist ul a {
+    .czqygmenulist ul a {
       font-size: 14px;
     }
   }
