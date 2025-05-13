@@ -1,10 +1,10 @@
 
-  .e4p4dmenulistbodylist {
+  .g8imfmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .e4p4dmenulistbodylist a {
+  .g8imfmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .e4p4dmenumobil {
+  .g8imfmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .e4p4dmenulistbody {
+  .g8imfmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .e4p4dChildren {
+  .g8imfChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .e4p4d {
+  .g8imf {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .e4p4dtitle {
+  .g8imftitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .e4p4dtitlebody {
+  .g8imftitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .e4p4dtitlebodytitle {
+  .g8imftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .e4p4dtitlebodylang {
+  .g8imftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .e4p4dtitlebodylang ul {
+  .g8imftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .e4p4dbody {
+  .g8imfbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .e4p4dmenulist {
+  .g8imfmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .e4p4dmenubody {
+  .g8imfmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .e4p4dmenulist ul {
+  .g8imfmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .e4p4dmenulist ul a {
+  .g8imfmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .e4p4dmenulist ul a:hover {
+  .g8imfmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .e4p4dbodylogo {
+  .g8imfbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .e4p4dmenumobil {
+    .g8imfmenumobil {
       display: none !important;
     }
 
-    .e4p4dmenulist {
+    .g8imfmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .e4p4dmenumobil {
+    .g8imfmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .e4p4dmenumobil div {
+    .g8imfmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .e4p4dmenulist {
+    .g8imfmenulist {
       display: none;
     }
 
-    .e4p4dbody {
+    .g8imfbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .e4p4dChildren {
+    .g8imfChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .e4p4dmenulist ul a {
+    .g8imfmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .e4p4dmenu {
+    .g8imfmenu {
       overflow-x: auto;
     }
 
-    .e4p4dmenulist ul {
+    .g8imfmenulist ul {
       flex-direction: column;
     }
 
-    .e4p4dbodylogo {
+    .g8imfbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,13 +200,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .e4p4dmenulist ul a {
+    .g8imfmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .z0p7o {
+  .b08f7 {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -214,13 +214,13 @@
     justify-content: center;
     position: relative;
   }
-  .z0p7ocontainertitle {
+  .b08f7containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .z0p7ocontainerlist {
+  .b08f7containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -228,23 +228,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .z0p7ocontainerlist > div {
+  .b08f7containerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .z0p7ocontainerlist:hover {
+  .b08f7containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .z0p7ocontainer {
+  .b08f7container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .z0p7ocontainerbody {
+  .b08f7containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -253,24 +253,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .z0p7obody {
+  .b08f7body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .z0p7ocontainerlist > span {
+  .b08f7containerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .z0p7obody {
+    .b08f7body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .z0p7ocontainerbody {
+    .b08f7containerbody {
       padding: 15px;
     }
   }
@@ -300,13 +300,13 @@
       transform: scale(1);
     }
   }
-  .izguj-body {
+  .t8j8y-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .izguj-body-chile {
+  .t8j8y-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -314,10 +314,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .izguj-body-chile > div {
+  .t8j8y-body-chile > div {
     width: 100% !important;
   }
-  .izguj2 {
+  .t8j8y2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -328,21 +328,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .izguj {
+  .t8j8y {
     display: flex;
     flex-direction: column;
   }
-  .izguj > svg {
+  .t8j8y > svg {
     width: 100vw;
   }
-  .izgujbotton {
+  .t8j8ybotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .izguj-svg {
+  .t8j8y-svg {
     fill: #fff;
   }
-  .izguj-bg {
+  .t8j8y-bg {
     background-image: url("/img/cwurqi/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;
@@ -360,7 +360,7 @@
   }
 
 
-  .sliderxsqetnbody {
+  .sliderxba7mjbody {
     width: 100%;
     display: flex;
     align-items: center;
@@ -368,7 +368,7 @@
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
   }
-  .sliderxsqetn {
+  .sliderxba7mj {
     width: calc(var(--max) - 40px);
     display: flex;
     background-color: #f9f9f9;
@@ -379,10 +379,10 @@
     transition: transform 0.3s ease-in-out;
     background-color: #1e3046;
   }
-  .sliderxsqetn:hover {
+  .sliderxba7mj:hover {
     transform: translateY(-5px);
   }
-  .sliderxsqetntitle {
+  .sliderxba7mjtitle {
     width: 60%;
     font-size: 28px;
     padding-right: 15px;
@@ -393,14 +393,14 @@
     justify-content: center;
     border-right: 2px solid #fff;
   }
-  .sqetn {
+  .ba7mj {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
   }
-  .sqetn-media {
+  .ba7mj-media {
     width: 75px;
     height: 75px;
     border-radius: 8px;
@@ -408,14 +408,14 @@
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-  .sqetn-media:hover {
+  .ba7mj-media:hover {
     transform: scale(1.2);
   }
   @media screen and (max-width: 1200px) {
-    .sliderxsqetn {
+    .sliderxba7mj {
       width: calc(var(--max) - 100px) !important;
     }
-    .sqetn-media {
+    .ba7mj-media {
       width: 60px;
       height: 60px;
     }

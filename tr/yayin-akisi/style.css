@@ -1,10 +1,10 @@
 
-  .tqlbtmenulistbodylist {
+  .mag4hmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .tqlbtmenulistbodylist a {
+  .mag4hmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .tqlbtmenumobil {
+  .mag4hmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .tqlbtmenulistbody {
+  .mag4hmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .tqlbtChildren {
+  .mag4hChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .tqlbt {
+  .mag4h {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .tqlbttitle {
+  .mag4htitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .tqlbttitlebody {
+  .mag4htitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tqlbttitlebodytitle {
+  .mag4htitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .tqlbttitlebodylang {
+  .mag4htitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tqlbttitlebodylang ul {
+  .mag4htitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .tqlbtbody {
+  .mag4hbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .tqlbtmenulist {
+  .mag4hmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .tqlbtmenubody {
+  .mag4hmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .tqlbtmenulist ul {
+  .mag4hmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .tqlbtmenulist ul a {
+  .mag4hmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .tqlbtmenulist ul a:hover {
+  .mag4hmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .tqlbtbodylogo {
+  .mag4hbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .tqlbtmenumobil {
+    .mag4hmenumobil {
       display: none !important;
     }
 
-    .tqlbtmenulist {
+    .mag4hmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .tqlbtmenumobil {
+    .mag4hmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .tqlbtmenumobil div {
+    .mag4hmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .tqlbtmenulist {
+    .mag4hmenulist {
       display: none;
     }
 
-    .tqlbtbody {
+    .mag4hbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .tqlbtChildren {
+    .mag4hChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .tqlbtmenulist ul a {
+    .mag4hmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .tqlbtmenu {
+    .mag4hmenu {
       overflow-x: auto;
     }
 
-    .tqlbtmenulist ul {
+    .mag4hmenulist ul {
       flex-direction: column;
     }
 
-    .tqlbtbodylogo {
+    .mag4hbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .tqlbtmenulist ul a {
+    .mag4hmenulist ul a {
       font-size: 14px;
     }
   }
