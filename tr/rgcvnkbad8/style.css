@@ -1,10 +1,10 @@
 
-  .qmpuomenulistbodylist {
+  .fo8lgmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .qmpuomenulistbodylist a {
+  .fo8lgmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .qmpuomenumobil {
+  .fo8lgmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .qmpuomenulistbody {
+  .fo8lgmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .qmpuoChildren {
+  .fo8lgChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .qmpuo {
+  .fo8lg {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .qmpuotitle {
+  .fo8lgtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .qmpuotitlebody {
+  .fo8lgtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qmpuotitlebodytitle {
+  .fo8lgtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qmpuotitlebodylang {
+  .fo8lgtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qmpuotitlebodylang ul {
+  .fo8lgtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qmpuobody {
+  .fo8lgbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .qmpuomenulist {
+  .fo8lgmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .qmpuomenubody {
+  .fo8lgmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .qmpuomenulist ul {
+  .fo8lgmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .qmpuomenulist ul a {
+  .fo8lgmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .qmpuomenulist ul a:hover {
+  .fo8lgmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .qmpuobodylogo {
+  .fo8lgbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .qmpuomenumobil {
+    .fo8lgmenumobil {
       display: none !important;
     }
 
-    .qmpuomenulist {
+    .fo8lgmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .qmpuomenumobil {
+    .fo8lgmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .qmpuomenumobil div {
+    .fo8lgmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .qmpuomenulist {
+    .fo8lgmenulist {
       display: none;
     }
 
-    .qmpuobody {
+    .fo8lgbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .qmpuoChildren {
+    .fo8lgChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .qmpuomenulist ul a {
+    .fo8lgmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .qmpuomenu {
+    .fo8lgmenu {
       overflow-x: auto;
     }
 
-    .qmpuomenulist ul {
+    .fo8lgmenulist ul {
       flex-direction: column;
     }
 
-    .qmpuobodylogo {
+    .fo8lgbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .qmpuomenulist ul a {
+    .fo8lgmenulist ul a {
       font-size: 14px;
     }
   }
