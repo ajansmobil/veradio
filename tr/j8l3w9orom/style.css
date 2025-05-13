@@ -1,10 +1,10 @@
 
-  .via1nmenulistbodylist {
+  .imcfomenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .via1nmenulistbodylist a {
+  .imcfomenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .via1nmenumobil {
+  .imcfomenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .via1nmenulistbody {
+  .imcfomenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .via1nChildren {
+  .imcfoChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .via1n {
+  .imcfo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .via1ntitle {
+  .imcfotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .via1ntitlebody {
+  .imcfotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .via1ntitlebodytitle {
+  .imcfotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .via1ntitlebodylang {
+  .imcfotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .via1ntitlebodylang ul {
+  .imcfotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .via1nbody {
+  .imcfobody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .via1nmenulist {
+  .imcfomenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .via1nmenubody {
+  .imcfomenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .via1nmenulist ul {
+  .imcfomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .via1nmenulist ul a {
+  .imcfomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .via1nmenulist ul a:hover {
+  .imcfomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .via1nbodylogo {
+  .imcfobodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .via1nmenumobil {
+    .imcfomenumobil {
       display: none !important;
     }
 
-    .via1nmenulist {
+    .imcfomenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .via1nmenumobil {
+    .imcfomenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .via1nmenumobil div {
+    .imcfomenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .via1nmenulist {
+    .imcfomenulist {
       display: none;
     }
 
-    .via1nbody {
+    .imcfobody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .via1nChildren {
+    .imcfoChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .via1nmenulist ul a {
+    .imcfomenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .via1nmenu {
+    .imcfomenu {
       overflow-x: auto;
     }
 
-    .via1nmenulist ul {
+    .imcfomenulist ul {
       flex-direction: column;
     }
 
-    .via1nbodylogo {
+    .imcfobodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .via1nmenulist ul a {
+    .imcfomenulist ul a {
       font-size: 14px;
     }
   }

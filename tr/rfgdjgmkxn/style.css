@@ -1,10 +1,10 @@
 
-  .ppshomenulistbodylist {
+  .cr9cdmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .ppshomenulistbodylist a {
+  .cr9cdmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .ppshomenumobil {
+  .cr9cdmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .ppshomenulistbody {
+  .cr9cdmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .ppshoChildren {
+  .cr9cdChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .ppsho {
+  .cr9cd {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .ppshotitle {
+  .cr9cdtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .ppshotitlebody {
+  .cr9cdtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ppshotitlebodytitle {
+  .cr9cdtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ppshotitlebodylang {
+  .cr9cdtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ppshotitlebodylang ul {
+  .cr9cdtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ppshobody {
+  .cr9cdbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .ppshomenulist {
+  .cr9cdmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .ppshomenubody {
+  .cr9cdmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .ppshomenulist ul {
+  .cr9cdmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .ppshomenulist ul a {
+  .cr9cdmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .ppshomenulist ul a:hover {
+  .cr9cdmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ppshobodylogo {
+  .cr9cdbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .ppshomenumobil {
+    .cr9cdmenumobil {
       display: none !important;
     }
 
-    .ppshomenulist {
+    .cr9cdmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .ppshomenumobil {
+    .cr9cdmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .ppshomenumobil div {
+    .cr9cdmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .ppshomenulist {
+    .cr9cdmenulist {
       display: none;
     }
 
-    .ppshobody {
+    .cr9cdbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .ppshoChildren {
+    .cr9cdChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .ppshomenulist ul a {
+    .cr9cdmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .ppshomenu {
+    .cr9cdmenu {
       overflow-x: auto;
     }
 
-    .ppshomenulist ul {
+    .cr9cdmenulist ul {
       flex-direction: column;
     }
 
-    .ppshobodylogo {
+    .cr9cdbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ppshomenulist ul a {
+    .cr9cdmenulist ul a {
       font-size: 14px;
     }
   }

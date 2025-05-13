@@ -1,10 +1,10 @@
 
-  .szmaemenulistbodylist {
+  .tqlbtmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .szmaemenulistbodylist a {
+  .tqlbtmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .szmaemenumobil {
+  .tqlbtmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .szmaemenulistbody {
+  .tqlbtmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .szmaeChildren {
+  .tqlbtChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .szmae {
+  .tqlbt {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .szmaetitle {
+  .tqlbttitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .szmaetitlebody {
+  .tqlbttitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .szmaetitlebodytitle {
+  .tqlbttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .szmaetitlebodylang {
+  .tqlbttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .szmaetitlebodylang ul {
+  .tqlbttitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .szmaebody {
+  .tqlbtbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .szmaemenulist {
+  .tqlbtmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .szmaemenubody {
+  .tqlbtmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .szmaemenulist ul {
+  .tqlbtmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .szmaemenulist ul a {
+  .tqlbtmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .szmaemenulist ul a:hover {
+  .tqlbtmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .szmaebodylogo {
+  .tqlbtbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .szmaemenumobil {
+    .tqlbtmenumobil {
       display: none !important;
     }
 
-    .szmaemenulist {
+    .tqlbtmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .szmaemenumobil {
+    .tqlbtmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .szmaemenumobil div {
+    .tqlbtmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .szmaemenulist {
+    .tqlbtmenulist {
       display: none;
     }
 
-    .szmaebody {
+    .tqlbtbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .szmaeChildren {
+    .tqlbtChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .szmaemenulist ul a {
+    .tqlbtmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .szmaemenu {
+    .tqlbtmenu {
       overflow-x: auto;
     }
 
-    .szmaemenulist ul {
+    .tqlbtmenulist ul {
       flex-direction: column;
     }
 
-    .szmaebodylogo {
+    .tqlbtbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .szmaemenulist ul a {
+    .tqlbtmenulist ul a {
       font-size: 14px;
     }
   }

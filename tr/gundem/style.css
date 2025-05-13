@@ -1,10 +1,10 @@
 
-  .e52rfmenulistbodylist {
+  .tweq1menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .e52rfmenulistbodylist a {
+  .tweq1menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .e52rfmenumobil {
+  .tweq1menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .e52rfmenulistbody {
+  .tweq1menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .e52rfChildren {
+  .tweq1Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .e52rf {
+  .tweq1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .e52rftitle {
+  .tweq1title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .e52rftitlebody {
+  .tweq1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .e52rftitlebodytitle {
+  .tweq1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .e52rftitlebodylang {
+  .tweq1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .e52rftitlebodylang ul {
+  .tweq1titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .e52rfbody {
+  .tweq1body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .e52rfmenulist {
+  .tweq1menulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .e52rfmenubody {
+  .tweq1menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .e52rfmenulist ul {
+  .tweq1menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .e52rfmenulist ul a {
+  .tweq1menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .e52rfmenulist ul a:hover {
+  .tweq1menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .e52rfbodylogo {
+  .tweq1bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .e52rfmenumobil {
+    .tweq1menumobil {
       display: none !important;
     }
 
-    .e52rfmenulist {
+    .tweq1menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .e52rfmenumobil {
+    .tweq1menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .e52rfmenumobil div {
+    .tweq1menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .e52rfmenulist {
+    .tweq1menulist {
       display: none;
     }
 
-    .e52rfbody {
+    .tweq1body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .e52rfChildren {
+    .tweq1Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .e52rfmenulist ul a {
+    .tweq1menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .e52rfmenu {
+    .tweq1menu {
       overflow-x: auto;
     }
 
-    .e52rfmenulist ul {
+    .tweq1menulist ul {
       flex-direction: column;
     }
 
-    .e52rfbodylogo {
+    .tweq1bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,71 +200,88 @@
   }
 
   @media screen and (max-width: 768px) {
-    .e52rfmenulist ul a {
+    .tweq1menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .z5d2s {
+  .titlexq0ix {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #444;
+    text-align: left;
+    width: var(--max);
+    margin-bottom: 10px;
+  }
+  .xq0ix {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin: 30px 0px 0px 0px;
   }
-  .z5d2sbody {
+  .xq0ixbody {
     width: var(--max);
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: repeat(4, 1fr);
+    /* 3 columns */
+    justify-content: center;
+    /* Center all grid items */
   }
-  .z5d2sbodyitem {
+  .xq0ixbodyitem {
+    position: relative;
     aspect-ratio: 7 / 4;
-    background-color: #f2f2f2;
-    border-radius: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    gap: 5px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+    /* Add ease for smoother transitions */
+    justify-content: center;
   }
-  .z5d2sbodyitemimg {
-    aspect-ratio: 12 / 8;
+  .xq0ixbodyitem:hover {
+    transform: scale(1.05);
+    /* Zoom effect */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  }
+  .xq0ixbodyitemimg {
+    aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    border-radius: 5px;
-    overflow: hidden; /* Taşma durumunda kesme */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
   }
-  .z5d2sbodyitemimg img {
+  .xq0ixbodyitemimg img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Resmi sığdır, taşma yapmasın */
-    border-radius: 5px;
+    object-fit: cover;
+
+    /* Cover the entire area */
   }
-  .z5d2sbodyitemtitle {
-    border-radius: 3px;
-    padding: 5px;
-    background-color: #e9e9e9;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: #333;
+  .xq0ixbodyitemtitle {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #444;
+    font-size: 1.1em;
   }
   @media screen and (max-width: 1024px) {
-    .z5d2sbody {
-      width: calc(100% - 10px);
-      margin: 0px 5px 0px 5px;
+    .xq0ixbody {
       grid-template-columns: repeat(3, 1fr);
     }
   }
   @media screen and (max-width: 768px) {
-    .z5d2sbody {
-      width: calc(100% - 10px);
-      margin: 0px 5px 0px 5px;
+    .xq0ixbody {
       grid-template-columns: repeat(2, 1fr);
     }
   }

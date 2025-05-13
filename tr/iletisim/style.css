@@ -1,10 +1,10 @@
 
-  .gh760menulistbodylist {
+  .e4p4dmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .gh760menulistbodylist a {
+  .e4p4dmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .gh760menumobil {
+  .e4p4dmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .gh760menulistbody {
+  .e4p4dmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .gh760Children {
+  .e4p4dChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .gh760 {
+  .e4p4d {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .gh760title {
+  .e4p4dtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .gh760titlebody {
+  .e4p4dtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .gh760titlebodytitle {
+  .e4p4dtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .gh760titlebodylang {
+  .e4p4dtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .gh760titlebodylang ul {
+  .e4p4dtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .gh760body {
+  .e4p4dbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .gh760menulist {
+  .e4p4dmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .gh760menubody {
+  .e4p4dmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .gh760menulist ul {
+  .e4p4dmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .gh760menulist ul a {
+  .e4p4dmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .gh760menulist ul a:hover {
+  .e4p4dmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .gh760bodylogo {
+  .e4p4dbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .gh760menumobil {
+    .e4p4dmenumobil {
       display: none !important;
     }
 
-    .gh760menulist {
+    .e4p4dmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .gh760menumobil {
+    .e4p4dmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .gh760menumobil div {
+    .e4p4dmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .gh760menulist {
+    .e4p4dmenulist {
       display: none;
     }
 
-    .gh760body {
+    .e4p4dbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .gh760Children {
+    .e4p4dChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .gh760menulist ul a {
+    .e4p4dmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .gh760menu {
+    .e4p4dmenu {
       overflow-x: auto;
     }
 
-    .gh760menulist ul {
+    .e4p4dmenulist ul {
       flex-direction: column;
     }
 
-    .gh760bodylogo {
+    .e4p4dbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,13 +200,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .gh760menulist ul a {
+    .e4p4dmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .wod4d {
+  .z0p7o {
     width: 100%;
     padding: 60px 20px;
     display: flex;
@@ -214,13 +214,13 @@
     justify-content: center;
     position: relative;
   }
-  .wod4dcontainertitle {
+  .z0p7ocontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .wod4dcontainerlist {
+  .z0p7ocontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -228,23 +228,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .wod4dcontainerlist > div {
+  .z0p7ocontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .wod4dcontainerlist:hover {
+  .z0p7ocontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .wod4dcontainer {
+  .z0p7ocontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .wod4dcontainerbody {
+  .z0p7ocontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -253,24 +253,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .wod4dbody {
+  .z0p7obody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .wod4dcontainerlist > span {
+  .z0p7ocontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .wod4dbody {
+    .z0p7obody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .wod4dcontainerbody {
+    .z0p7ocontainerbody {
       padding: 15px;
     }
   }
@@ -300,13 +300,13 @@
       transform: scale(1);
     }
   }
-  .vu7d2-body {
+  .izguj-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .vu7d2-body-chile {
+  .izguj-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -314,10 +314,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .vu7d2-body-chile > div {
+  .izguj-body-chile > div {
     width: 100% !important;
   }
-  .vu7d22 {
+  .izguj2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -328,21 +328,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .vu7d2 {
+  .izguj {
     display: flex;
     flex-direction: column;
   }
-  .vu7d2 > svg {
+  .izguj > svg {
     width: 100vw;
   }
-  .vu7d2botton {
+  .izgujbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .vu7d2-svg {
+  .izguj-svg {
     fill: #fff;
   }
-  .vu7d2-bg {
+  .izguj-bg {
     background-image: url("/img/cwurqi/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;
@@ -360,7 +360,7 @@
   }
 
 
-  .sliderxr5678body {
+  .sliderxsqetnbody {
     width: 100%;
     display: flex;
     align-items: center;
@@ -368,7 +368,7 @@
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
   }
-  .sliderxr5678 {
+  .sliderxsqetn {
     width: calc(var(--max) - 40px);
     display: flex;
     background-color: #f9f9f9;
@@ -379,10 +379,10 @@
     transition: transform 0.3s ease-in-out;
     background-color: #1e3046;
   }
-  .sliderxr5678:hover {
+  .sliderxsqetn:hover {
     transform: translateY(-5px);
   }
-  .sliderxr5678title {
+  .sliderxsqetntitle {
     width: 60%;
     font-size: 28px;
     padding-right: 15px;
@@ -393,14 +393,14 @@
     justify-content: center;
     border-right: 2px solid #fff;
   }
-  .r5678 {
+  .sqetn {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
   }
-  .r5678-media {
+  .sqetn-media {
     width: 75px;
     height: 75px;
     border-radius: 8px;
@@ -408,14 +408,14 @@
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-  .r5678-media:hover {
+  .sqetn-media:hover {
     transform: scale(1.2);
   }
   @media screen and (max-width: 1200px) {
-    .sliderxr5678 {
+    .sliderxsqetn {
       width: calc(var(--max) - 100px) !important;
     }
-    .r5678-media {
+    .sqetn-media {
       width: 60px;
       height: 60px;
     }
