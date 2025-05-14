@@ -1,10 +1,10 @@
 
-  .mag4hmenulistbodylist {
+  .esivtmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .mag4hmenulistbodylist a {
+  .esivtmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .mag4hmenumobil {
+  .esivtmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .mag4hmenulistbody {
+  .esivtmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .mag4hChildren {
+  .esivtChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .mag4h {
+  .esivt {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .mag4htitle {
+  .esivttitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .mag4htitlebody {
+  .esivttitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .mag4htitlebodytitle {
+  .esivttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .mag4htitlebodylang {
+  .esivttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .mag4htitlebodylang ul {
+  .esivttitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .mag4hbody {
+  .esivtbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .mag4hmenulist {
+  .esivtmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .mag4hmenubody {
+  .esivtmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .mag4hmenulist ul {
+  .esivtmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .mag4hmenulist ul a {
+  .esivtmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .mag4hmenulist ul a:hover {
+  .esivtmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .mag4hbodylogo {
+  .esivtbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .mag4hmenumobil {
+    .esivtmenumobil {
       display: none !important;
     }
 
-    .mag4hmenulist {
+    .esivtmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .mag4hmenumobil {
+    .esivtmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .mag4hmenumobil div {
+    .esivtmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .mag4hmenulist {
+    .esivtmenulist {
       display: none;
     }
 
-    .mag4hbody {
+    .esivtbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .mag4hChildren {
+    .esivtChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .mag4hmenulist ul a {
+    .esivtmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .mag4hmenu {
+    .esivtmenu {
       overflow-x: auto;
     }
 
-    .mag4hmenulist ul {
+    .esivtmenulist ul {
       flex-direction: column;
     }
 
-    .mag4hbodylogo {
+    .esivtbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .mag4hmenulist ul a {
+    .esivtmenulist ul a {
       font-size: 14px;
     }
   }
