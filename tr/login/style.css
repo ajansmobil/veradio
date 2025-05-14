@@ -1,10 +1,10 @@
 
-  .bfzlmmenulistbodylist {
+  .naop4menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .bfzlmmenulistbodylist a {
+  .naop4menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .bfzlmmenumobil {
+  .naop4menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .bfzlmmenulistbody {
+  .naop4menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .bfzlmChildren {
+  .naop4Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .bfzlm {
+  .naop4 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .bfzlmtitle {
+  .naop4title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .bfzlmtitlebody {
+  .naop4titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .bfzlmtitlebodytitle {
+  .naop4titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .bfzlmtitlebodylang {
+  .naop4titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .bfzlmtitlebodylang ul {
+  .naop4titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .bfzlmbody {
+  .naop4body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .bfzlmmenulist {
+  .naop4menulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .bfzlmmenubody {
+  .naop4menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .bfzlmmenulist ul {
+  .naop4menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .bfzlmmenulist ul a {
+  .naop4menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .bfzlmmenulist ul a:hover {
+  .naop4menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .bfzlmbodylogo {
+  .naop4bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .bfzlmmenumobil {
+    .naop4menumobil {
       display: none !important;
     }
 
-    .bfzlmmenulist {
+    .naop4menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .bfzlmmenumobil {
+    .naop4menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .bfzlmmenumobil div {
+    .naop4menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .bfzlmmenulist {
+    .naop4menulist {
       display: none;
     }
 
-    .bfzlmbody {
+    .naop4body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .bfzlmChildren {
+    .naop4Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .bfzlmmenulist ul a {
+    .naop4menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .bfzlmmenu {
+    .naop4menu {
       overflow-x: auto;
     }
 
-    .bfzlmmenulist ul {
+    .naop4menulist ul {
       flex-direction: column;
     }
 
-    .bfzlmbodylogo {
+    .naop4bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,13 +200,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .bfzlmmenulist ul a {
+    .naop4menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .m6zka {
+  .gp59x {
     width: 100%;
     height: 500px;
     flex: 1;
@@ -216,7 +216,7 @@
     margin-top: 20px;
   }
 
-  .m6zka-null {
+  .gp59x-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
@@ -224,11 +224,11 @@
     font-size: 14px;
   }
 
-  .m6zka-null:hover {
+  .gp59x-null:hover {
     color: #999;
   }
 
-  .m6zka-body {
+  .gp59x-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
@@ -236,13 +236,13 @@
     flex-direction: column;
   }
 
-  .m6zka-body-form {
+  .gp59x-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .m6zka-button {
+  .gp59x-button {
     padding: 10px;
     background-color: #1e3046;
     margin-top: 20px;
@@ -255,21 +255,21 @@
     cursor: pointer;
   }
 
-  .m6zka-login-menu {
+  .gp59x-login-menu {
     display: flex;
     gap: 2px;
   }
 
-  #m6zka-login-menu-left {
+  #gp59x-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
 
-  #m6zka-login-menu-right {
+  #gp59x-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
 
-  #m6zka-memberol {
+  #gp59x-memberol {
     display: none;
     flex-direction: column;
   }
@@ -296,7 +296,7 @@
     justify-content: center;
   }
 
-  .m6zka-login-menu>div {
+  .gp59x-login-menu>div {
     background-color: #1e3046;
     width: 100%;
     display: flex;

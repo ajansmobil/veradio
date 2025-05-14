@@ -1,10 +1,10 @@
 
-  .iji1umenulistbodylist {
+  .uhg73menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .iji1umenulistbodylist a {
+  .uhg73menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .iji1umenumobil {
+  .uhg73menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .iji1umenulistbody {
+  .uhg73menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .iji1uChildren {
+  .uhg73Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .iji1u {
+  .uhg73 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .iji1utitle {
+  .uhg73title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .iji1utitlebody {
+  .uhg73titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .iji1utitlebodytitle {
+  .uhg73titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .iji1utitlebodylang {
+  .uhg73titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .iji1utitlebodylang ul {
+  .uhg73titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .iji1ubody {
+  .uhg73body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .iji1umenulist {
+  .uhg73menulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .iji1umenubody {
+  .uhg73menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .iji1umenulist ul {
+  .uhg73menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .iji1umenulist ul a {
+  .uhg73menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .iji1umenulist ul a:hover {
+  .uhg73menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .iji1ubodylogo {
+  .uhg73bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .iji1umenumobil {
+    .uhg73menumobil {
       display: none !important;
     }
 
-    .iji1umenulist {
+    .uhg73menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .iji1umenumobil {
+    .uhg73menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .iji1umenumobil div {
+    .uhg73menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .iji1umenulist {
+    .uhg73menulist {
       display: none;
     }
 
-    .iji1ubody {
+    .uhg73body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .iji1uChildren {
+    .uhg73Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .iji1umenulist ul a {
+    .uhg73menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .iji1umenu {
+    .uhg73menu {
       overflow-x: auto;
     }
 
-    .iji1umenulist ul {
+    .uhg73menulist ul {
       flex-direction: column;
     }
 
-    .iji1ubodylogo {
+    .uhg73bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .iji1umenulist ul a {
+    .uhg73menulist ul a {
       font-size: 14px;
     }
   }

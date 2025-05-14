@@ -1,10 +1,10 @@
 
-  .ev1armenulistbodylist {
+  .x5u51menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .ev1armenulistbodylist a {
+  .x5u51menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .ev1armenumobil {
+  .x5u51menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .ev1armenulistbody {
+  .x5u51menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .ev1arChildren {
+  .x5u51Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .ev1ar {
+  .x5u51 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .ev1artitle {
+  .x5u51title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .ev1artitlebody {
+  .x5u51titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ev1artitlebodytitle {
+  .x5u51titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ev1artitlebodylang {
+  .x5u51titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ev1artitlebodylang ul {
+  .x5u51titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ev1arbody {
+  .x5u51body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .ev1armenulist {
+  .x5u51menulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .ev1armenubody {
+  .x5u51menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .ev1armenulist ul {
+  .x5u51menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .ev1armenulist ul a {
+  .x5u51menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .ev1armenulist ul a:hover {
+  .x5u51menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ev1arbodylogo {
+  .x5u51bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .ev1armenumobil {
+    .x5u51menumobil {
       display: none !important;
     }
 
-    .ev1armenulist {
+    .x5u51menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .ev1armenumobil {
+    .x5u51menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .ev1armenumobil div {
+    .x5u51menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .ev1armenulist {
+    .x5u51menulist {
       display: none;
     }
 
-    .ev1arbody {
+    .x5u51body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .ev1arChildren {
+    .x5u51Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .ev1armenulist ul a {
+    .x5u51menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .ev1armenu {
+    .x5u51menu {
       overflow-x: auto;
     }
 
-    .ev1armenulist ul {
+    .x5u51menulist ul {
       flex-direction: column;
     }
 
-    .ev1arbodylogo {
+    .x5u51bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ev1armenulist ul a {
+    .x5u51menulist ul a {
       font-size: 14px;
     }
   }
