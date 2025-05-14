@@ -1,10 +1,10 @@
 
-  .pg8ummenulistbodylist {
+  .nbddhmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .pg8ummenulistbodylist a {
+  .nbddhmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .pg8ummenumobil {
+  .nbddhmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .pg8ummenulistbody {
+  .nbddhmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .pg8umChildren {
+  .nbddhChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .pg8um {
+  .nbddh {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .pg8umtitle {
+  .nbddhtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .pg8umtitlebody {
+  .nbddhtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .pg8umtitlebodytitle {
+  .nbddhtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .pg8umtitlebodylang {
+  .nbddhtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .pg8umtitlebodylang ul {
+  .nbddhtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .pg8umbody {
+  .nbddhbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .pg8ummenulist {
+  .nbddhmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .pg8ummenubody {
+  .nbddhmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .pg8ummenulist ul {
+  .nbddhmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .pg8ummenulist ul a {
+  .nbddhmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .pg8ummenulist ul a:hover {
+  .nbddhmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .pg8umbodylogo {
+  .nbddhbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .pg8ummenumobil {
+    .nbddhmenumobil {
       display: none !important;
     }
 
-    .pg8ummenulist {
+    .nbddhmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .pg8ummenumobil {
+    .nbddhmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .pg8ummenumobil div {
+    .nbddhmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .pg8ummenulist {
+    .nbddhmenulist {
       display: none;
     }
 
-    .pg8umbody {
+    .nbddhbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .pg8umChildren {
+    .nbddhChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .pg8ummenulist ul a {
+    .nbddhmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .pg8ummenu {
+    .nbddhmenu {
       overflow-x: auto;
     }
 
-    .pg8ummenulist ul {
+    .nbddhmenulist ul {
       flex-direction: column;
     }
 
-    .pg8umbodylogo {
+    .nbddhbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .pg8ummenulist ul a {
+    .nbddhmenulist ul a {
       font-size: 14px;
     }
   }

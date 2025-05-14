@@ -1,10 +1,10 @@
 
-  .dowsumenulistbodylist {
+  .rcqnomenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .dowsumenulistbodylist a {
+  .rcqnomenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .dowsumenumobil {
+  .rcqnomenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .dowsumenulistbody {
+  .rcqnomenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .dowsuChildren {
+  .rcqnoChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .dowsu {
+  .rcqno {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .dowsutitle {
+  .rcqnotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .dowsutitlebody {
+  .rcqnotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .dowsutitlebodytitle {
+  .rcqnotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .dowsutitlebodylang {
+  .rcqnotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .dowsutitlebodylang ul {
+  .rcqnotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .dowsubody {
+  .rcqnobody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .dowsumenulist {
+  .rcqnomenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .dowsumenubody {
+  .rcqnomenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .dowsumenulist ul {
+  .rcqnomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .dowsumenulist ul a {
+  .rcqnomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .dowsumenulist ul a:hover {
+  .rcqnomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .dowsubodylogo {
+  .rcqnobodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .dowsumenumobil {
+    .rcqnomenumobil {
       display: none !important;
     }
 
-    .dowsumenulist {
+    .rcqnomenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .dowsumenumobil {
+    .rcqnomenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .dowsumenumobil div {
+    .rcqnomenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .dowsumenulist {
+    .rcqnomenulist {
       display: none;
     }
 
-    .dowsubody {
+    .rcqnobody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .dowsuChildren {
+    .rcqnoChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .dowsumenulist ul a {
+    .rcqnomenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .dowsumenu {
+    .rcqnomenu {
       overflow-x: auto;
     }
 
-    .dowsumenulist ul {
+    .rcqnomenulist ul {
       flex-direction: column;
     }
 
-    .dowsubodylogo {
+    .rcqnobodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .dowsumenulist ul a {
+    .rcqnomenulist ul a {
       font-size: 14px;
     }
   }

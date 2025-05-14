@@ -1,10 +1,10 @@
 
-  .dnchomenulistbodylist {
+  .rt2b0menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .dnchomenulistbodylist a {
+  .rt2b0menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .dnchomenumobil {
+  .rt2b0menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .dnchomenulistbody {
+  .rt2b0menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .dnchoChildren {
+  .rt2b0Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .dncho {
+  .rt2b0 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .dnchotitle {
+  .rt2b0title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .dnchotitlebody {
+  .rt2b0titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .dnchotitlebodytitle {
+  .rt2b0titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .dnchotitlebodylang {
+  .rt2b0titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .dnchotitlebodylang ul {
+  .rt2b0titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .dnchobody {
+  .rt2b0body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .dnchomenulist {
+  .rt2b0menulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .dnchomenubody {
+  .rt2b0menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .dnchomenulist ul {
+  .rt2b0menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .dnchomenulist ul a {
+  .rt2b0menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .dnchomenulist ul a:hover {
+  .rt2b0menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .dnchobodylogo {
+  .rt2b0bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .dnchomenumobil {
+    .rt2b0menumobil {
       display: none !important;
     }
 
-    .dnchomenulist {
+    .rt2b0menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .dnchomenumobil {
+    .rt2b0menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .dnchomenumobil div {
+    .rt2b0menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .dnchomenulist {
+    .rt2b0menulist {
       display: none;
     }
 
-    .dnchobody {
+    .rt2b0body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .dnchoChildren {
+    .rt2b0Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .dnchomenulist ul a {
+    .rt2b0menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .dnchomenu {
+    .rt2b0menu {
       overflow-x: auto;
     }
 
-    .dnchomenulist ul {
+    .rt2b0menulist ul {
       flex-direction: column;
     }
 
-    .dnchobodylogo {
+    .rt2b0bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .dnchomenulist ul a {
+    .rt2b0menulist ul a {
       font-size: 14px;
     }
   }
