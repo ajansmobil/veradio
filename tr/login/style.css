@@ -1,10 +1,10 @@
 
-  .naop4menulistbodylist {
+  .evlzxmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .naop4menulistbodylist a {
+  .evlzxmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .naop4menumobil {
+  .evlzxmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .naop4menulistbody {
+  .evlzxmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .naop4Children {
+  .evlzxChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .naop4 {
+  .evlzx {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .naop4title {
+  .evlzxtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .naop4titlebody {
+  .evlzxtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .naop4titlebodytitle {
+  .evlzxtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .naop4titlebodylang {
+  .evlzxtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .naop4titlebodylang ul {
+  .evlzxtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .naop4body {
+  .evlzxbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .naop4menulist {
+  .evlzxmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .naop4menubody {
+  .evlzxmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .naop4menulist ul {
+  .evlzxmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .naop4menulist ul a {
+  .evlzxmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .naop4menulist ul a:hover {
+  .evlzxmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .naop4bodylogo {
+  .evlzxbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .naop4menumobil {
+    .evlzxmenumobil {
       display: none !important;
     }
 
-    .naop4menulist {
+    .evlzxmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .naop4menumobil {
+    .evlzxmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .naop4menumobil div {
+    .evlzxmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .naop4menulist {
+    .evlzxmenulist {
       display: none;
     }
 
-    .naop4body {
+    .evlzxbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .naop4Children {
+    .evlzxChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .naop4menulist ul a {
+    .evlzxmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .naop4menu {
+    .evlzxmenu {
       overflow-x: auto;
     }
 
-    .naop4menulist ul {
+    .evlzxmenulist ul {
       flex-direction: column;
     }
 
-    .naop4bodylogo {
+    .evlzxbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,13 +200,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .naop4menulist ul a {
+    .evlzxmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .gp59x {
+  .fnt0g {
     width: 100%;
     height: 500px;
     flex: 1;
@@ -216,7 +216,7 @@
     margin-top: 20px;
   }
 
-  .gp59x-null {
+  .fnt0g-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
@@ -224,11 +224,11 @@
     font-size: 14px;
   }
 
-  .gp59x-null:hover {
+  .fnt0g-null:hover {
     color: #999;
   }
 
-  .gp59x-body {
+  .fnt0g-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
@@ -236,13 +236,13 @@
     flex-direction: column;
   }
 
-  .gp59x-body-form {
+  .fnt0g-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .gp59x-button {
+  .fnt0g-button {
     padding: 10px;
     background-color: #1e3046;
     margin-top: 20px;
@@ -255,21 +255,21 @@
     cursor: pointer;
   }
 
-  .gp59x-login-menu {
+  .fnt0g-login-menu {
     display: flex;
     gap: 2px;
   }
 
-  #gp59x-login-menu-left {
+  #fnt0g-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
 
-  #gp59x-login-menu-right {
+  #fnt0g-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
 
-  #gp59x-memberol {
+  #fnt0g-memberol {
     display: none;
     flex-direction: column;
   }
@@ -296,7 +296,7 @@
     justify-content: center;
   }
 
-  .gp59x-login-menu>div {
+  .fnt0g-login-menu>div {
     background-color: #1e3046;
     width: 100%;
     display: flex;
@@ -385,28 +385,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

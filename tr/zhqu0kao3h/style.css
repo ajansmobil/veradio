@@ -1,10 +1,10 @@
 
-  .ets4amenulistbodylist {
+  .marr3menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .ets4amenulistbodylist a {
+  .marr3menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .ets4amenumobil {
+  .marr3menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .ets4amenulistbody {
+  .marr3menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .ets4aChildren {
+  .marr3Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .ets4a {
+  .marr3 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .ets4atitle {
+  .marr3title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .ets4atitlebody {
+  .marr3titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ets4atitlebodytitle {
+  .marr3titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ets4atitlebodylang {
+  .marr3titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ets4atitlebodylang ul {
+  .marr3titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ets4abody {
+  .marr3body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .ets4amenulist {
+  .marr3menulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .ets4amenubody {
+  .marr3menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .ets4amenulist ul {
+  .marr3menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .ets4amenulist ul a {
+  .marr3menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .ets4amenulist ul a:hover {
+  .marr3menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ets4abodylogo {
+  .marr3bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .ets4amenumobil {
+    .marr3menumobil {
       display: none !important;
     }
 
-    .ets4amenulist {
+    .marr3menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .ets4amenumobil {
+    .marr3menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .ets4amenumobil div {
+    .marr3menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .ets4amenulist {
+    .marr3menulist {
       display: none;
     }
 
-    .ets4abody {
+    .marr3body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .ets4aChildren {
+    .marr3Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .ets4amenulist ul a {
+    .marr3menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .ets4amenu {
+    .marr3menu {
       overflow-x: auto;
     }
 
-    .ets4amenulist ul {
+    .marr3menulist ul {
       flex-direction: column;
     }
 
-    .ets4abodylogo {
+    .marr3bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ets4amenulist ul a {
+    .marr3menulist ul a {
       font-size: 14px;
     }
   }
@@ -277,28 +277,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

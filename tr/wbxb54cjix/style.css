@@ -1,10 +1,10 @@
 
-  .t3rlkmenulistbodylist {
+  .xyr8bmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .t3rlkmenulistbodylist a {
+  .xyr8bmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .t3rlkmenumobil {
+  .xyr8bmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .t3rlkmenulistbody {
+  .xyr8bmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .t3rlkChildren {
+  .xyr8bChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .t3rlk {
+  .xyr8b {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .t3rlktitle {
+  .xyr8btitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .t3rlktitlebody {
+  .xyr8btitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .t3rlktitlebodytitle {
+  .xyr8btitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .t3rlktitlebodylang {
+  .xyr8btitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .t3rlktitlebodylang ul {
+  .xyr8btitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .t3rlkbody {
+  .xyr8bbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .t3rlkmenulist {
+  .xyr8bmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .t3rlkmenubody {
+  .xyr8bmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .t3rlkmenulist ul {
+  .xyr8bmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .t3rlkmenulist ul a {
+  .xyr8bmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .t3rlkmenulist ul a:hover {
+  .xyr8bmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .t3rlkbodylogo {
+  .xyr8bbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .t3rlkmenumobil {
+    .xyr8bmenumobil {
       display: none !important;
     }
 
-    .t3rlkmenulist {
+    .xyr8bmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .t3rlkmenumobil {
+    .xyr8bmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .t3rlkmenumobil div {
+    .xyr8bmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .t3rlkmenulist {
+    .xyr8bmenulist {
       display: none;
     }
 
-    .t3rlkbody {
+    .xyr8bbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .t3rlkChildren {
+    .xyr8bChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .t3rlkmenulist ul a {
+    .xyr8bmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .t3rlkmenu {
+    .xyr8bmenu {
       overflow-x: auto;
     }
 
-    .t3rlkmenulist ul {
+    .xyr8bmenulist ul {
       flex-direction: column;
     }
 
-    .t3rlkbodylogo {
+    .xyr8bbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .t3rlkmenulist ul a {
+    .xyr8bmenulist ul a {
       font-size: 14px;
     }
   }
@@ -277,28 +277,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

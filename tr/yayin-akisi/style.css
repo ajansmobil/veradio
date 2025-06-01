@@ -1,10 +1,10 @@
 
-  .x5u51menulistbodylist {
+  .m3v9bmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .x5u51menulistbodylist a {
+  .m3v9bmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .x5u51menumobil {
+  .m3v9bmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .x5u51menulistbody {
+  .m3v9bmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .x5u51Children {
+  .m3v9bChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .x5u51 {
+  .m3v9b {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .x5u51title {
+  .m3v9btitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .x5u51titlebody {
+  .m3v9btitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .x5u51titlebodytitle {
+  .m3v9btitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .x5u51titlebodylang {
+  .m3v9btitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .x5u51titlebodylang ul {
+  .m3v9btitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .x5u51body {
+  .m3v9bbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .x5u51menulist {
+  .m3v9bmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .x5u51menubody {
+  .m3v9bmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .x5u51menulist ul {
+  .m3v9bmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .x5u51menulist ul a {
+  .m3v9bmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .x5u51menulist ul a:hover {
+  .m3v9bmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .x5u51bodylogo {
+  .m3v9bbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .x5u51menumobil {
+    .m3v9bmenumobil {
       display: none !important;
     }
 
-    .x5u51menulist {
+    .m3v9bmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .x5u51menumobil {
+    .m3v9bmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .x5u51menumobil div {
+    .m3v9bmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .x5u51menulist {
+    .m3v9bmenulist {
       display: none;
     }
 
-    .x5u51body {
+    .m3v9bbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .x5u51Children {
+    .m3v9bChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .x5u51menulist ul a {
+    .m3v9bmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .x5u51menu {
+    .m3v9bmenu {
       overflow-x: auto;
     }
 
-    .x5u51menulist ul {
+    .m3v9bmenulist ul {
       flex-direction: column;
     }
 
-    .x5u51bodylogo {
+    .m3v9bbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .x5u51menulist ul a {
+    .m3v9bmenulist ul a {
       font-size: 14px;
     }
   }
@@ -277,28 +277,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

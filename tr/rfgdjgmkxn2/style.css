@@ -1,10 +1,10 @@
 
-  .we649menulistbodylist {
+  .lbobamenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .we649menulistbodylist a {
+  .lbobamenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .we649menumobil {
+  .lbobamenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .we649menulistbody {
+  .lbobamenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .we649Children {
+  .lbobaChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .we649 {
+  .lboba {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .we649title {
+  .lbobatitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .we649titlebody {
+  .lbobatitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .we649titlebodytitle {
+  .lbobatitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .we649titlebodylang {
+  .lbobatitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .we649titlebodylang ul {
+  .lbobatitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .we649body {
+  .lbobabody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .we649menulist {
+  .lbobamenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .we649menubody {
+  .lbobamenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .we649menulist ul {
+  .lbobamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .we649menulist ul a {
+  .lbobamenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .we649menulist ul a:hover {
+  .lbobamenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .we649bodylogo {
+  .lbobabodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .we649menumobil {
+    .lbobamenumobil {
       display: none !important;
     }
 
-    .we649menulist {
+    .lbobamenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .we649menumobil {
+    .lbobamenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .we649menumobil div {
+    .lbobamenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .we649menulist {
+    .lbobamenulist {
       display: none;
     }
 
-    .we649body {
+    .lbobabody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .we649Children {
+    .lbobaChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .we649menulist ul a {
+    .lbobamenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .we649menu {
+    .lbobamenu {
       overflow-x: auto;
     }
 
-    .we649menulist ul {
+    .lbobamenulist ul {
       flex-direction: column;
     }
 
-    .we649bodylogo {
+    .lbobabodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .we649menulist ul a {
+    .lbobamenulist ul a {
       font-size: 14px;
     }
   }
@@ -277,28 +277,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

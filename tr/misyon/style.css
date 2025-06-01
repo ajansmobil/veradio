@@ -1,10 +1,10 @@
 
-  .iyrt2menulistbodylist {
+  .bw3rjmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .iyrt2menulistbodylist a {
+  .bw3rjmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .iyrt2menumobil {
+  .bw3rjmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .iyrt2menulistbody {
+  .bw3rjmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .iyrt2Children {
+  .bw3rjChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .iyrt2 {
+  .bw3rj {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .iyrt2title {
+  .bw3rjtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .iyrt2titlebody {
+  .bw3rjtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .iyrt2titlebodytitle {
+  .bw3rjtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .iyrt2titlebodylang {
+  .bw3rjtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .iyrt2titlebodylang ul {
+  .bw3rjtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .iyrt2body {
+  .bw3rjbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .iyrt2menulist {
+  .bw3rjmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .iyrt2menubody {
+  .bw3rjmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .iyrt2menulist ul {
+  .bw3rjmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .iyrt2menulist ul a {
+  .bw3rjmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .iyrt2menulist ul a:hover {
+  .bw3rjmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .iyrt2bodylogo {
+  .bw3rjbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .iyrt2menumobil {
+    .bw3rjmenumobil {
       display: none !important;
     }
 
-    .iyrt2menulist {
+    .bw3rjmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .iyrt2menumobil {
+    .bw3rjmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .iyrt2menumobil div {
+    .bw3rjmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .iyrt2menulist {
+    .bw3rjmenulist {
       display: none;
     }
 
-    .iyrt2body {
+    .bw3rjbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .iyrt2Children {
+    .bw3rjChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .iyrt2menulist ul a {
+    .bw3rjmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .iyrt2menu {
+    .bw3rjmenu {
       overflow-x: auto;
     }
 
-    .iyrt2menulist ul {
+    .bw3rjmenulist ul {
       flex-direction: column;
     }
 
-    .iyrt2bodylogo {
+    .bw3rjbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .iyrt2menulist ul a {
+    .bw3rjmenulist ul a {
       font-size: 14px;
     }
   }
@@ -209,84 +209,42 @@
   #content {
     justify-content: start;
   }
-
-  .o4gt7 {
+  .j9n4n {
+    display: flex;
     width: var(--max);
     margin-top: 20px;
+    gap: 20px;
+  }
+  .j9n4n-menu {
+    width: 220px;
+    background-color: --menubgcolor--;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-    float: left;
-    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-
-  .o4gt7-menu-btn {
-    display: none;
-    background-color: #000;
-    padding: 10px 20px;
+  .j9n4n-menu > a {
+    background-color: #ffffff;
+    padding: 10px 15px;
     border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .j9n4n-menu > a:hover,
+  .j9n4n-menu > .active {
+    background-color: #1e3046;
     color: #fff;
-    justify-content: space-between;
-    align-items: center;
   }
-
-  .o4gt7-menu-btn i {
-    font-size: 20px;
-  }
-
-  .o4gt7-menu {
-    width: 200px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    padding: 10px;
+  .j9n4n-body {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    float: left;
   }
-
-  .o4gt7-desc {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    float: right;
-  }
-
-  .o4gt7-menu>a {
-    background-color: #fff;
-    padding: 10px;
-    float: left;
-    border-radius: 5px;
-  }
-
-  .o4gt7-menu>.active,
-  .o4gt7-menu>a:hover {
-    background-color: #1e3046;
-    color: #fff;
-    display: flex;
-  }
-
-  .o4gt7-desc-menu {
-    width: 200px;
-    background-color: #1e3046;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-  }
-
-  .o4gt7-desc-menu>div {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #fff;
-    margin: 5px;
-  }
-
-  .o4gt7-desc-body {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .o4gt7-title {
+  .j9n4n-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -298,8 +256,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-
-  .o4gt7-title::before {
+  .j9n4n-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -313,79 +270,22 @@
     opacity: 0.5;
     z-index: 1;
   }
-
-  .o4gt7-title span {
+  .j9n4n-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
-
-  .o4gt7-body {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: left;
-  }
-
-  .o4gt7-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: calc(var(--max) - 460px);
-  }
-
-  .o4gt7-img img {
-    width: 100%;
-  }
-
-  @media screen and (min-width: 1024px) {
-    .o4gt7-desc {
-      width: calc(var(--max) - 240px);
-    }
-  }
-
   @media screen and (max-width: 1024px) {
-    .o4gt7-menu-btn {
-      display: flex;
-      width: calc(100% - 55px);
-      margin-left: 5px;
-    }
-
-    .o4gt7 {
-      display: flex;
+    .j9n4n {
       flex-direction: column;
-      width: 100%;
+      width: calc(100% - 10px);
       padding: 5px;
-      gap: 5px;
-      margin-top: 0px;
-
     }
-
-    .o4gt7-img {
-      width: 100%;
-    }
-
-    .o4gt7-body {
-      width: 100%;
-      order: 3;
-      padding: 10px;
-    }
-
-    .o4gt7-menu {
-      width: 100%;
-      float: none;
-      flex-direction: column;
-      order: 1;
+    .j9n4n-menu {
       display: none;
     }
-
-    .o4gt7-menu.active {
-      display: flex;
-    }
-
-    .o4gt7-desc {
-      width: 100% !important;
-      order: 2;
+    .j9n4n-body {
+      width: 100%;
     }
   }
 
@@ -461,28 +361,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

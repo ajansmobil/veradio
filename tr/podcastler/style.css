@@ -1,10 +1,10 @@
 
-  .raslcmenulistbodylist {
+  .u6qu9menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .raslcmenulistbodylist a {
+  .u6qu9menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .raslcmenumobil {
+  .u6qu9menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .raslcmenulistbody {
+  .u6qu9menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .raslcChildren {
+  .u6qu9Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .raslc {
+  .u6qu9 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #000;
   }
 
-  .raslctitle {
+  .u6qu9title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .raslctitlebody {
+  .u6qu9titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .raslctitlebodytitle {
+  .u6qu9titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .raslctitlebodylang {
+  .u6qu9titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .raslctitlebodylang ul {
+  .u6qu9titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .raslcbody {
+  .u6qu9body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .raslcmenulist {
+  .u6qu9menulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .raslcmenubody {
+  .u6qu9menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .raslcmenulist ul {
+  .u6qu9menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .raslcmenulist ul a {
+  .u6qu9menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .raslcmenulist ul a:hover {
+  .u6qu9menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .raslcbodylogo {
+  .u6qu9bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .raslcmenumobil {
+    .u6qu9menumobil {
       display: none !important;
     }
 
-    .raslcmenulist {
+    .u6qu9menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .raslcmenumobil {
+    .u6qu9menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .raslcmenumobil div {
+    .u6qu9menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .raslcmenulist {
+    .u6qu9menulist {
       display: none;
     }
 
-    .raslcbody {
+    .u6qu9body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .raslcChildren {
+    .u6qu9Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .raslcmenulist ul a {
+    .u6qu9menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .raslcmenu {
+    .u6qu9menu {
       overflow-x: auto;
     }
 
-    .raslcmenulist ul {
+    .u6qu9menulist ul {
       flex-direction: column;
     }
 
-    .raslcbodylogo {
+    .u6qu9bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,19 +200,20 @@
   }
 
   @media screen and (max-width: 768px) {
-    .raslcmenulist ul a {
+    .u6qu9menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .pnjfz {
+  .jqqk6 {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .pnjfzbody {
+
+  .jqqk6body {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -221,9 +222,9 @@
     justify-content: center;
     /* Center all grid items */
   }
-  .pnjfzbodyitem {
+
+  .jqqk6bodyitem {
     position: relative;
-    aspect-ratio: 7 / 4;
     background-color: #ffffff;
     border-radius: 10px;
     display: flex;
@@ -236,12 +237,14 @@
     /* Add ease for smoother transitions */
     justify-content: center;
   }
-  .pnjfzbodyitem:hover {
+
+  .jqqk6bodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
-  .pnjfzbodyitemimg {
+
+  .jqqk6bodyitemimg {
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
@@ -250,13 +253,15 @@
     overflow: hidden;
     margin-bottom: 10px;
   }
-  .pnjfzbodyitemimg img {
+
+  .jqqk6bodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
-  .pnjfzbodyitemtitle {
+
+  .jqqk6bodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -264,13 +269,15 @@
     color: #444;
     font-size: 1.1em;
   }
+
   @media screen and (max-width: 1024px) {
-    .pnjfzbody {
+    .jqqk6body {
       grid-template-columns: repeat(3, 1fr);
     }
   }
+
   @media screen and (max-width: 768px) {
-    .pnjfzbody {
+    .jqqk6body {
       grid-template-columns: repeat(2, 1fr);
     }
   }
@@ -347,28 +354,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;
