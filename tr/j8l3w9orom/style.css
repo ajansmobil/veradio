@@ -1,10 +1,10 @@
 
-  .t528smenulistbodylist {
+  .bio3omenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .t528smenulistbodylist a {
+  .bio3omenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,36 +18,36 @@
   }
 
 
-  .t528smenumobil {
+  .bio3omenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .t528smenulistbody {
+  .bio3omenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .t528sChildren {
+  .bio3oChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .t528s {
+  .bio3o {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #000;
+    background-color: #fff;
   }
 
-  .t528stitle {
+  .bio3otitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .t528stitlebody {
+  .bio3otitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .t528stitlebodytitle {
+  .bio3otitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .t528stitlebodylang {
+  .bio3otitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .t528stitlebodylang ul {
+  .bio3otitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .t528sbody {
+  .bio3obody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .t528smenulist {
+  .bio3omenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .t528smenubody {
+  .bio3omenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .t528smenulist ul {
+  .bio3omenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .t528smenulist ul a {
+  .bio3omenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .t528smenulist ul a:hover {
+  .bio3omenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .t528sbodylogo {
-    height: 100px;
+  .bio3obodylogo {
+    height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .t528smenumobil {
+    .bio3omenumobil {
       display: none !important;
     }
 
-    .t528smenulist {
+    .bio3omenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .t528smenumobil {
+    .bio3omenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .t528smenumobil div {
+    .bio3omenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .t528smenulist {
+    .bio3omenulist {
       display: none;
     }
 
-    .t528sbody {
+    .bio3obody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .t528sChildren {
+    .bio3oChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .t528smenulist ul a {
+    .bio3omenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .t528smenu {
+    .bio3omenu {
       overflow-x: auto;
     }
 
-    .t528smenulist ul {
+    .bio3omenulist ul {
       flex-direction: column;
     }
 
-    .t528sbodylogo {
+    .bio3obodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .t528smenulist ul a {
+    .bio3omenulist ul a {
       font-size: 14px;
     }
   }

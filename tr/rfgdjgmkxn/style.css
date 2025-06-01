@@ -1,10 +1,10 @@
 
-  .aas07menulistbodylist {
+  .dxc32menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .aas07menulistbodylist a {
+  .dxc32menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,36 +18,36 @@
   }
 
 
-  .aas07menumobil {
+  .dxc32menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .aas07menulistbody {
+  .dxc32menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .aas07Children {
+  .dxc32Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .aas07 {
+  .dxc32 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #000;
+    background-color: #fff;
   }
 
-  .aas07title {
+  .dxc32title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .aas07titlebody {
+  .dxc32titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .aas07titlebodytitle {
+  .dxc32titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .aas07titlebodylang {
+  .dxc32titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .aas07titlebodylang ul {
+  .dxc32titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .aas07body {
+  .dxc32body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .aas07menulist {
+  .dxc32menulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .aas07menubody {
+  .dxc32menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .aas07menulist ul {
+  .dxc32menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .aas07menulist ul a {
+  .dxc32menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .aas07menulist ul a:hover {
+  .dxc32menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .aas07bodylogo {
-    height: 100px;
+  .dxc32bodylogo {
+    height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .aas07menumobil {
+    .dxc32menumobil {
       display: none !important;
     }
 
-    .aas07menulist {
+    .dxc32menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .aas07menumobil {
+    .dxc32menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .aas07menumobil div {
+    .dxc32menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .aas07menulist {
+    .dxc32menulist {
       display: none;
     }
 
-    .aas07body {
+    .dxc32body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .aas07Children {
+    .dxc32Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .aas07menulist ul a {
+    .dxc32menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .aas07menu {
+    .dxc32menu {
       overflow-x: auto;
     }
 
-    .aas07menulist ul {
+    .dxc32menulist ul {
       flex-direction: column;
     }
 
-    .aas07bodylogo {
+    .dxc32bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .aas07menulist ul a {
+    .dxc32menulist ul a {
       font-size: 14px;
     }
   }
