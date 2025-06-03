@@ -1,10 +1,10 @@
 
-  .i6hzrmenulistbodylist {
+  .ofl7qmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .i6hzrmenulistbodylist a {
+  .ofl7qmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .i6hzrmenumobil {
+  .ofl7qmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .i6hzrmenulistbody {
+  .ofl7qmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .i6hzrChildren {
+  .ofl7qChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .i6hzr {
+  .ofl7q {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .i6hzrtitle {
+  .ofl7qtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .i6hzrtitlebody {
+  .ofl7qtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .i6hzrtitlebodytitle {
+  .ofl7qtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .i6hzrtitlebodylang {
+  .ofl7qtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .i6hzrtitlebodylang ul {
+  .ofl7qtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .i6hzrbody {
+  .ofl7qbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .i6hzrmenulist {
+  .ofl7qmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .i6hzrmenubody {
+  .ofl7qmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .i6hzrmenulist ul {
+  .ofl7qmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .i6hzrmenulist ul a {
+  .ofl7qmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .i6hzrmenulist ul a:hover {
+  .ofl7qmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .i6hzrbodylogo {
+  .ofl7qbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .i6hzrmenumobil {
+    .ofl7qmenumobil {
       display: none !important;
     }
 
-    .i6hzrmenulist {
+    .ofl7qmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .i6hzrmenumobil {
+    .ofl7qmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .i6hzrmenumobil div {
+    .ofl7qmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .i6hzrmenulist {
+    .ofl7qmenulist {
       display: none;
     }
 
-    .i6hzrbody {
+    .ofl7qbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .i6hzrChildren {
+    .ofl7qChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .i6hzrmenulist ul a {
+    .ofl7qmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .i6hzrmenu {
+    .ofl7qmenu {
       overflow-x: auto;
     }
 
-    .i6hzrmenulist ul {
+    .ofl7qmenulist ul {
       flex-direction: column;
     }
 
-    .i6hzrbodylogo {
+    .ofl7qbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,27 +200,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .i6hzrmenulist ul a {
+    .ofl7qmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .tvu07 {
+  .krqi6 {
     width: 100%;
-    margin: --margin--;
+    margin: 30px 0px 30px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
   }
-  .tvu07containertitle {
+  .krqi6containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .tvu07containerlist {
+  .krqi6containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -228,23 +228,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .tvu07containerlist > div {
+  .krqi6containerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .tvu07containerlist:hover {
+  .krqi6containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .tvu07container {
+  .krqi6container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .tvu07containerbody {
+  .krqi6containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -253,24 +253,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .tvu07body {
+  .krqi6body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .tvu07containerlist > span {
+  .krqi6containerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .tvu07body {
+    .krqi6body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .tvu07containerbody {
+    .krqi6containerbody {
       padding: 15px;
     }
   }
@@ -300,13 +300,13 @@
       transform: scale(1);
     }
   }
-  .b1wzr-body {
+  .xy43h-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .b1wzr-body-chile {
+  .xy43h-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -314,10 +314,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .b1wzr-body-chile > div {
+  .xy43h-body-chile > div {
     width: 100% !important;
   }
-  .b1wzr2 {
+  .xy43h2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -328,21 +328,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .b1wzr {
+  .xy43h {
     display: flex;
     flex-direction: column;
   }
-  .b1wzr > svg {
+  .xy43h > svg {
     width: 100vw;
   }
-  .b1wzrbotton {
+  .xy43hbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .b1wzr-svg {
+  .xy43h-svg {
     fill: #fff;
   }
-  .b1wzr-bg {
+  .xy43h-bg {
     background-image: url("/img/cwurqi/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;
@@ -360,7 +360,7 @@
   }
 
 
-  .sliderxbvcbtbody {
+  .sliderxvx6pybody {
     width: 100%;
     display: flex;
     align-items: center;
@@ -368,7 +368,7 @@
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
   }
-  .sliderxbvcbt {
+  .sliderxvx6py {
     width: calc(var(--max) - 40px);
     display: flex;
     background-color: #f9f9f9;
@@ -379,10 +379,10 @@
     transition: transform 0.3s ease-in-out;
     background-color: #1e3046;
   }
-  .sliderxbvcbt:hover {
+  .sliderxvx6py:hover {
     transform: translateY(-5px);
   }
-  .sliderxbvcbttitle {
+  .sliderxvx6pytitle {
     width: 60%;
     font-size: 28px;
     padding-right: 15px;
@@ -393,14 +393,14 @@
     justify-content: center;
     border-right: 2px solid #fff;
   }
-  .bvcbt {
+  .vx6py {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
   }
-  .bvcbt-media {
+  .vx6py-media {
     width: 75px;
     height: 75px;
     border-radius: 8px;
@@ -408,14 +408,14 @@
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-  .bvcbt-media:hover {
+  .vx6py-media:hover {
     transform: scale(1.2);
   }
   @media screen and (max-width: 1200px) {
-    .sliderxbvcbt {
+    .sliderxvx6py {
       width: calc(var(--max) - 100px) !important;
     }
-    .bvcbt-media {
+    .vx6py-media {
       width: 60px;
       height: 60px;
     }

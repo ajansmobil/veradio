@@ -1,10 +1,10 @@
 
-  .ccwr2menulistbodylist {
+  .biddrmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .ccwr2menulistbodylist a {
+  .biddrmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .ccwr2menumobil {
+  .biddrmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .ccwr2menulistbody {
+  .biddrmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .ccwr2Children {
+  .biddrChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .ccwr2 {
+  .biddr {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .ccwr2title {
+  .biddrtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .ccwr2titlebody {
+  .biddrtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ccwr2titlebodytitle {
+  .biddrtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ccwr2titlebodylang {
+  .biddrtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ccwr2titlebodylang ul {
+  .biddrtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ccwr2body {
+  .biddrbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .ccwr2menulist {
+  .biddrmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .ccwr2menubody {
+  .biddrmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .ccwr2menulist ul {
+  .biddrmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .ccwr2menulist ul a {
+  .biddrmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .ccwr2menulist ul a:hover {
+  .biddrmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ccwr2bodylogo {
+  .biddrbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .ccwr2menumobil {
+    .biddrmenumobil {
       display: none !important;
     }
 
-    .ccwr2menulist {
+    .biddrmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .ccwr2menumobil {
+    .biddrmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .ccwr2menumobil div {
+    .biddrmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .ccwr2menulist {
+    .biddrmenulist {
       display: none;
     }
 
-    .ccwr2body {
+    .biddrbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .ccwr2Children {
+    .biddrChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .ccwr2menulist ul a {
+    .biddrmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .ccwr2menu {
+    .biddrmenu {
       overflow-x: auto;
     }
 
-    .ccwr2menulist ul {
+    .biddrmenulist ul {
       flex-direction: column;
     }
 
-    .ccwr2bodylogo {
+    .biddrbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ccwr2menulist ul a {
+    .biddrmenulist ul a {
       font-size: 14px;
     }
   }

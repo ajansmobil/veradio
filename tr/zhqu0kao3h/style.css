@@ -1,10 +1,10 @@
 
-  .zgcz8menulistbodylist {
+  .xjpwtmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .zgcz8menulistbodylist a {
+  .xjpwtmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .zgcz8menumobil {
+  .xjpwtmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .zgcz8menulistbody {
+  .xjpwtmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .zgcz8Children {
+  .xjpwtChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .zgcz8 {
+  .xjpwt {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .zgcz8title {
+  .xjpwttitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .zgcz8titlebody {
+  .xjpwttitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zgcz8titlebodytitle {
+  .xjpwttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zgcz8titlebodylang {
+  .xjpwttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zgcz8titlebodylang ul {
+  .xjpwttitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zgcz8body {
+  .xjpwtbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .zgcz8menulist {
+  .xjpwtmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .zgcz8menubody {
+  .xjpwtmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .zgcz8menulist ul {
+  .xjpwtmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .zgcz8menulist ul a {
+  .xjpwtmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .zgcz8menulist ul a:hover {
+  .xjpwtmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zgcz8bodylogo {
+  .xjpwtbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .zgcz8menumobil {
+    .xjpwtmenumobil {
       display: none !important;
     }
 
-    .zgcz8menulist {
+    .xjpwtmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .zgcz8menumobil {
+    .xjpwtmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .zgcz8menumobil div {
+    .xjpwtmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .zgcz8menulist {
+    .xjpwtmenulist {
       display: none;
     }
 
-    .zgcz8body {
+    .xjpwtbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .zgcz8Children {
+    .xjpwtChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .zgcz8menulist ul a {
+    .xjpwtmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .zgcz8menu {
+    .xjpwtmenu {
       overflow-x: auto;
     }
 
-    .zgcz8menulist ul {
+    .xjpwtmenulist ul {
       flex-direction: column;
     }
 
-    .zgcz8bodylogo {
+    .xjpwtbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .zgcz8menulist ul a {
+    .xjpwtmenulist ul a {
       font-size: 14px;
     }
   }
