@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Gündem"
+  },
+  "status": "play",
+  "category": "",
+  "id": "sfr0tcsrb1",
+  "url": "",
+  "path": "gundem",
+  "index": 0,
+  "icon": "home",
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-06-08T20:57:58.671Z",
+  "desing": {
+    "header": [],
+    "body": [
+      "a1bd39"
+    ],
+    "footer": []
+  }
+}

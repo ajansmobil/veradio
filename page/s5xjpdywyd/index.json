@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Podcastler"
+  },
+  "status": "play",
+  "category": "",
+  "id": "s5xjpdywyd",
+  "url": "",
+  "path": "podcastler",
+  "index": 1,
+  "icon": "home",
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-06-08T20:57:58.676Z",
+  "desing": {
+    "header": [],
+    "body": [
+      "ohpwl4"
+    ],
+    "footer": []
+  }
+}

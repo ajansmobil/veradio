@@ -1,0 +1,31 @@
+{
+  "name": {
+    "tr": "Hakkımızda"
+  },
+  "status": "play",
+  "id": "hakkimizda",
+  "path": "hakkimizda",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Hakkımızda</h2><p style=\"font-size: 16px;\">Veradyo, yenilikçi radyo teknolojileriyle dijital dünyada fark yaratır. Dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Ekibimiz, sektörde deneyimli ve dinamik kişilerden oluşur. Amacımız, kullanıcı odaklı çözümlerle dijital radyoculuğu ileri taşımaktır.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "description": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 0,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2025-06-08T20:57:58.756Z"
+}

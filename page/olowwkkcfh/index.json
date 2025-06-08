@@ -1,0 +1,33 @@
+{
+  "name": {
+    "tr": "İletişim"
+  },
+  "status": "play",
+  "category": "",
+  "id": "olowwkkcfh",
+  "url": "",
+  "path": "iletisim",
+  "index": 5,
+  "icon": "home",
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-06-08T20:57:58.702Z",
+  "desing": {
+    "header": [],
+    "body": [
+      "k5wklo",
+      "cwurqi"
+    ],
+    "footer": []
+  }
+}

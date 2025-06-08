@@ -1,0 +1,30 @@
+{
+  "name": {
+    "tr": "Yayın Akışı"
+  },
+  "status": "play",
+  "category": "",
+  "id": "mamkpyytb7",
+  "url": "",
+  "path": "yayin_akisi",
+  "index": 2,
+  "icon": "home",
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-06-08T20:57:58.682Z",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
+}

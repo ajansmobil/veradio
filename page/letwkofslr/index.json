@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Yayıncılar"
+  },
+  "status": "play",
+  "category": "",
+  "id": "letwkofslr",
+  "url": "",
+  "path": "yayincilar",
+  "index": 3,
+  "icon": "home",
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-06-08T20:57:58.688Z",
+  "desing": {
+    "header": [],
+    "body": [
+      "kknx01"
+    ],
+    "footer": []
+  }
+}

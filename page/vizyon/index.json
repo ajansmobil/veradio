@@ -1,0 +1,31 @@
+{
+  "name": {
+    "tr": "Vizyon"
+  },
+  "status": "play",
+  "id": "vizyon",
+  "path": "vizyon",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Vizyonumuz</h2><p style=\"font-size: 16px;\">Vizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır. Sürekli gelişim ve yenilikle, sektörde öncü olmayı amaçlıyoruz.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "description": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 2,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2025-06-08T20:57:58.771Z"
+}

@@ -1,0 +1,31 @@
+{
+  "name": {
+    "tr": "Misyon"
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Misyonumuz</h2><p style=\"font-size: 16px;\">Misyonumuz, dijital radyoculukta yenilikçi çözümler sunmak ve dinleyicilere en iyi deneyimi yaşatmaktır. Teknolojiyi etkin kullanarak, erişilebilir ve kaliteli içerik üretmeyi hedefliyoruz.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "description": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "index": 1,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2025-06-08T20:57:58.765Z"
+}
