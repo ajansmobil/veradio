@@ -1,10 +1,10 @@
 
-  .desg9menulistbodylist {
+  .efc4dmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .desg9menulistbodylist a {
+  .efc4dmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .desg9menumobil {
+  .efc4dmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .desg9menulistbody {
+  .efc4dmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .desg9Children {
+  .efc4dChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .desg9 {
+  .efc4d {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .desg9title {
+  .efc4dtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .desg9titlebody {
+  .efc4dtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .desg9titlebodytitle {
+  .efc4dtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .desg9titlebodylang {
+  .efc4dtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .desg9titlebodylang ul {
+  .efc4dtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .desg9body {
+  .efc4dbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .desg9menulist {
+  .efc4dmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .desg9menubody {
+  .efc4dmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .desg9menulist ul {
+  .efc4dmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .desg9menulist ul a {
+  .efc4dmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .desg9menulist ul a:hover {
+  .efc4dmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .desg9bodylogo {
+  .efc4dbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .desg9menumobil {
+    .efc4dmenumobil {
       display: none !important;
     }
 
-    .desg9menulist {
+    .efc4dmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .desg9menumobil {
+    .efc4dmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .desg9menumobil div {
+    .efc4dmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .desg9menulist {
+    .efc4dmenulist {
       display: none;
     }
 
-    .desg9body {
+    .efc4dbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .desg9Children {
+    .efc4dChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .desg9menulist ul a {
+    .efc4dmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .desg9menu {
+    .efc4dmenu {
       overflow-x: auto;
     }
 
-    .desg9menulist ul {
+    .efc4dmenulist ul {
       flex-direction: column;
     }
 
-    .desg9bodylogo {
+    .efc4dbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .desg9menulist ul a {
+    .efc4dmenulist ul a {
       font-size: 14px;
     }
   }

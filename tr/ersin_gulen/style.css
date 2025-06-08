@@ -1,10 +1,10 @@
 
-  .uzzvgmenulistbodylist {
+  .coa69menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .uzzvgmenulistbodylist a {
+  .coa69menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .uzzvgmenumobil {
+  .coa69menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .uzzvgmenulistbody {
+  .coa69menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .uzzvgChildren {
+  .coa69Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .uzzvg {
+  .coa69 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .uzzvgtitle {
+  .coa69title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .uzzvgtitlebody {
+  .coa69titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .uzzvgtitlebodytitle {
+  .coa69titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .uzzvgtitlebodylang {
+  .coa69titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .uzzvgtitlebodylang ul {
+  .coa69titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .uzzvgbody {
+  .coa69body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .uzzvgmenulist {
+  .coa69menulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .uzzvgmenubody {
+  .coa69menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .uzzvgmenulist ul {
+  .coa69menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .uzzvgmenulist ul a {
+  .coa69menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .uzzvgmenulist ul a:hover {
+  .coa69menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .uzzvgbodylogo {
+  .coa69bodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .uzzvgmenumobil {
+    .coa69menumobil {
       display: none !important;
     }
 
-    .uzzvgmenulist {
+    .coa69menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .uzzvgmenumobil {
+    .coa69menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .uzzvgmenumobil div {
+    .coa69menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .uzzvgmenulist {
+    .coa69menulist {
       display: none;
     }
 
-    .uzzvgbody {
+    .coa69body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .uzzvgChildren {
+    .coa69Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .uzzvgmenulist ul a {
+    .coa69menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .uzzvgmenu {
+    .coa69menu {
       overflow-x: auto;
     }
 
-    .uzzvgmenulist ul {
+    .coa69menulist ul {
       flex-direction: column;
     }
 
-    .uzzvgbodylogo {
+    .coa69bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .uzzvgmenulist ul a {
+    .coa69menulist ul a {
       font-size: 14px;
     }
   }

@@ -1,10 +1,10 @@
 
-  .juc8lmenulistbodylist {
+  .cnl5vmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .juc8lmenulistbodylist a {
+  .cnl5vmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .juc8lmenumobil {
+  .cnl5vmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .juc8lmenulistbody {
+  .cnl5vmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .juc8lChildren {
+  .cnl5vChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .juc8l {
+  .cnl5v {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .juc8ltitle {
+  .cnl5vtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .juc8ltitlebody {
+  .cnl5vtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .juc8ltitlebodytitle {
+  .cnl5vtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .juc8ltitlebodylang {
+  .cnl5vtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .juc8ltitlebodylang ul {
+  .cnl5vtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .juc8lbody {
+  .cnl5vbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .juc8lmenulist {
+  .cnl5vmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 0px 10px 0px;
@@ -96,7 +96,7 @@
     width: 100%;
   }
 
-  .juc8lmenubody {
+  .cnl5vmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .juc8lmenulist ul {
+  .cnl5vmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +114,7 @@
     overflow-x: auto;
   }
 
-  .juc8lmenulist ul a {
+  .cnl5vmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +126,30 @@
     white-space: nowrap;
   }
 
-  .juc8lmenulist ul a:hover {
+  .cnl5vmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .juc8lbodylogo {
+  .cnl5vbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .juc8lmenumobil {
+    .cnl5vmenumobil {
       display: none !important;
     }
 
-    .juc8lmenulist {
+    .cnl5vmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .juc8lmenumobil {
+    .cnl5vmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +157,22 @@
       width: 100%;
     }
 
-    .juc8lmenumobil div {
+    .cnl5vmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .juc8lmenulist {
+    .cnl5vmenulist {
       display: none;
     }
 
-    .juc8lbody {
+    .cnl5vbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .juc8lChildren {
+    .cnl5vChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +180,19 @@
       justify-content: center;
     }
 
-    .juc8lmenulist ul a {
+    .cnl5vmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .juc8lmenu {
+    .cnl5vmenu {
       overflow-x: auto;
     }
 
-    .juc8lmenulist ul {
+    .cnl5vmenulist ul {
       flex-direction: column;
     }
 
-    .juc8lbodylogo {
+    .cnl5vbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +200,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .juc8lmenulist ul a {
+    .cnl5vmenulist ul a {
       font-size: 14px;
     }
   }
