@@ -1,10 +1,10 @@
 
-  .shk8rmenulistbodylist {
+  .pikrfmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .shk8rmenulistbodylist a {
+  .pikrfmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .shk8rmenumobil {
+  .pikrfmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .shk8rmenulistbody {
+  .pikrfmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .shk8rChildren {
+  .pikrfChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .shk8r {
+  .pikrf {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .shk8rtitle {
+  .pikrftitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .shk8rtitlebody {
+  .pikrftitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,40 +63,39 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .shk8rtitlebodytitle {
+  .pikrftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .shk8rtitlebodylang {
+  .pikrftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .shk8rtitlebodylang ul {
+  .pikrftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .shk8rbody {
+  .pikrfbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .shk8rmenulist {
+  .pikrfmenulist {
     display: block;
     background-color: #1e3046;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 100%;
   }
 
-  .shk8rmenubody {
+  .pikrfmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +103,7 @@
     justify-content: center;
   }
 
-  .shk8rmenulist ul {
+  .pikrfmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +113,7 @@
     overflow-x: auto;
   }
 
-  .shk8rmenulist ul a {
+  .pikrfmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +125,30 @@
     white-space: nowrap;
   }
 
-  .shk8rmenulist ul a:hover {
+  .pikrfmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .shk8rbodylogo {
+  .pikrfbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .shk8rmenumobil {
+    .pikrfmenumobil {
       display: none !important;
     }
 
-    .shk8rmenulist {
+    .pikrfmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .shk8rmenumobil {
+    .pikrfmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +156,22 @@
       width: 100%;
     }
 
-    .shk8rmenumobil div {
+    .pikrfmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .shk8rmenulist {
+    .pikrfmenulist {
       display: none;
     }
 
-    .shk8rbody {
+    .pikrfbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .shk8rChildren {
+    .pikrfChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +179,19 @@
       justify-content: center;
     }
 
-    .shk8rmenulist ul a {
+    .pikrfmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .shk8rmenu {
+    .pikrfmenu {
       overflow-x: auto;
     }
 
-    .shk8rmenulist ul {
+    .pikrfmenulist ul {
       flex-direction: column;
     }
 
-    .shk8rbodylogo {
+    .pikrfbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +199,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .shk8rmenulist ul a {
+    .pikrfmenulist ul a {
       font-size: 14px;
     }
   }
@@ -209,13 +208,13 @@
   #content {
     justify-content: start;
   }
-  .zpff6 {
+  .lp1qs {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .zpff6-menu {
+  .lp1qs-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -225,7 +224,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .zpff6-menu > a {
+  .lp1qs-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -233,18 +232,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .zpff6-menu > a:hover,
-  .zpff6-menu > .active {
+  .lp1qs-menu > a:hover,
+  .lp1qs-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .zpff6-body {
+  .lp1qs-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .zpff6-title {
+  .lp1qs-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -256,7 +255,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .zpff6-title::before {
+  .lp1qs-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -270,21 +269,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .zpff6-title span {
+  .lp1qs-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .zpff6 {
+    .lp1qs {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .zpff6-menu {
+    .lp1qs-menu {
       display: none;
     }
-    .zpff6-body {
+    .lp1qs-body {
       width: 100%;
     }
   }

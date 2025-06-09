@@ -1,10 +1,10 @@
 
-  .li8ddmenulistbodylist {
+  .pillrmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .li8ddmenulistbodylist a {
+  .pillrmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .li8ddmenumobil {
+  .pillrmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .li8ddmenulistbody {
+  .pillrmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .li8ddChildren {
+  .pillrChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .li8dd {
+  .pillr {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .li8ddtitle {
+  .pillrtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .li8ddtitlebody {
+  .pillrtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,40 +63,39 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .li8ddtitlebodytitle {
+  .pillrtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .li8ddtitlebodylang {
+  .pillrtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .li8ddtitlebodylang ul {
+  .pillrtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .li8ddbody {
+  .pillrbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .li8ddmenulist {
+  .pillrmenulist {
     display: block;
     background-color: #1e3046;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 100%;
   }
 
-  .li8ddmenubody {
+  .pillrmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +103,7 @@
     justify-content: center;
   }
 
-  .li8ddmenulist ul {
+  .pillrmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +113,7 @@
     overflow-x: auto;
   }
 
-  .li8ddmenulist ul a {
+  .pillrmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +125,30 @@
     white-space: nowrap;
   }
 
-  .li8ddmenulist ul a:hover {
+  .pillrmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .li8ddbodylogo {
+  .pillrbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .li8ddmenumobil {
+    .pillrmenumobil {
       display: none !important;
     }
 
-    .li8ddmenulist {
+    .pillrmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .li8ddmenumobil {
+    .pillrmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +156,22 @@
       width: 100%;
     }
 
-    .li8ddmenumobil div {
+    .pillrmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .li8ddmenulist {
+    .pillrmenulist {
       display: none;
     }
 
-    .li8ddbody {
+    .pillrbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .li8ddChildren {
+    .pillrChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +179,19 @@
       justify-content: center;
     }
 
-    .li8ddmenulist ul a {
+    .pillrmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .li8ddmenu {
+    .pillrmenu {
       overflow-x: auto;
     }
 
-    .li8ddmenulist ul {
+    .pillrmenulist ul {
       flex-direction: column;
     }
 
-    .li8ddbodylogo {
+    .pillrbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,20 +199,20 @@
   }
 
   @media screen and (max-width: 768px) {
-    .li8ddmenulist ul a {
+    .pillrmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .mnldo {
+  .zt481 {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .mnldobody {
+  .zt481body {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -223,7 +222,7 @@
     /* Center all grid items */
   }
 
-  .mnldobodyitem {
+  .zt481bodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -238,13 +237,13 @@
     justify-content: center;
   }
 
-  .mnldobodyitem:hover {
+  .zt481bodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .mnldobodyitemimg {
+  .zt481bodyitemimg {
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
@@ -254,14 +253,14 @@
     margin-bottom: 10px;
   }
 
-  .mnldobodyitemimg img {
+  .zt481bodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .mnldobodyitemtitle {
+  .zt481bodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -271,13 +270,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .mnldobody {
+    .zt481body {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .mnldobody {
+    .zt481body {
       grid-template-columns: repeat(2, 1fr);
     }
   }

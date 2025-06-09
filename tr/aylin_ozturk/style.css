@@ -1,10 +1,10 @@
 
-  .qobe6menulistbodylist {
+  .l0ma1menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .qobe6menulistbodylist a {
+  .l0ma1menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .qobe6menumobil {
+  .l0ma1menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .qobe6menulistbody {
+  .l0ma1menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .qobe6Children {
+  .l0ma1Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .qobe6 {
+  .l0ma1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .qobe6title {
+  .l0ma1title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .qobe6titlebody {
+  .l0ma1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,40 +63,39 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qobe6titlebodytitle {
+  .l0ma1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qobe6titlebodylang {
+  .l0ma1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qobe6titlebodylang ul {
+  .l0ma1titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qobe6body {
+  .l0ma1body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .qobe6menulist {
+  .l0ma1menulist {
     display: block;
     background-color: #1e3046;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 100%;
   }
 
-  .qobe6menubody {
+  .l0ma1menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +103,7 @@
     justify-content: center;
   }
 
-  .qobe6menulist ul {
+  .l0ma1menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +113,7 @@
     overflow-x: auto;
   }
 
-  .qobe6menulist ul a {
+  .l0ma1menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +125,30 @@
     white-space: nowrap;
   }
 
-  .qobe6menulist ul a:hover {
+  .l0ma1menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .qobe6bodylogo {
+  .l0ma1bodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .qobe6menumobil {
+    .l0ma1menumobil {
       display: none !important;
     }
 
-    .qobe6menulist {
+    .l0ma1menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .qobe6menumobil {
+    .l0ma1menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +156,22 @@
       width: 100%;
     }
 
-    .qobe6menumobil div {
+    .l0ma1menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .qobe6menulist {
+    .l0ma1menulist {
       display: none;
     }
 
-    .qobe6body {
+    .l0ma1body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .qobe6Children {
+    .l0ma1Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +179,19 @@
       justify-content: center;
     }
 
-    .qobe6menulist ul a {
+    .l0ma1menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .qobe6menu {
+    .l0ma1menu {
       overflow-x: auto;
     }
 
-    .qobe6menulist ul {
+    .l0ma1menulist ul {
       flex-direction: column;
     }
 
-    .qobe6bodylogo {
+    .l0ma1bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +199,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .qobe6menulist ul a {
+    .l0ma1menulist ul a {
       font-size: 14px;
     }
   }

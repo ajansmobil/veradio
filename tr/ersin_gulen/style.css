@@ -1,10 +1,10 @@
 
-  .coa69menulistbodylist {
+  .p4ausmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .coa69menulistbodylist a {
+  .p4ausmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .coa69menumobil {
+  .p4ausmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .coa69menulistbody {
+  .p4ausmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .coa69Children {
+  .p4ausChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .coa69 {
+  .p4aus {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .coa69title {
+  .p4austitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .coa69titlebody {
+  .p4austitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,40 +63,39 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .coa69titlebodytitle {
+  .p4austitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .coa69titlebodylang {
+  .p4austitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .coa69titlebodylang ul {
+  .p4austitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .coa69body {
+  .p4ausbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .coa69menulist {
+  .p4ausmenulist {
     display: block;
     background-color: #1e3046;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 100%;
   }
 
-  .coa69menubody {
+  .p4ausmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +103,7 @@
     justify-content: center;
   }
 
-  .coa69menulist ul {
+  .p4ausmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +113,7 @@
     overflow-x: auto;
   }
 
-  .coa69menulist ul a {
+  .p4ausmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +125,30 @@
     white-space: nowrap;
   }
 
-  .coa69menulist ul a:hover {
+  .p4ausmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .coa69bodylogo {
+  .p4ausbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .coa69menumobil {
+    .p4ausmenumobil {
       display: none !important;
     }
 
-    .coa69menulist {
+    .p4ausmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .coa69menumobil {
+    .p4ausmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +156,22 @@
       width: 100%;
     }
 
-    .coa69menumobil div {
+    .p4ausmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .coa69menulist {
+    .p4ausmenulist {
       display: none;
     }
 
-    .coa69body {
+    .p4ausbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .coa69Children {
+    .p4ausChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +179,19 @@
       justify-content: center;
     }
 
-    .coa69menulist ul a {
+    .p4ausmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .coa69menu {
+    .p4ausmenu {
       overflow-x: auto;
     }
 
-    .coa69menulist ul {
+    .p4ausmenulist ul {
       flex-direction: column;
     }
 
-    .coa69bodylogo {
+    .p4ausbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +199,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .coa69menulist ul a {
+    .p4ausmenulist ul a {
       font-size: 14px;
     }
   }

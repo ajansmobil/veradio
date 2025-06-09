@@ -1,10 +1,10 @@
 
-  .gkojemenulistbodylist {
+  .lgcdmmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .gkojemenulistbodylist a {
+  .lgcdmmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .gkojemenumobil {
+  .lgcdmmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .gkojemenulistbody {
+  .lgcdmmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .gkojeChildren {
+  .lgcdmChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .gkoje {
+  .lgcdm {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .gkojetitle {
+  .lgcdmtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .gkojetitlebody {
+  .lgcdmtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,40 +63,39 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .gkojetitlebodytitle {
+  .lgcdmtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .gkojetitlebodylang {
+  .lgcdmtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .gkojetitlebodylang ul {
+  .lgcdmtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .gkojebody {
+  .lgcdmbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .gkojemenulist {
+  .lgcdmmenulist {
     display: block;
     background-color: #1e3046;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 100%;
   }
 
-  .gkojemenubody {
+  .lgcdmmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +103,7 @@
     justify-content: center;
   }
 
-  .gkojemenulist ul {
+  .lgcdmmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -114,7 +113,7 @@
     overflow-x: auto;
   }
 
-  .gkojemenulist ul a {
+  .lgcdmmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -126,30 +125,30 @@
     white-space: nowrap;
   }
 
-  .gkojemenulist ul a:hover {
+  .lgcdmmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .gkojebodylogo {
+  .lgcdmbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .gkojemenumobil {
+    .lgcdmmenumobil {
       display: none !important;
     }
 
-    .gkojemenulist {
+    .lgcdmmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .gkojemenumobil {
+    .lgcdmmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -157,22 +156,22 @@
       width: 100%;
     }
 
-    .gkojemenumobil div {
+    .lgcdmmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .gkojemenulist {
+    .lgcdmmenulist {
       display: none;
     }
 
-    .gkojebody {
+    .lgcdmbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .gkojeChildren {
+    .lgcdmChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -180,19 +179,19 @@
       justify-content: center;
     }
 
-    .gkojemenulist ul a {
+    .lgcdmmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .gkojemenu {
+    .lgcdmmenu {
       overflow-x: auto;
     }
 
-    .gkojemenulist ul {
+    .lgcdmmenulist ul {
       flex-direction: column;
     }
 
-    .gkojebodylogo {
+    .lgcdmbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -200,7 +199,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .gkojemenulist ul a {
+    .lgcdmmenulist ul a {
       font-size: 14px;
     }
   }
@@ -209,13 +208,13 @@
   #content {
     justify-content: start;
   }
-  .c1bbr {
+  .fykvy {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .c1bbr-menu {
+  .fykvy-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -225,7 +224,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .c1bbr-menu > a {
+  .fykvy-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -233,18 +232,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .c1bbr-menu > a:hover,
-  .c1bbr-menu > .active {
+  .fykvy-menu > a:hover,
+  .fykvy-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .c1bbr-body {
+  .fykvy-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .c1bbr-title {
+  .fykvy-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -256,7 +255,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .c1bbr-title::before {
+  .fykvy-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -270,21 +269,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .c1bbr-title span {
+  .fykvy-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .c1bbr {
+    .fykvy {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .c1bbr-menu {
+    .fykvy-menu {
       display: none;
     }
-    .c1bbr-body {
+    .fykvy-body {
       width: 100%;
     }
   }
