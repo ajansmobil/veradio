@@ -1,10 +1,10 @@
 
-  .qpuydmenulistbodylist {
+  .k1khimenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .qpuydmenulistbodylist a {
+  .k1khimenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .qpuydmenumobil {
+  .k1khimenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .qpuydmenulistbody {
+  .k1khimenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .qpuydChildren {
+  .k1khiChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .qpuyd {
+  .k1khi {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .qpuydtitle {
+  .k1khititle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .qpuydtitlebody {
+  .k1khititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qpuydtitlebodytitle {
+  .k1khititlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qpuydtitlebodylang {
+  .k1khititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qpuydtitlebodylang ul {
+  .k1khititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qpuydbody {
+  .k1khibody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .qpuydmenulist {
+  .k1khimenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 10px 10px 10px;
@@ -95,7 +95,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .qpuydmenubody {
+  .k1khimenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -103,7 +103,7 @@
     justify-content: center;
   }
 
-  .qpuydmenulist ul {
+  .k1khimenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     overflow-x: auto;
   }
 
-  .qpuydmenulist ul a {
+  .k1khimenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -125,30 +125,30 @@
     white-space: nowrap;
   }
 
-  .qpuydmenulist ul a:hover {
+  .k1khimenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .qpuydbodylogo {
+  .k1khibodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .qpuydmenumobil {
+    .k1khimenumobil {
       display: none !important;
     }
 
-    .qpuydmenulist {
+    .k1khimenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .qpuydmenumobil {
+    .k1khimenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -156,22 +156,22 @@
       width: 100%;
     }
 
-    .qpuydmenumobil div {
+    .k1khimenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .qpuydmenulist {
+    .k1khimenulist {
       display: none;
     }
 
-    .qpuydbody {
+    .k1khibody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .qpuydChildren {
+    .k1khiChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -179,19 +179,19 @@
       justify-content: center;
     }
 
-    .qpuydmenulist ul a {
+    .k1khimenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .qpuydmenu {
+    .k1khimenu {
       overflow-x: auto;
     }
 
-    .qpuydmenulist ul {
+    .k1khimenulist ul {
       flex-direction: column;
     }
 
-    .qpuydbodylogo {
+    .k1khibodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -199,27 +199,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .qpuydmenulist ul a {
+    .k1khimenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .uwesi-container {
+  .rn7yf-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .uwesi-header {
+  .rn7yf-header {
     margin-bottom: 30px;
   }
 
-  .uwesi-title {
+  .rn7yf-title {
     margin-bottom: 15px;
   }
 
-  .uwesi-title h1 {
+  .rn7yf-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -227,13 +227,13 @@
     color: var(--text-color);
   }
 
-  .uwesi-spot {
+  .rn7yf-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .uwesi-date {
+  .rn7yf-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -241,47 +241,47 @@
     font-size: 14px;
   }
 
-  .uwesi-date i {
+  .rn7yf-date i {
     font-size: 18px;
   }
 
-  .uwesi-content {
+  .rn7yf-content {
     display: flex;
     gap: 30px;
   }
 
-  .uwesi-main {
+  .rn7yf-main {
     flex: 1;
   }
 
-  .uwesi-img {
+  .rn7yf-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .uwesi-img img {
+  .rn7yf-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .uwesi-body {
+  .rn7yf-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .uwesi-body p {
+  .rn7yf-body p {
     margin-bottom: 20px;
   }
 
-  .uwesi-sidebar {
+  .rn7yf-sidebar {
     width: 300px;
   }
 
-  .uwesi-sidebar h3 {
+  .rn7yf-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -289,65 +289,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .uwesi-menu {
+  .rn7yf-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .uwesi-menu a {
+  .rn7yf-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .uwesi-menu a:hover {
+  .rn7yf-menu a:hover {
     transform: translateX(5px);
   }
 
-  .uwesi-menu-img {
+  .rn7yf-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .uwesi-menu-img img {
+  .rn7yf-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .uwesi-menu-name {
+  .rn7yf-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .uwesi-container {
+    .rn7yf-container {
       width: 100%;
       padding: 15px;
     }
 
-    .uwesi-content {
+    .rn7yf-content {
       flex-direction: column;
     }
 
-    .uwesi-sidebar {
+    .rn7yf-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .uwesi-title h1 {
+    .rn7yf-title h1 {
       font-size: 28px;
     }
 
-    .uwesi-spot {
+    .rn7yf-spot {
       font-size: 16px;
     }
 
-    .uwesi-menu {
+    .rn7yf-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

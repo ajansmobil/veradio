@@ -1,10 +1,10 @@
 
-  .g1lynmenulistbodylist {
+  .tz3gomenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .g1lynmenulistbodylist a {
+  .tz3gomenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .g1lynmenumobil {
+  .tz3gomenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .g1lynmenulistbody {
+  .tz3gomenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .g1lynChildren {
+  .tz3goChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .g1lyn {
+  .tz3go {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .g1lyntitle {
+  .tz3gotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .g1lyntitlebody {
+  .tz3gotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .g1lyntitlebodytitle {
+  .tz3gotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .g1lyntitlebodylang {
+  .tz3gotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .g1lyntitlebodylang ul {
+  .tz3gotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .g1lynbody {
+  .tz3gobody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .g1lynmenulist {
+  .tz3gomenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 10px 10px 10px;
@@ -95,7 +95,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .g1lynmenubody {
+  .tz3gomenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -103,7 +103,7 @@
     justify-content: center;
   }
 
-  .g1lynmenulist ul {
+  .tz3gomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     overflow-x: auto;
   }
 
-  .g1lynmenulist ul a {
+  .tz3gomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -125,30 +125,30 @@
     white-space: nowrap;
   }
 
-  .g1lynmenulist ul a:hover {
+  .tz3gomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .g1lynbodylogo {
+  .tz3gobodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .g1lynmenumobil {
+    .tz3gomenumobil {
       display: none !important;
     }
 
-    .g1lynmenulist {
+    .tz3gomenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .g1lynmenumobil {
+    .tz3gomenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -156,22 +156,22 @@
       width: 100%;
     }
 
-    .g1lynmenumobil div {
+    .tz3gomenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .g1lynmenulist {
+    .tz3gomenulist {
       display: none;
     }
 
-    .g1lynbody {
+    .tz3gobody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .g1lynChildren {
+    .tz3goChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -179,19 +179,19 @@
       justify-content: center;
     }
 
-    .g1lynmenulist ul a {
+    .tz3gomenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .g1lynmenu {
+    .tz3gomenu {
       overflow-x: auto;
     }
 
-    .g1lynmenulist ul {
+    .tz3gomenulist ul {
       flex-direction: column;
     }
 
-    .g1lynbodylogo {
+    .tz3gobodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -199,27 +199,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .g1lynmenulist ul a {
+    .tz3gomenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .behi3-container {
+  .zommk-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .behi3-header {
+  .zommk-header {
     margin-bottom: 30px;
   }
 
-  .behi3-title {
+  .zommk-title {
     margin-bottom: 15px;
   }
 
-  .behi3-title h1 {
+  .zommk-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -227,13 +227,13 @@
     color: var(--text-color);
   }
 
-  .behi3-spot {
+  .zommk-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .behi3-date {
+  .zommk-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -241,47 +241,47 @@
     font-size: 14px;
   }
 
-  .behi3-date i {
+  .zommk-date i {
     font-size: 18px;
   }
 
-  .behi3-content {
+  .zommk-content {
     display: flex;
     gap: 30px;
   }
 
-  .behi3-main {
+  .zommk-main {
     flex: 1;
   }
 
-  .behi3-img {
+  .zommk-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .behi3-img img {
+  .zommk-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .behi3-body {
+  .zommk-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .behi3-body p {
+  .zommk-body p {
     margin-bottom: 20px;
   }
 
-  .behi3-sidebar {
+  .zommk-sidebar {
     width: 300px;
   }
 
-  .behi3-sidebar h3 {
+  .zommk-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -289,65 +289,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .behi3-menu {
+  .zommk-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .behi3-menu a {
+  .zommk-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .behi3-menu a:hover {
+  .zommk-menu a:hover {
     transform: translateX(5px);
   }
 
-  .behi3-menu-img {
+  .zommk-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .behi3-menu-img img {
+  .zommk-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .behi3-menu-name {
+  .zommk-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .behi3-container {
+    .zommk-container {
       width: 100%;
       padding: 15px;
     }
 
-    .behi3-content {
+    .zommk-content {
       flex-direction: column;
     }
 
-    .behi3-sidebar {
+    .zommk-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .behi3-title h1 {
+    .zommk-title h1 {
       font-size: 28px;
     }
 
-    .behi3-spot {
+    .zommk-spot {
       font-size: 16px;
     }
 
-    .behi3-menu {
+    .zommk-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;
