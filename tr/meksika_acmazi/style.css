@@ -1,10 +1,10 @@
 
-  .zolmbmenulistbodylist {
+  .en1ppmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .zolmbmenulistbodylist a {
+  .en1ppmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #1e3046;
@@ -18,27 +18,27 @@
   }
 
 
-  .zolmbmenumobil {
+  .en1ppmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .zolmbmenulistbody {
+  .en1ppmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .zolmbChildren {
+  .en1ppChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .zolmb {
+  .en1pp {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     background-color: #fff;
   }
 
-  .zolmbtitle {
+  .en1pptitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +55,7 @@
     justify-content: center;
   }
 
-  .zolmbtitlebody {
+  .en1pptitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,31 +63,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zolmbtitlebodytitle {
+  .en1pptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zolmbtitlebodylang {
+  .en1pptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zolmbtitlebodylang ul {
+  .en1pptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zolmbbody {
+  .en1ppbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .zolmbmenulist {
+  .en1ppmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px 10px 10px 10px;
@@ -95,7 +95,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .zolmbmenubody {
+  .en1ppmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -103,7 +103,7 @@
     justify-content: center;
   }
 
-  .zolmbmenulist ul {
+  .en1ppmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     overflow-x: auto;
   }
 
-  .zolmbmenulist ul a {
+  .en1ppmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -125,30 +125,30 @@
     white-space: nowrap;
   }
 
-  .zolmbmenulist ul a:hover {
+  .en1ppmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zolmbbodylogo {
+  .en1ppbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .zolmbmenumobil {
+    .en1ppmenumobil {
       display: none !important;
     }
 
-    .zolmbmenulist {
+    .en1ppmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .zolmbmenumobil {
+    .en1ppmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -156,22 +156,22 @@
       width: 100%;
     }
 
-    .zolmbmenumobil div {
+    .en1ppmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .zolmbmenulist {
+    .en1ppmenulist {
       display: none;
     }
 
-    .zolmbbody {
+    .en1ppbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .zolmbChildren {
+    .en1ppChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -179,19 +179,19 @@
       justify-content: center;
     }
 
-    .zolmbmenulist ul a {
+    .en1ppmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .zolmbmenu {
+    .en1ppmenu {
       overflow-x: auto;
     }
 
-    .zolmbmenulist ul {
+    .en1ppmenulist ul {
       flex-direction: column;
     }
 
-    .zolmbbodylogo {
+    .en1ppbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -199,27 +199,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .zolmbmenulist ul a {
+    .en1ppmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .qu3cv-container {
+  .k7ddv-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .qu3cv-header {
+  .k7ddv-header {
     margin-bottom: 30px;
   }
 
-  .qu3cv-title {
+  .k7ddv-title {
     margin-bottom: 15px;
   }
 
-  .qu3cv-title h1 {
+  .k7ddv-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -227,13 +227,13 @@
     color: var(--text-color);
   }
 
-  .qu3cv-spot {
+  .k7ddv-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .qu3cv-date {
+  .k7ddv-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -241,47 +241,47 @@
     font-size: 14px;
   }
 
-  .qu3cv-date i {
+  .k7ddv-date i {
     font-size: 18px;
   }
 
-  .qu3cv-content {
+  .k7ddv-content {
     display: flex;
     gap: 30px;
   }
 
-  .qu3cv-main {
+  .k7ddv-main {
     flex: 1;
   }
 
-  .qu3cv-img {
+  .k7ddv-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .qu3cv-img img {
+  .k7ddv-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .qu3cv-body {
+  .k7ddv-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .qu3cv-body p {
+  .k7ddv-body p {
     margin-bottom: 20px;
   }
 
-  .qu3cv-sidebar {
+  .k7ddv-sidebar {
     width: 300px;
   }
 
-  .qu3cv-sidebar h3 {
+  .k7ddv-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -289,65 +289,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .qu3cv-menu {
+  .k7ddv-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .qu3cv-menu a {
+  .k7ddv-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .qu3cv-menu a:hover {
+  .k7ddv-menu a:hover {
     transform: translateX(5px);
   }
 
-  .qu3cv-menu-img {
+  .k7ddv-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .qu3cv-menu-img img {
+  .k7ddv-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .qu3cv-menu-name {
+  .k7ddv-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .qu3cv-container {
+    .k7ddv-container {
       width: 100%;
       padding: 15px;
     }
 
-    .qu3cv-content {
+    .k7ddv-content {
       flex-direction: column;
     }
 
-    .qu3cv-sidebar {
+    .k7ddv-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .qu3cv-title h1 {
+    .k7ddv-title h1 {
       font-size: 28px;
     }
 
-    .qu3cv-spot {
+    .k7ddv-spot {
       font-size: 16px;
     }
 
-    .qu3cv-menu {
+    .k7ddv-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;
