@@ -1,10 +1,10 @@
 
-  .n56ygmenulistbodylist {
+  .dupalmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .n56ygmenulistbodylist a {
+  .dupalmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .n56ygmenumobil {
+  .dupalmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .n56ygmenulistbody {
+  .dupalmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .n56ygChildren {
+  .dupalChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .n56yg {
+  .dupal {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .n56ygtitle {
+  .dupaltitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .n56ygtitlebody {
+  .dupaltitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .n56ygtitlebodytitle {
+  .dupaltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .n56ygtitlebodylang {
+  .dupaltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .n56ygtitlebodylang ul {
+  .dupaltitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .n56ygbody {
+  .dupalbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .n56ygmenulist {
+  .dupalmenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .n56ygmenubody {
+  .dupalmenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .n56ygmenulist ul {
+  .dupalmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .n56ygmenulist ul a {
+  .dupalmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .n56ygmenulist ul a:hover {
+  .dupalmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .n56ygbodylogo {
+  .dupalbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .n56ygmenumobil {
+    .dupalmenumobil {
       display: none !important;
     }
 
-    .n56ygmenulist {
+    .dupalmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .n56ygmenumobil {
+    .dupalmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .n56ygmenumobil div {
+    .dupalmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .n56ygmenulist {
+    .dupalmenulist {
       display: none;
     }
 
-    .n56ygbody {
+    .dupalbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .n56ygChildren {
+    .dupalChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .n56ygmenulist ul a {
+    .dupalmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .n56ygmenu {
+    .dupalmenu {
       overflow-x: auto;
     }
 
-    .n56ygmenulist ul {
+    .dupalmenulist ul {
       flex-direction: column;
     }
 
-    .n56ygbodylogo {
+    .dupalbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,7 +202,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .n56ygmenulist ul a {
+    .dupalmenulist ul a {
       font-size: 14px;
     }
   }

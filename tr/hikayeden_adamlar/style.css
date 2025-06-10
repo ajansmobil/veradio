@@ -1,10 +1,10 @@
 
-  .wykhbmenulistbodylist {
+  .m29ermenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .wykhbmenulistbodylist a {
+  .m29ermenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .wykhbmenumobil {
+  .m29ermenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .wykhbmenulistbody {
+  .m29ermenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .wykhbChildren {
+  .m29erChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .wykhb {
+  .m29er {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .wykhbtitle {
+  .m29ertitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .wykhbtitlebody {
+  .m29ertitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wykhbtitlebodytitle {
+  .m29ertitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wykhbtitlebodylang {
+  .m29ertitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wykhbtitlebodylang ul {
+  .m29ertitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .wykhbbody {
+  .m29erbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .wykhbmenulist {
+  .m29ermenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .wykhbmenubody {
+  .m29ermenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .wykhbmenulist ul {
+  .m29ermenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .wykhbmenulist ul a {
+  .m29ermenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .wykhbmenulist ul a:hover {
+  .m29ermenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .wykhbbodylogo {
+  .m29erbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .wykhbmenumobil {
+    .m29ermenumobil {
       display: none !important;
     }
 
-    .wykhbmenulist {
+    .m29ermenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .wykhbmenumobil {
+    .m29ermenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .wykhbmenumobil div {
+    .m29ermenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .wykhbmenulist {
+    .m29ermenulist {
       display: none;
     }
 
-    .wykhbbody {
+    .m29erbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .wykhbChildren {
+    .m29erChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .wykhbmenulist ul a {
+    .m29ermenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .wykhbmenu {
+    .m29ermenu {
       overflow-x: auto;
     }
 
-    .wykhbmenulist ul {
+    .m29ermenulist ul {
       flex-direction: column;
     }
 
-    .wykhbbodylogo {
+    .m29erbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,27 +202,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .wykhbmenulist ul a {
+    .m29ermenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .bhb4i-container {
+  .jwd0x-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .bhb4i-header {
+  .jwd0x-header {
     margin-bottom: 30px;
   }
 
-  .bhb4i-title {
+  .jwd0x-title {
     margin-bottom: 15px;
   }
 
-  .bhb4i-title h1 {
+  .jwd0x-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -230,13 +230,13 @@
     color: var(--text-color);
   }
 
-  .bhb4i-spot {
+  .jwd0x-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .bhb4i-date {
+  .jwd0x-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -244,47 +244,47 @@
     font-size: 14px;
   }
 
-  .bhb4i-date i {
+  .jwd0x-date i {
     font-size: 18px;
   }
 
-  .bhb4i-content {
+  .jwd0x-content {
     display: flex;
     gap: 30px;
   }
 
-  .bhb4i-main {
+  .jwd0x-main {
     flex: 1;
   }
 
-  .bhb4i-img {
+  .jwd0x-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .bhb4i-img img {
+  .jwd0x-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .bhb4i-body {
+  .jwd0x-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .bhb4i-body p {
+  .jwd0x-body p {
     margin-bottom: 20px;
   }
 
-  .bhb4i-sidebar {
+  .jwd0x-sidebar {
     width: 300px;
   }
 
-  .bhb4i-sidebar h3 {
+  .jwd0x-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -292,65 +292,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .bhb4i-menu {
+  .jwd0x-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .bhb4i-menu a {
+  .jwd0x-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .bhb4i-menu a:hover {
+  .jwd0x-menu a:hover {
     transform: translateX(5px);
   }
 
-  .bhb4i-menu-img {
+  .jwd0x-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .bhb4i-menu-img img {
+  .jwd0x-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .bhb4i-menu-name {
+  .jwd0x-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .bhb4i-container {
+    .jwd0x-container {
       width: 100%;
       padding: 15px;
     }
 
-    .bhb4i-content {
+    .jwd0x-content {
       flex-direction: column;
     }
 
-    .bhb4i-sidebar {
+    .jwd0x-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .bhb4i-title h1 {
+    .jwd0x-title h1 {
       font-size: 28px;
     }
 
-    .bhb4i-spot {
+    .jwd0x-spot {
       font-size: 16px;
     }
 
-    .bhb4i-menu {
+    .jwd0x-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

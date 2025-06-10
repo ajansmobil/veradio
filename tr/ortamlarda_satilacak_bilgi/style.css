@@ -1,10 +1,10 @@
 
-  .eq4ymmenulistbodylist {
+  .qi49bmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .eq4ymmenulistbodylist a {
+  .qi49bmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .eq4ymmenumobil {
+  .qi49bmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .eq4ymmenulistbody {
+  .qi49bmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .eq4ymChildren {
+  .qi49bChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .eq4ym {
+  .qi49b {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .eq4ymtitle {
+  .qi49btitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .eq4ymtitlebody {
+  .qi49btitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .eq4ymtitlebodytitle {
+  .qi49btitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .eq4ymtitlebodylang {
+  .qi49btitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .eq4ymtitlebodylang ul {
+  .qi49btitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .eq4ymbody {
+  .qi49bbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .eq4ymmenulist {
+  .qi49bmenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .eq4ymmenubody {
+  .qi49bmenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .eq4ymmenulist ul {
+  .qi49bmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .eq4ymmenulist ul a {
+  .qi49bmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .eq4ymmenulist ul a:hover {
+  .qi49bmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .eq4ymbodylogo {
+  .qi49bbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .eq4ymmenumobil {
+    .qi49bmenumobil {
       display: none !important;
     }
 
-    .eq4ymmenulist {
+    .qi49bmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .eq4ymmenumobil {
+    .qi49bmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .eq4ymmenumobil div {
+    .qi49bmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .eq4ymmenulist {
+    .qi49bmenulist {
       display: none;
     }
 
-    .eq4ymbody {
+    .qi49bbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .eq4ymChildren {
+    .qi49bChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .eq4ymmenulist ul a {
+    .qi49bmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .eq4ymmenu {
+    .qi49bmenu {
       overflow-x: auto;
     }
 
-    .eq4ymmenulist ul {
+    .qi49bmenulist ul {
       flex-direction: column;
     }
 
-    .eq4ymbodylogo {
+    .qi49bbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,27 +202,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .eq4ymmenulist ul a {
+    .qi49bmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .lsbad-container {
+  .l0yff-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .lsbad-header {
+  .l0yff-header {
     margin-bottom: 30px;
   }
 
-  .lsbad-title {
+  .l0yff-title {
     margin-bottom: 15px;
   }
 
-  .lsbad-title h1 {
+  .l0yff-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -230,13 +230,13 @@
     color: var(--text-color);
   }
 
-  .lsbad-spot {
+  .l0yff-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .lsbad-date {
+  .l0yff-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -244,47 +244,47 @@
     font-size: 14px;
   }
 
-  .lsbad-date i {
+  .l0yff-date i {
     font-size: 18px;
   }
 
-  .lsbad-content {
+  .l0yff-content {
     display: flex;
     gap: 30px;
   }
 
-  .lsbad-main {
+  .l0yff-main {
     flex: 1;
   }
 
-  .lsbad-img {
+  .l0yff-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .lsbad-img img {
+  .l0yff-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .lsbad-body {
+  .l0yff-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .lsbad-body p {
+  .l0yff-body p {
     margin-bottom: 20px;
   }
 
-  .lsbad-sidebar {
+  .l0yff-sidebar {
     width: 300px;
   }
 
-  .lsbad-sidebar h3 {
+  .l0yff-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -292,65 +292,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .lsbad-menu {
+  .l0yff-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .lsbad-menu a {
+  .l0yff-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .lsbad-menu a:hover {
+  .l0yff-menu a:hover {
     transform: translateX(5px);
   }
 
-  .lsbad-menu-img {
+  .l0yff-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .lsbad-menu-img img {
+  .l0yff-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .lsbad-menu-name {
+  .l0yff-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .lsbad-container {
+    .l0yff-container {
       width: 100%;
       padding: 15px;
     }
 
-    .lsbad-content {
+    .l0yff-content {
       flex-direction: column;
     }
 
-    .lsbad-sidebar {
+    .l0yff-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .lsbad-title h1 {
+    .l0yff-title h1 {
       font-size: 28px;
     }
 
-    .lsbad-spot {
+    .l0yff-spot {
       font-size: 16px;
     }
 
-    .lsbad-menu {
+    .l0yff-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

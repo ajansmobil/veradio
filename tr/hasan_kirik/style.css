@@ -1,10 +1,10 @@
 
-  .rj46bmenulistbodylist {
+  .qryhqmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .rj46bmenulistbodylist a {
+  .qryhqmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .rj46bmenumobil {
+  .qryhqmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .rj46bmenulistbody {
+  .qryhqmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .rj46bChildren {
+  .qryhqChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .rj46b {
+  .qryhq {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .rj46btitle {
+  .qryhqtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .rj46btitlebody {
+  .qryhqtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .rj46btitlebodytitle {
+  .qryhqtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .rj46btitlebodylang {
+  .qryhqtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .rj46btitlebodylang ul {
+  .qryhqtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .rj46bbody {
+  .qryhqbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .rj46bmenulist {
+  .qryhqmenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .rj46bmenubody {
+  .qryhqmenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .rj46bmenulist ul {
+  .qryhqmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .rj46bmenulist ul a {
+  .qryhqmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .rj46bmenulist ul a:hover {
+  .qryhqmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .rj46bbodylogo {
+  .qryhqbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .rj46bmenumobil {
+    .qryhqmenumobil {
       display: none !important;
     }
 
-    .rj46bmenulist {
+    .qryhqmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .rj46bmenumobil {
+    .qryhqmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .rj46bmenumobil div {
+    .qryhqmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .rj46bmenulist {
+    .qryhqmenulist {
       display: none;
     }
 
-    .rj46bbody {
+    .qryhqbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .rj46bChildren {
+    .qryhqChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .rj46bmenulist ul a {
+    .qryhqmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .rj46bmenu {
+    .qryhqmenu {
       overflow-x: auto;
     }
 
-    .rj46bmenulist ul {
+    .qryhqmenulist ul {
       flex-direction: column;
     }
 
-    .rj46bbodylogo {
+    .qryhqbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,7 +202,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .rj46bmenulist ul a {
+    .qryhqmenulist ul a {
       font-size: 14px;
     }
   }
