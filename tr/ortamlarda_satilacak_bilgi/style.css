@@ -1,13 +1,13 @@
 
-  .z1qtpmenulistbodylist {
+  .eq4ymmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .z1qtpmenulistbodylist a {
+  .eq4ymmenulistbodylist a {
     color: #fff;
     text-decoration: none;
-    background-color: #1e3046;
+    background-color: #333;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -18,36 +18,39 @@
   }
 
 
-  .z1qtpmenumobil {
+  .eq4ymmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .z1qtpmenulistbody {
+  .eq4ymmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .z1qtpChildren {
+  .eq4ymChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .z1qtp {
+  .eq4ym {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #f9b200;
+    border: solid 1px #009b97;
+    padding-bottom: 5px;
+    border-width: 0px 0px 10px 0px;
   }
 
-  .z1qtptitle {
+  .eq4ymtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -55,7 +58,7 @@
     justify-content: center;
   }
 
-  .z1qtptitlebody {
+  .eq4ymtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -63,47 +66,47 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .z1qtptitlebodytitle {
+  .eq4ymtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .z1qtptitlebodylang {
+  .eq4ymtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .z1qtptitlebodylang ul {
+  .eq4ymtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .z1qtpbody {
+  .eq4ymbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .z1qtpmenulist {
+  .eq4ymmenulist {
     display: block;
-    background-color: #1e3046;
+    background-color: #333;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .z1qtpmenubody {
+  .eq4ymmenubody {
     width: 100%;
-    background-color: #1e3046;
+    background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .z1qtpmenulist ul {
+  .eq4ymmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .z1qtpmenulist ul a {
+  .eq4ymmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -125,53 +128,53 @@
     white-space: nowrap;
   }
 
-  .z1qtpmenulist ul a:hover {
+  .eq4ymmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .z1qtpbodylogo {
+  .eq4ymbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .z1qtpmenumobil {
+    .eq4ymmenumobil {
       display: none !important;
     }
 
-    .z1qtpmenulist {
+    .eq4ymmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .z1qtpmenumobil {
+    .eq4ymmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
-      background-color: #1e3046;
+      background-color: #333;
       width: 100%;
     }
 
-    .z1qtpmenumobil div {
+    .eq4ymmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .z1qtpmenulist {
+    .eq4ymmenulist {
       display: none;
     }
 
-    .z1qtpbody {
+    .eq4ymbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .z1qtpChildren {
+    .eq4ymChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -179,19 +182,19 @@
       justify-content: center;
     }
 
-    .z1qtpmenulist ul a {
+    .eq4ymmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .z1qtpmenu {
+    .eq4ymmenu {
       overflow-x: auto;
     }
 
-    .z1qtpmenulist ul {
+    .eq4ymmenulist ul {
       flex-direction: column;
     }
 
-    .z1qtpbodylogo {
+    .eq4ymbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -199,27 +202,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .z1qtpmenulist ul a {
+    .eq4ymmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .trmdc-container {
+  .lsbad-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .trmdc-header {
+  .lsbad-header {
     margin-bottom: 30px;
   }
 
-  .trmdc-title {
+  .lsbad-title {
     margin-bottom: 15px;
   }
 
-  .trmdc-title h1 {
+  .lsbad-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -227,13 +230,13 @@
     color: var(--text-color);
   }
 
-  .trmdc-spot {
+  .lsbad-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .trmdc-date {
+  .lsbad-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -241,47 +244,47 @@
     font-size: 14px;
   }
 
-  .trmdc-date i {
+  .lsbad-date i {
     font-size: 18px;
   }
 
-  .trmdc-content {
+  .lsbad-content {
     display: flex;
     gap: 30px;
   }
 
-  .trmdc-main {
+  .lsbad-main {
     flex: 1;
   }
 
-  .trmdc-img {
+  .lsbad-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .trmdc-img img {
+  .lsbad-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .trmdc-body {
+  .lsbad-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .trmdc-body p {
+  .lsbad-body p {
     margin-bottom: 20px;
   }
 
-  .trmdc-sidebar {
+  .lsbad-sidebar {
     width: 300px;
   }
 
-  .trmdc-sidebar h3 {
+  .lsbad-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -289,65 +292,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .trmdc-menu {
+  .lsbad-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .trmdc-menu a {
+  .lsbad-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .trmdc-menu a:hover {
+  .lsbad-menu a:hover {
     transform: translateX(5px);
   }
 
-  .trmdc-menu-img {
+  .lsbad-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .trmdc-menu-img img {
+  .lsbad-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .trmdc-menu-name {
+  .lsbad-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .trmdc-container {
+    .lsbad-container {
       width: 100%;
       padding: 15px;
     }
 
-    .trmdc-content {
+    .lsbad-content {
       flex-direction: column;
     }
 
-    .trmdc-sidebar {
+    .lsbad-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .trmdc-title h1 {
+    .lsbad-title h1 {
       font-size: 28px;
     }
 
-    .trmdc-spot {
+    .lsbad-spot {
       font-size: 16px;
     }
 
-    .trmdc-menu {
+    .lsbad-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;
@@ -357,7 +360,7 @@
 
   .footer {
     position: relative;
-    background: #1e3046;
+    background: #f9b200;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -421,7 +424,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%231e3046;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23f9b200;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
     background-size: 1000px 102px;
   }
 
