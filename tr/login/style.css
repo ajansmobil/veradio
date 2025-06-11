@@ -1,10 +1,10 @@
 
-  .eoqcomenulistbodylist {
+  .crte6menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .eoqcomenulistbodylist a {
+  .crte6menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .eoqcomenumobil {
+  .crte6menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .eoqcomenulistbody {
+  .crte6menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .eoqcoChildren {
+  .crte6Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .eoqco {
+  .crte6 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .eoqcotitle {
+  .crte6title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .eoqcotitlebody {
+  .crte6titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .eoqcotitlebodytitle {
+  .crte6titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .eoqcotitlebodylang {
+  .crte6titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .eoqcotitlebodylang ul {
+  .crte6titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .eoqcobody {
+  .crte6body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .eoqcomenulist {
+  .crte6menulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .eoqcomenubody {
+  .crte6menubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .eoqcomenulist ul {
+  .crte6menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .eoqcomenulist ul a {
+  .crte6menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .eoqcomenulist ul a:hover {
+  .crte6menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .eoqcobodylogo {
+  .crte6bodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .eoqcomenumobil {
+    .crte6menumobil {
       display: none !important;
     }
 
-    .eoqcomenulist {
+    .crte6menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .eoqcomenumobil {
+    .crte6menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .eoqcomenumobil div {
+    .crte6menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .eoqcomenulist {
+    .crte6menulist {
       display: none;
     }
 
-    .eoqcobody {
+    .crte6body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .eoqcoChildren {
+    .crte6Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .eoqcomenulist ul a {
+    .crte6menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .eoqcomenu {
+    .crte6menu {
       overflow-x: auto;
     }
 
-    .eoqcomenulist ul {
+    .crte6menulist ul {
       flex-direction: column;
     }
 
-    .eoqcobodylogo {
+    .crte6bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,13 +202,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .eoqcomenulist ul a {
+    .crte6menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .weixc {
+  .ruen1 {
     width: 100%;
     height: 500px;
     flex: 1;
@@ -218,7 +218,7 @@
     margin-top: 20px;
   }
 
-  .weixc-null {
+  .ruen1-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
@@ -226,11 +226,11 @@
     font-size: 14px;
   }
 
-  .weixc-null:hover {
+  .ruen1-null:hover {
     color: #999;
   }
 
-  .weixc-body {
+  .ruen1-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
@@ -238,13 +238,13 @@
     flex-direction: column;
   }
 
-  .weixc-body-form {
+  .ruen1-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .weixc-button {
+  .ruen1-button {
     padding: 10px;
     background-color: #1e3046;
     margin-top: 20px;
@@ -257,21 +257,21 @@
     cursor: pointer;
   }
 
-  .weixc-login-menu {
+  .ruen1-login-menu {
     display: flex;
     gap: 2px;
   }
 
-  #weixc-login-menu-left {
+  #ruen1-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
 
-  #weixc-login-menu-right {
+  #ruen1-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
 
-  #weixc-memberol {
+  #ruen1-memberol {
     display: none;
     flex-direction: column;
   }
@@ -298,7 +298,7 @@
     justify-content: center;
   }
 
-  .weixc-login-menu>div {
+  .ruen1-login-menu>div {
     background-color: #1e3046;
     width: 100%;
     display: flex;

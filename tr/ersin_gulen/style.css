@@ -1,10 +1,10 @@
 
-  .hy3upmenulistbodylist {
+  .chyvomenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .hy3upmenulistbodylist a {
+  .chyvomenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .hy3upmenumobil {
+  .chyvomenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .hy3upmenulistbody {
+  .chyvomenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .hy3upChildren {
+  .chyvoChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .hy3up {
+  .chyvo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .hy3uptitle {
+  .chyvotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .hy3uptitlebody {
+  .chyvotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .hy3uptitlebodytitle {
+  .chyvotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .hy3uptitlebodylang {
+  .chyvotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .hy3uptitlebodylang ul {
+  .chyvotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .hy3upbody {
+  .chyvobody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .hy3upmenulist {
+  .chyvomenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .hy3upmenubody {
+  .chyvomenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .hy3upmenulist ul {
+  .chyvomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .hy3upmenulist ul a {
+  .chyvomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .hy3upmenulist ul a:hover {
+  .chyvomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .hy3upbodylogo {
+  .chyvobodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .hy3upmenumobil {
+    .chyvomenumobil {
       display: none !important;
     }
 
-    .hy3upmenulist {
+    .chyvomenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .hy3upmenumobil {
+    .chyvomenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .hy3upmenumobil div {
+    .chyvomenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .hy3upmenulist {
+    .chyvomenulist {
       display: none;
     }
 
-    .hy3upbody {
+    .chyvobody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .hy3upChildren {
+    .chyvoChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .hy3upmenulist ul a {
+    .chyvomenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .hy3upmenu {
+    .chyvomenu {
       overflow-x: auto;
     }
 
-    .hy3upmenulist ul {
+    .chyvomenulist ul {
       flex-direction: column;
     }
 
-    .hy3upbodylogo {
+    .chyvobodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,7 +202,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .hy3upmenulist ul a {
+    .chyvomenulist ul a {
       font-size: 14px;
     }
   }

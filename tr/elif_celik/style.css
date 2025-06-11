@@ -1,10 +1,10 @@
 
-  .dupalmenulistbodylist {
+  .skl3hmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .dupalmenulistbodylist a {
+  .skl3hmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .dupalmenumobil {
+  .skl3hmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .dupalmenulistbody {
+  .skl3hmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .dupalChildren {
+  .skl3hChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .dupal {
+  .skl3h {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .dupaltitle {
+  .skl3htitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .dupaltitlebody {
+  .skl3htitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .dupaltitlebodytitle {
+  .skl3htitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .dupaltitlebodylang {
+  .skl3htitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .dupaltitlebodylang ul {
+  .skl3htitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .dupalbody {
+  .skl3hbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .dupalmenulist {
+  .skl3hmenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .dupalmenubody {
+  .skl3hmenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .dupalmenulist ul {
+  .skl3hmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .dupalmenulist ul a {
+  .skl3hmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .dupalmenulist ul a:hover {
+  .skl3hmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .dupalbodylogo {
+  .skl3hbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .dupalmenumobil {
+    .skl3hmenumobil {
       display: none !important;
     }
 
-    .dupalmenulist {
+    .skl3hmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .dupalmenumobil {
+    .skl3hmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .dupalmenumobil div {
+    .skl3hmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .dupalmenulist {
+    .skl3hmenulist {
       display: none;
     }
 
-    .dupalbody {
+    .skl3hbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .dupalChildren {
+    .skl3hChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .dupalmenulist ul a {
+    .skl3hmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .dupalmenu {
+    .skl3hmenu {
       overflow-x: auto;
     }
 
-    .dupalmenulist ul {
+    .skl3hmenulist ul {
       flex-direction: column;
     }
 
-    .dupalbodylogo {
+    .skl3hbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,7 +202,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .dupalmenulist ul a {
+    .skl3hmenulist ul a {
       font-size: 14px;
     }
   }
