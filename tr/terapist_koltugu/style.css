@@ -1,10 +1,10 @@
 
-  .wwvz2menulistbodylist {
+  .ofkdomenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .wwvz2menulistbodylist a {
+  .ofkdomenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .wwvz2menumobil {
+  .ofkdomenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .wwvz2menulistbody {
+  .ofkdomenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .wwvz2Children {
+  .ofkdoChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .wwvz2 {
+  .ofkdo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .wwvz2title {
+  .ofkdotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .wwvz2titlebody {
+  .ofkdotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wwvz2titlebodytitle {
+  .ofkdotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wwvz2titlebodylang {
+  .ofkdotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wwvz2titlebodylang ul {
+  .ofkdotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .wwvz2body {
+  .ofkdobody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .wwvz2menulist {
+  .ofkdomenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .wwvz2menubody {
+  .ofkdomenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .wwvz2menulist ul {
+  .ofkdomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .wwvz2menulist ul a {
+  .ofkdomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .wwvz2menulist ul a:hover {
+  .ofkdomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .wwvz2bodylogo {
+  .ofkdobodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .wwvz2menumobil {
+    .ofkdomenumobil {
       display: none !important;
     }
 
-    .wwvz2menulist {
+    .ofkdomenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .wwvz2menumobil {
+    .ofkdomenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .wwvz2menumobil div {
+    .ofkdomenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .wwvz2menulist {
+    .ofkdomenulist {
       display: none;
     }
 
-    .wwvz2body {
+    .ofkdobody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .wwvz2Children {
+    .ofkdoChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .wwvz2menulist ul a {
+    .ofkdomenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .wwvz2menu {
+    .ofkdomenu {
       overflow-x: auto;
     }
 
-    .wwvz2menulist ul {
+    .ofkdomenulist ul {
       flex-direction: column;
     }
 
-    .wwvz2bodylogo {
+    .ofkdobodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,27 +202,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .wwvz2menulist ul a {
+    .ofkdomenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .kftaw-container {
+  .b3bq7-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .kftaw-header {
+  .b3bq7-header {
     margin-bottom: 30px;
   }
 
-  .kftaw-title {
+  .b3bq7-title {
     margin-bottom: 15px;
   }
 
-  .kftaw-title h1 {
+  .b3bq7-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -230,13 +230,13 @@
     color: var(--text-color);
   }
 
-  .kftaw-spot {
+  .b3bq7-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .kftaw-date {
+  .b3bq7-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -244,47 +244,47 @@
     font-size: 14px;
   }
 
-  .kftaw-date i {
+  .b3bq7-date i {
     font-size: 18px;
   }
 
-  .kftaw-content {
+  .b3bq7-content {
     display: flex;
     gap: 30px;
   }
 
-  .kftaw-main {
+  .b3bq7-main {
     flex: 1;
   }
 
-  .kftaw-img {
+  .b3bq7-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .kftaw-img img {
+  .b3bq7-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .kftaw-body {
+  .b3bq7-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .kftaw-body p {
+  .b3bq7-body p {
     margin-bottom: 20px;
   }
 
-  .kftaw-sidebar {
+  .b3bq7-sidebar {
     width: 300px;
   }
 
-  .kftaw-sidebar h3 {
+  .b3bq7-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -292,65 +292,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .kftaw-menu {
+  .b3bq7-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .kftaw-menu a {
+  .b3bq7-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .kftaw-menu a:hover {
+  .b3bq7-menu a:hover {
     transform: translateX(5px);
   }
 
-  .kftaw-menu-img {
+  .b3bq7-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .kftaw-menu-img img {
+  .b3bq7-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .kftaw-menu-name {
+  .b3bq7-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .kftaw-container {
+    .b3bq7-container {
       width: 100%;
       padding: 15px;
     }
 
-    .kftaw-content {
+    .b3bq7-content {
       flex-direction: column;
     }
 
-    .kftaw-sidebar {
+    .b3bq7-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .kftaw-title h1 {
+    .b3bq7-title h1 {
       font-size: 28px;
     }
 
-    .kftaw-spot {
+    .b3bq7-spot {
       font-size: 16px;
     }
 
-    .kftaw-menu {
+    .b3bq7-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

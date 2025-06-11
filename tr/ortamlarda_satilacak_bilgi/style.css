@@ -1,10 +1,10 @@
 
-  .yzhsamenulistbodylist {
+  .enbvmmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .yzhsamenulistbodylist a {
+  .enbvmmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .yzhsamenumobil {
+  .enbvmmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .yzhsamenulistbody {
+  .enbvmmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .yzhsaChildren {
+  .enbvmChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .yzhsa {
+  .enbvm {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .yzhsatitle {
+  .enbvmtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .yzhsatitlebody {
+  .enbvmtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .yzhsatitlebodytitle {
+  .enbvmtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .yzhsatitlebodylang {
+  .enbvmtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .yzhsatitlebodylang ul {
+  .enbvmtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .yzhsabody {
+  .enbvmbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .yzhsamenulist {
+  .enbvmmenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .yzhsamenubody {
+  .enbvmmenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .yzhsamenulist ul {
+  .enbvmmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .yzhsamenulist ul a {
+  .enbvmmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .yzhsamenulist ul a:hover {
+  .enbvmmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .yzhsabodylogo {
+  .enbvmbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .yzhsamenumobil {
+    .enbvmmenumobil {
       display: none !important;
     }
 
-    .yzhsamenulist {
+    .enbvmmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .yzhsamenumobil {
+    .enbvmmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .yzhsamenumobil div {
+    .enbvmmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .yzhsamenulist {
+    .enbvmmenulist {
       display: none;
     }
 
-    .yzhsabody {
+    .enbvmbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .yzhsaChildren {
+    .enbvmChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .yzhsamenulist ul a {
+    .enbvmmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .yzhsamenu {
+    .enbvmmenu {
       overflow-x: auto;
     }
 
-    .yzhsamenulist ul {
+    .enbvmmenulist ul {
       flex-direction: column;
     }
 
-    .yzhsabodylogo {
+    .enbvmbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,27 +202,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .yzhsamenulist ul a {
+    .enbvmmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .l3jfs-container {
+  .nzh6s-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .l3jfs-header {
+  .nzh6s-header {
     margin-bottom: 30px;
   }
 
-  .l3jfs-title {
+  .nzh6s-title {
     margin-bottom: 15px;
   }
 
-  .l3jfs-title h1 {
+  .nzh6s-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -230,13 +230,13 @@
     color: var(--text-color);
   }
 
-  .l3jfs-spot {
+  .nzh6s-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .l3jfs-date {
+  .nzh6s-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -244,47 +244,47 @@
     font-size: 14px;
   }
 
-  .l3jfs-date i {
+  .nzh6s-date i {
     font-size: 18px;
   }
 
-  .l3jfs-content {
+  .nzh6s-content {
     display: flex;
     gap: 30px;
   }
 
-  .l3jfs-main {
+  .nzh6s-main {
     flex: 1;
   }
 
-  .l3jfs-img {
+  .nzh6s-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .l3jfs-img img {
+  .nzh6s-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .l3jfs-body {
+  .nzh6s-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .l3jfs-body p {
+  .nzh6s-body p {
     margin-bottom: 20px;
   }
 
-  .l3jfs-sidebar {
+  .nzh6s-sidebar {
     width: 300px;
   }
 
-  .l3jfs-sidebar h3 {
+  .nzh6s-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -292,65 +292,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .l3jfs-menu {
+  .nzh6s-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .l3jfs-menu a {
+  .nzh6s-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .l3jfs-menu a:hover {
+  .nzh6s-menu a:hover {
     transform: translateX(5px);
   }
 
-  .l3jfs-menu-img {
+  .nzh6s-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .l3jfs-menu-img img {
+  .nzh6s-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .l3jfs-menu-name {
+  .nzh6s-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .l3jfs-container {
+    .nzh6s-container {
       width: 100%;
       padding: 15px;
     }
 
-    .l3jfs-content {
+    .nzh6s-content {
       flex-direction: column;
     }
 
-    .l3jfs-sidebar {
+    .nzh6s-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .l3jfs-title h1 {
+    .nzh6s-title h1 {
       font-size: 28px;
     }
 
-    .l3jfs-spot {
+    .nzh6s-spot {
       font-size: 16px;
     }
 
-    .l3jfs-menu {
+    .nzh6s-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;
