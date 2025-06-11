@@ -1,10 +1,10 @@
 
-  .ev1i8menulistbodylist {
+  .ckfmpmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .ev1i8menulistbodylist a {
+  .ckfmpmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .ev1i8menumobil {
+  .ckfmpmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .ev1i8menulistbody {
+  .ckfmpmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .ev1i8Children {
+  .ckfmpChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .ev1i8 {
+  .ckfmp {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .ev1i8title {
+  .ckfmptitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .ev1i8titlebody {
+  .ckfmptitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ev1i8titlebodytitle {
+  .ckfmptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ev1i8titlebodylang {
+  .ckfmptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ev1i8titlebodylang ul {
+  .ckfmptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ev1i8body {
+  .ckfmpbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .ev1i8menulist {
+  .ckfmpmenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ev1i8menubody {
+  .ckfmpmenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .ev1i8menulist ul {
+  .ckfmpmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .ev1i8menulist ul a {
+  .ckfmpmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .ev1i8menulist ul a:hover {
+  .ckfmpmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ev1i8bodylogo {
+  .ckfmpbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .ev1i8menumobil {
+    .ckfmpmenumobil {
       display: none !important;
     }
 
-    .ev1i8menulist {
+    .ckfmpmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .ev1i8menumobil {
+    .ckfmpmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .ev1i8menumobil div {
+    .ckfmpmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .ev1i8menulist {
+    .ckfmpmenulist {
       display: none;
     }
 
-    .ev1i8body {
+    .ckfmpbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .ev1i8Children {
+    .ckfmpChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .ev1i8menulist ul a {
+    .ckfmpmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .ev1i8menu {
+    .ckfmpmenu {
       overflow-x: auto;
     }
 
-    .ev1i8menulist ul {
+    .ckfmpmenulist ul {
       flex-direction: column;
     }
 
-    .ev1i8bodylogo {
+    .ckfmpbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,27 +202,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ev1i8menulist ul a {
+    .ckfmpmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .coq40-container {
+  .lwulb-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .coq40-header {
+  .lwulb-header {
     margin-bottom: 30px;
   }
 
-  .coq40-title {
+  .lwulb-title {
     margin-bottom: 15px;
   }
 
-  .coq40-title h1 {
+  .lwulb-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -230,13 +230,13 @@
     color: var(--text-color);
   }
 
-  .coq40-spot {
+  .lwulb-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .coq40-date {
+  .lwulb-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -244,47 +244,47 @@
     font-size: 14px;
   }
 
-  .coq40-date i {
+  .lwulb-date i {
     font-size: 18px;
   }
 
-  .coq40-content {
+  .lwulb-content {
     display: flex;
     gap: 30px;
   }
 
-  .coq40-main {
+  .lwulb-main {
     flex: 1;
   }
 
-  .coq40-img {
+  .lwulb-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .coq40-img img {
+  .lwulb-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .coq40-body {
+  .lwulb-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .coq40-body p {
+  .lwulb-body p {
     margin-bottom: 20px;
   }
 
-  .coq40-sidebar {
+  .lwulb-sidebar {
     width: 300px;
   }
 
-  .coq40-sidebar h3 {
+  .lwulb-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -292,65 +292,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .coq40-menu {
+  .lwulb-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .coq40-menu a {
+  .lwulb-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .coq40-menu a:hover {
+  .lwulb-menu a:hover {
     transform: translateX(5px);
   }
 
-  .coq40-menu-img {
+  .lwulb-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .coq40-menu-img img {
+  .lwulb-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .coq40-menu-name {
+  .lwulb-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .coq40-container {
+    .lwulb-container {
       width: 100%;
       padding: 15px;
     }
 
-    .coq40-content {
+    .lwulb-content {
       flex-direction: column;
     }
 
-    .coq40-sidebar {
+    .lwulb-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .coq40-title h1 {
+    .lwulb-title h1 {
       font-size: 28px;
     }
 
-    .coq40-spot {
+    .lwulb-spot {
       font-size: 16px;
     }
 
-    .coq40-menu {
+    .lwulb-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

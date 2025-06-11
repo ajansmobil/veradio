@@ -1,10 +1,10 @@
 
-  .q60ezmenulistbodylist {
+  .gblf5menulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .q60ezmenulistbodylist a {
+  .gblf5menulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .q60ezmenumobil {
+  .gblf5menumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .q60ezmenulistbody {
+  .gblf5menulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .q60ezChildren {
+  .gblf5Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .q60ez {
+  .gblf5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .q60eztitle {
+  .gblf5title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .q60eztitlebody {
+  .gblf5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .q60eztitlebodytitle {
+  .gblf5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .q60eztitlebodylang {
+  .gblf5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .q60eztitlebodylang ul {
+  .gblf5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .q60ezbody {
+  .gblf5body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .q60ezmenulist {
+  .gblf5menulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .q60ezmenubody {
+  .gblf5menubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .q60ezmenulist ul {
+  .gblf5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .q60ezmenulist ul a {
+  .gblf5menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .q60ezmenulist ul a:hover {
+  .gblf5menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .q60ezbodylogo {
+  .gblf5bodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .q60ezmenumobil {
+    .gblf5menumobil {
       display: none !important;
     }
 
-    .q60ezmenulist {
+    .gblf5menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .q60ezmenumobil {
+    .gblf5menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .q60ezmenumobil div {
+    .gblf5menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .q60ezmenulist {
+    .gblf5menulist {
       display: none;
     }
 
-    .q60ezbody {
+    .gblf5body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .q60ezChildren {
+    .gblf5Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .q60ezmenulist ul a {
+    .gblf5menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .q60ezmenu {
+    .gblf5menu {
       overflow-x: auto;
     }
 
-    .q60ezmenulist ul {
+    .gblf5menulist ul {
       flex-direction: column;
     }
 
-    .q60ezbodylogo {
+    .gblf5bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,13 +202,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .q60ezmenulist ul a {
+    .gblf5menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .a1n4o {
+  .j2oxe {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -216,13 +216,13 @@
     justify-content: center;
     position: relative;
   }
-  .a1n4ocontainertitle {
+  .j2oxecontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .a1n4ocontainerlist {
+  .j2oxecontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -230,23 +230,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .a1n4ocontainerlist > div {
+  .j2oxecontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .a1n4ocontainerlist:hover {
+  .j2oxecontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .a1n4ocontainer {
+  .j2oxecontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .a1n4ocontainerbody {
+  .j2oxecontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -255,24 +255,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .a1n4obody {
+  .j2oxebody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .a1n4ocontainerlist > span {
+  .j2oxecontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .a1n4obody {
+    .j2oxebody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .a1n4ocontainerbody {
+    .j2oxecontainerbody {
       padding: 15px;
     }
   }
@@ -302,13 +302,13 @@
       transform: scale(1);
     }
   }
-  .mkkm2-body {
+  .qlgyg-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .mkkm2-body-chile {
+  .qlgyg-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -316,10 +316,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .mkkm2-body-chile > div {
+  .qlgyg-body-chile > div {
     width: 100% !important;
   }
-  .mkkm22 {
+  .qlgyg2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -330,21 +330,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .mkkm2 {
+  .qlgyg {
     display: flex;
     flex-direction: column;
   }
-  .mkkm2 > svg {
+  .qlgyg > svg {
     width: 100vw;
   }
-  .mkkm2botton {
+  .qlgygbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .mkkm2-svg {
+  .qlgyg-svg {
     fill: #fff;
   }
-  .mkkm2-bg {
+  .qlgyg-bg {
     background-image: url("/img/cwurqi/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;
