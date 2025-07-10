@@ -1,10 +1,10 @@
 
-  .x4xaxmenulistbodylist {
+  .o2nnhmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .x4xaxmenulistbodylist a {
+  .o2nnhmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .x4xaxmenumobil {
+  .o2nnhmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .x4xaxmenulistbody {
+  .o2nnhmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .x4xaxChildren {
+  .o2nnhChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .x4xax {
+  .o2nnh {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .x4xaxtitle {
+  .o2nnhtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .x4xaxtitlebody {
+  .o2nnhtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .x4xaxtitlebodytitle {
+  .o2nnhtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .x4xaxtitlebodylang {
+  .o2nnhtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .x4xaxtitlebodylang ul {
+  .o2nnhtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .x4xaxbody {
+  .o2nnhbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .x4xaxmenulist {
+  .o2nnhmenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .x4xaxmenubody {
+  .o2nnhmenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .x4xaxmenulist ul {
+  .o2nnhmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .x4xaxmenulist ul a {
+  .o2nnhmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .x4xaxmenulist ul a:hover {
+  .o2nnhmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .x4xaxbodylogo {
+  .o2nnhbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .x4xaxmenumobil {
+    .o2nnhmenumobil {
       display: none !important;
     }
 
-    .x4xaxmenulist {
+    .o2nnhmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .x4xaxmenumobil {
+    .o2nnhmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .x4xaxmenumobil div {
+    .o2nnhmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .x4xaxmenulist {
+    .o2nnhmenulist {
       display: none;
     }
 
-    .x4xaxbody {
+    .o2nnhbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .x4xaxChildren {
+    .o2nnhChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .x4xaxmenulist ul a {
+    .o2nnhmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .x4xaxmenu {
+    .o2nnhmenu {
       overflow-x: auto;
     }
 
-    .x4xaxmenulist ul {
+    .o2nnhmenulist ul {
       flex-direction: column;
     }
 
-    .x4xaxbodylogo {
+    .o2nnhbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,27 +202,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .x4xaxmenulist ul a {
+    .o2nnhmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .l7ski-container {
+  .ry5cv-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .l7ski-header {
+  .ry5cv-header {
     margin-bottom: 30px;
   }
 
-  .l7ski-title {
+  .ry5cv-title {
     margin-bottom: 15px;
   }
 
-  .l7ski-title h1 {
+  .ry5cv-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -230,13 +230,13 @@
     color: var(--text-color);
   }
 
-  .l7ski-spot {
+  .ry5cv-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .l7ski-date {
+  .ry5cv-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -244,47 +244,47 @@
     font-size: 14px;
   }
 
-  .l7ski-date i {
+  .ry5cv-date i {
     font-size: 18px;
   }
 
-  .l7ski-content {
+  .ry5cv-content {
     display: flex;
     gap: 30px;
   }
 
-  .l7ski-main {
+  .ry5cv-main {
     flex: 1;
   }
 
-  .l7ski-img {
+  .ry5cv-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .l7ski-img img {
+  .ry5cv-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .l7ski-body {
+  .ry5cv-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .l7ski-body p {
+  .ry5cv-body p {
     margin-bottom: 20px;
   }
 
-  .l7ski-sidebar {
+  .ry5cv-sidebar {
     width: 300px;
   }
 
-  .l7ski-sidebar h3 {
+  .ry5cv-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -292,65 +292,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .l7ski-menu {
+  .ry5cv-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .l7ski-menu a {
+  .ry5cv-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .l7ski-menu a:hover {
+  .ry5cv-menu a:hover {
     transform: translateX(5px);
   }
 
-  .l7ski-menu-img {
+  .ry5cv-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .l7ski-menu-img img {
+  .ry5cv-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .l7ski-menu-name {
+  .ry5cv-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .l7ski-container {
+    .ry5cv-container {
       width: 100%;
       padding: 15px;
     }
 
-    .l7ski-content {
+    .ry5cv-content {
       flex-direction: column;
     }
 
-    .l7ski-sidebar {
+    .ry5cv-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .l7ski-title h1 {
+    .ry5cv-title h1 {
       font-size: 28px;
     }
 
-    .l7ski-spot {
+    .ry5cv-spot {
       font-size: 16px;
     }
 
-    .l7ski-menu {
+    .ry5cv-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

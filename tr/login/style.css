@@ -1,10 +1,10 @@
 
-  .c4gokmenulistbodylist {
+  .fpwddmenulistbodylist {
     width: 100%;
     text-align: right;
   }
 
-  .c4gokmenulistbodylist a {
+  .fpwddmenulistbodylist a {
     color: #fff;
     text-decoration: none;
     background-color: #333;
@@ -18,27 +18,27 @@
   }
 
 
-  .c4gokmenumobil {
+  .fpwddmenumobil {
     display: none;
     cursor: pointer;
   }
 
 
-  .c4gokmenulistbody {
+  .fpwddmenulistbody {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
   }
 
-  .c4gokChildren {
+  .fpwddChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .c4gok {
+  .fpwdd {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
     border-width: 0px 0px 10px 0px;
   }
 
-  .c4goktitle {
+  .fpwddtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: center;
   }
 
-  .c4goktitlebody {
+  .fpwddtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -66,31 +66,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .c4goktitlebodytitle {
+  .fpwddtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .c4goktitlebodylang {
+  .fpwddtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .c4goktitlebodylang ul {
+  .fpwddtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .c4gokbody {
+  .fpwddbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .c4gokmenulist {
+  .fpwddmenulist {
     display: block;
     background-color: #333;
     padding: 10px 10px 10px 10px;
@@ -98,7 +98,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .c4gokmenubody {
+  .fpwddmenubody {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -106,7 +106,7 @@
     justify-content: center;
   }
 
-  .c4gokmenulist ul {
+  .fpwddmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -116,7 +116,7 @@
     overflow-x: auto;
   }
 
-  .c4gokmenulist ul a {
+  .fpwddmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -128,30 +128,30 @@
     white-space: nowrap;
   }
 
-  .c4gokmenulist ul a:hover {
+  .fpwddmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .c4gokbodylogo {
+  .fpwddbodylogo {
     height: 120px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .c4gokmenumobil {
+    .fpwddmenumobil {
       display: none !important;
     }
 
-    .c4gokmenulist {
+    .fpwddmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .c4gokmenumobil {
+    .fpwddmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -159,22 +159,22 @@
       width: 100%;
     }
 
-    .c4gokmenumobil div {
+    .fpwddmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .c4gokmenulist {
+    .fpwddmenulist {
       display: none;
     }
 
-    .c4gokbody {
+    .fpwddbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .c4gokChildren {
+    .fpwddChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -182,19 +182,19 @@
       justify-content: center;
     }
 
-    .c4gokmenulist ul a {
+    .fpwddmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .c4gokmenu {
+    .fpwddmenu {
       overflow-x: auto;
     }
 
-    .c4gokmenulist ul {
+    .fpwddmenulist ul {
       flex-direction: column;
     }
 
-    .c4gokbodylogo {
+    .fpwddbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -202,13 +202,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .c4gokmenulist ul a {
+    .fpwddmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .q88vn {
+  .gzenw {
     width: 100%;
     height: 500px;
     flex: 1;
@@ -218,7 +218,7 @@
     margin-top: 20px;
   }
 
-  .q88vn-null {
+  .gzenw-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
@@ -226,11 +226,11 @@
     font-size: 14px;
   }
 
-  .q88vn-null:hover {
+  .gzenw-null:hover {
     color: #999;
   }
 
-  .q88vn-body {
+  .gzenw-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
@@ -238,18 +238,18 @@
     flex-direction: column;
   }
 
-  .q88vn-body-form {
+  .gzenw-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .q88vn-button {
+  .gzenw-button {
     padding: 10px;
     background-color: #1e3046;
     margin-top: 20px;
     font-size: 16px;
-    color: #fff;
+    color: #fff !important;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -257,21 +257,21 @@
     cursor: pointer;
   }
 
-  .q88vn-login-menu {
+  .gzenw-login-menu {
     display: flex;
     gap: 2px;
   }
 
-  #q88vn-login-menu-left {
+  #gzenw-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
 
-  #q88vn-login-menu-right {
+  #gzenw-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
 
-  #q88vn-memberol {
+  #gzenw-memberol {
     display: none;
     flex-direction: column;
   }
@@ -298,7 +298,7 @@
     justify-content: center;
   }
 
-  .q88vn-login-menu>div {
+  .gzenw-login-menu>div {
     background-color: #1e3046;
     width: 100%;
     display: flex;
