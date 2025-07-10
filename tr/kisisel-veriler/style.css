@@ -1,5 +1,5 @@
 
-  .rq1j8 {
+  .nk6k8 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .rq1j8titlebodylang {
+  .nk6k8titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .rq1j8titlebodylang ul {
+  .nk6k8titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .rq1j8titlebodylang ul a {
+  .nk6k8titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .rq1j8titlebodylang ul a:hover {
+  .nk6k8titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .rq1j8title {
+  .nk6k8title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .rq1j8titlebody {
+  .nk6k8titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .rq1j8body {
+  .nk6k8body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .rq1j8menu {
+  .nk6k8menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .rq1j8menulist {
+  .nk6k8menulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .rq1j8menulist ul {
+  .nk6k8menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .rq1j8menulist ul a {
+  .nk6k8menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .rq1j8menulist ul a:hover {
+  .nk6k8menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .rq1j8-menu-active {
+  .nk6k8-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .rq1j8menucontact {
+  .nk6k8menucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .rq1j8menucontact * {
+  .nk6k8menucontact * {
     color: #fff;
   }
 
-  .rq1j8menucontact:hover {
+  .nk6k8menucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .rq1j8menucontacttitle {
+  .nk6k8menucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .rq1j8menulistbody {
+  .nk6k8menulistbody {
     width: 100%;
   }
 
@@ -456,13 +456,13 @@
   #content {
     justify-content: start;
   }
-  .rgy3u {
+  .xetzc {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .rgy3u-menu {
+  .xetzc-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -472,7 +472,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .rgy3u-menu > a {
+  .xetzc-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -480,18 +480,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .rgy3u-menu > a:hover,
-  .rgy3u-menu > .active {
+  .xetzc-menu > a:hover,
+  .xetzc-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .rgy3u-body {
+  .xetzc-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .rgy3u-title {
+  .xetzc-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -503,7 +503,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .rgy3u-title::before {
+  .xetzc-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -517,21 +517,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .rgy3u-title span {
+  .xetzc-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .rgy3u {
+    .xetzc {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .rgy3u-menu {
+    .xetzc-menu {
       display: none;
     }
-    .rgy3u-body {
+    .xetzc-body {
       width: 100%;
     }
   }

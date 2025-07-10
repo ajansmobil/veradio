@@ -1,5 +1,5 @@
 
-  .n2u1r {
+  .wh3s7 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .n2u1rtitlebodylang {
+  .wh3s7titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .n2u1rtitlebodylang ul {
+  .wh3s7titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .n2u1rtitlebodylang ul a {
+  .wh3s7titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .n2u1rtitlebodylang ul a:hover {
+  .wh3s7titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .n2u1rtitle {
+  .wh3s7title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .n2u1rtitlebody {
+  .wh3s7titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .n2u1rbody {
+  .wh3s7body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .n2u1rmenu {
+  .wh3s7menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .n2u1rmenulist {
+  .wh3s7menulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .n2u1rmenulist ul {
+  .wh3s7menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .n2u1rmenulist ul a {
+  .wh3s7menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .n2u1rmenulist ul a:hover {
+  .wh3s7menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .n2u1r-menu-active {
+  .wh3s7-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .n2u1rmenucontact {
+  .wh3s7menucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .n2u1rmenucontact * {
+  .wh3s7menucontact * {
     color: #fff;
   }
 
-  .n2u1rmenucontact:hover {
+  .wh3s7menucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .n2u1rmenucontacttitle {
+  .wh3s7menucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .n2u1rmenulistbody {
+  .wh3s7menulistbody {
     width: 100%;
   }
 
@@ -453,7 +453,7 @@
   }
 
 
-  .imx2b {
+  .xkq99 {
     width: 100%;
     height: 500px;
     flex: 1;
@@ -463,7 +463,7 @@
     margin-top: 20px;
   }
 
-  .imx2b-null {
+  .xkq99-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
@@ -471,11 +471,11 @@
     font-size: 14px;
   }
 
-  .imx2b-null:hover {
+  .xkq99-null:hover {
     color: #999;
   }
 
-  .imx2b-body {
+  .xkq99-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
@@ -483,13 +483,13 @@
     flex-direction: column;
   }
 
-  .imx2b-body-form {
+  .xkq99-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .imx2b-button {
+  .xkq99-button {
     padding: 10px;
     background-color: #1e3046;
     margin-top: 20px;
@@ -502,21 +502,21 @@
     cursor: pointer;
   }
 
-  .imx2b-login-menu {
+  .xkq99-login-menu {
     display: flex;
     gap: 2px;
   }
 
-  #imx2b-login-menu-left {
+  #xkq99-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
 
-  #imx2b-login-menu-right {
+  #xkq99-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
 
-  #imx2b-memberol {
+  #xkq99-memberol {
     display: none;
     flex-direction: column;
   }
@@ -543,7 +543,7 @@
     justify-content: center;
   }
 
-  .imx2b-login-menu>div {
+  .xkq99-login-menu>div {
     background-color: #1e3046;
     width: 100%;
     display: flex;

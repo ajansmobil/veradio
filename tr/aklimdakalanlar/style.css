@@ -1,5 +1,5 @@
 
-  .gamio {
+  .vxj4j {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .gamiotitlebodylang {
+  .vxj4jtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .gamiotitlebodylang ul {
+  .vxj4jtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .gamiotitlebodylang ul a {
+  .vxj4jtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .gamiotitlebodylang ul a:hover {
+  .vxj4jtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .gamiotitle {
+  .vxj4jtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .gamiotitlebody {
+  .vxj4jtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .gamiobody {
+  .vxj4jbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .gamiomenu {
+  .vxj4jmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .gamiomenulist {
+  .vxj4jmenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .gamiomenulist ul {
+  .vxj4jmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .gamiomenulist ul a {
+  .vxj4jmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .gamiomenulist ul a:hover {
+  .vxj4jmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .gamio-menu-active {
+  .vxj4j-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .gamiomenucontact {
+  .vxj4jmenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .gamiomenucontact * {
+  .vxj4jmenucontact * {
     color: #fff;
   }
 
-  .gamiomenucontact:hover {
+  .vxj4jmenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .gamiomenucontacttitle {
+  .vxj4jmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .gamiomenulistbody {
+  .vxj4jmenulistbody {
     width: 100%;
   }
 
@@ -453,21 +453,21 @@
   }
 
 
-  .l3num-container {
+  .tqc64-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .l3num-header {
+  .tqc64-header {
     margin-bottom: 30px;
   }
 
-  .l3num-title {
+  .tqc64-title {
     margin-bottom: 15px;
   }
 
-  .l3num-title h1 {
+  .tqc64-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -475,13 +475,13 @@
     color: var(--text-color);
   }
 
-  .l3num-spot {
+  .tqc64-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .l3num-date {
+  .tqc64-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -489,47 +489,47 @@
     font-size: 14px;
   }
 
-  .l3num-date i {
+  .tqc64-date i {
     font-size: 18px;
   }
 
-  .l3num-content {
+  .tqc64-content {
     display: flex;
     gap: 30px;
   }
 
-  .l3num-main {
+  .tqc64-main {
     flex: 1;
   }
 
-  .l3num-img {
+  .tqc64-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .l3num-img img {
+  .tqc64-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .l3num-body {
+  .tqc64-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .l3num-body p {
+  .tqc64-body p {
     margin-bottom: 20px;
   }
 
-  .l3num-sidebar {
+  .tqc64-sidebar {
     width: 300px;
   }
 
-  .l3num-sidebar h3 {
+  .tqc64-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -537,65 +537,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .l3num-menu {
+  .tqc64-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .l3num-menu a {
+  .tqc64-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .l3num-menu a:hover {
+  .tqc64-menu a:hover {
     transform: translateX(5px);
   }
 
-  .l3num-menu-img {
+  .tqc64-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .l3num-menu-img img {
+  .tqc64-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .l3num-menu-name {
+  .tqc64-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .l3num-container {
+    .tqc64-container {
       width: 100%;
       padding: 15px;
     }
 
-    .l3num-content {
+    .tqc64-content {
       flex-direction: column;
     }
 
-    .l3num-sidebar {
+    .tqc64-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .l3num-title h1 {
+    .tqc64-title h1 {
       font-size: 28px;
     }
 
-    .l3num-spot {
+    .tqc64-spot {
       font-size: 16px;
     }
 
-    .l3num-menu {
+    .tqc64-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;
