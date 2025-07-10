@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/page/lg461es8td/l03dh.jpg" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=zyl06" />
-  <link rel="shortcut icon" href="/img/icon.png?v=zyl06" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=x0v0u" />
+  <link rel="shortcut icon" href="/img/icon.png?v=x0v0u" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,139 +24,231 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=zyl06">
+<link rel="stylesheet" href="style.css?v=x0v0u">
 </head>
 
 <body>
-  <div id="header"><div class="ycswa">
-  <div class="ycswatitle">
-    <div class="ycswatitlebody">
-      <div class="ycswatitlebodytitle">
-        VeRadyo Web Sitemize Hoşgeldiniz
-      </div>
-
-
-      <div class="ycswatitlebodylang">
+  <div id="header"><div class="p8wrj">
+  <div class="p8wrjtitle">
+    <div class="p8wrjtitlebody">
+      <div class="p8wrjtitlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ycswaChildren">
-    <div class="ycswabody">
-      <a href="/tr/"><img src="/img/logo.png?v=zyl06" class="ycswabodylogo" alt="VeRadyo Logo" /></a>
-    </div>
-    <div class="ycswamenumobil">
-      <div class="material-symbols-outlined">menu</div>
-    </div>
 
-
-    <div class="ycswamenulistbody">
-
-      <div class="ycswamenulistbodylist">
-        <a href="/tr/login/">Giriş Yap</a>
-      </div>
-
-      <div class="ycswamenulist">
+  <div class="p8wrjbody">
+    <a href="/tr/"><img src="/img/logo.svg?v=x0v0u" height="150px" alt="VeRadyo Logo" /></a>
+  </div>
+  <div class="p8wrjmenu">
+    <div class="p8wrjmenulistbody">
+      <div class="p8wrjmenulist">
         <ul>
-          <a href="/tr/">Anasayfa </a><a href="/tr/yayinakisi/">Yayın Akışı</a><a href="/tr/podcastler/">Podcastler</a><a href="/tr/yayincilar/">Yayıncılar</a><a href="/tr/hakkimizda/">Bilgilendirme</a><a href="/tr/iletisim/">İletişim</a>
+          <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
       </div>
     </div>
-
+    <a href="/tr/iletisim/" class="p8wrjmenucontact">
+      <div class="p8wrjmenucontacttitle">Bize Ulaşın</div>
+      <span class="material-symbols-outlined"> arrow_forward_ios </span>
+    </a>
   </div>
 </div>
+
+<div class="radio-top-bar">
+  <div class="radio-freq">
+    <span class="freq">90.0</span>
+    <span class="station">VeRadyo</span>
+    <span class="live-badge">CANLI</span>
+  </div>
+  <div class="radio-player-bar">
+    <button class="play-btn" id="playBtn">
+      <span class="material-symbols-outlined">play_arrow</span>
+    </button>
+    <div class="wave-anim" id="waveAnim">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
+  </div>
+</div>
+
+<div class="radio-container">
+  <div class="chat-section">
+    <div class="chat-header">
+      <h3>Dinleyici Yorumları</h3>
+      <div class="online-indicator">
+        <span class="online-dot"></span>
+        <span>24 Online</span>
+      </div>
+    </div>
+    <div id="messages" class="messages-youtube"></div>
+    <div class="messages-youtube-input">
+      <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="messages-youtube-input-input">
+      <button class="input-icon" id="sendBtn" type="button">
+        <span class="material-symbols-outlined">send</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+
 
 <script>
-  document
-    .querySelector(".ycswamenumobil")
-    .addEventListener("click", function () {
-      const menu = document.querySelector(".ycswamenulist");
-      if (menu.style.display === "flex") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "flex";
-      }
-    });
+  const fakeMessages = [
+    { user: 'Ali', text: 'Selam, radyo harika!', avatar: 'https://i.pravatar.cc/40?u=ali' },
+    { user: 'Ayşe', text: 'Şarkı çok iyiymiş.', avatar: 'https://i.pravatar.cc/40?u=ayse' },
+    { user: 'Mehmet', text: 'Yorumlarınızı bekliyorum.', avatar: 'https://i.pravatar.cc/40?u=mehmet' },
+    { user: 'Zeynep', text: 'Sıradaki parça ne?', avatar: 'https://i.pravatar.cc/40?u=zeynep' },
+    { user: 'Can', text: 'Güzel yayın, elinize sağlık.', avatar: 'https://i.pravatar.cc/40?u=can' }
+  ];
+  let msgIndex = 0;
+  const messagesDiv = document.getElementById('messages');
+  const input = document.getElementById('msgInput');
+  const sendBtn = document.getElementById('sendBtn');
+  const playBtn = document.getElementById('playBtn');
+  const radioPlayer = document.getElementById('radioPlayer');
+  const waveAnim = document.getElementById('waveAnim');
+  let isPlaying = false;
+
+  function addMessage(user, text, avatar) {
+    const card = document.createElement('div');
+    card.classList.add('message-card');
+    const avatarDiv = document.createElement('div');
+    avatarDiv.classList.add('message-avatar');
+    avatarDiv.innerHTML = `<img src="${avatar}" alt="${user}">`;
+    const info = document.createElement('div');
+    info.classList.add('message-info');
+    const name = document.createElement('div');
+    name.classList.add('message-user');
+    name.textContent = user;
+    const messageText = document.createElement('div');
+    messageText.classList.add('message-text');
+    messageText.textContent = text;
+    info.appendChild(name);
+    info.appendChild(messageText);
+    card.appendChild(avatarDiv);
+    card.appendChild(info);
+    messagesDiv.appendChild(card);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+  }
+
+  function showFakeMessages() {
+    messagesDiv.innerHTML = '';
+    fakeMessages.forEach(m => addMessage(m.user, m.text, m.avatar));
+  }
+
+  sendBtn.onclick = function () {
+    if (input.value.trim()) {
+      addMessage('Sen', input.value, 'https://i.pravatar.cc/40?u=sen');
+      input.value = '';
+    }
+  };
+  input.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter' && input.value.trim()) {
+      addMessage('Sen', input.value, 'https://i.pravatar.cc/40?u=sen');
+      input.value = '';
+    }
+  });
+
+  playBtn.addEventListener('click', function () {
+    if (isPlaying) {
+      radioPlayer.pause();
+      playBtn.innerHTML = '<span class="material-symbols-outlined">play_arrow</span>';
+      waveAnim.classList.remove('playing');
+      isPlaying = false;
+    } else {
+      radioPlayer.play();
+      playBtn.innerHTML = '<span class="material-symbols-outlined">pause</span>';
+      waveAnim.classList.add('playing');
+      isPlaying = true;
+    }
+  });
+
+  showFakeMessages();
 </script>
 </div>
-  <div id="content"><div class="nq3qq-container">
-  <div class="nq3qq-header">
-    <div class="nq3qq-title">
+  <div id="content"><div class="o179j-container">
+  <div class="o179j-header">
+    <div class="o179j-title">
       <h1>Haddini Aşan Yaşam Rehberi</h1>
-      <p class="nq3qq-spot"></p>
+      <p class="o179j-spot"></p>
     </div>
-    <div class="nq3qq-date">
+    <div class="o179j-date">
       <i class="material-symbols-outlined">schedule</i>
       <span>9 Haziran 2025 17:25</span>
     </div>
   </div>
 
-  <div class="nq3qq-content">
-    <div class="nq3qq-main">
-      <div class="nq3qq-img">
-        <img src="/page/lg461es8td/l03dh.jpg?v=zyl06" alt="{{title}}" />
+  <div class="o179j-content">
+    <div class="o179j-main">
+      <div class="o179j-img">
+        <img src="/page/lg461es8td/l03dh.jpg?v=x0v0u" alt="{{title}}" />
       </div>
-      <div class="nq3qq-body"><p></p></div>
+      <div class="o179j-body"><p></p></div>
     </div>
 
-    <div class="nq3qq-sidebar">
+    <div class="o179j-sidebar">
       <h3>İlgili Haberler</h3>
-      <div class="nq3qq-menu">
+      <div class="o179j-menu">
         <a href="/tr/meksikaacmazi">
-            <div class="nq3qq-menu-img">
+            <div class="o179j-menu-img">
                 <img src="/page/j3iwbf2jnt/xo3rq.jpg" alt="Meksika Açmazı" />
             </div>
-            <div class="nq3qq-menu-name">
+            <div class="o179j-menu-name">
                 Meksika Açmazı
             </div>
         </a>
         <a href="/tr/ortamlardasatilacakbilgi">
-            <div class="nq3qq-menu-img">
+            <div class="o179j-menu-img">
                 <img src="/page/j42ntw8wx5/fx5mc.jpg" alt="Ortamlarda Satılacak Bilgi" />
             </div>
-            <div class="nq3qq-menu-name">
+            <div class="o179j-menu-name">
                 Ortamlarda Satılacak Bilgi
             </div>
         </a>
         <a href="/tr/hikayedenadamlar">
-            <div class="nq3qq-menu-img">
+            <div class="o179j-menu-img">
                 <img src="/page/i33lu60njh/yw4m3.jpg" alt="Hikayeden Adamlar" />
             </div>
-            <div class="nq3qq-menu-name">
+            <div class="o179j-menu-name">
                 Hikayeden Adamlar
             </div>
         </a>
         <a href="/tr/kendineiyidavran">
-            <div class="nq3qq-menu-img">
+            <div class="o179j-menu-img">
                 <img src="/page/ev78z9eegd/w9ggw.jpg" alt="Kendine İyi Davran" />
             </div>
-            <div class="nq3qq-menu-name">
+            <div class="o179j-menu-name">
                 Kendine İyi Davran
             </div>
         </a>
         <a href="/tr/hicbirseytesadufdegil">
-            <div class="nq3qq-menu-img">
+            <div class="o179j-menu-img">
                 <img src="/page/yt5gwdj7nu/c21kn.jpg" alt="Hiçbir Şey Tesadüf Değil" />
             </div>
-            <div class="nq3qq-menu-name">
+            <div class="o179j-menu-name">
                 Hiçbir Şey Tesadüf Değil
             </div>
         </a>
         <a href="/tr/aklimdakalanlar">
-            <div class="nq3qq-menu-img">
+            <div class="o179j-menu-img">
                 <img src="/page/gjdtdl0f8q/o28ku.jpg" alt="Aklımda Kalanlar" />
             </div>
-            <div class="nq3qq-menu-name">
+            <div class="o179j-menu-name">
                 Aklımda Kalanlar
             </div>
         </a>
         <a href="/tr/terapistkoltugu">
-            <div class="nq3qq-menu-img">
+            <div class="o179j-menu-img">
                 <img src="/page/a5bgwinb2p/y02yv.jpg" alt="Terapist Koltuğu" />
             </div>
-            <div class="nq3qq-menu-name">
+            <div class="o179j-menu-name">
                 Terapist Koltuğu
             </div>
         </a></div>
@@ -196,7 +288,7 @@
     </li>
   </ul>
   <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/yayinakisi">Yayın Akışı</a></li><li class="menu__item"><a class="menu__link" href="/tr/podcastler">Podcastler</a></li><li class="menu__item"><a class="menu__link" href="/tr/yayincilar">Yayıncılar</a></li><li class="menu__item"><a class="menu__link" href="/tr/hakkimizda">Bilgilendirme</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
+    <li class="menu__item"><a class="menu__link" href="/tr">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/hakkimizda">Bilgilendirme</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim">İletişim</a></li>
   </ul>
   <p>VeRadyo 2025 cognite. &copy;</p>
 </footer>
@@ -206,7 +298,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=zyl06"></script>
-<script src="/src/cookie.js?v=zyl06"></script>
+<script type="text/javascript" src="/src/js.js?v=x0v0u"></script>
+<script src="/src/cookie.js?v=x0v0u"></script>
 
 </html>
