@@ -1,5 +1,5 @@
 
-  .xsti2 {
+  .g3nvb {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .xsti2titlebodylang {
+  .g3nvbtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .xsti2titlebodylang ul {
+  .g3nvbtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .xsti2titlebodylang ul a {
+  .g3nvbtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .xsti2titlebodylang ul a:hover {
+  .g3nvbtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .xsti2title {
+  .g3nvbtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .xsti2titlebody {
+  .g3nvbtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .xsti2body {
+  .g3nvbbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .xsti2menu {
+  .g3nvbmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .xsti2menulist {
+  .g3nvbmenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .xsti2menulist ul {
+  .g3nvbmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .xsti2menulist ul a {
+  .g3nvbmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .xsti2menulist ul a:hover {
+  .g3nvbmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .xsti2-menu-active {
+  .g3nvb-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .xsti2menucontact {
+  .g3nvbmenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .xsti2menucontact * {
+  .g3nvbmenucontact * {
     color: #fff;
   }
 
-  .xsti2menucontact:hover {
+  .g3nvbmenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .xsti2menucontacttitle {
+  .g3nvbmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .xsti2menulistbody {
+  .g3nvbmenulistbody {
     width: 100%;
   }
 
@@ -453,7 +453,7 @@
   }
 
 
-  .sliderxp3zp5body {
+  .sliderxzmkyrbody {
     width: 100%;
     display: flex;
     align-items: center;
@@ -461,7 +461,7 @@
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
   }
-  .sliderxp3zp5 {
+  .sliderxzmkyr {
     width: calc(var(--max) - 40px);
     display: flex;
     background-color: #f9f9f9;
@@ -472,10 +472,10 @@
     transition: transform 0.3s ease-in-out;
     background-color: #004e92;
   }
-  .sliderxp3zp5:hover {
+  .sliderxzmkyr:hover {
     transform: translateY(-5px);
   }
-  .sliderxp3zp5title {
+  .sliderxzmkyrtitle {
     width: 60%;
     font-size: 28px;
     padding-right: 15px;
@@ -486,28 +486,28 @@
     justify-content: center;
     border-right: 2px solid #fff;
   }
-  .p3zp5 {
+  .zmkyr {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
   }
-  .p3zp5-media {
+  .zmkyr-media {
     width: 75px;
     height: 75px;
     border-radius: 8px;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
   }
-  .p3zp5-media:hover {
+  .zmkyr-media:hover {
     transform: scale(1.2);
   }
   @media screen and (max-width: 1200px) {
-    .sliderxp3zp5 {
+    .sliderxzmkyr {
       width: calc(var(--max) - 100px) !important;
     }
-    .p3zp5-media {
+    .zmkyr-media {
       width: 60px;
       height: 60px;
     }

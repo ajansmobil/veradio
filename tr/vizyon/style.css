@@ -1,5 +1,5 @@
 
-  .hzq8a {
+  .ngc3s {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .hzq8atitlebodylang {
+  .ngc3stitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .hzq8atitlebodylang ul {
+  .ngc3stitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .hzq8atitlebodylang ul a {
+  .ngc3stitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .hzq8atitlebodylang ul a:hover {
+  .ngc3stitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .hzq8atitle {
+  .ngc3stitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .hzq8atitlebody {
+  .ngc3stitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .hzq8abody {
+  .ngc3sbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .hzq8amenu {
+  .ngc3smenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .hzq8amenulist {
+  .ngc3smenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .hzq8amenulist ul {
+  .ngc3smenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .hzq8amenulist ul a {
+  .ngc3smenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .hzq8amenulist ul a:hover {
+  .ngc3smenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .hzq8a-menu-active {
+  .ngc3s-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .hzq8amenucontact {
+  .ngc3smenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .hzq8amenucontact * {
+  .ngc3smenucontact * {
     color: #fff;
   }
 
-  .hzq8amenucontact:hover {
+  .ngc3smenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .hzq8amenucontacttitle {
+  .ngc3smenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .hzq8amenulistbody {
+  .ngc3smenulistbody {
     width: 100%;
   }
 
@@ -456,13 +456,13 @@
   #content {
     justify-content: start;
   }
-  .mfxid {
+  .y2cjy {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .mfxid-menu {
+  .y2cjy-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -472,7 +472,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .mfxid-menu > a {
+  .y2cjy-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -480,18 +480,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .mfxid-menu > a:hover,
-  .mfxid-menu > .active {
+  .y2cjy-menu > a:hover,
+  .y2cjy-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .mfxid-body {
+  .y2cjy-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .mfxid-title {
+  .y2cjy-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -503,7 +503,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .mfxid-title::before {
+  .y2cjy-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -517,21 +517,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .mfxid-title span {
+  .y2cjy-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .mfxid {
+    .y2cjy {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .mfxid-menu {
+    .y2cjy-menu {
       display: none;
     }
-    .mfxid-body {
+    .y2cjy-body {
       width: 100%;
     }
   }

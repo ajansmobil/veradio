@@ -1,5 +1,5 @@
 
-  .acbw4 {
+  .rjbcu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .acbw4titlebodylang {
+  .rjbcutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .acbw4titlebodylang ul {
+  .rjbcutitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .acbw4titlebodylang ul a {
+  .rjbcutitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .acbw4titlebodylang ul a:hover {
+  .rjbcutitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .acbw4title {
+  .rjbcutitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .acbw4titlebody {
+  .rjbcutitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .acbw4body {
+  .rjbcubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .acbw4menu {
+  .rjbcumenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .acbw4menulist {
+  .rjbcumenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .acbw4menulist ul {
+  .rjbcumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .acbw4menulist ul a {
+  .rjbcumenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .acbw4menulist ul a:hover {
+  .rjbcumenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .acbw4-menu-active {
+  .rjbcu-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .acbw4menucontact {
+  .rjbcumenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .acbw4menucontact * {
+  .rjbcumenucontact * {
     color: #fff;
   }
 
-  .acbw4menucontact:hover {
+  .rjbcumenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .acbw4menucontacttitle {
+  .rjbcumenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .acbw4menulistbody {
+  .rjbcumenulistbody {
     width: 100%;
   }
 
@@ -453,21 +453,21 @@
   }
 
 
-  .nnyfa-container {
+  .ibnmr-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .nnyfa-header {
+  .ibnmr-header {
     margin-bottom: 30px;
   }
 
-  .nnyfa-title {
+  .ibnmr-title {
     margin-bottom: 15px;
   }
 
-  .nnyfa-title h1 {
+  .ibnmr-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -475,13 +475,13 @@
     color: var(--text-color);
   }
 
-  .nnyfa-spot {
+  .ibnmr-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .nnyfa-date {
+  .ibnmr-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -489,47 +489,47 @@
     font-size: 14px;
   }
 
-  .nnyfa-date i {
+  .ibnmr-date i {
     font-size: 18px;
   }
 
-  .nnyfa-content {
+  .ibnmr-content {
     display: flex;
     gap: 30px;
   }
 
-  .nnyfa-main {
+  .ibnmr-main {
     flex: 1;
   }
 
-  .nnyfa-img {
+  .ibnmr-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .nnyfa-img img {
+  .ibnmr-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .nnyfa-body {
+  .ibnmr-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .nnyfa-body p {
+  .ibnmr-body p {
     margin-bottom: 20px;
   }
 
-  .nnyfa-sidebar {
+  .ibnmr-sidebar {
     width: 300px;
   }
 
-  .nnyfa-sidebar h3 {
+  .ibnmr-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -537,65 +537,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .nnyfa-menu {
+  .ibnmr-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .nnyfa-menu a {
+  .ibnmr-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .nnyfa-menu a:hover {
+  .ibnmr-menu a:hover {
     transform: translateX(5px);
   }
 
-  .nnyfa-menu-img {
+  .ibnmr-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .nnyfa-menu-img img {
+  .ibnmr-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .nnyfa-menu-name {
+  .ibnmr-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .nnyfa-container {
+    .ibnmr-container {
       width: 100%;
       padding: 15px;
     }
 
-    .nnyfa-content {
+    .ibnmr-content {
       flex-direction: column;
     }
 
-    .nnyfa-sidebar {
+    .ibnmr-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .nnyfa-title h1 {
+    .ibnmr-title h1 {
       font-size: 28px;
     }
 
-    .nnyfa-spot {
+    .ibnmr-spot {
       font-size: 16px;
     }
 
-    .nnyfa-menu {
+    .ibnmr-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

@@ -1,5 +1,5 @@
 
-  .wh3s7 {
+  .jglvz {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .wh3s7titlebodylang {
+  .jglvztitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wh3s7titlebodylang ul {
+  .jglvztitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .wh3s7titlebodylang ul a {
+  .jglvztitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .wh3s7titlebodylang ul a:hover {
+  .jglvztitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .wh3s7title {
+  .jglvztitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .wh3s7titlebody {
+  .jglvztitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wh3s7body {
+  .jglvzbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .wh3s7menu {
+  .jglvzmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .wh3s7menulist {
+  .jglvzmenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .wh3s7menulist ul {
+  .jglvzmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .wh3s7menulist ul a {
+  .jglvzmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .wh3s7menulist ul a:hover {
+  .jglvzmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .wh3s7-menu-active {
+  .jglvz-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .wh3s7menucontact {
+  .jglvzmenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .wh3s7menucontact * {
+  .jglvzmenucontact * {
     color: #fff;
   }
 
-  .wh3s7menucontact:hover {
+  .jglvzmenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .wh3s7menucontacttitle {
+  .jglvzmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .wh3s7menulistbody {
+  .jglvzmenulistbody {
     width: 100%;
   }
 
@@ -453,7 +453,7 @@
   }
 
 
-  .xkq99 {
+  .trfnn {
     width: 100%;
     height: 500px;
     flex: 1;
@@ -463,7 +463,7 @@
     margin-top: 20px;
   }
 
-  .xkq99-null {
+  .trfnn-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
@@ -471,11 +471,11 @@
     font-size: 14px;
   }
 
-  .xkq99-null:hover {
+  .trfnn-null:hover {
     color: #999;
   }
 
-  .xkq99-body {
+  .trfnn-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
@@ -483,13 +483,13 @@
     flex-direction: column;
   }
 
-  .xkq99-body-form {
+  .trfnn-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .xkq99-button {
+  .trfnn-button {
     padding: 10px;
     background-color: #1e3046;
     margin-top: 20px;
@@ -502,21 +502,21 @@
     cursor: pointer;
   }
 
-  .xkq99-login-menu {
+  .trfnn-login-menu {
     display: flex;
     gap: 2px;
   }
 
-  #xkq99-login-menu-left {
+  #trfnn-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
 
-  #xkq99-login-menu-right {
+  #trfnn-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
 
-  #xkq99-memberol {
+  #trfnn-memberol {
     display: none;
     flex-direction: column;
   }
@@ -543,7 +543,7 @@
     justify-content: center;
   }
 
-  .xkq99-login-menu>div {
+  .trfnn-login-menu>div {
     background-color: #1e3046;
     width: 100%;
     display: flex;
