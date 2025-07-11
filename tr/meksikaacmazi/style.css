@@ -1,5 +1,5 @@
 
-  .kpda3 {
+  .kijpr {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .kpda3titlebodylang {
+  .kijprtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .kpda3titlebodylang ul {
+  .kijprtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .kpda3titlebodylang ul a {
+  .kijprtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .kpda3titlebodylang ul a:hover {
+  .kijprtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .kpda3title {
+  .kijprtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .kpda3titlebody {
+  .kijprtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .kpda3body {
+  .kijprbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .kpda3menu {
+  .kijprmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .kpda3menulist {
+  .kijprmenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .kpda3menulist ul {
+  .kijprmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .kpda3menulist ul a {
+  .kijprmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .kpda3menulist ul a:hover {
+  .kijprmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .kpda3-menu-active {
+  .kijpr-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .kpda3menucontact {
+  .kijprmenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .kpda3menucontact * {
+  .kijprmenucontact * {
     color: #fff;
   }
 
-  .kpda3menucontact:hover {
+  .kijprmenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .kpda3menucontacttitle {
+  .kijprmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .kpda3menulistbody {
+  .kijprmenulistbody {
     width: 100%;
   }
 
@@ -174,7 +174,7 @@
   }
 
   .freq {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #ff6b6b;
   }
@@ -202,8 +202,8 @@
   }
 
   .play-btn {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     border: none;
     border-radius: 50%;
@@ -453,21 +453,21 @@
   }
 
 
-  .o03aj-container {
+  .g9mnj-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .o03aj-header {
+  .g9mnj-header {
     margin-bottom: 30px;
   }
 
-  .o03aj-title {
+  .g9mnj-title {
     margin-bottom: 15px;
   }
 
-  .o03aj-title h1 {
+  .g9mnj-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -475,13 +475,13 @@
     color: var(--text-color);
   }
 
-  .o03aj-spot {
+  .g9mnj-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .o03aj-date {
+  .g9mnj-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -489,47 +489,47 @@
     font-size: 14px;
   }
 
-  .o03aj-date i {
+  .g9mnj-date i {
     font-size: 18px;
   }
 
-  .o03aj-content {
+  .g9mnj-content {
     display: flex;
     gap: 30px;
   }
 
-  .o03aj-main {
+  .g9mnj-main {
     flex: 1;
   }
 
-  .o03aj-img {
+  .g9mnj-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .o03aj-img img {
+  .g9mnj-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .o03aj-body {
+  .g9mnj-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .o03aj-body p {
+  .g9mnj-body p {
     margin-bottom: 20px;
   }
 
-  .o03aj-sidebar {
+  .g9mnj-sidebar {
     width: 300px;
   }
 
-  .o03aj-sidebar h3 {
+  .g9mnj-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -537,65 +537,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .o03aj-menu {
+  .g9mnj-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .o03aj-menu a {
+  .g9mnj-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .o03aj-menu a:hover {
+  .g9mnj-menu a:hover {
     transform: translateX(5px);
   }
 
-  .o03aj-menu-img {
+  .g9mnj-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .o03aj-menu-img img {
+  .g9mnj-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .o03aj-menu-name {
+  .g9mnj-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .o03aj-container {
+    .g9mnj-container {
       width: 100%;
       padding: 15px;
     }
 
-    .o03aj-content {
+    .g9mnj-content {
       flex-direction: column;
     }
 
-    .o03aj-sidebar {
+    .g9mnj-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .o03aj-title h1 {
+    .g9mnj-title h1 {
       font-size: 28px;
     }
 
-    .o03aj-spot {
+    .g9mnj-spot {
       font-size: 16px;
     }
 
-    .o03aj-menu {
+    .g9mnj-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

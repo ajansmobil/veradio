@@ -1,5 +1,5 @@
 
-  .u41me {
+  .lukva {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .u41metitlebodylang {
+  .lukvatitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .u41metitlebodylang ul {
+  .lukvatitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .u41metitlebodylang ul a {
+  .lukvatitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .u41metitlebodylang ul a:hover {
+  .lukvatitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .u41metitle {
+  .lukvatitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .u41metitlebody {
+  .lukvatitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .u41mebody {
+  .lukvabody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .u41memenu {
+  .lukvamenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .u41memenulist {
+  .lukvamenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .u41memenulist ul {
+  .lukvamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .u41memenulist ul a {
+  .lukvamenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .u41memenulist ul a:hover {
+  .lukvamenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .u41me-menu-active {
+  .lukva-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .u41memenucontact {
+  .lukvamenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .u41memenucontact * {
+  .lukvamenucontact * {
     color: #fff;
   }
 
-  .u41memenucontact:hover {
+  .lukvamenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .u41memenucontacttitle {
+  .lukvamenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .u41memenulistbody {
+  .lukvamenulistbody {
     width: 100%;
   }
 
@@ -174,7 +174,7 @@
   }
 
   .freq {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #ff6b6b;
   }
@@ -202,8 +202,8 @@
   }
 
   .play-btn {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     border: none;
     border-radius: 50%;
@@ -453,21 +453,21 @@
   }
 
 
-  .iclmu-container {
+  .i1gfs-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .iclmu-header {
+  .i1gfs-header {
     margin-bottom: 30px;
   }
 
-  .iclmu-title {
+  .i1gfs-title {
     margin-bottom: 15px;
   }
 
-  .iclmu-title h1 {
+  .i1gfs-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -475,13 +475,13 @@
     color: var(--text-color);
   }
 
-  .iclmu-spot {
+  .i1gfs-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .iclmu-date {
+  .i1gfs-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -489,47 +489,47 @@
     font-size: 14px;
   }
 
-  .iclmu-date i {
+  .i1gfs-date i {
     font-size: 18px;
   }
 
-  .iclmu-content {
+  .i1gfs-content {
     display: flex;
     gap: 30px;
   }
 
-  .iclmu-main {
+  .i1gfs-main {
     flex: 1;
   }
 
-  .iclmu-img {
+  .i1gfs-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .iclmu-img img {
+  .i1gfs-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .iclmu-body {
+  .i1gfs-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .iclmu-body p {
+  .i1gfs-body p {
     margin-bottom: 20px;
   }
 
-  .iclmu-sidebar {
+  .i1gfs-sidebar {
     width: 300px;
   }
 
-  .iclmu-sidebar h3 {
+  .i1gfs-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -537,65 +537,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .iclmu-menu {
+  .i1gfs-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .iclmu-menu a {
+  .i1gfs-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .iclmu-menu a:hover {
+  .i1gfs-menu a:hover {
     transform: translateX(5px);
   }
 
-  .iclmu-menu-img {
+  .i1gfs-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .iclmu-menu-img img {
+  .i1gfs-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .iclmu-menu-name {
+  .i1gfs-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .iclmu-container {
+    .i1gfs-container {
       width: 100%;
       padding: 15px;
     }
 
-    .iclmu-content {
+    .i1gfs-content {
       flex-direction: column;
     }
 
-    .iclmu-sidebar {
+    .i1gfs-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .iclmu-title h1 {
+    .i1gfs-title h1 {
       font-size: 28px;
     }
 
-    .iclmu-spot {
+    .i1gfs-spot {
       font-size: 16px;
     }
 
-    .iclmu-menu {
+    .i1gfs-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

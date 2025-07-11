@@ -1,5 +1,5 @@
 
-  .tnqml {
+  .tx7ik {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .tnqmltitlebodylang {
+  .tx7iktitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tnqmltitlebodylang ul {
+  .tx7iktitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .tnqmltitlebodylang ul a {
+  .tx7iktitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .tnqmltitlebodylang ul a:hover {
+  .tx7iktitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .tnqmltitle {
+  .tx7iktitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .tnqmltitlebody {
+  .tx7iktitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tnqmlbody {
+  .tx7ikbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .tnqmlmenu {
+  .tx7ikmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .tnqmlmenulist {
+  .tx7ikmenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .tnqmlmenulist ul {
+  .tx7ikmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .tnqmlmenulist ul a {
+  .tx7ikmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .tnqmlmenulist ul a:hover {
+  .tx7ikmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .tnqml-menu-active {
+  .tx7ik-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .tnqmlmenucontact {
+  .tx7ikmenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .tnqmlmenucontact * {
+  .tx7ikmenucontact * {
     color: #fff;
   }
 
-  .tnqmlmenucontact:hover {
+  .tx7ikmenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .tnqmlmenucontacttitle {
+  .tx7ikmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .tnqmlmenulistbody {
+  .tx7ikmenulistbody {
     width: 100%;
   }
 
@@ -174,7 +174,7 @@
   }
 
   .freq {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #ff6b6b;
   }
@@ -202,8 +202,8 @@
   }
 
   .play-btn {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     border: none;
     border-radius: 50%;
@@ -453,21 +453,21 @@
   }
 
 
-  .tgcxo-container {
+  .c4vc6-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .tgcxo-header {
+  .c4vc6-header {
     margin-bottom: 30px;
   }
 
-  .tgcxo-title {
+  .c4vc6-title {
     margin-bottom: 15px;
   }
 
-  .tgcxo-title h1 {
+  .c4vc6-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -475,13 +475,13 @@
     color: var(--text-color);
   }
 
-  .tgcxo-spot {
+  .c4vc6-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .tgcxo-date {
+  .c4vc6-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -489,47 +489,47 @@
     font-size: 14px;
   }
 
-  .tgcxo-date i {
+  .c4vc6-date i {
     font-size: 18px;
   }
 
-  .tgcxo-content {
+  .c4vc6-content {
     display: flex;
     gap: 30px;
   }
 
-  .tgcxo-main {
+  .c4vc6-main {
     flex: 1;
   }
 
-  .tgcxo-img {
+  .c4vc6-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .tgcxo-img img {
+  .c4vc6-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .tgcxo-body {
+  .c4vc6-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .tgcxo-body p {
+  .c4vc6-body p {
     margin-bottom: 20px;
   }
 
-  .tgcxo-sidebar {
+  .c4vc6-sidebar {
     width: 300px;
   }
 
-  .tgcxo-sidebar h3 {
+  .c4vc6-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -537,65 +537,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .tgcxo-menu {
+  .c4vc6-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .tgcxo-menu a {
+  .c4vc6-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .tgcxo-menu a:hover {
+  .c4vc6-menu a:hover {
     transform: translateX(5px);
   }
 
-  .tgcxo-menu-img {
+  .c4vc6-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .tgcxo-menu-img img {
+  .c4vc6-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .tgcxo-menu-name {
+  .c4vc6-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .tgcxo-container {
+    .c4vc6-container {
       width: 100%;
       padding: 15px;
     }
 
-    .tgcxo-content {
+    .c4vc6-content {
       flex-direction: column;
     }
 
-    .tgcxo-sidebar {
+    .c4vc6-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .tgcxo-title h1 {
+    .c4vc6-title h1 {
       font-size: 28px;
     }
 
-    .tgcxo-spot {
+    .c4vc6-spot {
       font-size: 16px;
     }
 
-    .tgcxo-menu {
+    .c4vc6-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

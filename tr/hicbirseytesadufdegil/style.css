@@ -1,5 +1,5 @@
 
-  .ys2hb {
+  .meroo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .ys2hbtitlebodylang {
+  .merootitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ys2hbtitlebodylang ul {
+  .merootitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ys2hbtitlebodylang ul a {
+  .merootitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .ys2hbtitlebodylang ul a:hover {
+  .merootitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .ys2hbtitle {
+  .merootitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .ys2hbtitlebody {
+  .merootitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ys2hbbody {
+  .meroobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ys2hbmenu {
+  .meroomenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .ys2hbmenulist {
+  .meroomenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .ys2hbmenulist ul {
+  .meroomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .ys2hbmenulist ul a {
+  .meroomenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .ys2hbmenulist ul a:hover {
+  .meroomenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .ys2hb-menu-active {
+  .meroo-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .ys2hbmenucontact {
+  .meroomenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .ys2hbmenucontact * {
+  .meroomenucontact * {
     color: #fff;
   }
 
-  .ys2hbmenucontact:hover {
+  .meroomenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .ys2hbmenucontacttitle {
+  .meroomenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .ys2hbmenulistbody {
+  .meroomenulistbody {
     width: 100%;
   }
 
@@ -174,7 +174,7 @@
   }
 
   .freq {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #ff6b6b;
   }
@@ -202,8 +202,8 @@
   }
 
   .play-btn {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     border: none;
     border-radius: 50%;
@@ -453,21 +453,21 @@
   }
 
 
-  .zpfhv-container {
+  .re2n0-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .zpfhv-header {
+  .re2n0-header {
     margin-bottom: 30px;
   }
 
-  .zpfhv-title {
+  .re2n0-title {
     margin-bottom: 15px;
   }
 
-  .zpfhv-title h1 {
+  .re2n0-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -475,13 +475,13 @@
     color: var(--text-color);
   }
 
-  .zpfhv-spot {
+  .re2n0-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .zpfhv-date {
+  .re2n0-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -489,47 +489,47 @@
     font-size: 14px;
   }
 
-  .zpfhv-date i {
+  .re2n0-date i {
     font-size: 18px;
   }
 
-  .zpfhv-content {
+  .re2n0-content {
     display: flex;
     gap: 30px;
   }
 
-  .zpfhv-main {
+  .re2n0-main {
     flex: 1;
   }
 
-  .zpfhv-img {
+  .re2n0-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .zpfhv-img img {
+  .re2n0-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .zpfhv-body {
+  .re2n0-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .zpfhv-body p {
+  .re2n0-body p {
     margin-bottom: 20px;
   }
 
-  .zpfhv-sidebar {
+  .re2n0-sidebar {
     width: 300px;
   }
 
-  .zpfhv-sidebar h3 {
+  .re2n0-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -537,65 +537,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .zpfhv-menu {
+  .re2n0-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .zpfhv-menu a {
+  .re2n0-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .zpfhv-menu a:hover {
+  .re2n0-menu a:hover {
     transform: translateX(5px);
   }
 
-  .zpfhv-menu-img {
+  .re2n0-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .zpfhv-menu-img img {
+  .re2n0-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .zpfhv-menu-name {
+  .re2n0-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .zpfhv-container {
+    .re2n0-container {
       width: 100%;
       padding: 15px;
     }
 
-    .zpfhv-content {
+    .re2n0-content {
       flex-direction: column;
     }
 
-    .zpfhv-sidebar {
+    .re2n0-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .zpfhv-title h1 {
+    .re2n0-title h1 {
       font-size: 28px;
     }
 
-    .zpfhv-spot {
+    .re2n0-spot {
       font-size: 16px;
     }
 
-    .zpfhv-menu {
+    .re2n0-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

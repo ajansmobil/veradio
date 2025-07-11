@@ -1,5 +1,5 @@
 
-  .d62k3 {
+  .bb03b {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .d62k3titlebodylang {
+  .bb03btitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .d62k3titlebodylang ul {
+  .bb03btitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .d62k3titlebodylang ul a {
+  .bb03btitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .d62k3titlebodylang ul a:hover {
+  .bb03btitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .d62k3title {
+  .bb03btitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .d62k3titlebody {
+  .bb03btitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .d62k3body {
+  .bb03bbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .d62k3menu {
+  .bb03bmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .d62k3menulist {
+  .bb03bmenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .d62k3menulist ul {
+  .bb03bmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .d62k3menulist ul a {
+  .bb03bmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .d62k3menulist ul a:hover {
+  .bb03bmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .d62k3-menu-active {
+  .bb03b-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .d62k3menucontact {
+  .bb03bmenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .d62k3menucontact * {
+  .bb03bmenucontact * {
     color: #fff;
   }
 
-  .d62k3menucontact:hover {
+  .bb03bmenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .d62k3menucontacttitle {
+  .bb03bmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .d62k3menulistbody {
+  .bb03bmenulistbody {
     width: 100%;
   }
 
@@ -174,7 +174,7 @@
   }
 
   .freq {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #ff6b6b;
   }
@@ -202,8 +202,8 @@
   }
 
   .play-btn {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     border: none;
     border-radius: 50%;
@@ -453,7 +453,7 @@
   }
 
 
-  .sliderxjol5ibody {
+  .sliderxzlfsbbody {
     width: 100%;
     display: flex;
     align-items: center;
@@ -461,7 +461,7 @@
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
   }
-  .sliderxjol5i {
+  .sliderxzlfsb {
     width: calc(var(--max) - 40px);
     display: flex;
     background-color: #f9f9f9;
@@ -472,10 +472,10 @@
     transition: transform 0.3s ease-in-out;
     background-color: #004e92;
   }
-  .sliderxjol5i:hover {
+  .sliderxzlfsb:hover {
     transform: translateY(-5px);
   }
-  .sliderxjol5ititle {
+  .sliderxzlfsbtitle {
     width: 60%;
     font-size: 28px;
     padding-right: 15px;
@@ -486,28 +486,28 @@
     justify-content: center;
     border-right: 2px solid #fff;
   }
-  .jol5i {
+  .zlfsb {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
   }
-  .jol5i-media {
+  .zlfsb-media {
     width: 75px;
     height: 75px;
     border-radius: 8px;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
   }
-  .jol5i-media:hover {
+  .zlfsb-media:hover {
     transform: scale(1.2);
   }
   @media screen and (max-width: 1200px) {
-    .sliderxjol5i {
+    .sliderxzlfsb {
       width: calc(var(--max) - 100px) !important;
     }
-    .jol5i-media {
+    .zlfsb-media {
       width: 60px;
       height: 60px;
     }

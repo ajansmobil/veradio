@@ -1,5 +1,5 @@
 
-  .jikio {
+  .ulvr1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .jikiotitlebodylang {
+  .ulvr1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .jikiotitlebodylang ul {
+  .ulvr1titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .jikiotitlebodylang ul a {
+  .ulvr1titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .jikiotitlebodylang ul a:hover {
+  .ulvr1titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .jikiotitle {
+  .ulvr1title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .jikiotitlebody {
+  .ulvr1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .jikiobody {
+  .ulvr1body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .jikiomenu {
+  .ulvr1menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .jikiomenulist {
+  .ulvr1menulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .jikiomenulist ul {
+  .ulvr1menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .jikiomenulist ul a {
+  .ulvr1menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .jikiomenulist ul a:hover {
+  .ulvr1menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .jikio-menu-active {
+  .ulvr1-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .jikiomenucontact {
+  .ulvr1menucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .jikiomenucontact * {
+  .ulvr1menucontact * {
     color: #fff;
   }
 
-  .jikiomenucontact:hover {
+  .ulvr1menucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .jikiomenucontacttitle {
+  .ulvr1menucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .jikiomenulistbody {
+  .ulvr1menulistbody {
     width: 100%;
   }
 
@@ -174,7 +174,7 @@
   }
 
   .freq {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #ff6b6b;
   }
@@ -202,8 +202,8 @@
   }
 
   .play-btn {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     border: none;
     border-radius: 50%;
@@ -453,21 +453,21 @@
   }
 
 
-  .oci8q-container {
+  .rgx7b-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .oci8q-header {
+  .rgx7b-header {
     margin-bottom: 30px;
   }
 
-  .oci8q-title {
+  .rgx7b-title {
     margin-bottom: 15px;
   }
 
-  .oci8q-title h1 {
+  .rgx7b-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -475,13 +475,13 @@
     color: var(--text-color);
   }
 
-  .oci8q-spot {
+  .rgx7b-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .oci8q-date {
+  .rgx7b-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -489,47 +489,47 @@
     font-size: 14px;
   }
 
-  .oci8q-date i {
+  .rgx7b-date i {
     font-size: 18px;
   }
 
-  .oci8q-content {
+  .rgx7b-content {
     display: flex;
     gap: 30px;
   }
 
-  .oci8q-main {
+  .rgx7b-main {
     flex: 1;
   }
 
-  .oci8q-img {
+  .rgx7b-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .oci8q-img img {
+  .rgx7b-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .oci8q-body {
+  .rgx7b-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .oci8q-body p {
+  .rgx7b-body p {
     margin-bottom: 20px;
   }
 
-  .oci8q-sidebar {
+  .rgx7b-sidebar {
     width: 300px;
   }
 
-  .oci8q-sidebar h3 {
+  .rgx7b-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -537,65 +537,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .oci8q-menu {
+  .rgx7b-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .oci8q-menu a {
+  .rgx7b-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .oci8q-menu a:hover {
+  .rgx7b-menu a:hover {
     transform: translateX(5px);
   }
 
-  .oci8q-menu-img {
+  .rgx7b-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .oci8q-menu-img img {
+  .rgx7b-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .oci8q-menu-name {
+  .rgx7b-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .oci8q-container {
+    .rgx7b-container {
       width: 100%;
       padding: 15px;
     }
 
-    .oci8q-content {
+    .rgx7b-content {
       flex-direction: column;
     }
 
-    .oci8q-sidebar {
+    .rgx7b-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .oci8q-title h1 {
+    .rgx7b-title h1 {
       font-size: 28px;
     }
 
-    .oci8q-spot {
+    .rgx7b-spot {
       font-size: 16px;
     }
 
-    .oci8q-menu {
+    .rgx7b-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;
