@@ -1,5 +1,5 @@
 
-  .zw467 {
+  .wvsgh {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .zw467titlebodylang {
+  .wvsghtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zw467titlebodylang ul {
+  .wvsghtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zw467titlebodylang ul a {
+  .wvsghtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .zw467titlebodylang ul a:hover {
+  .wvsghtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .zw467title {
+  .wvsghtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .zw467titlebody {
+  .wvsghtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zw467body {
+  .wvsghbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .zw467menu {
+  .wvsghmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .zw467menulist {
+  .wvsghmenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .zw467menulist ul {
+  .wvsghmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .zw467menulist ul a {
+  .wvsghmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .zw467menulist ul a:hover {
+  .wvsghmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .zw467-menu-active {
+  .wvsgh-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .zw467menucontact {
+  .wvsghmenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .zw467menucontact * {
+  .wvsghmenucontact * {
     color: #fff;
   }
 
-  .zw467menucontact:hover {
+  .wvsghmenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .zw467menucontacttitle {
+  .wvsghmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .zw467menulistbody {
+  .wvsghmenulistbody {
     width: 100%;
   }
 

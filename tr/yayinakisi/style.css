@@ -1,5 +1,5 @@
 
-  .jg7ni {
+  .ypj3m {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .jg7nititlebodylang {
+  .ypj3mtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .jg7nititlebodylang ul {
+  .ypj3mtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .jg7nititlebodylang ul a {
+  .ypj3mtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .jg7nititlebodylang ul a:hover {
+  .ypj3mtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .jg7nititle {
+  .ypj3mtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .jg7nititlebody {
+  .ypj3mtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .jg7nibody {
+  .ypj3mbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .jg7nimenu {
+  .ypj3mmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .jg7nimenulist {
+  .ypj3mmenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .jg7nimenulist ul {
+  .ypj3mmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .jg7nimenulist ul a {
+  .ypj3mmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .jg7nimenulist ul a:hover {
+  .ypj3mmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .jg7ni-menu-active {
+  .ypj3m-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .jg7nimenucontact {
+  .ypj3mmenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .jg7nimenucontact * {
+  .ypj3mmenucontact * {
     color: #fff;
   }
 
-  .jg7nimenucontact:hover {
+  .ypj3mmenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .jg7nimenucontacttitle {
+  .ypj3mmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .jg7nimenulistbody {
+  .ypj3mmenulistbody {
     width: 100%;
   }
 

@@ -1,5 +1,5 @@
 
-  .f9azp {
+  .wxg8z {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .f9azptitlebodylang {
+  .wxg8ztitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .f9azptitlebodylang ul {
+  .wxg8ztitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .f9azptitlebodylang ul a {
+  .wxg8ztitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .f9azptitlebodylang ul a:hover {
+  .wxg8ztitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .f9azptitle {
+  .wxg8ztitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .f9azptitlebody {
+  .wxg8ztitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .f9azpbody {
+  .wxg8zbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .f9azpmenu {
+  .wxg8zmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .f9azpmenulist {
+  .wxg8zmenulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .f9azpmenulist ul {
+  .wxg8zmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .f9azpmenulist ul a {
+  .wxg8zmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .f9azpmenulist ul a:hover {
+  .wxg8zmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .f9azp-menu-active {
+  .wxg8z-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .f9azpmenucontact {
+  .wxg8zmenucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .f9azpmenucontact * {
+  .wxg8zmenucontact * {
     color: #fff;
   }
 
-  .f9azpmenucontact:hover {
+  .wxg8zmenucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .f9azpmenucontacttitle {
+  .wxg8zmenucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .f9azpmenulistbody {
+  .wxg8zmenulistbody {
     width: 100%;
   }
 
@@ -453,7 +453,7 @@
   }
 
 
-  .y0d2x {
+  .mkn09 {
     width: 100%;
     height: 500px;
     flex: 1;
@@ -463,7 +463,7 @@
     margin-top: 20px;
   }
 
-  .y0d2x-null {
+  .mkn09-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
@@ -471,11 +471,11 @@
     font-size: 14px;
   }
 
-  .y0d2x-null:hover {
+  .mkn09-null:hover {
     color: #999;
   }
 
-  .y0d2x-body {
+  .mkn09-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
@@ -483,13 +483,13 @@
     flex-direction: column;
   }
 
-  .y0d2x-body-form {
+  .mkn09-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .y0d2x-button {
+  .mkn09-button {
     padding: 10px;
     background-color: #1e3046;
     margin-top: 20px;
@@ -502,21 +502,21 @@
     cursor: pointer;
   }
 
-  .y0d2x-login-menu {
+  .mkn09-login-menu {
     display: flex;
     gap: 2px;
   }
 
-  #y0d2x-login-menu-left {
+  #mkn09-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
 
-  #y0d2x-login-menu-right {
+  #mkn09-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
 
-  #y0d2x-memberol {
+  #mkn09-memberol {
     display: none;
     flex-direction: column;
   }
@@ -543,7 +543,7 @@
     justify-content: center;
   }
 
-  .y0d2x-login-menu>div {
+  .mkn09-login-menu>div {
     background-color: #1e3046;
     width: 100%;
     display: flex;
