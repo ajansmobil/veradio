@@ -1,5 +1,5 @@
 
-  .y5sp2 {
+  .wp520 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,17 +9,17 @@
     color: #333333;
   }
 
-  .y5sp2titlebodylang {
+  .wp520titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .y5sp2titlebodylang ul {
+  .wp520titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .y5sp2titlebodylang ul a {
+  .wp520titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -28,11 +28,11 @@
     transition: background 0.3s;
   }
 
-  .y5sp2titlebodylang ul a:hover {
+  .wp520titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .y5sp2title {
+  .wp520title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  .y5sp2titlebody {
+  .wp520titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .y5sp2body {
+  .wp520body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -56,14 +56,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .y5sp2menu {
+  .wp520menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .y5sp2menulist {
+  .wp520menulist {
     width: calc(100% - 20px);
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .y5sp2menulist ul {
+  .wp520menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .y5sp2menulist ul a {
+  .wp520menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .y5sp2menulist ul a:hover {
+  .wp520menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .y5sp2-menu-active {
+  .wp520-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .y5sp2menucontact {
+  .wp520menucontact {
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     display: flex;
     align-items: center;
@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .y5sp2menucontact * {
+  .wp520menucontact * {
     color: #fff;
   }
 
-  .y5sp2menucontact:hover {
+  .wp520menucontact:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
   }
 
-  .y5sp2menucontacttitle {
+  .wp520menucontacttitle {
     font-size: 16px;
     white-space: nowrap;
     overflow: hidden;
@@ -141,7 +141,7 @@
     font-weight: 600;
   }
 
-  .y5sp2menulistbody {
+  .wp520menulistbody {
     width: 100%;
   }
 
@@ -453,7 +453,7 @@
   }
 
 
-  .sliderxvh7z1body {
+  .sliderxazsa8body {
     width: 100%;
     display: flex;
     align-items: center;
@@ -461,7 +461,7 @@
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
   }
-  .sliderxvh7z1 {
+  .sliderxazsa8 {
     width: calc(var(--max) - 40px);
     display: flex;
     background-color: #f9f9f9;
@@ -472,10 +472,10 @@
     transition: transform 0.3s ease-in-out;
     background-color: #004e92;
   }
-  .sliderxvh7z1:hover {
+  .sliderxazsa8:hover {
     transform: translateY(-5px);
   }
-  .sliderxvh7z1title {
+  .sliderxazsa8title {
     width: 60%;
     font-size: 28px;
     padding-right: 15px;
@@ -486,28 +486,28 @@
     justify-content: center;
     border-right: 2px solid #fff;
   }
-  .vh7z1 {
+  .azsa8 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
   }
-  .vh7z1-media {
+  .azsa8-media {
     width: 75px;
     height: 75px;
     border-radius: 8px;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
   }
-  .vh7z1-media:hover {
+  .azsa8-media:hover {
     transform: scale(1.2);
   }
   @media screen and (max-width: 1200px) {
-    .sliderxvh7z1 {
+    .sliderxazsa8 {
       width: calc(var(--max) - 100px) !important;
     }
-    .vh7z1-media {
+    .azsa8-media {
       width: 60px;
       height: 60px;
     }
