@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=ony9i" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ony9i" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=glj4c" />
+  <link rel="shortcut icon" href="/img/icon.png?v=glj4c" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=ony9i">
+<link rel="stylesheet" href="style.css?v=glj4c">
 </head>
 
 <body>
-  <div id="header"><div class="erl69">
-  <div class="erl69title">
-    <div class="erl69titlebody">
-      <div class="erl69titlebodylang">
+  <div id="header"><div class="rq06m">
+  <div class="rq06mtitle">
+    <div class="rq06mtitlebody">
+      <div class="rq06mtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,146 +39,150 @@
     </div>
   </div>
 
-  <div class="erl69body">
-    <a href="/tr/"><img src="/img/logo.svg?v=ony9i" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="rq06mbody">
+    <a href="/tr/"><img src="/img/logo.svg?v=glj4c" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="erl69menu">
-    <div class="erl69menulistbody">
-      <div class="erl69menulist">
+  <div class="rq06mmenu">
+    <div class="rq06mmenulistbody">
+      <div class="rq06mmenulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
       </div>
-    <!-- </div>
-    <a href="/tr/iletisim/" class="erl69menucontact">
-      <div class="erl69menucontacttitle">Bize Ulaşın</div>
+      <!-- </div>
+    <a href="/tr/iletisim/" class="rq06mmenucontact">
+      <div class="rq06mmenucontacttitle">Bize Ulaşın</div>
       <span class="material-symbols-outlined"> arrow_forward_ios </span>
     </a> -->
-  </div>
-</div>
-
-<div class="radio-top-bar">
-  <div class="radio-freq">
-    <span class="station">VeRadyo</span>
-    <span class="freq">90.0</span>
-    <span class="live-badge">CANLI</span>
-  </div>
-  <div class="radio-player-bar">
-    <button class="play-btn" id="playBtn">
-      <span class="material-symbols-outlined">play_arrow</span>
-    </button>
-    <div class="wave-anim" id="waveAnim">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
     </div>
-    <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
   </div>
-</div>
 
-<div class="radio-container">
-  <div class="chat-section">
-    <div class="chat-header">
-      <h3>Dinleyici Yorumları</h3>
-      <div class="online-indicator">
-        <span class="online-dot"></span>
-        <span>24 Online</span>
+  <div class="radio-top-bar">
+    <div class="radio-freq">
+      <span class="station">VeRadyo</span>
+      <span class="freq">90.0</span>
+      <span class="live-badge">CANLI</span>
+    </div>
+    <div class="radio-player-bar">
+
+      <div class="wave-anim" id="waveAnim">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <button class="play-btn" id="playBtn">
+        <span class="material-symbols-outlined">play_arrow</span>
+      </button>
+
+
+      <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
+    </div>
+  </div>
+
+  <div class="radio-container">
+    <div class="chat-section">
+      <div class="chat-header">
+        <h3>Dinleyici Yorumları</h3>
+        <div class="online-indicator">
+          <span class="online-dot"></span>
+          <span>24 Online</span>
+        </div>
+      </div>
+      <div id="messages" class="messages-youtube"></div>
+      <div class="messages-youtube-input">
+        <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="messages-youtube-input-input">
+        <button class="input-icon" id="sendBtn" type="button">
+          <span class="material-symbols-outlined">send</span>
+        </button>
       </div>
     </div>
-    <div id="messages" class="messages-youtube"></div>
-    <div class="messages-youtube-input">
-      <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="messages-youtube-input-input">
-      <button class="input-icon" id="sendBtn" type="button">
-        <span class="material-symbols-outlined">send</span>
-      </button>
-    </div>
   </div>
+
+  
+
+  <script>
+    const fakeMessages = [
+      { user: 'Ali', text: 'Selam, radyo harika!', avatar: 'https://i.pravatar.cc/40?u=ali' },
+      { user: 'Ayşe', text: 'Şarkı çok iyiymiş.', avatar: 'https://i.pravatar.cc/40?u=ayse' },
+      { user: 'Mehmet', text: 'Yorumlarınızı bekliyorum.', avatar: 'https://i.pravatar.cc/40?u=mehmet' },
+      { user: 'Zeynep', text: 'Sıradaki parça ne?', avatar: 'https://i.pravatar.cc/40?u=zeynep' },
+      { user: 'Can', text: 'Güzel yayın, elinize sağlık.', avatar: 'https://i.pravatar.cc/40?u=can' }
+    ];
+    let msgIndex = 0;
+    const messagesDiv = document.getElementById('messages');
+    const input = document.getElementById('msgInput');
+    const sendBtn = document.getElementById('sendBtn');
+    const playBtn = document.getElementById('playBtn');
+    const radioPlayer = document.getElementById('radioPlayer');
+    const waveAnim = document.getElementById('waveAnim');
+    let isPlaying = false;
+
+    function addMessage(user, text, avatar) {
+      const card = document.createElement('div');
+      card.classList.add('message-card');
+      const avatarDiv = document.createElement('div');
+      avatarDiv.classList.add('message-avatar');
+      avatarDiv.innerHTML = `<img src="${avatar}" alt="${user}">`;
+      const info = document.createElement('div');
+      info.classList.add('message-info');
+      const name = document.createElement('div');
+      name.classList.add('message-user');
+      name.textContent = user;
+      const messageText = document.createElement('div');
+      messageText.classList.add('message-text');
+      messageText.textContent = text;
+      info.appendChild(name);
+      info.appendChild(messageText);
+      card.appendChild(avatarDiv);
+      card.appendChild(info);
+      messagesDiv.appendChild(card);
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+    function showFakeMessages() {
+      messagesDiv.innerHTML = '';
+      fakeMessages.forEach(m => addMessage(m.user, m.text, m.avatar));
+    }
+
+    sendBtn.onclick = function () {
+      if (input.value.trim()) {
+        addMessage('Sen', input.value, 'https://i.pravatar.cc/40?u=sen');
+        input.value = '';
+      }
+    };
+    input.addEventListener('keypress', function (e) {
+      if (e.key === 'Enter' && input.value.trim()) {
+        addMessage('Sen', input.value, 'https://i.pravatar.cc/40?u=sen');
+        input.value = '';
+      }
+    });
+
+    playBtn.addEventListener('click', function () {
+      if (isPlaying) {
+        radioPlayer.pause();
+        playBtn.innerHTML = '<span class="material-symbols-outlined">play_arrow</span>';
+        waveAnim.classList.remove('playing');
+        isPlaying = false;
+      } else {
+        radioPlayer.play();
+        playBtn.innerHTML = '<span class="material-symbols-outlined">pause</span>';
+        waveAnim.classList.add('playing');
+        isPlaying = true;
+      }
+    });
+
+    showFakeMessages();
+  </script>
 </div>
-
-
-
-<script>
-  const fakeMessages = [
-    { user: 'Ali', text: 'Selam, radyo harika!', avatar: 'https://i.pravatar.cc/40?u=ali' },
-    { user: 'Ayşe', text: 'Şarkı çok iyiymiş.', avatar: 'https://i.pravatar.cc/40?u=ayse' },
-    { user: 'Mehmet', text: 'Yorumlarınızı bekliyorum.', avatar: 'https://i.pravatar.cc/40?u=mehmet' },
-    { user: 'Zeynep', text: 'Sıradaki parça ne?', avatar: 'https://i.pravatar.cc/40?u=zeynep' },
-    { user: 'Can', text: 'Güzel yayın, elinize sağlık.', avatar: 'https://i.pravatar.cc/40?u=can' }
-  ];
-  let msgIndex = 0;
-  const messagesDiv = document.getElementById('messages');
-  const input = document.getElementById('msgInput');
-  const sendBtn = document.getElementById('sendBtn');
-  const playBtn = document.getElementById('playBtn');
-  const radioPlayer = document.getElementById('radioPlayer');
-  const waveAnim = document.getElementById('waveAnim');
-  let isPlaying = false;
-
-  function addMessage(user, text, avatar) {
-    const card = document.createElement('div');
-    card.classList.add('message-card');
-    const avatarDiv = document.createElement('div');
-    avatarDiv.classList.add('message-avatar');
-    avatarDiv.innerHTML = `<img src="${avatar}" alt="${user}">`;
-    const info = document.createElement('div');
-    info.classList.add('message-info');
-    const name = document.createElement('div');
-    name.classList.add('message-user');
-    name.textContent = user;
-    const messageText = document.createElement('div');
-    messageText.classList.add('message-text');
-    messageText.textContent = text;
-    info.appendChild(name);
-    info.appendChild(messageText);
-    card.appendChild(avatarDiv);
-    card.appendChild(info);
-    messagesDiv.appendChild(card);
-    messagesDiv.scrollTop = messagesDiv.scrollHeight;
-  }
-
-  function showFakeMessages() {
-    messagesDiv.innerHTML = '';
-    fakeMessages.forEach(m => addMessage(m.user, m.text, m.avatar));
-  }
-
-  sendBtn.onclick = function () {
-    if (input.value.trim()) {
-      addMessage('Sen', input.value, 'https://i.pravatar.cc/40?u=sen');
-      input.value = '';
-    }
-  };
-  input.addEventListener('keypress', function (e) {
-    if (e.key === 'Enter' && input.value.trim()) {
-      addMessage('Sen', input.value, 'https://i.pravatar.cc/40?u=sen');
-      input.value = '';
-    }
-  });
-
-  playBtn.addEventListener('click', function () {
-    if (isPlaying) {
-      radioPlayer.pause();
-      playBtn.innerHTML = '<span class="material-symbols-outlined">play_arrow</span>';
-      waveAnim.classList.remove('playing');
-      isPlaying = false;
-    } else {
-      radioPlayer.play();
-      playBtn.innerHTML = '<span class="material-symbols-outlined">pause</span>';
-      waveAnim.classList.add('playing');
-      isPlaying = true;
-    }
-  });
-
-  showFakeMessages();
-</script>
-</div>
-  <div id="content"><div class="mga4q-title f36">
+  <div id="content"><div class="l10mp-title f36">
   <span>Vizyon</span>
 </div>
-<div class="mga4q">
-  <div class="mga4q-menu"><a   href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a class="active"  href="/tr/vizyon" >Vizyon</a><a   href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a   href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a   href="/tr/kullanicihaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
-  <div class="mga4q-body"><p><h2 style="font-size: 24px;">Vizyonumuz</h2><p style="font-size: 16px;">Vizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır. Sürekli gelişim ve yenilikle, sektörde öncü olmayı amaçlıyoruz.</p></p><br></div>
+<div class="l10mp">
+  <div class="l10mp-menu"><a   href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a class="active"  href="/tr/vizyon" >Vizyon</a><a   href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a   href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a   href="/tr/kullanicihaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
+  <div class="l10mp-body"><p><h2 style="font-size: 24px;">Vizyonumuz</h2><p style="font-size: 16px;">Vizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır. Sürekli gelişim ve yenilikle, sektörde öncü olmayı amaçlıyoruz.</p></p><br></div>
 </div>
 
 </div>
@@ -222,7 +226,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=ony9i"></script>
-<script src="/src/cookie.js?v=ony9i"></script>
+<script type="text/javascript" src="/src/js.js?v=glj4c"></script>
+<script src="/src/cookie.js?v=glj4c"></script>
 
 </html>

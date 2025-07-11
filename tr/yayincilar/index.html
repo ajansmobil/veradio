@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=wof64" />
-  <link rel="shortcut icon" href="/img/icon.png?v=wof64" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=cttl4" />
+  <link rel="shortcut icon" href="/img/icon.png?v=cttl4" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=wof64">
+<link rel="stylesheet" href="style.css?v=cttl4">
 </head>
 
 <body>
-  <div id="header"><div class="e9tdf">
-  <div class="e9tdftitle">
-    <div class="e9tdftitlebody">
-      <div class="e9tdftitlebodylang">
+  <div id="header"><div class="o54y8">
+  <div class="o54y8title">
+    <div class="o54y8titlebody">
+      <div class="o54y8titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,211 +39,215 @@
     </div>
   </div>
 
-  <div class="e9tdfbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=wof64" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="o54y8body">
+    <a href="/tr/"><img src="/img/logo.svg?v=cttl4" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="e9tdfmenu">
-    <div class="e9tdfmenulistbody">
-      <div class="e9tdfmenulist">
+  <div class="o54y8menu">
+    <div class="o54y8menulistbody">
+      <div class="o54y8menulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
       </div>
-    <!-- </div>
-    <a href="/tr/iletisim/" class="e9tdfmenucontact">
-      <div class="e9tdfmenucontacttitle">Bize Ulaşın</div>
+      <!-- </div>
+    <a href="/tr/iletisim/" class="o54y8menucontact">
+      <div class="o54y8menucontacttitle">Bize Ulaşın</div>
       <span class="material-symbols-outlined"> arrow_forward_ios </span>
     </a> -->
-  </div>
-</div>
-
-<div class="radio-top-bar">
-  <div class="radio-freq">
-    <span class="station">VeRadyo</span>
-    <span class="freq">90.0</span>
-    <span class="live-badge">CANLI</span>
-  </div>
-  <div class="radio-player-bar">
-    <button class="play-btn" id="playBtn">
-      <span class="material-symbols-outlined">play_arrow</span>
-    </button>
-    <div class="wave-anim" id="waveAnim">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
     </div>
-    <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
   </div>
-</div>
 
-<div class="radio-container">
-  <div class="chat-section">
-    <div class="chat-header">
-      <h3>Dinleyici Yorumları</h3>
-      <div class="online-indicator">
-        <span class="online-dot"></span>
-        <span>24 Online</span>
+  <div class="radio-top-bar">
+    <div class="radio-freq">
+      <span class="station">VeRadyo</span>
+      <span class="freq">90.0</span>
+      <span class="live-badge">CANLI</span>
+    </div>
+    <div class="radio-player-bar">
+
+      <div class="wave-anim" id="waveAnim">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <button class="play-btn" id="playBtn">
+        <span class="material-symbols-outlined">play_arrow</span>
+      </button>
+
+
+      <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
+    </div>
+  </div>
+
+  <div class="radio-container">
+    <div class="chat-section">
+      <div class="chat-header">
+        <h3>Dinleyici Yorumları</h3>
+        <div class="online-indicator">
+          <span class="online-dot"></span>
+          <span>24 Online</span>
+        </div>
+      </div>
+      <div id="messages" class="messages-youtube"></div>
+      <div class="messages-youtube-input">
+        <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="messages-youtube-input-input">
+        <button class="input-icon" id="sendBtn" type="button">
+          <span class="material-symbols-outlined">send</span>
+        </button>
       </div>
     </div>
-    <div id="messages" class="messages-youtube"></div>
-    <div class="messages-youtube-input">
-      <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="messages-youtube-input-input">
-      <button class="input-icon" id="sendBtn" type="button">
-        <span class="material-symbols-outlined">send</span>
-      </button>
-    </div>
   </div>
+
+  
+
+  <script>
+    const fakeMessages = [
+      { user: 'Ali', text: 'Selam, radyo harika!', avatar: 'https://i.pravatar.cc/40?u=ali' },
+      { user: 'Ayşe', text: 'Şarkı çok iyiymiş.', avatar: 'https://i.pravatar.cc/40?u=ayse' },
+      { user: 'Mehmet', text: 'Yorumlarınızı bekliyorum.', avatar: 'https://i.pravatar.cc/40?u=mehmet' },
+      { user: 'Zeynep', text: 'Sıradaki parça ne?', avatar: 'https://i.pravatar.cc/40?u=zeynep' },
+      { user: 'Can', text: 'Güzel yayın, elinize sağlık.', avatar: 'https://i.pravatar.cc/40?u=can' }
+    ];
+    let msgIndex = 0;
+    const messagesDiv = document.getElementById('messages');
+    const input = document.getElementById('msgInput');
+    const sendBtn = document.getElementById('sendBtn');
+    const playBtn = document.getElementById('playBtn');
+    const radioPlayer = document.getElementById('radioPlayer');
+    const waveAnim = document.getElementById('waveAnim');
+    let isPlaying = false;
+
+    function addMessage(user, text, avatar) {
+      const card = document.createElement('div');
+      card.classList.add('message-card');
+      const avatarDiv = document.createElement('div');
+      avatarDiv.classList.add('message-avatar');
+      avatarDiv.innerHTML = `<img src="${avatar}" alt="${user}">`;
+      const info = document.createElement('div');
+      info.classList.add('message-info');
+      const name = document.createElement('div');
+      name.classList.add('message-user');
+      name.textContent = user;
+      const messageText = document.createElement('div');
+      messageText.classList.add('message-text');
+      messageText.textContent = text;
+      info.appendChild(name);
+      info.appendChild(messageText);
+      card.appendChild(avatarDiv);
+      card.appendChild(info);
+      messagesDiv.appendChild(card);
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+    function showFakeMessages() {
+      messagesDiv.innerHTML = '';
+      fakeMessages.forEach(m => addMessage(m.user, m.text, m.avatar));
+    }
+
+    sendBtn.onclick = function () {
+      if (input.value.trim()) {
+        addMessage('Sen', input.value, 'https://i.pravatar.cc/40?u=sen');
+        input.value = '';
+      }
+    };
+    input.addEventListener('keypress', function (e) {
+      if (e.key === 'Enter' && input.value.trim()) {
+        addMessage('Sen', input.value, 'https://i.pravatar.cc/40?u=sen');
+        input.value = '';
+      }
+    });
+
+    playBtn.addEventListener('click', function () {
+      if (isPlaying) {
+        radioPlayer.pause();
+        playBtn.innerHTML = '<span class="material-symbols-outlined">play_arrow</span>';
+        waveAnim.classList.remove('playing');
+        isPlaying = false;
+      } else {
+        radioPlayer.play();
+        playBtn.innerHTML = '<span class="material-symbols-outlined">pause</span>';
+        waveAnim.classList.add('playing');
+        isPlaying = true;
+      }
+    });
+
+    showFakeMessages();
+  </script>
 </div>
-
-
-
-<script>
-  const fakeMessages = [
-    { user: 'Ali', text: 'Selam, radyo harika!', avatar: 'https://i.pravatar.cc/40?u=ali' },
-    { user: 'Ayşe', text: 'Şarkı çok iyiymiş.', avatar: 'https://i.pravatar.cc/40?u=ayse' },
-    { user: 'Mehmet', text: 'Yorumlarınızı bekliyorum.', avatar: 'https://i.pravatar.cc/40?u=mehmet' },
-    { user: 'Zeynep', text: 'Sıradaki parça ne?', avatar: 'https://i.pravatar.cc/40?u=zeynep' },
-    { user: 'Can', text: 'Güzel yayın, elinize sağlık.', avatar: 'https://i.pravatar.cc/40?u=can' }
-  ];
-  let msgIndex = 0;
-  const messagesDiv = document.getElementById('messages');
-  const input = document.getElementById('msgInput');
-  const sendBtn = document.getElementById('sendBtn');
-  const playBtn = document.getElementById('playBtn');
-  const radioPlayer = document.getElementById('radioPlayer');
-  const waveAnim = document.getElementById('waveAnim');
-  let isPlaying = false;
-
-  function addMessage(user, text, avatar) {
-    const card = document.createElement('div');
-    card.classList.add('message-card');
-    const avatarDiv = document.createElement('div');
-    avatarDiv.classList.add('message-avatar');
-    avatarDiv.innerHTML = `<img src="${avatar}" alt="${user}">`;
-    const info = document.createElement('div');
-    info.classList.add('message-info');
-    const name = document.createElement('div');
-    name.classList.add('message-user');
-    name.textContent = user;
-    const messageText = document.createElement('div');
-    messageText.classList.add('message-text');
-    messageText.textContent = text;
-    info.appendChild(name);
-    info.appendChild(messageText);
-    card.appendChild(avatarDiv);
-    card.appendChild(info);
-    messagesDiv.appendChild(card);
-    messagesDiv.scrollTop = messagesDiv.scrollHeight;
-  }
-
-  function showFakeMessages() {
-    messagesDiv.innerHTML = '';
-    fakeMessages.forEach(m => addMessage(m.user, m.text, m.avatar));
-  }
-
-  sendBtn.onclick = function () {
-    if (input.value.trim()) {
-      addMessage('Sen', input.value, 'https://i.pravatar.cc/40?u=sen');
-      input.value = '';
-    }
-  };
-  input.addEventListener('keypress', function (e) {
-    if (e.key === 'Enter' && input.value.trim()) {
-      addMessage('Sen', input.value, 'https://i.pravatar.cc/40?u=sen');
-      input.value = '';
-    }
-  });
-
-  playBtn.addEventListener('click', function () {
-    if (isPlaying) {
-      radioPlayer.pause();
-      playBtn.innerHTML = '<span class="material-symbols-outlined">play_arrow</span>';
-      waveAnim.classList.remove('playing');
-      isPlaying = false;
-    } else {
-      radioPlayer.play();
-      playBtn.innerHTML = '<span class="material-symbols-outlined">pause</span>';
-      waveAnim.classList.add('playing');
-      isPlaying = true;
-    }
-  });
-
-  showFakeMessages();
-</script>
-</div>
-  <div id="content"><div class="mfx01">
-  <div class="mfx01body">
-      <a href="/tr/elifcelik"  style="animation-delay: 0.3s;" class="mfx01bodyitems left" >
-        <div class="mfx01bodyitem lefts">
-        <div class="mfx01bodyitemimg">
+  <div id="content"><div class="yrkki">
+  <div class="yrkkibody">
+      <a href="/tr/elifcelik"  style="animation-delay: 0.3s;" class="yrkkibodyitems left" >
+        <div class="yrkkibodyitem lefts">
+        <div class="yrkkibodyitemimg">
           <img src="/page/pue0x6rnge/q1gh9.png" alt="Elif Çelik">
        </div>
-          <div class="mfx01bodyitemtitle">
+          <div class="yrkkibodyitemtitle">
           Elif Çelik</div>
         </div>
-        <div class="mfx01bodybg" style=" background-image: url('/page/pue0x6rnge/bg/undefined'); background-size: cover;
+        <div class="yrkkibodybg" style=" background-image: url('/page/pue0x6rnge/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/alevgevrek"  style="animation-delay: 0.6s;" class="mfx01bodyitems right" >
-        <div class="mfx01bodyitem rights">
-        <div class="mfx01bodyitemimg">
+      <a href="/tr/alevgevrek"  style="animation-delay: 0.6s;" class="yrkkibodyitems right" >
+        <div class="yrkkibodyitem rights">
+        <div class="yrkkibodyitemimg">
           <img src="/page/s3ci0g5vd5/emfd6.png" alt="Alev Gevrek">
        </div>
-          <div class="mfx01bodyitemtitle">
+          <div class="yrkkibodyitemtitle">
           Alev Gevrek</div>
         </div>
-        <div class="mfx01bodybg" style=" background-image: url('/page/s3ci0g5vd5/bg/undefined'); background-size: cover;
+        <div class="yrkkibodybg" style=" background-image: url('/page/s3ci0g5vd5/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/yunussevgane"  style="animation-delay: 0.8999999999999999s;" class="mfx01bodyitems left" >
-        <div class="mfx01bodyitem lefts">
-        <div class="mfx01bodyitemimg">
+      <a href="/tr/yunussevgane"  style="animation-delay: 0.8999999999999999s;" class="yrkkibodyitems left" >
+        <div class="yrkkibodyitem lefts">
+        <div class="yrkkibodyitemimg">
           <img src="/page/m258fnckje/wmang.jpeg" alt="Yunus Sevğane">
        </div>
-          <div class="mfx01bodyitemtitle">
+          <div class="yrkkibodyitemtitle">
           Yunus Sevğane</div>
         </div>
-        <div class="mfx01bodybg" style=" background-image: url('/page/m258fnckje/bg/undefined'); background-size: cover;
+        <div class="yrkkibodybg" style=" background-image: url('/page/m258fnckje/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/aylinozturk"  style="animation-delay: 1.2s;" class="mfx01bodyitems right" >
-        <div class="mfx01bodyitem rights">
-        <div class="mfx01bodyitemimg">
+      <a href="/tr/aylinozturk"  style="animation-delay: 1.2s;" class="yrkkibodyitems right" >
+        <div class="yrkkibodyitem rights">
+        <div class="yrkkibodyitemimg">
           <img src="/page/wbxb54cjix/oelcw.png" alt="Aylin Öztürk">
        </div>
-          <div class="mfx01bodyitemtitle">
+          <div class="yrkkibodyitemtitle">
           Aylin Öztürk</div>
         </div>
-        <div class="mfx01bodybg" style=" background-image: url('/page/wbxb54cjix/bg/undefined'); background-size: cover;
+        <div class="yrkkibodybg" style=" background-image: url('/page/wbxb54cjix/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/ersingulen"  style="animation-delay: 1.5s;" class="mfx01bodyitems left" >
-        <div class="mfx01bodyitem lefts">
-        <div class="mfx01bodyitemimg">
+      <a href="/tr/ersingulen"  style="animation-delay: 1.5s;" class="yrkkibodyitems left" >
+        <div class="yrkkibodyitem lefts">
+        <div class="yrkkibodyitemimg">
           <img src="/page/hno0t7iavp/jj1rv.jfif" alt="Ersin Gülen">
        </div>
-          <div class="mfx01bodyitemtitle">
+          <div class="yrkkibodyitemtitle">
           Ersin Gülen</div>
         </div>
-        <div class="mfx01bodybg" style=" background-image: url('/page/hno0t7iavp/bg/undefined'); background-size: cover;
+        <div class="yrkkibodybg" style=" background-image: url('/page/hno0t7iavp/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a>
-      <a href="/tr/hasankirik"  style="animation-delay: 1.8s;" class="mfx01bodyitems right" >
-        <div class="mfx01bodyitem rights">
-        <div class="mfx01bodyitemimg">
+      <a href="/tr/hasankirik"  style="animation-delay: 1.8s;" class="yrkkibodyitems right" >
+        <div class="yrkkibodyitem rights">
+        <div class="yrkkibodyitemimg">
           <img src="/page/ns62ut3zf6/achyn.jfif" alt="Hasan Kırık">
        </div>
-          <div class="mfx01bodyitemtitle">
+          <div class="yrkkibodyitemtitle">
           Hasan Kırık</div>
         </div>
-        <div class="mfx01bodybg" style=" background-image: url('/page/ns62ut3zf6/bg/undefined'); background-size: cover;
+        <div class="yrkkibodybg" style=" background-image: url('/page/ns62ut3zf6/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </a></div>
@@ -290,7 +294,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=wof64"></script>
-<script src="/src/cookie.js?v=wof64"></script>
+<script type="text/javascript" src="/src/js.js?v=cttl4"></script>
+<script src="/src/cookie.js?v=cttl4"></script>
 
 </html>
