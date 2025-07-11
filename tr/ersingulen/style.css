@@ -1,5 +1,5 @@
 
-    .iviri {
+    .z02k4 {
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -9,17 +9,17 @@
       color: #333333;
     }
 
-    .ivirititlebodylang {
+    .z02k4titlebodylang {
       width: auto;
       margin: -5px 0px -5px 0px;
     }
 
-    .ivirititlebodylang ul {
+    .z02k4titlebodylang ul {
       display: flex;
       gap: 5px;
     }
 
-    .ivirititlebodylang ul a {
+    .z02k4titlebodylang ul a {
       color: #333333;
       text-decoration: none;
       font-weight: 500;
@@ -28,11 +28,11 @@
       transition: background 0.3s;
     }
 
-    .ivirititlebodylang ul a:hover {
+    .z02k4titlebodylang ul a:hover {
       background: rgba(0, 0, 0, 0.1);
     }
 
-    .ivirititle {
+    .z02k4title {
       width: 100%;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       display: flex;
@@ -40,7 +40,7 @@
       justify-content: center;
     }
 
-    .ivirititlebody {
+    .z02k4titlebody {
       color: #fff;
       width: var(--max);
       display: flex;
@@ -48,7 +48,7 @@
       padding: 10px 0px 10px 0px;
     }
 
-    .iviribody {
+    .z02k4body {
       width: var(--max);
       display: flex;
       align-items: center;
@@ -56,14 +56,14 @@
       margin: 5px 0px 5px 0px;
     }
 
-    .ivirimenu {
+    .z02k4menu {
       display: flex;
       flex-direction: row;
       gap: 20px;
       width: var(--max);
     }
 
-    .ivirimenulist {
+    .z02k4menulist {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       padding: 15px;
       border-radius: 15px;
@@ -71,7 +71,7 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    .ivirimenulist ul {
+    .z02k4menulist ul {
       width: 100%;
       list-style-type: none;
       display: flex;
@@ -81,7 +81,7 @@
       overflow-x: auto;
     }
 
-    .ivirimenulist ul a {
+    .z02k4menulist ul a {
       padding: 12px 20px;
       font-size: 16px;
       color: #fff;
@@ -97,18 +97,18 @@
       font-weight: 500;
     }
 
-    .ivirimenulist ul a:hover {
+    .z02k4menulist ul a:hover {
       background: rgba(255, 255, 255, 0.2);
       transform: translateY(-2px);
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .iviri-menu-active {
+    .z02k4-menu-active {
       background: rgba(255, 255, 255, 0.3) !important;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .ivirimenucontact {
+    .z02k4menucontact {
       background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
       display: flex;
       align-items: center;
@@ -121,16 +121,16 @@
       text-decoration: none;
     }
 
-    .ivirimenucontact * {
+    .z02k4menucontact * {
       color: #fff;
     }
 
-    .ivirimenucontact:hover {
+    .z02k4menucontact:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
     }
 
-    .ivirimenucontacttitle {
+    .z02k4menucontacttitle {
       font-size: 16px;
       white-space: nowrap;
       overflow: hidden;
@@ -140,7 +140,7 @@
       font-weight: 600;
     }
 
-    .ivirimenulistbody {
+    .z02k4menulistbody {
       width: 100%;
     }
 

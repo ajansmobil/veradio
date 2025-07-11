@@ -1,5 +1,5 @@
 
-    .w2l8k {
+    .ndoln {
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -9,17 +9,17 @@
       color: #333333;
     }
 
-    .w2l8ktitlebodylang {
+    .ndolntitlebodylang {
       width: auto;
       margin: -5px 0px -5px 0px;
     }
 
-    .w2l8ktitlebodylang ul {
+    .ndolntitlebodylang ul {
       display: flex;
       gap: 5px;
     }
 
-    .w2l8ktitlebodylang ul a {
+    .ndolntitlebodylang ul a {
       color: #333333;
       text-decoration: none;
       font-weight: 500;
@@ -28,11 +28,11 @@
       transition: background 0.3s;
     }
 
-    .w2l8ktitlebodylang ul a:hover {
+    .ndolntitlebodylang ul a:hover {
       background: rgba(0, 0, 0, 0.1);
     }
 
-    .w2l8ktitle {
+    .ndolntitle {
       width: 100%;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       display: flex;
@@ -40,7 +40,7 @@
       justify-content: center;
     }
 
-    .w2l8ktitlebody {
+    .ndolntitlebody {
       color: #fff;
       width: var(--max);
       display: flex;
@@ -48,7 +48,7 @@
       padding: 10px 0px 10px 0px;
     }
 
-    .w2l8kbody {
+    .ndolnbody {
       width: var(--max);
       display: flex;
       align-items: center;
@@ -56,14 +56,14 @@
       margin: 5px 0px 5px 0px;
     }
 
-    .w2l8kmenu {
+    .ndolnmenu {
       display: flex;
       flex-direction: row;
       gap: 20px;
       width: var(--max);
     }
 
-    .w2l8kmenulist {
+    .ndolnmenulist {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       padding: 15px;
       border-radius: 15px;
@@ -71,7 +71,7 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    .w2l8kmenulist ul {
+    .ndolnmenulist ul {
       width: 100%;
       list-style-type: none;
       display: flex;
@@ -81,7 +81,7 @@
       overflow-x: auto;
     }
 
-    .w2l8kmenulist ul a {
+    .ndolnmenulist ul a {
       padding: 12px 20px;
       font-size: 16px;
       color: #fff;
@@ -97,18 +97,18 @@
       font-weight: 500;
     }
 
-    .w2l8kmenulist ul a:hover {
+    .ndolnmenulist ul a:hover {
       background: rgba(255, 255, 255, 0.2);
       transform: translateY(-2px);
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .w2l8k-menu-active {
+    .ndoln-menu-active {
       background: rgba(255, 255, 255, 0.3) !important;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .w2l8kmenucontact {
+    .ndolnmenucontact {
       background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
       display: flex;
       align-items: center;
@@ -121,16 +121,16 @@
       text-decoration: none;
     }
 
-    .w2l8kmenucontact * {
+    .ndolnmenucontact * {
       color: #fff;
     }
 
-    .w2l8kmenucontact:hover {
+    .ndolnmenucontact:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
     }
 
-    .w2l8kmenucontacttitle {
+    .ndolnmenucontacttitle {
       font-size: 16px;
       white-space: nowrap;
       overflow: hidden;
@@ -140,7 +140,7 @@
       font-weight: 600;
     }
 
-    .w2l8kmenulistbody {
+    .ndolnmenulistbody {
       width: 100%;
     }
 
@@ -452,7 +452,7 @@
     }
   
 
-  .fcah2 {
+  .ew9sm {
     width: 100%;
     height: 500px;
     flex: 1;
@@ -462,7 +462,7 @@
     margin-top: 20px;
   }
 
-  .fcah2-null {
+  .ew9sm-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
@@ -470,11 +470,11 @@
     font-size: 14px;
   }
 
-  .fcah2-null:hover {
+  .ew9sm-null:hover {
     color: #999;
   }
 
-  .fcah2-body {
+  .ew9sm-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
@@ -482,13 +482,13 @@
     flex-direction: column;
   }
 
-  .fcah2-body-form {
+  .ew9sm-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .fcah2-button {
+  .ew9sm-button {
     padding: 10px;
     background-color: #1e3046;
     margin-top: 20px;
@@ -501,21 +501,21 @@
     cursor: pointer;
   }
 
-  .fcah2-login-menu {
+  .ew9sm-login-menu {
     display: flex;
     gap: 2px;
   }
 
-  #fcah2-login-menu-left {
+  #ew9sm-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
 
-  #fcah2-login-menu-right {
+  #ew9sm-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
 
-  #fcah2-memberol {
+  #ew9sm-memberol {
     display: none;
     flex-direction: column;
   }
@@ -542,7 +542,7 @@
     justify-content: center;
   }
 
-  .fcah2-login-menu>div {
+  .ew9sm-login-menu>div {
     background-color: #1e3046;
     width: 100%;
     display: flex;

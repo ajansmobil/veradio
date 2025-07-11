@@ -1,5 +1,5 @@
 
-    .ga137 {
+    .yt0tz {
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -9,17 +9,17 @@
       color: #333333;
     }
 
-    .ga137titlebodylang {
+    .yt0tztitlebodylang {
       width: auto;
       margin: -5px 0px -5px 0px;
     }
 
-    .ga137titlebodylang ul {
+    .yt0tztitlebodylang ul {
       display: flex;
       gap: 5px;
     }
 
-    .ga137titlebodylang ul a {
+    .yt0tztitlebodylang ul a {
       color: #333333;
       text-decoration: none;
       font-weight: 500;
@@ -28,11 +28,11 @@
       transition: background 0.3s;
     }
 
-    .ga137titlebodylang ul a:hover {
+    .yt0tztitlebodylang ul a:hover {
       background: rgba(0, 0, 0, 0.1);
     }
 
-    .ga137title {
+    .yt0tztitle {
       width: 100%;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       display: flex;
@@ -40,7 +40,7 @@
       justify-content: center;
     }
 
-    .ga137titlebody {
+    .yt0tztitlebody {
       color: #fff;
       width: var(--max);
       display: flex;
@@ -48,7 +48,7 @@
       padding: 10px 0px 10px 0px;
     }
 
-    .ga137body {
+    .yt0tzbody {
       width: var(--max);
       display: flex;
       align-items: center;
@@ -56,14 +56,14 @@
       margin: 5px 0px 5px 0px;
     }
 
-    .ga137menu {
+    .yt0tzmenu {
       display: flex;
       flex-direction: row;
       gap: 20px;
       width: var(--max);
     }
 
-    .ga137menulist {
+    .yt0tzmenulist {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       padding: 15px;
       border-radius: 15px;
@@ -71,7 +71,7 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    .ga137menulist ul {
+    .yt0tzmenulist ul {
       width: 100%;
       list-style-type: none;
       display: flex;
@@ -81,7 +81,7 @@
       overflow-x: auto;
     }
 
-    .ga137menulist ul a {
+    .yt0tzmenulist ul a {
       padding: 12px 20px;
       font-size: 16px;
       color: #fff;
@@ -97,18 +97,18 @@
       font-weight: 500;
     }
 
-    .ga137menulist ul a:hover {
+    .yt0tzmenulist ul a:hover {
       background: rgba(255, 255, 255, 0.2);
       transform: translateY(-2px);
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .ga137-menu-active {
+    .yt0tz-menu-active {
       background: rgba(255, 255, 255, 0.3) !important;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .ga137menucontact {
+    .yt0tzmenucontact {
       background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
       display: flex;
       align-items: center;
@@ -121,16 +121,16 @@
       text-decoration: none;
     }
 
-    .ga137menucontact * {
+    .yt0tzmenucontact * {
       color: #fff;
     }
 
-    .ga137menucontact:hover {
+    .yt0tzmenucontact:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
     }
 
-    .ga137menucontacttitle {
+    .yt0tzmenucontacttitle {
       font-size: 16px;
       white-space: nowrap;
       overflow: hidden;
@@ -140,7 +140,7 @@
       font-weight: 600;
     }
 
-    .ga137menulistbody {
+    .yt0tzmenulistbody {
       width: 100%;
     }
 
@@ -455,13 +455,13 @@
   #content {
     justify-content: start;
   }
-  .b7uoz {
+  .h5h57 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .b7uoz-menu {
+  .h5h57-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -471,7 +471,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .b7uoz-menu > a {
+  .h5h57-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -479,18 +479,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .b7uoz-menu > a:hover,
-  .b7uoz-menu > .active {
+  .h5h57-menu > a:hover,
+  .h5h57-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .b7uoz-body {
+  .h5h57-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .b7uoz-title {
+  .h5h57-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -502,7 +502,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .b7uoz-title::before {
+  .h5h57-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -516,21 +516,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .b7uoz-title span {
+  .h5h57-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .b7uoz {
+    .h5h57 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .b7uoz-menu {
+    .h5h57-menu {
       display: none;
     }
-    .b7uoz-body {
+    .h5h57-body {
       width: 100%;
     }
   }

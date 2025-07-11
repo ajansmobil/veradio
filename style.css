@@ -1,5 +1,5 @@
 
-    .o9tn0 {
+    .up05l {
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -9,17 +9,17 @@
       color: #333333;
     }
 
-    .o9tn0titlebodylang {
+    .up05ltitlebodylang {
       width: auto;
       margin: -5px 0px -5px 0px;
     }
 
-    .o9tn0titlebodylang ul {
+    .up05ltitlebodylang ul {
       display: flex;
       gap: 5px;
     }
 
-    .o9tn0titlebodylang ul a {
+    .up05ltitlebodylang ul a {
       color: #333333;
       text-decoration: none;
       font-weight: 500;
@@ -28,11 +28,11 @@
       transition: background 0.3s;
     }
 
-    .o9tn0titlebodylang ul a:hover {
+    .up05ltitlebodylang ul a:hover {
       background: rgba(0, 0, 0, 0.1);
     }
 
-    .o9tn0title {
+    .up05ltitle {
       width: 100%;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       display: flex;
@@ -40,7 +40,7 @@
       justify-content: center;
     }
 
-    .o9tn0titlebody {
+    .up05ltitlebody {
       color: #fff;
       width: var(--max);
       display: flex;
@@ -48,7 +48,7 @@
       padding: 10px 0px 10px 0px;
     }
 
-    .o9tn0body {
+    .up05lbody {
       width: var(--max);
       display: flex;
       align-items: center;
@@ -56,14 +56,14 @@
       margin: 5px 0px 5px 0px;
     }
 
-    .o9tn0menu {
+    .up05lmenu {
       display: flex;
       flex-direction: row;
       gap: 20px;
       width: var(--max);
     }
 
-    .o9tn0menulist {
+    .up05lmenulist {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       padding: 15px;
       border-radius: 15px;
@@ -71,7 +71,7 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    .o9tn0menulist ul {
+    .up05lmenulist ul {
       width: 100%;
       list-style-type: none;
       display: flex;
@@ -81,7 +81,7 @@
       overflow-x: auto;
     }
 
-    .o9tn0menulist ul a {
+    .up05lmenulist ul a {
       padding: 12px 20px;
       font-size: 16px;
       color: #fff;
@@ -97,18 +97,18 @@
       font-weight: 500;
     }
 
-    .o9tn0menulist ul a:hover {
+    .up05lmenulist ul a:hover {
       background: rgba(255, 255, 255, 0.2);
       transform: translateY(-2px);
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .o9tn0-menu-active {
+    .up05l-menu-active {
       background: rgba(255, 255, 255, 0.3) !important;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .o9tn0menucontact {
+    .up05lmenucontact {
       background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
       display: flex;
       align-items: center;
@@ -121,16 +121,16 @@
       text-decoration: none;
     }
 
-    .o9tn0menucontact * {
+    .up05lmenucontact * {
       color: #fff;
     }
 
-    .o9tn0menucontact:hover {
+    .up05lmenucontact:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
     }
 
-    .o9tn0menucontacttitle {
+    .up05lmenucontacttitle {
       font-size: 16px;
       white-space: nowrap;
       overflow: hidden;
@@ -140,7 +140,7 @@
       font-weight: 600;
     }
 
-    .o9tn0menulistbody {
+    .up05lmenulistbody {
       width: 100%;
     }
 
@@ -452,7 +452,7 @@
     }
   
 
-  .sliderxwj5ohbody {
+  .sliderxrc23ubody {
     width: 100%;
     display: flex;
     align-items: center;
@@ -460,7 +460,7 @@
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
   }
-  .sliderxwj5oh {
+  .sliderxrc23u {
     width: calc(var(--max) - 40px);
     display: flex;
     background-color: #f9f9f9;
@@ -471,10 +471,10 @@
     transition: transform 0.3s ease-in-out;
     background-color: #004e92;
   }
-  .sliderxwj5oh:hover {
+  .sliderxrc23u:hover {
     transform: translateY(-5px);
   }
-  .sliderxwj5ohtitle {
+  .sliderxrc23utitle {
     width: 60%;
     font-size: 28px;
     padding-right: 15px;
@@ -485,28 +485,28 @@
     justify-content: center;
     border-right: 2px solid #fff;
   }
-  .wj5oh {
+  .rc23u {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
   }
-  .wj5oh-media {
+  .rc23u-media {
     width: 75px;
     height: 75px;
     border-radius: 8px;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
   }
-  .wj5oh-media:hover {
+  .rc23u-media:hover {
     transform: scale(1.2);
   }
   @media screen and (max-width: 1200px) {
-    .sliderxwj5oh {
+    .sliderxrc23u {
       width: calc(var(--max) - 100px) !important;
     }
-    .wj5oh-media {
+    .rc23u-media {
       width: 60px;
       height: 60px;
     }

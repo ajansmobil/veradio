@@ -1,5 +1,5 @@
 
-    .tw5mo {
+    .ibv9c {
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -9,17 +9,17 @@
       color: #333333;
     }
 
-    .tw5motitlebodylang {
+    .ibv9ctitlebodylang {
       width: auto;
       margin: -5px 0px -5px 0px;
     }
 
-    .tw5motitlebodylang ul {
+    .ibv9ctitlebodylang ul {
       display: flex;
       gap: 5px;
     }
 
-    .tw5motitlebodylang ul a {
+    .ibv9ctitlebodylang ul a {
       color: #333333;
       text-decoration: none;
       font-weight: 500;
@@ -28,11 +28,11 @@
       transition: background 0.3s;
     }
 
-    .tw5motitlebodylang ul a:hover {
+    .ibv9ctitlebodylang ul a:hover {
       background: rgba(0, 0, 0, 0.1);
     }
 
-    .tw5motitle {
+    .ibv9ctitle {
       width: 100%;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       display: flex;
@@ -40,7 +40,7 @@
       justify-content: center;
     }
 
-    .tw5motitlebody {
+    .ibv9ctitlebody {
       color: #fff;
       width: var(--max);
       display: flex;
@@ -48,7 +48,7 @@
       padding: 10px 0px 10px 0px;
     }
 
-    .tw5mobody {
+    .ibv9cbody {
       width: var(--max);
       display: flex;
       align-items: center;
@@ -56,14 +56,14 @@
       margin: 5px 0px 5px 0px;
     }
 
-    .tw5momenu {
+    .ibv9cmenu {
       display: flex;
       flex-direction: row;
       gap: 20px;
       width: var(--max);
     }
 
-    .tw5momenulist {
+    .ibv9cmenulist {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       padding: 15px;
       border-radius: 15px;
@@ -71,7 +71,7 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    .tw5momenulist ul {
+    .ibv9cmenulist ul {
       width: 100%;
       list-style-type: none;
       display: flex;
@@ -81,7 +81,7 @@
       overflow-x: auto;
     }
 
-    .tw5momenulist ul a {
+    .ibv9cmenulist ul a {
       padding: 12px 20px;
       font-size: 16px;
       color: #fff;
@@ -97,18 +97,18 @@
       font-weight: 500;
     }
 
-    .tw5momenulist ul a:hover {
+    .ibv9cmenulist ul a:hover {
       background: rgba(255, 255, 255, 0.2);
       transform: translateY(-2px);
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .tw5mo-menu-active {
+    .ibv9c-menu-active {
       background: rgba(255, 255, 255, 0.3) !important;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .tw5momenucontact {
+    .ibv9cmenucontact {
       background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
       display: flex;
       align-items: center;
@@ -121,16 +121,16 @@
       text-decoration: none;
     }
 
-    .tw5momenucontact * {
+    .ibv9cmenucontact * {
       color: #fff;
     }
 
-    .tw5momenucontact:hover {
+    .ibv9cmenucontact:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
     }
 
-    .tw5momenucontacttitle {
+    .ibv9cmenucontacttitle {
       font-size: 16px;
       white-space: nowrap;
       overflow: hidden;
@@ -140,7 +140,7 @@
       font-weight: 600;
     }
 
-    .tw5momenulistbody {
+    .ibv9cmenulistbody {
       width: 100%;
     }
 

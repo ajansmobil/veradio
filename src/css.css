@@ -79,6 +79,10 @@ body {
   .mobil-closed {
     display: none !important;
   }
+
+  #content {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1024px) {
   :root {

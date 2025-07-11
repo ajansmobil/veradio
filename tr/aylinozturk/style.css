@@ -1,5 +1,5 @@
 
-    .tqc19 {
+    .bmdnb {
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -9,17 +9,17 @@
       color: #333333;
     }
 
-    .tqc19titlebodylang {
+    .bmdnbtitlebodylang {
       width: auto;
       margin: -5px 0px -5px 0px;
     }
 
-    .tqc19titlebodylang ul {
+    .bmdnbtitlebodylang ul {
       display: flex;
       gap: 5px;
     }
 
-    .tqc19titlebodylang ul a {
+    .bmdnbtitlebodylang ul a {
       color: #333333;
       text-decoration: none;
       font-weight: 500;
@@ -28,11 +28,11 @@
       transition: background 0.3s;
     }
 
-    .tqc19titlebodylang ul a:hover {
+    .bmdnbtitlebodylang ul a:hover {
       background: rgba(0, 0, 0, 0.1);
     }
 
-    .tqc19title {
+    .bmdnbtitle {
       width: 100%;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       display: flex;
@@ -40,7 +40,7 @@
       justify-content: center;
     }
 
-    .tqc19titlebody {
+    .bmdnbtitlebody {
       color: #fff;
       width: var(--max);
       display: flex;
@@ -48,7 +48,7 @@
       padding: 10px 0px 10px 0px;
     }
 
-    .tqc19body {
+    .bmdnbbody {
       width: var(--max);
       display: flex;
       align-items: center;
@@ -56,14 +56,14 @@
       margin: 5px 0px 5px 0px;
     }
 
-    .tqc19menu {
+    .bmdnbmenu {
       display: flex;
       flex-direction: row;
       gap: 20px;
       width: var(--max);
     }
 
-    .tqc19menulist {
+    .bmdnbmenulist {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       padding: 15px;
       border-radius: 15px;
@@ -71,7 +71,7 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
-    .tqc19menulist ul {
+    .bmdnbmenulist ul {
       width: 100%;
       list-style-type: none;
       display: flex;
@@ -81,7 +81,7 @@
       overflow-x: auto;
     }
 
-    .tqc19menulist ul a {
+    .bmdnbmenulist ul a {
       padding: 12px 20px;
       font-size: 16px;
       color: #fff;
@@ -97,18 +97,18 @@
       font-weight: 500;
     }
 
-    .tqc19menulist ul a:hover {
+    .bmdnbmenulist ul a:hover {
       background: rgba(255, 255, 255, 0.2);
       transform: translateY(-2px);
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .tqc19-menu-active {
+    .bmdnb-menu-active {
       background: rgba(255, 255, 255, 0.3) !important;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
-    .tqc19menucontact {
+    .bmdnbmenucontact {
       background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
       display: flex;
       align-items: center;
@@ -121,16 +121,16 @@
       text-decoration: none;
     }
 
-    .tqc19menucontact * {
+    .bmdnbmenucontact * {
       color: #fff;
     }
 
-    .tqc19menucontact:hover {
+    .bmdnbmenucontact:hover {
       transform: translateY(-2px);
       box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
     }
 
-    .tqc19menucontacttitle {
+    .bmdnbmenucontacttitle {
       font-size: 16px;
       white-space: nowrap;
       overflow: hidden;
@@ -140,7 +140,7 @@
       font-weight: 600;
     }
 
-    .tqc19menulistbody {
+    .bmdnbmenulistbody {
       width: 100%;
     }
 
