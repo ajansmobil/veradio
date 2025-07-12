@@ -1,5 +1,5 @@
 
-  .mxyeh {
+  .l1b2w {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,17 +10,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .mxyehtitlebodylang {
+  .l1b2wtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .mxyehtitlebodylang ul {
+  .l1b2wtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .mxyehtitlebodylang ul a {
+  .l1b2wtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -29,11 +29,11 @@
     transition: background 0.3s;
   }
 
-  .mxyehtitlebodylang ul a:hover {
+  .l1b2wtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .mxyehtitle {
+  .l1b2wtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -41,7 +41,7 @@
     justify-content: center;
   }
 
-  .mxyehtitlebody {
+  .l1b2wtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -49,7 +49,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .mxyehbody {
+  .l1b2wbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -57,14 +57,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .mxyehmenu {
+  .l1b2wmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .mxyehmenulist {
+  .l1b2wmenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .mxyehmenulist ul {
+  .l1b2wmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .mxyehmenulist ul a {
+  .l1b2wmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .mxyehmenulist ul a:hover {
+  .l1b2wmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .mxyeh-menu-active {
+  .l1b2w-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .mxyehmenulistbody {
+  .l1b2wmenulistbody {
     width: 100%;
   }
 

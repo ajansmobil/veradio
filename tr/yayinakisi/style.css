@@ -1,5 +1,5 @@
 
-  .cysg6 {
+  .ycab6 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,17 +10,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .cysg6titlebodylang {
+  .ycab6titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .cysg6titlebodylang ul {
+  .ycab6titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .cysg6titlebodylang ul a {
+  .ycab6titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -29,11 +29,11 @@
     transition: background 0.3s;
   }
 
-  .cysg6titlebodylang ul a:hover {
+  .ycab6titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .cysg6title {
+  .ycab6title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -41,7 +41,7 @@
     justify-content: center;
   }
 
-  .cysg6titlebody {
+  .ycab6titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -49,7 +49,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .cysg6body {
+  .ycab6body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -57,14 +57,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .cysg6menu {
+  .ycab6menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .cysg6menulist {
+  .ycab6menulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .cysg6menulist ul {
+  .ycab6menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .cysg6menulist ul a {
+  .ycab6menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .cysg6menulist ul a:hover {
+  .ycab6menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .cysg6-menu-active {
+  .ycab6-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .cysg6menulistbody {
+  .ycab6menulistbody {
     width: 100%;
   }
 

@@ -1,5 +1,5 @@
 
-  .raz6t {
+  .ozy1y {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,17 +10,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .raz6ttitlebodylang {
+  .ozy1ytitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .raz6ttitlebodylang ul {
+  .ozy1ytitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .raz6ttitlebodylang ul a {
+  .ozy1ytitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -29,11 +29,11 @@
     transition: background 0.3s;
   }
 
-  .raz6ttitlebodylang ul a:hover {
+  .ozy1ytitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .raz6ttitle {
+  .ozy1ytitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -41,7 +41,7 @@
     justify-content: center;
   }
 
-  .raz6ttitlebody {
+  .ozy1ytitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -49,7 +49,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .raz6tbody {
+  .ozy1ybody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -57,14 +57,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .raz6tmenu {
+  .ozy1ymenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .raz6tmenulist {
+  .ozy1ymenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .raz6tmenulist ul {
+  .ozy1ymenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .raz6tmenulist ul a {
+  .ozy1ymenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .raz6tmenulist ul a:hover {
+  .ozy1ymenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .raz6t-menu-active {
+  .ozy1y-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .raz6tmenulistbody {
+  .ozy1ymenulistbody {
     width: 100%;
   }
 

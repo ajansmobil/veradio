@@ -1,5 +1,5 @@
 
-  .qg6cs {
+  .f4ham {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,17 +10,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .qg6cstitlebodylang {
+  .f4hamtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qg6cstitlebodylang ul {
+  .f4hamtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qg6cstitlebodylang ul a {
+  .f4hamtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -29,11 +29,11 @@
     transition: background 0.3s;
   }
 
-  .qg6cstitlebodylang ul a:hover {
+  .f4hamtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .qg6cstitle {
+  .f4hamtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -41,7 +41,7 @@
     justify-content: center;
   }
 
-  .qg6cstitlebody {
+  .f4hamtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -49,7 +49,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qg6csbody {
+  .f4hambody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -57,14 +57,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .qg6csmenu {
+  .f4hammenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .qg6csmenulist {
+  .f4hammenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .qg6csmenulist ul {
+  .f4hammenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .qg6csmenulist ul a {
+  .f4hammenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .qg6csmenulist ul a:hover {
+  .f4hammenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .qg6cs-menu-active {
+  .f4ham-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .qg6csmenulistbody {
+  .f4hammenulistbody {
     width: 100%;
   }
 

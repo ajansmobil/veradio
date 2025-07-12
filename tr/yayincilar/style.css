@@ -1,5 +1,5 @@
 
-  .sqm62 {
+  .til5j {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,17 +10,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .sqm62titlebodylang {
+  .til5jtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .sqm62titlebodylang ul {
+  .til5jtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .sqm62titlebodylang ul a {
+  .til5jtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -29,11 +29,11 @@
     transition: background 0.3s;
   }
 
-  .sqm62titlebodylang ul a:hover {
+  .til5jtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .sqm62title {
+  .til5jtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -41,7 +41,7 @@
     justify-content: center;
   }
 
-  .sqm62titlebody {
+  .til5jtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -49,7 +49,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .sqm62body {
+  .til5jbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -57,14 +57,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .sqm62menu {
+  .til5jmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .sqm62menulist {
+  .til5jmenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .sqm62menulist ul {
+  .til5jmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .sqm62menulist ul a {
+  .til5jmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .sqm62menulist ul a:hover {
+  .til5jmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .sqm62-menu-active {
+  .til5j-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .sqm62menulistbody {
+  .til5jmenulistbody {
     width: 100%;
   }
 
@@ -246,16 +246,16 @@
   }
 
 
-  .ji842 {
+  .mp5ol {
     width: 100%;
     margin: 15px 0;
   }
-  .ji842body {
+  .mp5olbody {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
-  .ji842bodyitem {
+  .mp5olbodyitem {
     display: flex;
     padding: 10px;
     border-radius: 5px;
@@ -263,18 +263,18 @@
     gap: 5px;
     margin: 5px;
   }
-  .ji842bodyitemimg {
+  .mp5olbodyitemimg {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
     width: calc(200px * 2);
   }
-  .ji842bodyitemimg img {
+  .mp5olbodyitemimg img {
     max-height: 200px;
     max-width: 200px;
   }
-  .ji842bodyitemtitle {
+  .mp5olbodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     display: flex;
@@ -283,7 +283,7 @@
     font-size: 18px;
     color: #1e3046;
   }
-  .ji842bodybg {
+  .mp5olbodybg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -293,7 +293,7 @@
     border-radius: 5px;
     opacity: 0.5;
   }
-  .ji842bodyitems {
+  .mp5olbodyitems {
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -302,22 +302,22 @@
     opacity: 0;
     overflow: hidden;
   }
-  .ji842bodyitems.left {
+  .mp5olbodyitems.left {
     align-self: flex-start;
     border-radius: 0px 25px 25px 0px;
     transform: translateY(60px);
     animation: slideInLeft 1s forwards;
   }
-  .ji842bodyitems.right {
+  .mp5olbodyitems.right {
     align-self: flex-end;
     border-radius: 25px 0px 0px 25px;
     transform: translateY(60px);
     animation: slideInRight 1s forwards;
   }
-  .ji842bodyitem.lefts {
+  .mp5olbodyitem.lefts {
     align-self: flex-end;
   }
-  .ji842bodyitem.rights {
+  .mp5olbodyitem.rights {
     align-self: flex-start;
   }
   @keyframes slideInLeft {
@@ -340,7 +340,7 @@
       transform: translateX(0);
     }
   }
-  .ji842bodyitems {
+  .mp5olbodyitems {
     animation-delay: 0.3s;
     /* Adjust delay for staggered animation */
   }

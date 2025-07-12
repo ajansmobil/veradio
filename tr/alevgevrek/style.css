@@ -1,5 +1,5 @@
 
-  .lrhcn {
+  .lzvw5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,17 +10,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .lrhcntitlebodylang {
+  .lzvw5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .lrhcntitlebodylang ul {
+  .lzvw5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .lrhcntitlebodylang ul a {
+  .lzvw5titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -29,11 +29,11 @@
     transition: background 0.3s;
   }
 
-  .lrhcntitlebodylang ul a:hover {
+  .lzvw5titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .lrhcntitle {
+  .lzvw5title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -41,7 +41,7 @@
     justify-content: center;
   }
 
-  .lrhcntitlebody {
+  .lzvw5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -49,7 +49,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .lrhcnbody {
+  .lzvw5body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -57,14 +57,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .lrhcnmenu {
+  .lzvw5menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .lrhcnmenulist {
+  .lzvw5menulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -72,7 +72,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .lrhcnmenulist ul {
+  .lzvw5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +82,7 @@
     overflow-x: auto;
   }
 
-  .lrhcnmenulist ul a {
+  .lzvw5menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +98,18 @@
     font-weight: 500;
   }
 
-  .lrhcnmenulist ul a:hover {
+  .lzvw5menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .lrhcn-menu-active {
+  .lzvw5-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .lrhcnmenulistbody {
+  .lzvw5menulistbody {
     width: 100%;
   }
 
