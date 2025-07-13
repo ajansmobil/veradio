@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=j8c60" />
-  <link rel="shortcut icon" href="/img/icon.png?v=j8c60" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=h5uyk" />
+  <link rel="shortcut icon" href="/img/icon.png?v=h5uyk" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=j8c60">
+<link rel="stylesheet" href="style.css?v=h5uyk">
 </head>
 
 <body>
-  <div id="header"><div class="relhz">
-  <!-- <div class="relhztitle">
-    <div class="relhztitlebody">
-      <div class="relhztitlebodylang">
+  <div id="header"><div class="mxpbn">
+  <!-- <div class="mxpbntitle">
+    <div class="mxpbntitlebody">
+      <div class="mxpbntitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="relhzbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=j8c60" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="mxpbnbody">
+    <a href="/tr/"><img src="/img/logo.svg?v=h5uyk" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="relhzmenu">
-    <div class="relhzmenulistbody">
-      <div class="relhzmenulist">
+  <div class="mxpbnmenu">
+    <div class="mxpbnmenulistbody">
+      <div class="mxpbnmenulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -72,7 +72,7 @@
 
 
 
-<div class="menu-mobil-relhz">
+<div class="menu-mobil-mxpbn">
   <ul>
     <li>
       <span class="material-symbols-outlined">home</span>
@@ -92,8 +92,8 @@
     </li>
 
 
-    <li>
-      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+    <li  id="playBtn">
+      <span class="material-symbols-outlined">play_circle</span>
       <div>Canlı Yayın</div>
     </li>
 
@@ -139,12 +139,28 @@
         if (icon) {
           icon.textContent = isPlaying ? 'pause' : 'play_arrow';
         }
+
+        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
+        const mobileLi = btn.closest('li');
+        if (mobileLi) {
+          if (isPlaying) {
+            mobileLi.classList.add('active');
+          } else {
+            mobileLi.classList.remove('active');
+          }
+        }
       });
     }
 
     // Her iki butona da event listener ekle
     playBtns.forEach(btn => {
       btn.addEventListener('click', togglePlay);
+
+      // Mobil menüdeki li elementine de tıklama eventi ekle
+      const mobileLi = btn.closest('li');
+      if (mobileLi) {
+        mobileLi.addEventListener('click', togglePlay);
+      }
     });
 
     // Audio event listeners
@@ -166,12 +182,12 @@
   });
 </script>
 </div>
-  <div id="content"><div class="p7psj-title f36">
+  <div id="content"><div class="amv8l-title f36">
   <span>Gizlilik Politikası</span>
 </div>
-<div class="p7psj">
-  <div class="p7psj-menu"><a   href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a   href="/tr/vizyon" >Vizyon</a><a   href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a class="active"  href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a   href="/tr/kullanicihaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
-  <div class="p7psj-body"><p><h2 style="font-size: 24px;">Gizlilik Politikamız</h2></p><br>
+<div class="amv8l">
+  <div class="amv8l-menu"><a   href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a   href="/tr/vizyon" >Vizyon</a><a   href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a class="active"  href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a   href="/tr/kullanicihaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
+  <div class="amv8l-body"><p><h2 style="font-size: 24px;">Gizlilik Politikamız</h2></p><br>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Web sitemizi ziyaret ettiğinizde, sitemizi kullanımınızı ve sitemizde sunulan hizmetleri geliştirmek amacıyla çerezler (cookies) aracılığıyla bazı bilgiler toplanmaktadır. Bu bilgiler, kimlik bilgileriniz hariç olmak üzere, sitemizde yer alan hizmetlerin daha iyi sunulması ve kullanıcı deneyiminin iyileştirilmesi amacıyla kullanılmaktadır. Çerezler, kullanıcı tercihlerinizi hatırlamak, sitemizin işleyişini optimize etmek ve size daha iyi bir deneyim sunmak için kullanılmaktadır.</p>
 <p>    </p></p>
@@ -223,7 +239,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=j8c60"></script>
-<script src="/src/cookie.js?v=j8c60"></script>
+<script type="text/javascript" src="/src/js.js?v=h5uyk"></script>
+<script src="/src/cookie.js?v=h5uyk"></script>
 
 </html>

@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=s06pw" />
-  <link rel="shortcut icon" href="/img/icon.png?v=s06pw" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=fin39" />
+  <link rel="shortcut icon" href="/img/icon.png?v=fin39" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=s06pw">
+<link rel="stylesheet" href="style.css?v=fin39">
 </head>
 
 <body>
-  <div id="header"><div class="preeq">
-  <!-- <div class="preeqtitle">
-    <div class="preeqtitlebody">
-      <div class="preeqtitlebodylang">
+  <div id="header"><div class="o471x">
+  <!-- <div class="o471xtitle">
+    <div class="o471xtitlebody">
+      <div class="o471xtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="preeqbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=s06pw" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="o471xbody">
+    <a href="/tr/"><img src="/img/logo.svg?v=fin39" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="preeqmenu">
-    <div class="preeqmenulistbody">
-      <div class="preeqmenulist">
+  <div class="o471xmenu">
+    <div class="o471xmenulistbody">
+      <div class="o471xmenulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -72,7 +72,7 @@
 
 
 
-<div class="menu-mobil-preeq">
+<div class="menu-mobil-o471x">
   <ul>
     <li>
       <span class="material-symbols-outlined">home</span>
@@ -92,8 +92,8 @@
     </li>
 
 
-    <li>
-      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+    <li  id="playBtn">
+      <span class="material-symbols-outlined">play_circle</span>
       <div>Canlı Yayın</div>
     </li>
 
@@ -139,12 +139,28 @@
         if (icon) {
           icon.textContent = isPlaying ? 'pause' : 'play_arrow';
         }
+
+        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
+        const mobileLi = btn.closest('li');
+        if (mobileLi) {
+          if (isPlaying) {
+            mobileLi.classList.add('active');
+          } else {
+            mobileLi.classList.remove('active');
+          }
+        }
       });
     }
 
     // Her iki butona da event listener ekle
     playBtns.forEach(btn => {
       btn.addEventListener('click', togglePlay);
+
+      // Mobil menüdeki li elementine de tıklama eventi ekle
+      const mobileLi = btn.closest('li');
+      if (mobileLi) {
+        mobileLi.addEventListener('click', togglePlay);
+      }
     });
 
     // Audio event listeners
@@ -166,62 +182,62 @@
   });
 </script>
 </div>
-  <div id="content"><div class="s2zrj">
-  <div class="s2zrjbody"><a href="/tr/meksikaacmazi">
-        <div class="s2zrjbodyitem">
-          <div class="s2zrjbodyitemimg">
+  <div id="content"><div class="pe3wp">
+  <div class="pe3wpbody"><a href="/tr/meksikaacmazi">
+        <div class="pe3wpbodyitem">
+          <div class="pe3wpbodyitemimg">
             <img src="/page/j3iwbf2jnt/xo3rq.jpg" alt="Meksika Açmazı">
           </div>
-          <div class="s2zrjbodyitemtitle">Meksika Açmazı</div>
+          <div class="pe3wpbodyitemtitle">Meksika Açmazı</div>
         </div>
       </a><a href="/tr/ortamlardasatilacakbilgi">
-        <div class="s2zrjbodyitem">
-          <div class="s2zrjbodyitemimg">
+        <div class="pe3wpbodyitem">
+          <div class="pe3wpbodyitemimg">
             <img src="/page/j42ntw8wx5/fx5mc.jpg" alt="Ortamlarda Satılacak Bilgi">
           </div>
-          <div class="s2zrjbodyitemtitle">Ortamlarda Satılacak Bilgi</div>
+          <div class="pe3wpbodyitemtitle">Ortamlarda Satılacak Bilgi</div>
         </div>
       </a><a href="/tr/hikayedenadamlar">
-        <div class="s2zrjbodyitem">
-          <div class="s2zrjbodyitemimg">
+        <div class="pe3wpbodyitem">
+          <div class="pe3wpbodyitemimg">
             <img src="/page/i33lu60njh/yw4m3.jpg" alt="Hikayeden Adamlar">
           </div>
-          <div class="s2zrjbodyitemtitle">Hikayeden Adamlar</div>
+          <div class="pe3wpbodyitemtitle">Hikayeden Adamlar</div>
         </div>
       </a><a href="/tr/kendineiyidavran">
-        <div class="s2zrjbodyitem">
-          <div class="s2zrjbodyitemimg">
+        <div class="pe3wpbodyitem">
+          <div class="pe3wpbodyitemimg">
             <img src="/page/ev78z9eegd/w9ggw.jpg" alt="Kendine İyi Davran">
           </div>
-          <div class="s2zrjbodyitemtitle">Kendine İyi Davran</div>
+          <div class="pe3wpbodyitemtitle">Kendine İyi Davran</div>
         </div>
       </a><a href="/tr/haddiniasanyasamrehberi">
-        <div class="s2zrjbodyitem">
-          <div class="s2zrjbodyitemimg">
+        <div class="pe3wpbodyitem">
+          <div class="pe3wpbodyitemimg">
             <img src="/page/lg461es8td/l03dh.jpg" alt="Haddini Aşan Yaşam Rehberi">
           </div>
-          <div class="s2zrjbodyitemtitle">Haddini Aşan Yaşam Rehberi</div>
+          <div class="pe3wpbodyitemtitle">Haddini Aşan Yaşam Rehberi</div>
         </div>
       </a><a href="/tr/hicbirseytesadufdegil">
-        <div class="s2zrjbodyitem">
-          <div class="s2zrjbodyitemimg">
+        <div class="pe3wpbodyitem">
+          <div class="pe3wpbodyitemimg">
             <img src="/page/yt5gwdj7nu/c21kn.jpg" alt="Hiçbir Şey Tesadüf Değil">
           </div>
-          <div class="s2zrjbodyitemtitle">Hiçbir Şey Tesadüf Değil</div>
+          <div class="pe3wpbodyitemtitle">Hiçbir Şey Tesadüf Değil</div>
         </div>
       </a><a href="/tr/aklimdakalanlar">
-        <div class="s2zrjbodyitem">
-          <div class="s2zrjbodyitemimg">
+        <div class="pe3wpbodyitem">
+          <div class="pe3wpbodyitemimg">
             <img src="/page/gjdtdl0f8q/o28ku.jpg" alt="Aklımda Kalanlar">
           </div>
-          <div class="s2zrjbodyitemtitle">Aklımda Kalanlar</div>
+          <div class="pe3wpbodyitemtitle">Aklımda Kalanlar</div>
         </div>
       </a><a href="/tr/terapistkoltugu">
-        <div class="s2zrjbodyitem">
-          <div class="s2zrjbodyitemimg">
+        <div class="pe3wpbodyitem">
+          <div class="pe3wpbodyitemimg">
             <img src="/page/a5bgwinb2p/y02yv.jpg" alt="Terapist Koltuğu">
           </div>
-          <div class="s2zrjbodyitemtitle">Terapist Koltuğu</div>
+          <div class="pe3wpbodyitemtitle">Terapist Koltuğu</div>
         </div>
       </a></div>
 </div>
@@ -266,7 +282,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=s06pw"></script>
-<script src="/src/cookie.js?v=s06pw"></script>
+<script type="text/javascript" src="/src/js.js?v=fin39"></script>
+<script src="/src/cookie.js?v=fin39"></script>
 
 </html>

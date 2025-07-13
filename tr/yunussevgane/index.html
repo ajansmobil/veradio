@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/page/m258fnckje/wmang.jpeg" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=f92ee" />
-  <link rel="shortcut icon" href="/img/icon.png?v=f92ee" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=bfqs5" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bfqs5" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=f92ee">
+<link rel="stylesheet" href="style.css?v=bfqs5">
 </head>
 
 <body>
-  <div id="header"><div class="gyn01">
-  <!-- <div class="gyn01title">
-    <div class="gyn01titlebody">
-      <div class="gyn01titlebodylang">
+  <div id="header"><div class="x1il2">
+  <!-- <div class="x1il2title">
+    <div class="x1il2titlebody">
+      <div class="x1il2titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="gyn01body">
-    <a href="/tr/"><img src="/img/logo.svg?v=f92ee" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="x1il2body">
+    <a href="/tr/"><img src="/img/logo.svg?v=bfqs5" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="gyn01menu">
-    <div class="gyn01menulistbody">
-      <div class="gyn01menulist">
+  <div class="x1il2menu">
+    <div class="x1il2menulistbody">
+      <div class="x1il2menulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -72,7 +72,7 @@
 
 
 
-<div class="menu-mobil-gyn01">
+<div class="menu-mobil-x1il2">
   <ul>
     <li>
       <span class="material-symbols-outlined">home</span>
@@ -92,8 +92,8 @@
     </li>
 
 
-    <li>
-      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+    <li  id="playBtn">
+      <span class="material-symbols-outlined">play_circle</span>
       <div>Canlı Yayın</div>
     </li>
 
@@ -139,12 +139,28 @@
         if (icon) {
           icon.textContent = isPlaying ? 'pause' : 'play_arrow';
         }
+
+        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
+        const mobileLi = btn.closest('li');
+        if (mobileLi) {
+          if (isPlaying) {
+            mobileLi.classList.add('active');
+          } else {
+            mobileLi.classList.remove('active');
+          }
+        }
       });
     }
 
     // Her iki butona da event listener ekle
     playBtns.forEach(btn => {
       btn.addEventListener('click', togglePlay);
+
+      // Mobil menüdeki li elementine de tıklama eventi ekle
+      const mobileLi = btn.closest('li');
+      if (mobileLi) {
+        mobileLi.addEventListener('click', togglePlay);
+      }
     });
 
     // Audio event listeners
@@ -206,7 +222,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=f92ee"></script>
-<script src="/src/cookie.js?v=f92ee"></script>
+<script type="text/javascript" src="/src/js.js?v=bfqs5"></script>
+<script src="/src/cookie.js?v=bfqs5"></script>
 
 </html>

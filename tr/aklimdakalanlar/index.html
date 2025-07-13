@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/page/gjdtdl0f8q/o28ku.jpg" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=y9h2c" />
-  <link rel="shortcut icon" href="/img/icon.png?v=y9h2c" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=gcre2" />
+  <link rel="shortcut icon" href="/img/icon.png?v=gcre2" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=y9h2c">
+<link rel="stylesheet" href="style.css?v=gcre2">
 </head>
 
 <body>
-  <div id="header"><div class="d2j6n">
-  <!-- <div class="d2j6ntitle">
-    <div class="d2j6ntitlebody">
-      <div class="d2j6ntitlebodylang">
+  <div id="header"><div class="a6965">
+  <!-- <div class="a6965title">
+    <div class="a6965titlebody">
+      <div class="a6965titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="d2j6nbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=y9h2c" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="a6965body">
+    <a href="/tr/"><img src="/img/logo.svg?v=gcre2" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="d2j6nmenu">
-    <div class="d2j6nmenulistbody">
-      <div class="d2j6nmenulist">
+  <div class="a6965menu">
+    <div class="a6965menulistbody">
+      <div class="a6965menulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -72,7 +72,7 @@
 
 
 
-<div class="menu-mobil-d2j6n">
+<div class="menu-mobil-a6965">
   <ul>
     <li>
       <span class="material-symbols-outlined">home</span>
@@ -92,8 +92,8 @@
     </li>
 
 
-    <li>
-      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+    <li  id="playBtn">
+      <span class="material-symbols-outlined">play_circle</span>
       <div>Canlı Yayın</div>
     </li>
 
@@ -139,12 +139,28 @@
         if (icon) {
           icon.textContent = isPlaying ? 'pause' : 'play_arrow';
         }
+
+        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
+        const mobileLi = btn.closest('li');
+        if (mobileLi) {
+          if (isPlaying) {
+            mobileLi.classList.add('active');
+          } else {
+            mobileLi.classList.remove('active');
+          }
+        }
       });
     }
 
     // Her iki butona da event listener ekle
     playBtns.forEach(btn => {
       btn.addEventListener('click', togglePlay);
+
+      // Mobil menüdeki li elementine de tıklama eventi ekle
+      const mobileLi = btn.closest('li');
+      if (mobileLi) {
+        mobileLi.addEventListener('click', togglePlay);
+      }
     });
 
     // Audio event listeners
@@ -166,82 +182,82 @@
   });
 </script>
 </div>
-  <div id="content"><div class="buz1x-container">
-  <div class="buz1x-header">
-    <div class="buz1x-title">
+  <div id="content"><div class="w59xp-container">
+  <div class="w59xp-header">
+    <div class="w59xp-title">
       <h1>Aklımda Kalanlar</h1>
-      <p class="buz1x-spot"></p>
+      <p class="w59xp-spot"></p>
     </div>
-    <div class="buz1x-date">
+    <div class="w59xp-date">
       <i class="material-symbols-outlined">schedule</i>
       <span>9 Haziran 2025 17:25</span>
     </div>
   </div>
 
-  <div class="buz1x-content">
-    <div class="buz1x-main">
-      <div class="buz1x-img">
-        <img src="/page/gjdtdl0f8q/o28ku.jpg?v=y9h2c" alt="{{title}}" />
+  <div class="w59xp-content">
+    <div class="w59xp-main">
+      <div class="w59xp-img">
+        <img src="/page/gjdtdl0f8q/o28ku.jpg?v=gcre2" alt="{{title}}" />
       </div>
-      <div class="buz1x-body"><p></p></div>
+      <div class="w59xp-body"><p></p></div>
     </div>
 
-    <div class="buz1x-sidebar">
+    <div class="w59xp-sidebar">
       <h3>İlgili Haberler</h3>
-      <div class="buz1x-menu">
+      <div class="w59xp-menu">
         <a href="/tr/meksikaacmazi">
-            <div class="buz1x-menu-img">
+            <div class="w59xp-menu-img">
                 <img src="/page/j3iwbf2jnt/xo3rq.jpg" alt="Meksika Açmazı" />
             </div>
-            <div class="buz1x-menu-name">
+            <div class="w59xp-menu-name">
                 Meksika Açmazı
             </div>
         </a>
         <a href="/tr/ortamlardasatilacakbilgi">
-            <div class="buz1x-menu-img">
+            <div class="w59xp-menu-img">
                 <img src="/page/j42ntw8wx5/fx5mc.jpg" alt="Ortamlarda Satılacak Bilgi" />
             </div>
-            <div class="buz1x-menu-name">
+            <div class="w59xp-menu-name">
                 Ortamlarda Satılacak Bilgi
             </div>
         </a>
         <a href="/tr/hikayedenadamlar">
-            <div class="buz1x-menu-img">
+            <div class="w59xp-menu-img">
                 <img src="/page/i33lu60njh/yw4m3.jpg" alt="Hikayeden Adamlar" />
             </div>
-            <div class="buz1x-menu-name">
+            <div class="w59xp-menu-name">
                 Hikayeden Adamlar
             </div>
         </a>
         <a href="/tr/kendineiyidavran">
-            <div class="buz1x-menu-img">
+            <div class="w59xp-menu-img">
                 <img src="/page/ev78z9eegd/w9ggw.jpg" alt="Kendine İyi Davran" />
             </div>
-            <div class="buz1x-menu-name">
+            <div class="w59xp-menu-name">
                 Kendine İyi Davran
             </div>
         </a>
         <a href="/tr/haddiniasanyasamrehberi">
-            <div class="buz1x-menu-img">
+            <div class="w59xp-menu-img">
                 <img src="/page/lg461es8td/l03dh.jpg" alt="Haddini Aşan Yaşam Rehberi" />
             </div>
-            <div class="buz1x-menu-name">
+            <div class="w59xp-menu-name">
                 Haddini Aşan Yaşam Rehberi
             </div>
         </a>
         <a href="/tr/hicbirseytesadufdegil">
-            <div class="buz1x-menu-img">
+            <div class="w59xp-menu-img">
                 <img src="/page/yt5gwdj7nu/c21kn.jpg" alt="Hiçbir Şey Tesadüf Değil" />
             </div>
-            <div class="buz1x-menu-name">
+            <div class="w59xp-menu-name">
                 Hiçbir Şey Tesadüf Değil
             </div>
         </a>
         <a href="/tr/terapistkoltugu">
-            <div class="buz1x-menu-img">
+            <div class="w59xp-menu-img">
                 <img src="/page/a5bgwinb2p/y02yv.jpg" alt="Terapist Koltuğu" />
             </div>
-            <div class="buz1x-menu-name">
+            <div class="w59xp-menu-name">
                 Terapist Koltuğu
             </div>
         </a></div>
@@ -290,7 +306,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=y9h2c"></script>
-<script src="/src/cookie.js?v=y9h2c"></script>
+<script type="text/javascript" src="/src/js.js?v=gcre2"></script>
+<script src="/src/cookie.js?v=gcre2"></script>
 
 </html>

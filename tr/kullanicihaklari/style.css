@@ -1,5 +1,5 @@
 
-  .menu-mobil-snmxa {
+  .menu-mobil-t3wxr {
     display: none;
   }
 
@@ -7,7 +7,7 @@
   @media (max-width: 1024px) {
 
 
-    .menu-mobil-snmxa {
+    .menu-mobil-t3wxr {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -24,12 +24,12 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .snmxa {
+    .t3wxr {
       display: none;
     }
 
 
-    .menu-mobil-snmxa ul {
+    .menu-mobil-t3wxr ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -37,7 +37,7 @@
       width: 100%;
     }
 
-    .menu-mobil-snmxa ul li>* {
+    .menu-mobil-t3wxr ul li>* {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -45,7 +45,23 @@
       color: #fff;
     }
 
-    .snmxamenu {
+    .menu-mobil-t3wxr ul li {
+      cursor: pointer;
+      transition: all 0.3s ease;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+
+    .menu-mobil-t3wxr ul li:hover {
+      transform: scale(1.05);
+    }
+
+    .menu-mobil-t3wxr ul li.active {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+    }
+
+    .t3wxrmenu {
       display: none !important;
     }
 
@@ -62,7 +78,7 @@
 
 
 
-  .snmxa {
+  .t3wxr {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -73,17 +89,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .snmxatitlebodylang {
+  .t3wxrtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .snmxatitlebodylang ul {
+  .t3wxrtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .snmxatitlebodylang ul a {
+  .t3wxrtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -92,11 +108,11 @@
     transition: background 0.3s;
   }
 
-  .snmxatitlebodylang ul a:hover {
+  .t3wxrtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .snmxatitle {
+  .t3wxrtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -104,7 +120,7 @@
     justify-content: center;
   }
 
-  .snmxatitlebody {
+  .t3wxrtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -112,7 +128,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .snmxabody {
+  .t3wxrbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -120,14 +136,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .snmxamenu {
+  .t3wxrmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .snmxamenulist {
+  .t3wxrmenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -135,7 +151,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .snmxamenulist ul {
+  .t3wxrmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -145,7 +161,7 @@
     overflow-x: auto;
   }
 
-  .snmxamenulist ul a {
+  .t3wxrmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -161,18 +177,18 @@
     font-weight: 500;
   }
 
-  .snmxamenulist ul a:hover {
+  .t3wxrmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .snmxa-menu-active {
+  .t3wxr-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .snmxamenulistbody {
+  .t3wxrmenulistbody {
     width: 100%;
   }
 
@@ -265,13 +281,13 @@
   #content {
     justify-content: start;
   }
-  .ipx0o {
+  .pp2li {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ipx0o-menu {
+  .pp2li-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -281,7 +297,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ipx0o-menu > a {
+  .pp2li-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -289,18 +305,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ipx0o-menu > a:hover,
-  .ipx0o-menu > .active {
+  .pp2li-menu > a:hover,
+  .pp2li-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ipx0o-body {
+  .pp2li-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ipx0o-title {
+  .pp2li-title {
     width: 100%;
     height: 100px;
     background-color: #000;
@@ -312,7 +328,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ipx0o-title::before {
+  .pp2li-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -326,21 +342,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ipx0o-title span {
+  .pp2li-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ipx0o {
+    .pp2li {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ipx0o-menu {
+    .pp2li-menu {
       display: none;
     }
-    .ipx0o-body {
+    .pp2li-body {
       width: 100%;
     }
   }
@@ -348,7 +364,7 @@
 
   .footer {
     position: relative;
-    background: #667eea;
+    background: #ee5a24;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -412,7 +428,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23667eea;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23ee5a24;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
     background-size: 1000px 102px;
   }
 

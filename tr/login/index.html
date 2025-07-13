@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=x2sou" />
-  <link rel="shortcut icon" href="/img/icon.png?v=x2sou" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=o9o38" />
+  <link rel="shortcut icon" href="/img/icon.png?v=o9o38" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=x2sou">
+<link rel="stylesheet" href="style.css?v=o9o38">
 </head>
 
 <body>
-  <div id="header"><div class="ugo5l">
-  <!-- <div class="ugo5ltitle">
-    <div class="ugo5ltitlebody">
-      <div class="ugo5ltitlebodylang">
+  <div id="header"><div class="op3g7">
+  <!-- <div class="op3g7title">
+    <div class="op3g7titlebody">
+      <div class="op3g7titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="ugo5lbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=x2sou" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="op3g7body">
+    <a href="/tr/"><img src="/img/logo.svg?v=o9o38" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="ugo5lmenu">
-    <div class="ugo5lmenulistbody">
-      <div class="ugo5lmenulist">
+  <div class="op3g7menu">
+    <div class="op3g7menulistbody">
+      <div class="op3g7menulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -72,7 +72,7 @@
 
 
 
-<div class="menu-mobil-ugo5l">
+<div class="menu-mobil-op3g7">
   <ul>
     <li>
       <span class="material-symbols-outlined">home</span>
@@ -92,8 +92,8 @@
     </li>
 
 
-    <li>
-      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+    <li  id="playBtn">
+      <span class="material-symbols-outlined">play_circle</span>
       <div>Canlı Yayın</div>
     </li>
 
@@ -139,12 +139,28 @@
         if (icon) {
           icon.textContent = isPlaying ? 'pause' : 'play_arrow';
         }
+
+        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
+        const mobileLi = btn.closest('li');
+        if (mobileLi) {
+          if (isPlaying) {
+            mobileLi.classList.add('active');
+          } else {
+            mobileLi.classList.remove('active');
+          }
+        }
       });
     }
 
     // Her iki butona da event listener ekle
     playBtns.forEach(btn => {
       btn.addEventListener('click', togglePlay);
+
+      // Mobil menüdeki li elementine de tıklama eventi ekle
+      const mobileLi = btn.closest('li');
+      if (mobileLi) {
+        mobileLi.addEventListener('click', togglePlay);
+      }
     });
 
     // Audio event listeners
@@ -166,13 +182,13 @@
   });
 </script>
 </div>
-  <div id="content"><div class="l5zuc">
-  <div class="l5zuc-body">
-    <div class="l5zuc-login-menu">
-      <div id="l5zuc-login-menu-left">Giriş Yap</div>
-      <div id="l5zuc-login-menu-right">Üye Ol</div>
+  <div id="content"><div class="a1q6t">
+  <div class="a1q6t-body">
+    <div class="a1q6t-login-menu">
+      <div id="a1q6t-login-menu-left">Giriş Yap</div>
+      <div id="a1q6t-login-menu-right">Üye Ol</div>
     </div>
-    <div class="l5zuc-body-form" id="l5zuc-login">
+    <div class="a1q6t-body-form" id="a1q6t-login">
       <div class="input-container">
         <input type="text" class="inputmatrix1" placeholder="Mail Adresiniz" />
         <label for="input" class="placeholder">Mail Adresiniz</label>
@@ -181,10 +197,10 @@
         <input type="text" class="inputmatrix1" placeholder="Şifre" />
         <label for="input" class="placeholder">Şifre</label>
       </div>
-      <div class="l5zuc-null">Şifremi Unuttum</div>
-      <a href="/tr/user/" class="l5zuc-button">Giriş Yap</a>
+      <div class="a1q6t-null">Şifremi Unuttum</div>
+      <a href="/tr/user/" class="a1q6t-button">Giriş Yap</a>
     </div>
-    <div class="l5zuc-body-form" id="l5zuc-memberol">
+    <div class="a1q6t-body-form" id="a1q6t-memberol">
       <div class="input-container">
         <input type="text" class="inputmatrix1" placeholder="Adnınız ve Soyadınız" />
         <label for="input" class="placeholder">Adnınız ve Soyadınız</label>
@@ -201,8 +217,8 @@
         <input type="text" class="inputmatrix1" placeholder="Şifre Tekrar" />
         <label for="input" class="placeholder">Şifre Tekrar</label>
       </div>
-      <div class="l5zuc-button">Üye Ol</div>
-      <div class="l5zuc-null">Üye misin?</div>
+      <div class="a1q6t-button">Üye Ol</div>
+      <div class="a1q6t-null">Üye misin?</div>
     </div>
     <div class="media-login">
       <div>
@@ -219,26 +235,26 @@
 
 <script>
   document
-    .getElementById("l5zuc-login-menu-left")
+    .getElementById("a1q6t-login-menu-left")
     .addEventListener("click", function () {
-      document.getElementById("l5zuc-login-menu-left").style.backgroundColor =
+      document.getElementById("a1q6t-login-menu-left").style.backgroundColor =
         "#101010";
       document.getElementById(
-        "l5zuc-login-menu-right",
+        "a1q6t-login-menu-right",
       ).style.backgroundColor = "#ee5a24 ";
-      document.getElementById("l5zuc-login").style.display = "flex";
-      document.getElementById("l5zuc-memberol").style.display = "none";
+      document.getElementById("a1q6t-login").style.display = "flex";
+      document.getElementById("a1q6t-memberol").style.display = "none";
     });
   document
-    .getElementById("l5zuc-login-menu-right")
+    .getElementById("a1q6t-login-menu-right")
     .addEventListener("click", function () {
       document.getElementById(
-        "l5zuc-login-menu-right",
+        "a1q6t-login-menu-right",
       ).style.backgroundColor = "#101010";
-      document.getElementById("l5zuc-login-menu-left").style.backgroundColor =
+      document.getElementById("a1q6t-login-menu-left").style.backgroundColor =
         "#ee5a24 ";
-      document.getElementById("l5zuc-login").style.display = "none";
-      document.getElementById("l5zuc-memberol").style.display = "flex";
+      document.getElementById("a1q6t-login").style.display = "none";
+      document.getElementById("a1q6t-memberol").style.display = "flex";
     });
 </script>
 </div>
@@ -281,7 +297,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=x2sou"></script>
-<script src="/src/cookie.js?v=x2sou"></script>
+<script type="text/javascript" src="/src/js.js?v=o9o38"></script>
+<script src="/src/cookie.js?v=o9o38"></script>
 
 </html>

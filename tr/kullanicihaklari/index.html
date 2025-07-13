@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=y57qr" />
-  <link rel="shortcut icon" href="/img/icon.png?v=y57qr" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=dunff" />
+  <link rel="shortcut icon" href="/img/icon.png?v=dunff" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=y57qr">
+<link rel="stylesheet" href="style.css?v=dunff">
 </head>
 
 <body>
-  <div id="header"><div class="snmxa">
-  <!-- <div class="snmxatitle">
-    <div class="snmxatitlebody">
-      <div class="snmxatitlebodylang">
+  <div id="header"><div class="t3wxr">
+  <!-- <div class="t3wxrtitle">
+    <div class="t3wxrtitlebody">
+      <div class="t3wxrtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="snmxabody">
-    <a href="/tr/"><img src="/img/logo.svg?v=y57qr" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="t3wxrbody">
+    <a href="/tr/"><img src="/img/logo.svg?v=dunff" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="snmxamenu">
-    <div class="snmxamenulistbody">
-      <div class="snmxamenulist">
+  <div class="t3wxrmenu">
+    <div class="t3wxrmenulistbody">
+      <div class="t3wxrmenulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -72,7 +72,7 @@
 
 
 
-<div class="menu-mobil-snmxa">
+<div class="menu-mobil-t3wxr">
   <ul>
     <li>
       <span class="material-symbols-outlined">home</span>
@@ -92,8 +92,8 @@
     </li>
 
 
-    <li>
-      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+    <li  id="playBtn">
+      <span class="material-symbols-outlined">play_circle</span>
       <div>Canlı Yayın</div>
     </li>
 
@@ -139,12 +139,28 @@
         if (icon) {
           icon.textContent = isPlaying ? 'pause' : 'play_arrow';
         }
+
+        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
+        const mobileLi = btn.closest('li');
+        if (mobileLi) {
+          if (isPlaying) {
+            mobileLi.classList.add('active');
+          } else {
+            mobileLi.classList.remove('active');
+          }
+        }
       });
     }
 
     // Her iki butona da event listener ekle
     playBtns.forEach(btn => {
       btn.addEventListener('click', togglePlay);
+
+      // Mobil menüdeki li elementine de tıklama eventi ekle
+      const mobileLi = btn.closest('li');
+      if (mobileLi) {
+        mobileLi.addEventListener('click', togglePlay);
+      }
     });
 
     // Audio event listeners
@@ -166,12 +182,12 @@
   });
 </script>
 </div>
-  <div id="content"><div class="ipx0o-title f36">
+  <div id="content"><div class="pp2li-title f36">
   <span>Kullanıcı Hakları</span>
 </div>
-<div class="ipx0o">
-  <div class="ipx0o-menu"><a   href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a   href="/tr/vizyon" >Vizyon</a><a   href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a   href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a class="active"  href="/tr/kullanicihaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
-  <div class="ipx0o-body"><p><h2 style="font-size: 24px;">Kullanıcı Hakları</h2></p><br>
+<div class="pp2li">
+  <div class="pp2li-menu"><a   href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a   href="/tr/vizyon" >Vizyon</a><a   href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a   href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a class="active"  href="/tr/kullanicihaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
+  <div class="pp2li-body"><p><h2 style="font-size: 24px;">Kullanıcı Hakları</h2></p><br>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Herkes, kişisel verilerinin korunmasını isteme hakkına sahiptir. Kişisel verilerinizin korunması bizim için çok önemlidir ve bu doğrultuda 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat çerçevesinde hareket etmekteyiz. Kullanıcılar, verilerinin hangi amaçlarla toplandığı, nasıl saklandığı ve kimlerle paylaşıldığı konusunda bilgilendirilme hakkına sahiptir.</p>
 <p>    </p></p>
@@ -221,7 +237,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=y57qr"></script>
-<script src="/src/cookie.js?v=y57qr"></script>
+<script type="text/javascript" src="/src/js.js?v=dunff"></script>
+<script src="/src/cookie.js?v=dunff"></script>
 
 </html>

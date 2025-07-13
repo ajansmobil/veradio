@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=vss0n" />
-  <link rel="shortcut icon" href="/img/icon.png?v=vss0n" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=qbel8" />
+  <link rel="shortcut icon" href="/img/icon.png?v=qbel8" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=vss0n">
+<link rel="stylesheet" href="style.css?v=qbel8">
 </head>
 
 <body>
-  <div id="header"><div class="w7qqk">
-  <!-- <div class="w7qqktitle">
-    <div class="w7qqktitlebody">
-      <div class="w7qqktitlebodylang">
+  <div id="header"><div class="hznd8">
+  <!-- <div class="hznd8title">
+    <div class="hznd8titlebody">
+      <div class="hznd8titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="w7qqkbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=vss0n" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="hznd8body">
+    <a href="/tr/"><img src="/img/logo.svg?v=qbel8" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="w7qqkmenu">
-    <div class="w7qqkmenulistbody">
-      <div class="w7qqkmenulist">
+  <div class="hznd8menu">
+    <div class="hznd8menulistbody">
+      <div class="hznd8menulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -72,7 +72,7 @@
 
 
 
-<div class="menu-mobil-w7qqk">
+<div class="menu-mobil-hznd8">
   <ul>
     <li>
       <span class="material-symbols-outlined">home</span>
@@ -92,8 +92,8 @@
     </li>
 
 
-    <li>
-      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+    <li  id="playBtn">
+      <span class="material-symbols-outlined">play_circle</span>
       <div>Canlı Yayın</div>
     </li>
 
@@ -139,12 +139,28 @@
         if (icon) {
           icon.textContent = isPlaying ? 'pause' : 'play_arrow';
         }
+
+        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
+        const mobileLi = btn.closest('li');
+        if (mobileLi) {
+          if (isPlaying) {
+            mobileLi.classList.add('active');
+          } else {
+            mobileLi.classList.remove('active');
+          }
+        }
       });
     }
 
     // Her iki butona da event listener ekle
     playBtns.forEach(btn => {
       btn.addEventListener('click', togglePlay);
+
+      // Mobil menüdeki li elementine de tıklama eventi ekle
+      const mobileLi = btn.closest('li');
+      if (mobileLi) {
+        mobileLi.addEventListener('click', togglePlay);
+      }
     });
 
     // Audio event listeners
@@ -166,7 +182,7 @@
   });
 </script>
 </div>
-  <div id="content"><div class="u259i">
+  <div id="content"><div class="y7hwd">
 
     <div class="radio-container">
         <div class="chat-section">
@@ -252,27 +268,27 @@
 
     showFakeMessages();
 </script>
-<div class="sliderxfougobody">
-  <div class="sliderxfougo">
-    <div class="sliderxfougotitle">Sosyal Medyada Biz</div>
-    <div class="fougo">
+<div class="sliderxojmonbody">
+  <div class="sliderxojmon">
+    <div class="sliderxojmontitle">Sosyal Medyada Biz</div>
+    <div class="ojmon">
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/facebook.png" class="fougo-media" />
+            <img src="/src/icon/facebook.png" class="ojmon-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/instagram.png" class="fougo-media" />
+            <img src="/src/icon/instagram.png" class="ojmon-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/linkedin.png" class="fougo-media" />
+            <img src="/src/icon/linkedin.png" class="ojmon-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/youtube.png" class="fougo-media" />
+            <img src="/src/icon/youtube.png" class="ojmon-media" />
         </a>
         <a href="https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/whatsapp.png" class="fougo-media" />
+            <img src="/src/icon/whatsapp.png" class="ojmon-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/google-maps.png" class="fougo-media" />
+            <img src="/src/icon/google-maps.png" class="ojmon-media" />
         </a></div>
   </div>
 </div>
@@ -317,7 +333,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=vss0n"></script>
-<script src="/src/cookie.js?v=vss0n"></script>
+<script type="text/javascript" src="/src/js.js?v=qbel8"></script>
+<script src="/src/cookie.js?v=qbel8"></script>
 
 </html>

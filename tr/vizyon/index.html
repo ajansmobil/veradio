@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=rzo39" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rzo39" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=sllb2" />
+  <link rel="shortcut icon" href="/img/icon.png?v=sllb2" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=rzo39">
+<link rel="stylesheet" href="style.css?v=sllb2">
 </head>
 
 <body>
-  <div id="header"><div class="t51dh">
-  <!-- <div class="t51dhtitle">
-    <div class="t51dhtitlebody">
-      <div class="t51dhtitlebodylang">
+  <div id="header"><div class="w4f14">
+  <!-- <div class="w4f14title">
+    <div class="w4f14titlebody">
+      <div class="w4f14titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="t51dhbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=rzo39" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="w4f14body">
+    <a href="/tr/"><img src="/img/logo.svg?v=sllb2" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="t51dhmenu">
-    <div class="t51dhmenulistbody">
-      <div class="t51dhmenulist">
+  <div class="w4f14menu">
+    <div class="w4f14menulistbody">
+      <div class="w4f14menulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -72,7 +72,7 @@
 
 
 
-<div class="menu-mobil-t51dh">
+<div class="menu-mobil-w4f14">
   <ul>
     <li>
       <span class="material-symbols-outlined">home</span>
@@ -92,8 +92,8 @@
     </li>
 
 
-    <li>
-      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+    <li  id="playBtn">
+      <span class="material-symbols-outlined">play_circle</span>
       <div>Canlı Yayın</div>
     </li>
 
@@ -139,12 +139,28 @@
         if (icon) {
           icon.textContent = isPlaying ? 'pause' : 'play_arrow';
         }
+
+        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
+        const mobileLi = btn.closest('li');
+        if (mobileLi) {
+          if (isPlaying) {
+            mobileLi.classList.add('active');
+          } else {
+            mobileLi.classList.remove('active');
+          }
+        }
       });
     }
 
     // Her iki butona da event listener ekle
     playBtns.forEach(btn => {
       btn.addEventListener('click', togglePlay);
+
+      // Mobil menüdeki li elementine de tıklama eventi ekle
+      const mobileLi = btn.closest('li');
+      if (mobileLi) {
+        mobileLi.addEventListener('click', togglePlay);
+      }
     });
 
     // Audio event listeners
@@ -166,12 +182,12 @@
   });
 </script>
 </div>
-  <div id="content"><div class="t6ikk-title f36">
+  <div id="content"><div class="pifz0-title f36">
   <span>Vizyon</span>
 </div>
-<div class="t6ikk">
-  <div class="t6ikk-menu"><a   href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a class="active"  href="/tr/vizyon" >Vizyon</a><a   href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a   href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a   href="/tr/kullanicihaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
-  <div class="t6ikk-body"><p><h2 style="font-size: 24px;">Vizyonumuz</h2><p style="font-size: 16px;">Vizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır. Sürekli gelişim ve yenilikle, sektörde öncü olmayı amaçlıyoruz.</p></p><br></div>
+<div class="pifz0">
+  <div class="pifz0-menu"><a   href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a class="active"  href="/tr/vizyon" >Vizyon</a><a   href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a   href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a   href="/tr/kullanicihaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
+  <div class="pifz0-body"><p><h2 style="font-size: 24px;">Vizyonumuz</h2><p style="font-size: 16px;">Vizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır. Sürekli gelişim ve yenilikle, sektörde öncü olmayı amaçlıyoruz.</p></p><br></div>
 </div>
 
 </div>
@@ -214,7 +230,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=rzo39"></script>
-<script src="/src/cookie.js?v=rzo39"></script>
+<script type="text/javascript" src="/src/js.js?v=sllb2"></script>
+<script src="/src/cookie.js?v=sllb2"></script>
 
 </html>
