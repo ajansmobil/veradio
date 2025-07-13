@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=uvrfa" />
-  <link rel="shortcut icon" href="/img/icon.png?v=uvrfa" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=s52rm" />
+  <link rel="shortcut icon" href="/img/icon.png?v=s52rm" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=uvrfa">
+<link rel="stylesheet" href="style.css?v=s52rm">
 </head>
 
 <body>
-  <div id="header"><div class="i8coq">
-  <!-- <div class="i8coqtitle">
-    <div class="i8coqtitlebody">
-      <div class="i8coqtitlebodylang">
+  <div id="header"><div class="t2i6z">
+  <!-- <div class="t2i6ztitle">
+    <div class="t2i6ztitlebody">
+      <div class="t2i6ztitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,14 +39,14 @@
     </div>
   </div> -->
 
-  <div class="i8coqbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=uvrfa" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="t2i6zbody">
+    <a href="/tr/"><img src="/img/logo.svg?v=s52rm" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="i8coqmenu">
-    <div class="i8coqmenulistbody">
-      <div class="i8coqmenulist">
+  <div class="t2i6zmenu">
+    <div class="t2i6zmenulistbody">
+      <div class="t2i6zmenulist">
         <ul>
-          <a href="/tr/" >Anasayfa</a><a class="i8coq-menu-active" href="/tr/hakkimizda/">Bilgilendirme</a><a href="/tr/iletisim/">İletişim </a>
+          <a href="/tr/" >Anasayfa</a><a class="t2i6z-menu-active" href="/tr/hakkimizda/">Bilgilendirme</a><a href="/tr/iletisim/">İletişim </a>
         </ul>
       </div>
     </div>
@@ -62,13 +62,7 @@
       <button class="play-btn" id="playBtn">
         <span class="material-symbols-outlined">play_arrow</span>
       </button>
-      <div class="wave-anim" id="waveAnim">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
+
       <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
     </div>
   </div>
@@ -76,59 +70,108 @@
 
 
 
+
+
+<div class="menu-mobil-t2i6z">
+  <ul>
+    <li>
+      <span class="material-symbols-outlined">home</span>
+      <a href="/tr/">Anasayfa</a>
+    </li>
+
+    <li>
+      <span class="material-symbols-outlined">home</span>
+      <a href="/tr/hakkimizda">Bilgilendirme</a>
+    </li>
+
+
+
+    <li>
+      <span class="material-symbols-outlined">person</span>
+      <a href="/tr/login">Profil</a>
+    </li>
+
+
+    <li>
+      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+      <div>Canlı Yayın</div>
+    </li>
+
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const playBtn = document.getElementById('playBtn');
+    const playBtns = document.querySelectorAll('#playBtn');
     const radioPlayer = document.getElementById('radioPlayer');
-    const waveAnim = document.getElementById('waveAnim');
-    const playIcon = playBtn.querySelector('.material-symbols-outlined');
-
     let isPlaying = false;
 
-    playBtn.addEventListener('click', function () {
+    function togglePlay() {
       if (isPlaying) {
         // Durdur
         radioPlayer.pause();
-        waveAnim.classList.remove('playing');
-        playIcon.textContent = 'play_arrow';
         isPlaying = false;
       } else {
         // Başlat
         radioPlayer.play();
-        waveAnim.classList.add('playing');
-        playIcon.textContent = 'pause';
         isPlaying = true;
       }
+    }
+
+    function updateIcons() {
+      playBtns.forEach(btn => {
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.textContent = isPlaying ? 'pause' : 'play_arrow';
+        }
+      });
+    }
+
+    // Her iki butona da event listener ekle
+    playBtns.forEach(btn => {
+      btn.addEventListener('click', togglePlay);
     });
 
     // Audio event listeners
     radioPlayer.addEventListener('play', function () {
-      waveAnim.classList.add('playing');
-      playIcon.textContent = 'pause';
       isPlaying = true;
+      updateIcons();
     });
 
     radioPlayer.addEventListener('pause', function () {
-      waveAnim.classList.remove('playing');
-      playIcon.textContent = 'play_arrow';
       isPlaying = false;
+      updateIcons();
     });
 
     radioPlayer.addEventListener('error', function () {
       console.log('Radio yüklenirken hata oluştu');
-      waveAnim.classList.remove('playing');
-      playIcon.textContent = 'play_arrow';
       isPlaying = false;
+      updateIcons();
     });
   });
 </script>
 </div>
-  <div id="content"><div class="pcekr-title f36">
+  <div id="content"><div class="nmj0d-title f36">
   <span>Hakkımızda</span>
 </div>
-<div class="pcekr">
-  <div class="pcekr-menu"><a class="active"  href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a   href="/tr/vizyon" >Vizyon</a><a   href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a   href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a   href="/tr/kullanicihaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
-  <div class="pcekr-body"><p><h2 style="font-size: 24px;">Hakkımızda</h2><p style="font-size: 16px;">Veradyo, yenilikçi radyo teknolojileriyle dijital dünyada fark yaratır. Dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Ekibimiz, sektörde deneyimli ve dinamik kişilerden oluşur. Amacımız, kullanıcı odaklı çözümlerle dijital radyoculuğu ileri taşımaktır.</p></p><br></div>
+<div class="nmj0d">
+  <div class="nmj0d-menu"><a class="active"  href="/tr/hakkimizda" >Hakkımızda</a><a   href="/tr/misyon" >Misyon</a><a   href="/tr/vizyon" >Vizyon</a><a   href="/tr/kalitepolitikamiz" >Kalite Politikamız</a><a   href="/tr/gizlilikpolitikasi" >Gizlilik Politikası</a><a   href="/tr/kisiselveriler" >Kişisel Veriler</a><a   href="/tr/kullanicihaklari" >Kullanıcı Hakları</a><a   href="/tr/yasaluyari" >Yasal Uyarı</a></div>
+  <div class="nmj0d-body"><p><h2 style="font-size: 24px;">Hakkımızda</h2><p style="font-size: 16px;">Veradyo, yenilikçi radyo teknolojileriyle dijital dünyada fark yaratır. Dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Ekibimiz, sektörde deneyimli ve dinamik kişilerden oluşur. Amacımız, kullanıcı odaklı çözümlerle dijital radyoculuğu ileri taşımaktır.</p></p><br></div>
 </div>
 
 </div>
@@ -171,7 +214,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=uvrfa"></script>
-<script src="/src/cookie.js?v=uvrfa"></script>
+<script type="text/javascript" src="/src/js.js?v=s52rm"></script>
+<script src="/src/cookie.js?v=s52rm"></script>
 
 </html>

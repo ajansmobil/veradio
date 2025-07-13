@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=xpj5f" />
-  <link rel="shortcut icon" href="/img/icon.png?v=xpj5f" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=s06pw" />
+  <link rel="shortcut icon" href="/img/icon.png?v=s06pw" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=xpj5f">
+<link rel="stylesheet" href="style.css?v=s06pw">
 </head>
 
 <body>
-  <div id="header"><div class="p1xwr">
-  <!-- <div class="p1xwrtitle">
-    <div class="p1xwrtitlebody">
-      <div class="p1xwrtitlebodylang">
+  <div id="header"><div class="preeq">
+  <!-- <div class="preeqtitle">
+    <div class="preeqtitlebody">
+      <div class="preeqtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="p1xwrbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=xpj5f" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="preeqbody">
+    <a href="/tr/"><img src="/img/logo.svg?v=s06pw" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="p1xwrmenu">
-    <div class="p1xwrmenulistbody">
-      <div class="p1xwrmenulist">
+  <div class="preeqmenu">
+    <div class="preeqmenulistbody">
+      <div class="preeqmenulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -62,13 +62,7 @@
       <button class="play-btn" id="playBtn">
         <span class="material-symbols-outlined">play_arrow</span>
       </button>
-      <div class="wave-anim" id="waveAnim">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
+
       <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
     </div>
   </div>
@@ -76,109 +70,158 @@
 
 
 
+
+
+<div class="menu-mobil-preeq">
+  <ul>
+    <li>
+      <span class="material-symbols-outlined">home</span>
+      <a href="/tr/">Anasayfa</a>
+    </li>
+
+    <li>
+      <span class="material-symbols-outlined">home</span>
+      <a href="/tr/hakkimizda">Bilgilendirme</a>
+    </li>
+
+
+
+    <li>
+      <span class="material-symbols-outlined">person</span>
+      <a href="/tr/login">Profil</a>
+    </li>
+
+
+    <li>
+      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+      <div>Canlı Yayın</div>
+    </li>
+
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const playBtn = document.getElementById('playBtn');
+    const playBtns = document.querySelectorAll('#playBtn');
     const radioPlayer = document.getElementById('radioPlayer');
-    const waveAnim = document.getElementById('waveAnim');
-    const playIcon = playBtn.querySelector('.material-symbols-outlined');
-
     let isPlaying = false;
 
-    playBtn.addEventListener('click', function () {
+    function togglePlay() {
       if (isPlaying) {
         // Durdur
         radioPlayer.pause();
-        waveAnim.classList.remove('playing');
-        playIcon.textContent = 'play_arrow';
         isPlaying = false;
       } else {
         // Başlat
         radioPlayer.play();
-        waveAnim.classList.add('playing');
-        playIcon.textContent = 'pause';
         isPlaying = true;
       }
+    }
+
+    function updateIcons() {
+      playBtns.forEach(btn => {
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.textContent = isPlaying ? 'pause' : 'play_arrow';
+        }
+      });
+    }
+
+    // Her iki butona da event listener ekle
+    playBtns.forEach(btn => {
+      btn.addEventListener('click', togglePlay);
     });
 
     // Audio event listeners
     radioPlayer.addEventListener('play', function () {
-      waveAnim.classList.add('playing');
-      playIcon.textContent = 'pause';
       isPlaying = true;
+      updateIcons();
     });
 
     radioPlayer.addEventListener('pause', function () {
-      waveAnim.classList.remove('playing');
-      playIcon.textContent = 'play_arrow';
       isPlaying = false;
+      updateIcons();
     });
 
     radioPlayer.addEventListener('error', function () {
       console.log('Radio yüklenirken hata oluştu');
-      waveAnim.classList.remove('playing');
-      playIcon.textContent = 'play_arrow';
       isPlaying = false;
+      updateIcons();
     });
   });
 </script>
 </div>
-  <div id="content"><div class="viwo7">
-  <div class="viwo7body"><a href="/tr/meksikaacmazi">
-        <div class="viwo7bodyitem">
-          <div class="viwo7bodyitemimg">
+  <div id="content"><div class="s2zrj">
+  <div class="s2zrjbody"><a href="/tr/meksikaacmazi">
+        <div class="s2zrjbodyitem">
+          <div class="s2zrjbodyitemimg">
             <img src="/page/j3iwbf2jnt/xo3rq.jpg" alt="Meksika Açmazı">
           </div>
-          <div class="viwo7bodyitemtitle">Meksika Açmazı</div>
+          <div class="s2zrjbodyitemtitle">Meksika Açmazı</div>
         </div>
       </a><a href="/tr/ortamlardasatilacakbilgi">
-        <div class="viwo7bodyitem">
-          <div class="viwo7bodyitemimg">
+        <div class="s2zrjbodyitem">
+          <div class="s2zrjbodyitemimg">
             <img src="/page/j42ntw8wx5/fx5mc.jpg" alt="Ortamlarda Satılacak Bilgi">
           </div>
-          <div class="viwo7bodyitemtitle">Ortamlarda Satılacak Bilgi</div>
+          <div class="s2zrjbodyitemtitle">Ortamlarda Satılacak Bilgi</div>
         </div>
       </a><a href="/tr/hikayedenadamlar">
-        <div class="viwo7bodyitem">
-          <div class="viwo7bodyitemimg">
+        <div class="s2zrjbodyitem">
+          <div class="s2zrjbodyitemimg">
             <img src="/page/i33lu60njh/yw4m3.jpg" alt="Hikayeden Adamlar">
           </div>
-          <div class="viwo7bodyitemtitle">Hikayeden Adamlar</div>
+          <div class="s2zrjbodyitemtitle">Hikayeden Adamlar</div>
         </div>
       </a><a href="/tr/kendineiyidavran">
-        <div class="viwo7bodyitem">
-          <div class="viwo7bodyitemimg">
+        <div class="s2zrjbodyitem">
+          <div class="s2zrjbodyitemimg">
             <img src="/page/ev78z9eegd/w9ggw.jpg" alt="Kendine İyi Davran">
           </div>
-          <div class="viwo7bodyitemtitle">Kendine İyi Davran</div>
+          <div class="s2zrjbodyitemtitle">Kendine İyi Davran</div>
         </div>
       </a><a href="/tr/haddiniasanyasamrehberi">
-        <div class="viwo7bodyitem">
-          <div class="viwo7bodyitemimg">
+        <div class="s2zrjbodyitem">
+          <div class="s2zrjbodyitemimg">
             <img src="/page/lg461es8td/l03dh.jpg" alt="Haddini Aşan Yaşam Rehberi">
           </div>
-          <div class="viwo7bodyitemtitle">Haddini Aşan Yaşam Rehberi</div>
+          <div class="s2zrjbodyitemtitle">Haddini Aşan Yaşam Rehberi</div>
         </div>
       </a><a href="/tr/hicbirseytesadufdegil">
-        <div class="viwo7bodyitem">
-          <div class="viwo7bodyitemimg">
+        <div class="s2zrjbodyitem">
+          <div class="s2zrjbodyitemimg">
             <img src="/page/yt5gwdj7nu/c21kn.jpg" alt="Hiçbir Şey Tesadüf Değil">
           </div>
-          <div class="viwo7bodyitemtitle">Hiçbir Şey Tesadüf Değil</div>
+          <div class="s2zrjbodyitemtitle">Hiçbir Şey Tesadüf Değil</div>
         </div>
       </a><a href="/tr/aklimdakalanlar">
-        <div class="viwo7bodyitem">
-          <div class="viwo7bodyitemimg">
+        <div class="s2zrjbodyitem">
+          <div class="s2zrjbodyitemimg">
             <img src="/page/gjdtdl0f8q/o28ku.jpg" alt="Aklımda Kalanlar">
           </div>
-          <div class="viwo7bodyitemtitle">Aklımda Kalanlar</div>
+          <div class="s2zrjbodyitemtitle">Aklımda Kalanlar</div>
         </div>
       </a><a href="/tr/terapistkoltugu">
-        <div class="viwo7bodyitem">
-          <div class="viwo7bodyitemimg">
+        <div class="s2zrjbodyitem">
+          <div class="s2zrjbodyitemimg">
             <img src="/page/a5bgwinb2p/y02yv.jpg" alt="Terapist Koltuğu">
           </div>
-          <div class="viwo7bodyitemtitle">Terapist Koltuğu</div>
+          <div class="s2zrjbodyitemtitle">Terapist Koltuğu</div>
         </div>
       </a></div>
 </div>
@@ -223,7 +266,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=xpj5f"></script>
-<script src="/src/cookie.js?v=xpj5f"></script>
+<script type="text/javascript" src="/src/js.js?v=s06pw"></script>
+<script src="/src/cookie.js?v=s06pw"></script>
 
 </html>

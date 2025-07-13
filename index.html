@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=tmjjd" />
-  <link rel="shortcut icon" href="/img/icon.png?v=tmjjd" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=oiw73" />
+  <link rel="shortcut icon" href="/img/icon.png?v=oiw73" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=tmjjd">
+<link rel="stylesheet" href="style.css?v=oiw73">
 </head>
 
 <body>
-  <div id="header"><div class="b520l">
-  <!-- <div class="b520ltitle">
-    <div class="b520ltitlebody">
-      <div class="b520ltitlebodylang">
+  <div id="header"><div class="r2qzl">
+  <!-- <div class="r2qzltitle">
+    <div class="r2qzltitlebody">
+      <div class="r2qzltitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="b520lbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=tmjjd" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="r2qzlbody">
+    <a href="/tr/"><img src="/img/logo.svg?v=oiw73" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="b520lmenu">
-    <div class="b520lmenulistbody">
-      <div class="b520lmenulist">
+  <div class="r2qzlmenu">
+    <div class="r2qzlmenulistbody">
+      <div class="r2qzlmenulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -62,13 +62,7 @@
       <button class="play-btn" id="playBtn">
         <span class="material-symbols-outlined">play_arrow</span>
       </button>
-      <div class="wave-anim" id="waveAnim">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
+
       <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
     </div>
   </div>
@@ -76,54 +70,103 @@
 
 
 
+
+
+<div class="menu-mobil-r2qzl">
+  <ul>
+    <li>
+      <span class="material-symbols-outlined">home</span>
+      <a href="/tr/">Anasayfa</a>
+    </li>
+
+    <li>
+      <span class="material-symbols-outlined">home</span>
+      <a href="/tr/hakkimizda">Bilgilendirme</a>
+    </li>
+
+
+
+    <li>
+      <span class="material-symbols-outlined">person</span>
+      <a href="/tr/login">Profil</a>
+    </li>
+
+
+    <li>
+      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+      <div>Canlı Yayın</div>
+    </li>
+
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const playBtn = document.getElementById('playBtn');
+    const playBtns = document.querySelectorAll('#playBtn');
     const radioPlayer = document.getElementById('radioPlayer');
-    const waveAnim = document.getElementById('waveAnim');
-    const playIcon = playBtn.querySelector('.material-symbols-outlined');
-
     let isPlaying = false;
 
-    playBtn.addEventListener('click', function () {
+    function togglePlay() {
       if (isPlaying) {
         // Durdur
         radioPlayer.pause();
-        waveAnim.classList.remove('playing');
-        playIcon.textContent = 'play_arrow';
         isPlaying = false;
       } else {
         // Başlat
         radioPlayer.play();
-        waveAnim.classList.add('playing');
-        playIcon.textContent = 'pause';
         isPlaying = true;
       }
+    }
+
+    function updateIcons() {
+      playBtns.forEach(btn => {
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.textContent = isPlaying ? 'pause' : 'play_arrow';
+        }
+      });
+    }
+
+    // Her iki butona da event listener ekle
+    playBtns.forEach(btn => {
+      btn.addEventListener('click', togglePlay);
     });
 
     // Audio event listeners
     radioPlayer.addEventListener('play', function () {
-      waveAnim.classList.add('playing');
-      playIcon.textContent = 'pause';
       isPlaying = true;
+      updateIcons();
     });
 
     radioPlayer.addEventListener('pause', function () {
-      waveAnim.classList.remove('playing');
-      playIcon.textContent = 'play_arrow';
       isPlaying = false;
+      updateIcons();
     });
 
     radioPlayer.addEventListener('error', function () {
       console.log('Radio yüklenirken hata oluştu');
-      waveAnim.classList.remove('playing');
-      playIcon.textContent = 'play_arrow';
       isPlaying = false;
+      updateIcons();
     });
   });
 </script>
 </div>
-  <div id="content"><div class="zfla5">
+  <div id="content"><div class="xrcsu">
 
     <div class="radio-container">
         <div class="chat-section">
@@ -209,27 +252,27 @@
 
     showFakeMessages();
 </script>
-<div class="sliderxrmcknbody">
-  <div class="sliderxrmckn">
-    <div class="sliderxrmckntitle">Sosyal Medyada Biz</div>
-    <div class="rmckn">
+<div class="sliderxqhynubody">
+  <div class="sliderxqhynu">
+    <div class="sliderxqhynutitle">Sosyal Medyada Biz</div>
+    <div class="qhynu">
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/facebook.png" class="rmckn-media" />
+            <img src="/src/icon/facebook.png" class="qhynu-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/instagram.png" class="rmckn-media" />
+            <img src="/src/icon/instagram.png" class="qhynu-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/linkedin.png" class="rmckn-media" />
+            <img src="/src/icon/linkedin.png" class="qhynu-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/youtube.png" class="rmckn-media" />
+            <img src="/src/icon/youtube.png" class="qhynu-media" />
         </a>
         <a href="https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/whatsapp.png" class="rmckn-media" />
+            <img src="/src/icon/whatsapp.png" class="qhynu-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/google-maps.png" class="rmckn-media" />
+            <img src="/src/icon/google-maps.png" class="qhynu-media" />
         </a></div>
   </div>
 </div>
@@ -274,7 +317,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=tmjjd"></script>
-<script src="/src/cookie.js?v=tmjjd"></script>
+<script type="text/javascript" src="/src/js.js?v=oiw73"></script>
+<script src="/src/cookie.js?v=oiw73"></script>
 
 </html>

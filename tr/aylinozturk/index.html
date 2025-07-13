@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/page/wbxb54cjix/oelcw.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=bgy2y" />
-  <link rel="shortcut icon" href="/img/icon.png?v=bgy2y" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=ey8pb" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ey8pb" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=bgy2y">
+<link rel="stylesheet" href="style.css?v=ey8pb">
 </head>
 
 <body>
-  <div id="header"><div class="z9hp3">
-  <!-- <div class="z9hp3title">
-    <div class="z9hp3titlebody">
-      <div class="z9hp3titlebodylang">
+  <div id="header"><div class="qp782">
+  <!-- <div class="qp782title">
+    <div class="qp782titlebody">
+      <div class="qp782titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="z9hp3body">
-    <a href="/tr/"><img src="/img/logo.svg?v=bgy2y" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="qp782body">
+    <a href="/tr/"><img src="/img/logo.svg?v=ey8pb" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="z9hp3menu">
-    <div class="z9hp3menulistbody">
-      <div class="z9hp3menulist">
+  <div class="qp782menu">
+    <div class="qp782menulistbody">
+      <div class="qp782menulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -62,13 +62,7 @@
       <button class="play-btn" id="playBtn">
         <span class="material-symbols-outlined">play_arrow</span>
       </button>
-      <div class="wave-anim" id="waveAnim">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
+
       <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
     </div>
   </div>
@@ -76,49 +70,98 @@
 
 
 
+
+
+<div class="menu-mobil-qp782">
+  <ul>
+    <li>
+      <span class="material-symbols-outlined">home</span>
+      <a href="/tr/">Anasayfa</a>
+    </li>
+
+    <li>
+      <span class="material-symbols-outlined">home</span>
+      <a href="/tr/hakkimizda">Bilgilendirme</a>
+    </li>
+
+
+
+    <li>
+      <span class="material-symbols-outlined">person</span>
+      <a href="/tr/login">Profil</a>
+    </li>
+
+
+    <li>
+      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+      <div>Canlı Yayın</div>
+    </li>
+
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const playBtn = document.getElementById('playBtn');
+    const playBtns = document.querySelectorAll('#playBtn');
     const radioPlayer = document.getElementById('radioPlayer');
-    const waveAnim = document.getElementById('waveAnim');
-    const playIcon = playBtn.querySelector('.material-symbols-outlined');
-
     let isPlaying = false;
 
-    playBtn.addEventListener('click', function () {
+    function togglePlay() {
       if (isPlaying) {
         // Durdur
         radioPlayer.pause();
-        waveAnim.classList.remove('playing');
-        playIcon.textContent = 'play_arrow';
         isPlaying = false;
       } else {
         // Başlat
         radioPlayer.play();
-        waveAnim.classList.add('playing');
-        playIcon.textContent = 'pause';
         isPlaying = true;
       }
+    }
+
+    function updateIcons() {
+      playBtns.forEach(btn => {
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.textContent = isPlaying ? 'pause' : 'play_arrow';
+        }
+      });
+    }
+
+    // Her iki butona da event listener ekle
+    playBtns.forEach(btn => {
+      btn.addEventListener('click', togglePlay);
     });
 
     // Audio event listeners
     radioPlayer.addEventListener('play', function () {
-      waveAnim.classList.add('playing');
-      playIcon.textContent = 'pause';
       isPlaying = true;
+      updateIcons();
     });
 
     radioPlayer.addEventListener('pause', function () {
-      waveAnim.classList.remove('playing');
-      playIcon.textContent = 'play_arrow';
       isPlaying = false;
+      updateIcons();
     });
 
     radioPlayer.addEventListener('error', function () {
       console.log('Radio yüklenirken hata oluştu');
-      waveAnim.classList.remove('playing');
-      playIcon.textContent = 'play_arrow';
       isPlaying = false;
+      updateIcons();
     });
   });
 </script>
@@ -163,7 +206,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=bgy2y"></script>
-<script src="/src/cookie.js?v=bgy2y"></script>
+<script type="text/javascript" src="/src/js.js?v=ey8pb"></script>
+<script src="/src/cookie.js?v=ey8pb"></script>
 
 </html>

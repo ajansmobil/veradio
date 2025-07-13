@@ -1,5 +1,68 @@
 
-  .til5j {
+  .menu-mobil-jf0j4 {
+    display: none;
+  }
+
+
+  @media (max-width: 1024px) {
+
+
+    .menu-mobil-jf0j4 {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background: #ee5a24;
+
+      color: #333333;
+      z-index: 1000;
+      padding: 5px 10px 5px 10px;
+      width: calc(var(--max) - 20px);
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    .jf0j4 {
+      display: none;
+    }
+
+
+    .menu-mobil-jf0j4 ul {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .menu-mobil-jf0j4 ul li>* {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .jf0j4menu {
+      display: none !important;
+    }
+
+    .radio-top-bar {
+      margin-top: 0px !important;
+    }
+
+  }
+
+
+
+
+
+
+
+
+  .jf0j4 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,17 +73,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .til5jtitlebodylang {
+  .jf0j4titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .til5jtitlebodylang ul {
+  .jf0j4titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .til5jtitlebodylang ul a {
+  .jf0j4titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -29,11 +92,11 @@
     transition: background 0.3s;
   }
 
-  .til5jtitlebodylang ul a:hover {
+  .jf0j4titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .til5jtitle {
+  .jf0j4title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -41,7 +104,7 @@
     justify-content: center;
   }
 
-  .til5jtitlebody {
+  .jf0j4titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -49,7 +112,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .til5jbody {
+  .jf0j4body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -57,14 +120,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .til5jmenu {
+  .jf0j4menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .til5jmenulist {
+  .jf0j4menulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -72,7 +135,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .til5jmenulist ul {
+  .jf0j4menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -82,7 +145,7 @@
     overflow-x: auto;
   }
 
-  .til5jmenulist ul a {
+  .jf0j4menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -98,18 +161,18 @@
     font-weight: 500;
   }
 
-  .til5jmenulist ul a:hover {
+  .jf0j4menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .til5j-menu-active {
+  .jf0j4-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .til5jmenulistbody {
+  .jf0j4menulistbody {
     width: 100%;
   }
 
@@ -124,7 +187,7 @@
     color: #333;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: calc(var(--max) - 40px);
+    width: calc(var(--max) - 50px);
   }
 
   .radio-freq {
@@ -184,54 +247,7 @@
     transform: scale(1.08);
   }
 
-  .wave-anim {
-    display: flex;
-    align-items: flex-end;
-    height: 40px;
-    gap: 4px;
-    margin-left: 10px;
-  }
 
-  .wave-anim .bar {
-    width: 6px;
-    height: 18px;
-    background: linear-gradient(180deg, #ff6b6b 0%, #ee5a24 100%);
-    border-radius: 3px;
-    opacity: 0.7;
-    animation: none;
-  }
-
-  .wave-anim.playing .bar {
-    animation: waveMove 1s infinite;
-  }
-
-  .wave-anim.playing .bar:nth-child(2) {
-    animation-delay: 0.2s;
-  }
-
-  .wave-anim.playing .bar:nth-child(3) {
-    animation-delay: 0.4s;
-  }
-
-  .wave-anim.playing .bar:nth-child(4) {
-    animation-delay: 0.6s;
-  }
-
-  .wave-anim.playing .bar:nth-child(5) {
-    animation-delay: 0.8s;
-  }
-
-  @keyframes waveMove {
-
-    0%,
-    100% {
-      height: 18px;
-    }
-
-    50% {
-      height: 38px;
-    }
-  }
 
   @keyframes pulse {
 
@@ -246,16 +262,16 @@
   }
 
 
-  .mp5ol {
+  .sk0ho {
     width: 100%;
     margin: 15px 0;
   }
-  .mp5olbody {
+  .sk0hobody {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
-  .mp5olbodyitem {
+  .sk0hobodyitem {
     display: flex;
     padding: 10px;
     border-radius: 5px;
@@ -263,18 +279,18 @@
     gap: 5px;
     margin: 5px;
   }
-  .mp5olbodyitemimg {
+  .sk0hobodyitemimg {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
     width: calc(200px * 2);
   }
-  .mp5olbodyitemimg img {
+  .sk0hobodyitemimg img {
     max-height: 200px;
     max-width: 200px;
   }
-  .mp5olbodyitemtitle {
+  .sk0hobodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     display: flex;
@@ -283,7 +299,7 @@
     font-size: 18px;
     color: #1e3046;
   }
-  .mp5olbodybg {
+  .sk0hobodybg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -293,7 +309,7 @@
     border-radius: 5px;
     opacity: 0.5;
   }
-  .mp5olbodyitems {
+  .sk0hobodyitems {
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -302,22 +318,22 @@
     opacity: 0;
     overflow: hidden;
   }
-  .mp5olbodyitems.left {
+  .sk0hobodyitems.left {
     align-self: flex-start;
     border-radius: 0px 25px 25px 0px;
     transform: translateY(60px);
     animation: slideInLeft 1s forwards;
   }
-  .mp5olbodyitems.right {
+  .sk0hobodyitems.right {
     align-self: flex-end;
     border-radius: 25px 0px 0px 25px;
     transform: translateY(60px);
     animation: slideInRight 1s forwards;
   }
-  .mp5olbodyitem.lefts {
+  .sk0hobodyitem.lefts {
     align-self: flex-end;
   }
-  .mp5olbodyitem.rights {
+  .sk0hobodyitem.rights {
     align-self: flex-start;
   }
   @keyframes slideInLeft {
@@ -340,7 +356,7 @@
       transform: translateX(0);
     }
   }
-  .mp5olbodyitems {
+  .sk0hobodyitems {
     animation-delay: 0.3s;
     /* Adjust delay for staggered animation */
   }

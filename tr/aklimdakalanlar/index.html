@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/page/gjdtdl0f8q/o28ku.jpg" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=gaa2e" />
-  <link rel="shortcut icon" href="/img/icon.png?v=gaa2e" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=y9h2c" />
+  <link rel="shortcut icon" href="/img/icon.png?v=y9h2c" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=gaa2e">
+<link rel="stylesheet" href="style.css?v=y9h2c">
 </head>
 
 <body>
-  <div id="header"><div class="y4hch">
-  <!-- <div class="y4hchtitle">
-    <div class="y4hchtitlebody">
-      <div class="y4hchtitlebodylang">
+  <div id="header"><div class="d2j6n">
+  <!-- <div class="d2j6ntitle">
+    <div class="d2j6ntitlebody">
+      <div class="d2j6ntitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,12 +39,12 @@
     </div>
   </div> -->
 
-  <div class="y4hchbody">
-    <a href="/tr/"><img src="/img/logo.svg?v=gaa2e" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="d2j6nbody">
+    <a href="/tr/"><img src="/img/logo.svg?v=y9h2c" height="150px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="y4hchmenu">
-    <div class="y4hchmenulistbody">
-      <div class="y4hchmenulist">
+  <div class="d2j6nmenu">
+    <div class="d2j6nmenulistbody">
+      <div class="d2j6nmenulist">
         <ul>
           <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
         </ul>
@@ -62,13 +62,7 @@
       <button class="play-btn" id="playBtn">
         <span class="material-symbols-outlined">play_arrow</span>
       </button>
-      <div class="wave-anim" id="waveAnim">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
+
       <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
     </div>
   </div>
@@ -76,129 +70,178 @@
 
 
 
+
+
+<div class="menu-mobil-d2j6n">
+  <ul>
+    <li>
+      <span class="material-symbols-outlined">home</span>
+      <a href="/tr/">Anasayfa</a>
+    </li>
+
+    <li>
+      <span class="material-symbols-outlined">home</span>
+      <a href="/tr/hakkimizda">Bilgilendirme</a>
+    </li>
+
+
+
+    <li>
+      <span class="material-symbols-outlined">person</span>
+      <a href="/tr/login">Profil</a>
+    </li>
+
+
+    <li>
+      <span class="material-symbols-outlined" id="playBtn">play_circle</span>
+      <div>Canlı Yayın</div>
+    </li>
+
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const playBtn = document.getElementById('playBtn');
+    const playBtns = document.querySelectorAll('#playBtn');
     const radioPlayer = document.getElementById('radioPlayer');
-    const waveAnim = document.getElementById('waveAnim');
-    const playIcon = playBtn.querySelector('.material-symbols-outlined');
-
     let isPlaying = false;
 
-    playBtn.addEventListener('click', function () {
+    function togglePlay() {
       if (isPlaying) {
         // Durdur
         radioPlayer.pause();
-        waveAnim.classList.remove('playing');
-        playIcon.textContent = 'play_arrow';
         isPlaying = false;
       } else {
         // Başlat
         radioPlayer.play();
-        waveAnim.classList.add('playing');
-        playIcon.textContent = 'pause';
         isPlaying = true;
       }
+    }
+
+    function updateIcons() {
+      playBtns.forEach(btn => {
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.textContent = isPlaying ? 'pause' : 'play_arrow';
+        }
+      });
+    }
+
+    // Her iki butona da event listener ekle
+    playBtns.forEach(btn => {
+      btn.addEventListener('click', togglePlay);
     });
 
     // Audio event listeners
     radioPlayer.addEventListener('play', function () {
-      waveAnim.classList.add('playing');
-      playIcon.textContent = 'pause';
       isPlaying = true;
+      updateIcons();
     });
 
     radioPlayer.addEventListener('pause', function () {
-      waveAnim.classList.remove('playing');
-      playIcon.textContent = 'play_arrow';
       isPlaying = false;
+      updateIcons();
     });
 
     radioPlayer.addEventListener('error', function () {
       console.log('Radio yüklenirken hata oluştu');
-      waveAnim.classList.remove('playing');
-      playIcon.textContent = 'play_arrow';
       isPlaying = false;
+      updateIcons();
     });
   });
 </script>
 </div>
-  <div id="content"><div class="poll0-container">
-  <div class="poll0-header">
-    <div class="poll0-title">
+  <div id="content"><div class="buz1x-container">
+  <div class="buz1x-header">
+    <div class="buz1x-title">
       <h1>Aklımda Kalanlar</h1>
-      <p class="poll0-spot"></p>
+      <p class="buz1x-spot"></p>
     </div>
-    <div class="poll0-date">
+    <div class="buz1x-date">
       <i class="material-symbols-outlined">schedule</i>
       <span>9 Haziran 2025 17:25</span>
     </div>
   </div>
 
-  <div class="poll0-content">
-    <div class="poll0-main">
-      <div class="poll0-img">
-        <img src="/page/gjdtdl0f8q/o28ku.jpg?v=gaa2e" alt="{{title}}" />
+  <div class="buz1x-content">
+    <div class="buz1x-main">
+      <div class="buz1x-img">
+        <img src="/page/gjdtdl0f8q/o28ku.jpg?v=y9h2c" alt="{{title}}" />
       </div>
-      <div class="poll0-body"><p></p></div>
+      <div class="buz1x-body"><p></p></div>
     </div>
 
-    <div class="poll0-sidebar">
+    <div class="buz1x-sidebar">
       <h3>İlgili Haberler</h3>
-      <div class="poll0-menu">
+      <div class="buz1x-menu">
         <a href="/tr/meksikaacmazi">
-            <div class="poll0-menu-img">
+            <div class="buz1x-menu-img">
                 <img src="/page/j3iwbf2jnt/xo3rq.jpg" alt="Meksika Açmazı" />
             </div>
-            <div class="poll0-menu-name">
+            <div class="buz1x-menu-name">
                 Meksika Açmazı
             </div>
         </a>
         <a href="/tr/ortamlardasatilacakbilgi">
-            <div class="poll0-menu-img">
+            <div class="buz1x-menu-img">
                 <img src="/page/j42ntw8wx5/fx5mc.jpg" alt="Ortamlarda Satılacak Bilgi" />
             </div>
-            <div class="poll0-menu-name">
+            <div class="buz1x-menu-name">
                 Ortamlarda Satılacak Bilgi
             </div>
         </a>
         <a href="/tr/hikayedenadamlar">
-            <div class="poll0-menu-img">
+            <div class="buz1x-menu-img">
                 <img src="/page/i33lu60njh/yw4m3.jpg" alt="Hikayeden Adamlar" />
             </div>
-            <div class="poll0-menu-name">
+            <div class="buz1x-menu-name">
                 Hikayeden Adamlar
             </div>
         </a>
         <a href="/tr/kendineiyidavran">
-            <div class="poll0-menu-img">
+            <div class="buz1x-menu-img">
                 <img src="/page/ev78z9eegd/w9ggw.jpg" alt="Kendine İyi Davran" />
             </div>
-            <div class="poll0-menu-name">
+            <div class="buz1x-menu-name">
                 Kendine İyi Davran
             </div>
         </a>
         <a href="/tr/haddiniasanyasamrehberi">
-            <div class="poll0-menu-img">
+            <div class="buz1x-menu-img">
                 <img src="/page/lg461es8td/l03dh.jpg" alt="Haddini Aşan Yaşam Rehberi" />
             </div>
-            <div class="poll0-menu-name">
+            <div class="buz1x-menu-name">
                 Haddini Aşan Yaşam Rehberi
             </div>
         </a>
         <a href="/tr/hicbirseytesadufdegil">
-            <div class="poll0-menu-img">
+            <div class="buz1x-menu-img">
                 <img src="/page/yt5gwdj7nu/c21kn.jpg" alt="Hiçbir Şey Tesadüf Değil" />
             </div>
-            <div class="poll0-menu-name">
+            <div class="buz1x-menu-name">
                 Hiçbir Şey Tesadüf Değil
             </div>
         </a>
         <a href="/tr/terapistkoltugu">
-            <div class="poll0-menu-img">
+            <div class="buz1x-menu-img">
                 <img src="/page/a5bgwinb2p/y02yv.jpg" alt="Terapist Koltuğu" />
             </div>
-            <div class="poll0-menu-name">
+            <div class="buz1x-menu-name">
                 Terapist Koltuğu
             </div>
         </a></div>
@@ -247,7 +290,7 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=gaa2e"></script>
-<script src="/src/cookie.js?v=gaa2e"></script>
+<script type="text/javascript" src="/src/js.js?v=y9h2c"></script>
+<script src="/src/cookie.js?v=y9h2c"></script>
 
 </html>
