@@ -1,11 +1,11 @@
 
-  .menu-mobil-boht3 {
+  .menu-mobil-ybh3s {
     display: none;
   }
 
 
   @media (max-width: 1200px) {
-    .menu-mobil-boht3 {
+    .menu-mobil-ybh3s {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -22,12 +22,12 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .boht3 {
+    .ybh3s {
       display: none;
     }
 
 
-    .menu-mobil-boht3 ul {
+    .menu-mobil-ybh3s ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-boht3 ul li>* {
+    .menu-mobil-ybh3s ul li>* {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-boht3 ul li {
+    .menu-mobil-ybh3s ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-boht3 ul li:hover {
+    .menu-mobil-ybh3s ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-boht3 ul li.active {
+    .menu-mobil-ybh3s ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .boht3menu {
+    .ybh3smenu {
       display: none !important;
     }
 
@@ -78,7 +78,7 @@
 
 
 
-  .boht3 {
+  .ybh3s {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -89,17 +89,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .boht3titlebodylang {
+  .ybh3stitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .boht3titlebodylang ul {
+  .ybh3stitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .boht3titlebodylang ul a {
+  .ybh3stitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -108,11 +108,11 @@
     transition: background 0.3s;
   }
 
-  .boht3titlebodylang ul a:hover {
+  .ybh3stitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .boht3title {
+  .ybh3stitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -120,7 +120,7 @@
     justify-content: center;
   }
 
-  .boht3titlebody {
+  .ybh3stitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -128,7 +128,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .boht3body {
+  .ybh3sbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -136,14 +136,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .boht3menu {
+  .ybh3smenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .boht3menulist {
+  .ybh3smenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -151,7 +151,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .boht3menulist ul {
+  .ybh3smenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -161,7 +161,7 @@
     overflow-x: auto;
   }
 
-  .boht3menulist ul a {
+  .ybh3smenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -177,18 +177,18 @@
     font-weight: 500;
   }
 
-  .boht3menulist ul a:hover {
+  .ybh3smenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .boht3-menu-active {
+  .ybh3s-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .boht3menulistbody {
+  .ybh3smenulistbody {
     width: 100%;
   }
 
@@ -278,21 +278,21 @@
   }
 
 
-  .ve1rd-container {
+  .bx44o-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .ve1rd-header {
+  .bx44o-header {
     margin-bottom: 30px;
   }
 
-  .ve1rd-title {
+  .bx44o-title {
     margin-bottom: 15px;
   }
 
-  .ve1rd-title h1 {
+  .bx44o-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -300,13 +300,13 @@
     color: var(--text-color);
   }
 
-  .ve1rd-spot {
+  .bx44o-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .ve1rd-date {
+  .bx44o-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -314,47 +314,47 @@
     font-size: 14px;
   }
 
-  .ve1rd-date i {
+  .bx44o-date i {
     font-size: 18px;
   }
 
-  .ve1rd-content {
+  .bx44o-content {
     display: flex;
     gap: 30px;
   }
 
-  .ve1rd-main {
+  .bx44o-main {
     flex: 1;
   }
 
-  .ve1rd-img {
+  .bx44o-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .ve1rd-img img {
+  .bx44o-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .ve1rd-body {
+  .bx44o-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .ve1rd-body p {
+  .bx44o-body p {
     margin-bottom: 20px;
   }
 
-  .ve1rd-sidebar {
+  .bx44o-sidebar {
     width: 300px;
   }
 
-  .ve1rd-sidebar h3 {
+  .bx44o-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -362,65 +362,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .ve1rd-menu {
+  .bx44o-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .ve1rd-menu a {
+  .bx44o-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .ve1rd-menu a:hover {
+  .bx44o-menu a:hover {
     transform: translateX(5px);
   }
 
-  .ve1rd-menu-img {
+  .bx44o-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .ve1rd-menu-img img {
+  .bx44o-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .ve1rd-menu-name {
+  .bx44o-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .ve1rd-container {
+    .bx44o-container {
       width: 100%;
       padding: 15px;
     }
 
-    .ve1rd-content {
+    .bx44o-content {
       flex-direction: column;
     }
 
-    .ve1rd-sidebar {
+    .bx44o-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .ve1rd-title h1 {
+    .bx44o-title h1 {
       font-size: 28px;
     }
 
-    .ve1rd-spot {
+    .bx44o-spot {
       font-size: 16px;
     }
 
-    .ve1rd-menu {
+    .bx44o-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

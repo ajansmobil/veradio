@@ -1,11 +1,11 @@
 
-  .menu-mobil-l0fny {
+  .menu-mobil-d4so3 {
     display: none;
   }
 
 
   @media (max-width: 1200px) {
-    .menu-mobil-l0fny {
+    .menu-mobil-d4so3 {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -22,12 +22,12 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .l0fny {
+    .d4so3 {
       display: none;
     }
 
 
-    .menu-mobil-l0fny ul {
+    .menu-mobil-d4so3 ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-l0fny ul li>* {
+    .menu-mobil-d4so3 ul li>* {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-l0fny ul li {
+    .menu-mobil-d4so3 ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-l0fny ul li:hover {
+    .menu-mobil-d4so3 ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-l0fny ul li.active {
+    .menu-mobil-d4so3 ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .l0fnymenu {
+    .d4so3menu {
       display: none !important;
     }
 
@@ -78,7 +78,7 @@
 
 
 
-  .l0fny {
+  .d4so3 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -89,17 +89,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .l0fnytitlebodylang {
+  .d4so3titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .l0fnytitlebodylang ul {
+  .d4so3titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .l0fnytitlebodylang ul a {
+  .d4so3titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -108,11 +108,11 @@
     transition: background 0.3s;
   }
 
-  .l0fnytitlebodylang ul a:hover {
+  .d4so3titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .l0fnytitle {
+  .d4so3title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -120,7 +120,7 @@
     justify-content: center;
   }
 
-  .l0fnytitlebody {
+  .d4so3titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -128,7 +128,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .l0fnybody {
+  .d4so3body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -136,14 +136,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .l0fnymenu {
+  .d4so3menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .l0fnymenulist {
+  .d4so3menulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -151,7 +151,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .l0fnymenulist ul {
+  .d4so3menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -161,7 +161,7 @@
     overflow-x: auto;
   }
 
-  .l0fnymenulist ul a {
+  .d4so3menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -177,18 +177,18 @@
     font-weight: 500;
   }
 
-  .l0fnymenulist ul a:hover {
+  .d4so3menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .l0fny-menu-active {
+  .d4so3-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .l0fnymenulistbody {
+  .d4so3menulistbody {
     width: 100%;
   }
 
@@ -278,21 +278,21 @@
   }
 
 
-  .tdqb9-container {
+  .qoc76-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .tdqb9-header {
+  .qoc76-header {
     margin-bottom: 30px;
   }
 
-  .tdqb9-title {
+  .qoc76-title {
     margin-bottom: 15px;
   }
 
-  .tdqb9-title h1 {
+  .qoc76-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -300,13 +300,13 @@
     color: var(--text-color);
   }
 
-  .tdqb9-spot {
+  .qoc76-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .tdqb9-date {
+  .qoc76-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -314,47 +314,47 @@
     font-size: 14px;
   }
 
-  .tdqb9-date i {
+  .qoc76-date i {
     font-size: 18px;
   }
 
-  .tdqb9-content {
+  .qoc76-content {
     display: flex;
     gap: 30px;
   }
 
-  .tdqb9-main {
+  .qoc76-main {
     flex: 1;
   }
 
-  .tdqb9-img {
+  .qoc76-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .tdqb9-img img {
+  .qoc76-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .tdqb9-body {
+  .qoc76-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .tdqb9-body p {
+  .qoc76-body p {
     margin-bottom: 20px;
   }
 
-  .tdqb9-sidebar {
+  .qoc76-sidebar {
     width: 300px;
   }
 
-  .tdqb9-sidebar h3 {
+  .qoc76-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -362,65 +362,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .tdqb9-menu {
+  .qoc76-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .tdqb9-menu a {
+  .qoc76-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .tdqb9-menu a:hover {
+  .qoc76-menu a:hover {
     transform: translateX(5px);
   }
 
-  .tdqb9-menu-img {
+  .qoc76-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .tdqb9-menu-img img {
+  .qoc76-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .tdqb9-menu-name {
+  .qoc76-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .tdqb9-container {
+    .qoc76-container {
       width: 100%;
       padding: 15px;
     }
 
-    .tdqb9-content {
+    .qoc76-content {
       flex-direction: column;
     }
 
-    .tdqb9-sidebar {
+    .qoc76-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .tdqb9-title h1 {
+    .qoc76-title h1 {
       font-size: 28px;
     }
 
-    .tdqb9-spot {
+    .qoc76-spot {
       font-size: 16px;
     }
 
-    .tdqb9-menu {
+    .qoc76-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

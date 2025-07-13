@@ -1,11 +1,11 @@
 
-  .menu-mobil-myi8s {
+  .menu-mobil-kiye5 {
     display: none;
   }
 
 
   @media (max-width: 1200px) {
-    .menu-mobil-myi8s {
+    .menu-mobil-kiye5 {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -22,12 +22,12 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .myi8s {
+    .kiye5 {
       display: none;
     }
 
 
-    .menu-mobil-myi8s ul {
+    .menu-mobil-kiye5 ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-myi8s ul li>* {
+    .menu-mobil-kiye5 ul li>* {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-myi8s ul li {
+    .menu-mobil-kiye5 ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-myi8s ul li:hover {
+    .menu-mobil-kiye5 ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-myi8s ul li.active {
+    .menu-mobil-kiye5 ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .myi8smenu {
+    .kiye5menu {
       display: none !important;
     }
 
@@ -78,7 +78,7 @@
 
 
 
-  .myi8s {
+  .kiye5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -89,17 +89,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .myi8stitlebodylang {
+  .kiye5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .myi8stitlebodylang ul {
+  .kiye5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .myi8stitlebodylang ul a {
+  .kiye5titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -108,11 +108,11 @@
     transition: background 0.3s;
   }
 
-  .myi8stitlebodylang ul a:hover {
+  .kiye5titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .myi8stitle {
+  .kiye5title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -120,7 +120,7 @@
     justify-content: center;
   }
 
-  .myi8stitlebody {
+  .kiye5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -128,7 +128,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .myi8sbody {
+  .kiye5body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -136,14 +136,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .myi8smenu {
+  .kiye5menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .myi8smenulist {
+  .kiye5menulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -151,7 +151,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .myi8smenulist ul {
+  .kiye5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -161,7 +161,7 @@
     overflow-x: auto;
   }
 
-  .myi8smenulist ul a {
+  .kiye5menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -177,18 +177,18 @@
     font-weight: 500;
   }
 
-  .myi8smenulist ul a:hover {
+  .kiye5menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .myi8s-menu-active {
+  .kiye5-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .myi8smenulistbody {
+  .kiye5menulistbody {
     width: 100%;
   }
 
