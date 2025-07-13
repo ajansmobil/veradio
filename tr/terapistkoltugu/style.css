@@ -1,13 +1,11 @@
 
-  .menu-mobil-s6fm8 {
+  .menu-mobil-haqgh {
     display: none;
   }
 
 
   @media (max-width: 1024px) {
-
-
-    .menu-mobil-s6fm8 {
+    .menu-mobil-haqgh {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -24,12 +22,12 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .s6fm8 {
+    .haqgh {
       display: none;
     }
 
 
-    .menu-mobil-s6fm8 ul {
+    .menu-mobil-haqgh ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -37,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-s6fm8 ul li>* {
+    .menu-mobil-haqgh ul li>* {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -45,28 +43,30 @@
       color: #fff;
     }
 
-    .menu-mobil-s6fm8 ul li {
+    .menu-mobil-haqgh ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-s6fm8 ul li:hover {
+    .menu-mobil-haqgh ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-s6fm8 ul li.active {
+    .menu-mobil-haqgh ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .s6fm8menu {
+    .haqghmenu {
       display: none !important;
     }
 
     .radio-top-bar {
       margin-top: 0px !important;
+      padding: 10px !important;
+      width: calc(var(--max) - 40px);
     }
 
   }
@@ -78,7 +78,7 @@
 
 
 
-  .s6fm8 {
+  .haqgh {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -89,17 +89,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .s6fm8titlebodylang {
+  .haqghtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .s6fm8titlebodylang ul {
+  .haqghtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .s6fm8titlebodylang ul a {
+  .haqghtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -108,11 +108,11 @@
     transition: background 0.3s;
   }
 
-  .s6fm8titlebodylang ul a:hover {
+  .haqghtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .s6fm8title {
+  .haqghtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -120,7 +120,7 @@
     justify-content: center;
   }
 
-  .s6fm8titlebody {
+  .haqghtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -128,7 +128,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .s6fm8body {
+  .haqghbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -136,14 +136,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .s6fm8menu {
+  .haqghmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .s6fm8menulist {
+  .haqghmenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -151,7 +151,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .s6fm8menulist ul {
+  .haqghmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -161,7 +161,7 @@
     overflow-x: auto;
   }
 
-  .s6fm8menulist ul a {
+  .haqghmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -177,18 +177,18 @@
     font-weight: 500;
   }
 
-  .s6fm8menulist ul a:hover {
+  .haqghmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .s6fm8-menu-active {
+  .haqgh-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .s6fm8menulistbody {
+  .haqghmenulistbody {
     width: 100%;
   }
 
@@ -278,21 +278,21 @@
   }
 
 
-  .rufci-container {
+  .oqoxj-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .rufci-header {
+  .oqoxj-header {
     margin-bottom: 30px;
   }
 
-  .rufci-title {
+  .oqoxj-title {
     margin-bottom: 15px;
   }
 
-  .rufci-title h1 {
+  .oqoxj-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -300,13 +300,13 @@
     color: var(--text-color);
   }
 
-  .rufci-spot {
+  .oqoxj-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .rufci-date {
+  .oqoxj-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -314,47 +314,47 @@
     font-size: 14px;
   }
 
-  .rufci-date i {
+  .oqoxj-date i {
     font-size: 18px;
   }
 
-  .rufci-content {
+  .oqoxj-content {
     display: flex;
     gap: 30px;
   }
 
-  .rufci-main {
+  .oqoxj-main {
     flex: 1;
   }
 
-  .rufci-img {
+  .oqoxj-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .rufci-img img {
+  .oqoxj-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .rufci-body {
+  .oqoxj-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .rufci-body p {
+  .oqoxj-body p {
     margin-bottom: 20px;
   }
 
-  .rufci-sidebar {
+  .oqoxj-sidebar {
     width: 300px;
   }
 
-  .rufci-sidebar h3 {
+  .oqoxj-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -362,65 +362,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .rufci-menu {
+  .oqoxj-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .rufci-menu a {
+  .oqoxj-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .rufci-menu a:hover {
+  .oqoxj-menu a:hover {
     transform: translateX(5px);
   }
 
-  .rufci-menu-img {
+  .oqoxj-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .rufci-menu-img img {
+  .oqoxj-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .rufci-menu-name {
+  .oqoxj-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .rufci-container {
+    .oqoxj-container {
       width: 100%;
       padding: 15px;
     }
 
-    .rufci-content {
+    .oqoxj-content {
       flex-direction: column;
     }
 
-    .rufci-sidebar {
+    .oqoxj-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .rufci-title h1 {
+    .oqoxj-title h1 {
       font-size: 28px;
     }
 
-    .rufci-spot {
+    .oqoxj-spot {
       font-size: 16px;
     }
 
-    .rufci-menu {
+    .oqoxj-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;

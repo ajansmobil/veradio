@@ -1,13 +1,11 @@
 
-  .menu-mobil-mqd5c {
+  .menu-mobil-s75gu {
     display: none;
   }
 
 
   @media (max-width: 1024px) {
-
-
-    .menu-mobil-mqd5c {
+    .menu-mobil-s75gu {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -24,12 +22,12 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .mqd5c {
+    .s75gu {
       display: none;
     }
 
 
-    .menu-mobil-mqd5c ul {
+    .menu-mobil-s75gu ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -37,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-mqd5c ul li>* {
+    .menu-mobil-s75gu ul li>* {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -45,28 +43,30 @@
       color: #fff;
     }
 
-    .menu-mobil-mqd5c ul li {
+    .menu-mobil-s75gu ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-mqd5c ul li:hover {
+    .menu-mobil-s75gu ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-mqd5c ul li.active {
+    .menu-mobil-s75gu ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .mqd5cmenu {
+    .s75gumenu {
       display: none !important;
     }
 
     .radio-top-bar {
       margin-top: 0px !important;
+      padding: 10px !important;
+      width: calc(var(--max) - 40px);
     }
 
   }
@@ -78,7 +78,7 @@
 
 
 
-  .mqd5c {
+  .s75gu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -89,17 +89,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .mqd5ctitlebodylang {
+  .s75gutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .mqd5ctitlebodylang ul {
+  .s75gutitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .mqd5ctitlebodylang ul a {
+  .s75gutitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -108,11 +108,11 @@
     transition: background 0.3s;
   }
 
-  .mqd5ctitlebodylang ul a:hover {
+  .s75gutitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .mqd5ctitle {
+  .s75gutitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -120,7 +120,7 @@
     justify-content: center;
   }
 
-  .mqd5ctitlebody {
+  .s75gutitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -128,7 +128,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .mqd5cbody {
+  .s75gubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -136,14 +136,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .mqd5cmenu {
+  .s75gumenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .mqd5cmenulist {
+  .s75gumenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -151,7 +151,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .mqd5cmenulist ul {
+  .s75gumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -161,7 +161,7 @@
     overflow-x: auto;
   }
 
-  .mqd5cmenulist ul a {
+  .s75gumenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -177,18 +177,18 @@
     font-weight: 500;
   }
 
-  .mqd5cmenulist ul a:hover {
+  .s75gumenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .mqd5c-menu-active {
+  .s75gu-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .mqd5cmenulistbody {
+  .s75gumenulistbody {
     width: 100%;
   }
 
@@ -278,7 +278,7 @@
   }
 
 
-  .pizf3 {
+  .py4cp {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -286,13 +286,13 @@
     justify-content: center;
     position: relative;
   }
-  .pizf3containertitle {
+  .py4cpcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .pizf3containerlist {
+  .py4cpcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -300,23 +300,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .pizf3containerlist > div {
+  .py4cpcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .pizf3containerlist:hover {
+  .py4cpcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .pizf3container {
+  .py4cpcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .pizf3containerbody {
+  .py4cpcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -325,24 +325,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .pizf3body {
+  .py4cpbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .pizf3containerlist > span {
+  .py4cpcontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .pizf3body {
+    .py4cpbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .pizf3containerbody {
+    .py4cpcontainerbody {
       padding: 15px;
     }
   }
@@ -372,13 +372,13 @@
       transform: scale(1);
     }
   }
-  .rhfa3-body {
+  .tshqg-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .rhfa3-body-chile {
+  .tshqg-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -386,10 +386,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .rhfa3-body-chile > div {
+  .tshqg-body-chile > div {
     width: 100% !important;
   }
-  .rhfa32 {
+  .tshqg2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -400,21 +400,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .rhfa3 {
+  .tshqg {
     display: flex;
     flex-direction: column;
   }
-  .rhfa3 > svg {
+  .tshqg > svg {
     width: 100vw;
   }
-  .rhfa3botton {
+  .tshqgbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .rhfa3-svg {
+  .tshqg-svg {
     fill: #fff;
   }
-  .rhfa3-bg {
+  .tshqg-bg {
     background-image: url("/img/cwurqi/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;
