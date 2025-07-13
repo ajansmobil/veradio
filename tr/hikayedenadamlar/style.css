@@ -1,11 +1,11 @@
 
-  .menu-mobil-ajj0y {
+  .menu-mobil-boht3 {
     display: none;
   }
 
 
-  @media (max-width: 1024px) {
-    .menu-mobil-ajj0y {
+  @media (max-width: 1200px) {
+    .menu-mobil-boht3 {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -22,12 +22,12 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .ajj0y {
+    .boht3 {
       display: none;
     }
 
 
-    .menu-mobil-ajj0y ul {
+    .menu-mobil-boht3 ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-ajj0y ul li>* {
+    .menu-mobil-boht3 ul li>* {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-ajj0y ul li {
+    .menu-mobil-boht3 ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-ajj0y ul li:hover {
+    .menu-mobil-boht3 ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-ajj0y ul li.active {
+    .menu-mobil-boht3 ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .ajj0ymenu {
+    .boht3menu {
       display: none !important;
     }
 
@@ -78,7 +78,7 @@
 
 
 
-  .ajj0y {
+  .boht3 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -89,17 +89,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .ajj0ytitlebodylang {
+  .boht3titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ajj0ytitlebodylang ul {
+  .boht3titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ajj0ytitlebodylang ul a {
+  .boht3titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -108,11 +108,11 @@
     transition: background 0.3s;
   }
 
-  .ajj0ytitlebodylang ul a:hover {
+  .boht3titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .ajj0ytitle {
+  .boht3title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -120,7 +120,7 @@
     justify-content: center;
   }
 
-  .ajj0ytitlebody {
+  .boht3titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -128,7 +128,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ajj0ybody {
+  .boht3body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -136,14 +136,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ajj0ymenu {
+  .boht3menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .ajj0ymenulist {
+  .boht3menulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -151,7 +151,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .ajj0ymenulist ul {
+  .boht3menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -161,7 +161,7 @@
     overflow-x: auto;
   }
 
-  .ajj0ymenulist ul a {
+  .boht3menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -177,18 +177,18 @@
     font-weight: 500;
   }
 
-  .ajj0ymenulist ul a:hover {
+  .boht3menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .ajj0y-menu-active {
+  .boht3-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .ajj0ymenulistbody {
+  .boht3menulistbody {
     width: 100%;
   }
 
@@ -278,21 +278,21 @@
   }
 
 
-  .lh9dm-container {
+  .ve1rd-container {
     width: var(--max);
     margin: 0 auto;
     padding: 20px;
   }
 
-  .lh9dm-header {
+  .ve1rd-header {
     margin-bottom: 30px;
   }
 
-  .lh9dm-title {
+  .ve1rd-title {
     margin-bottom: 15px;
   }
 
-  .lh9dm-title h1 {
+  .ve1rd-title h1 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.3;
@@ -300,13 +300,13 @@
     color: var(--text-color);
   }
 
-  .lh9dm-spot {
+  .ve1rd-spot {
     font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  .lh9dm-date {
+  .ve1rd-date {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -314,47 +314,47 @@
     font-size: 14px;
   }
 
-  .lh9dm-date i {
+  .ve1rd-date i {
     font-size: 18px;
   }
 
-  .lh9dm-content {
+  .ve1rd-content {
     display: flex;
     gap: 30px;
   }
 
-  .lh9dm-main {
+  .ve1rd-main {
     flex: 1;
   }
 
-  .lh9dm-img {
+  .ve1rd-img {
     margin-bottom: 20px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .lh9dm-img img {
+  .ve1rd-img img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .lh9dm-body {
+  .ve1rd-body {
     font-size: 16px;
     line-height: 1.8;
     color: var(--text-color);
   }
 
-  .lh9dm-body p {
+  .ve1rd-body p {
     margin-bottom: 20px;
   }
 
-  .lh9dm-sidebar {
+  .ve1rd-sidebar {
     width: 300px;
   }
 
-  .lh9dm-sidebar h3 {
+  .ve1rd-sidebar h3 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -362,65 +362,65 @@
     border-bottom: 2px solid var(--border-color);
   }
 
-  .lh9dm-menu {
+  .ve1rd-menu {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .lh9dm-menu a {
+  .ve1rd-menu a {
     display: block;
     text-decoration: none;
     color: var(--text-color);
     transition: all 0.3s ease;
   }
 
-  .lh9dm-menu a:hover {
+  .ve1rd-menu a:hover {
     transform: translateX(5px);
   }
 
-  .lh9dm-menu-img {
+  .ve1rd-menu-img {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
   }
 
-  .lh9dm-menu-img img {
+  .ve1rd-menu-img img {
     width: 100%;
     height: 160px;
     object-fit: cover;
   }
 
-  .lh9dm-menu-name {
+  .ve1rd-menu-name {
     font-size: 15px;
     font-weight: 500;
     line-height: 1.4;
   }
 
   @media screen and (max-width: 1024px) {
-    .lh9dm-container {
+    .ve1rd-container {
       width: 100%;
       padding: 15px;
     }
 
-    .lh9dm-content {
+    .ve1rd-content {
       flex-direction: column;
     }
 
-    .lh9dm-sidebar {
+    .ve1rd-sidebar {
       width: 100%;
       margin-top: 30px;
     }
 
-    .lh9dm-title h1 {
+    .ve1rd-title h1 {
       font-size: 28px;
     }
 
-    .lh9dm-spot {
+    .ve1rd-spot {
       font-size: 16px;
     }
 
-    .lh9dm-menu {
+    .ve1rd-menu {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 20px;
