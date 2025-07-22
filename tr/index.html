@@ -15,8 +15,8 @@
   <meta property="og:description" content="" />
   <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=lj2bz" />
-  <link rel="shortcut icon" href="/img/icon.png?v=lj2bz" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=qit7r" />
+  <link rel="shortcut icon" href="/img/icon.png?v=qit7r" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,14 +24,14 @@
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-<link rel="stylesheet" href="style.css?v=lj2bz">
+<link rel="stylesheet" href="style.css?v=qit7r">
 </head>
 
 <body>
-  <div id="header"><div class="a0m92">
-  <!-- <div class="a0m92title">
-    <div class="a0m92titlebody">
-      <div class="a0m92titlebodylang">
+  <div id="header"><div class="oah2f">
+  <!-- <div class="oah2ftitle">
+    <div class="oah2ftitlebody">
+      <div class="oah2ftitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -39,24 +39,15 @@
     </div>
   </div> -->
 
-  <div class="a0m92body">
-    <a href="/tr/"><img src="/img/logo.svg?v=lj2bz" height="150px" alt="VeRadyo Logo" /></a>
+  <div class="oah2fbody">
+    <a href="/tr/"><img src="/img/logo.svg?v=qit7r" height="200px" alt="VeRadyo Logo" /></a>
   </div>
-  <div class="a0m92menu">
-    <div class="a0m92menulistbody">
-      <div class="a0m92menulist">
-        <ul>
-          <a href="/tr/" >Anasayfa</a><a href="/tr/hakkimizda/">Bilgilendirme </a><a href="/tr/iletisim/">İletişim </a>
-        </ul>
-      </div>
-    </div>
-  </div>
+
 
   <div class="radio-top-bar">
     <div class="radio-freq">
-      <span class="station">VeRadyo</span>
       <span class="freq">90.0</span>
-      <span class="live-badge">CANLI</span>
+      <span class="live-badge">CANLI DİNLE</span>
     </div>
     <div class="radio-player-bar">
       <button class="play-btn" id="playBtn">
@@ -72,7 +63,7 @@
 
 
 
-<div class="menu-mobil-a0m92">
+<div class="menu-mobil-oah2f">
   <ul>
     <li>
       <span class="material-symbols-outlined">home</span>
@@ -182,15 +173,18 @@
   });
 </script>
 </div>
-  <div id="content"><div class="eypsb">
+  <div id="content"><div class="wzyw9-body">
 
-    <div class="radio-container">
+
+    <div class="wzyw9">
+
+
         <div class="chat-section">
             <div class="chat-header">
                 <h3>Dinleyici Yorumları</h3>
                 <div class="online-indicator">
                     <span class="online-dot"></span>
-                    <span>24 Online</span>
+                    <span>2546 Online</span>
                 </div>
             </div>
             <div id="messages" class="messages-youtube"></div>
@@ -201,10 +195,30 @@
                 </button>
             </div>
         </div>
+
+
+        <div class="ai-chat-section">
+            <div class="ai-chat-header">
+                <h3>AI Radyo Asistanı</h3>
+                <div class="ai-status">
+                    <span class="ai-dot"></span>
+                    <span>AI Aktif</span>
+                </div>
+            </div>
+            <div id="aiMessages" class="ai-messages"></div>
+            <div class="ai-input-section">
+                <input id="aiInput" type="text" placeholder="AI'ya sorunuzu yazın..." class="ai-input">
+                <button class="ai-send-btn" id="aiSendBtn" type="button">
+                    <span class="material-symbols-outlined">smart_toy</span>
+                </button>
+            </div>
+        </div>
+
+
+
+
     </div>
-
 </div>
-
 
 
 <script>
@@ -213,16 +227,18 @@
         { user: 'Ayşe', text: 'Şarkı çok iyiymiş.', avatar: 'https://i.pravatar.cc/40?u=ayse' },
         { user: 'Mehmet', text: 'Yorumlarınızı bekliyorum.', avatar: 'https://i.pravatar.cc/40?u=mehmet' },
         { user: 'Zeynep', text: 'Sıradaki parça ne?', avatar: 'https://i.pravatar.cc/40?u=zeynep' },
-        { user: 'Can', text: 'Güzel yayın, elinize sağlık.', avatar: 'https://i.pravatar.cc/40?u=can' }
+        { user: 'Can', text: 'Güzel yayın, elinize sağlık.', avatar: 'https://i.pravatar.cc/40?u=can' },
+        { user: 'Elif', text: 'Bu şarkıyı çok seviyorum!', avatar: 'https://i.pravatar.cc/40?u=elif' },
+        { user: 'Burak', text: 'Radyo kalitesi çok iyi.', avatar: 'https://i.pravatar.cc/40?u=burak' },
+        { user: 'Selin', text: 'DJ çok güzel seçim yapıyor.', avatar: 'https://i.pravatar.cc/40?u=selin' },
+        { user: 'Deniz', text: 'Canlı yayın harika!', avatar: 'https://i.pravatar.cc/40?u=deniz' },
+        { user: 'Kemal', text: 'Müzik zevkiniz çok iyi.', avatar: 'https://i.pravatar.cc/40?u=kemal' }
     ];
-    let msgIndex = 0;
+
+    let currentMessageIndex = 0;
     const messagesDiv = document.getElementById('messages');
     const input = document.getElementById('msgInput');
     const sendBtn = document.getElementById('sendBtn');
-    const playBtn = document.getElementById('playBtn');
-    const radioPlayer = document.getElementById('radioPlayer');
-    const waveAnim = document.getElementById('waveAnim');
-    let isPlaying = false;
 
     function addMessage(user, text, avatar) {
         const card = document.createElement('div');
@@ -248,7 +264,17 @@
 
     function showFakeMessages() {
         messagesDiv.innerHTML = '';
-        fakeMessages.forEach(m => addMessage(m.user, m.text, m.avatar));
+        // İlk 5 yorumu göster
+        for (let i = 0; i < 5; i++) {
+            addMessage(fakeMessages[i].user, fakeMessages[i].text, fakeMessages[i].avatar);
+        }
+        currentMessageIndex = 5; // Sonraki yorumlar için index
+    }
+
+    function addNextMessage() {
+        const message = fakeMessages[currentMessageIndex];
+        addMessage(message.user, message.text, message.avatar);
+        currentMessageIndex = (currentMessageIndex + 1) % fakeMessages.length;
     }
 
     sendBtn.onclick = function () {
@@ -266,29 +292,110 @@
 
 
 
+    // AI Chat Functions
+    const aiMessagesDiv = document.getElementById('aiMessages');
+    const aiInput = document.getElementById('aiInput');
+    const aiSendBtn = document.getElementById('aiSendBtn');
+
+    const aiResponses = [
+        "Merhaba! Radyo hakkında sorularınızı yanıtlamaya hazırım. Hangi konuda yardımcı olabilirim?",
+        "Şu anda çalan şarkı hakkında bilgi almak ister misiniz?",
+        "Radyo frekansımız hakkında detaylı bilgi verebilirim.",
+        "Dinleyici yorumlarınızı bekliyoruz!",
+        "Hangi tür müzik dinlemek istiyorsunuz?",
+        "Radyo programımız hakkında sorularınızı yanıtlayabilirim.",
+        "Canlı yayın saatlerimiz hakkında bilgi verebilirim.",
+        "Özel istek şarkılarınızı dinleyebiliriz.",
+        "Radyo DJ'lerimiz hakkında bilgi almak ister misiniz?",
+        "Müzik önerilerinizi bekliyoruz!"
+    ];
+
+    let currentAiResponseIndex = 0;
+
+    function addAiMessage(isUser, text) {
+        const messageDiv = document.createElement('div');
+        messageDiv.classList.add('ai-message');
+        messageDiv.classList.add(isUser ? 'user' : 'ai');
+
+        const avatar = document.createElement('div');
+        avatar.classList.add('ai-avatar');
+        avatar.classList.add(isUser ? 'user' : 'ai');
+        avatar.innerHTML = isUser ? '👤' : '🤖';
+
+        const content = document.createElement('div');
+        content.classList.add('ai-message-content');
+        content.textContent = text;
+
+        messageDiv.appendChild(avatar);
+        messageDiv.appendChild(content);
+        aiMessagesDiv.appendChild(messageDiv);
+        aiMessagesDiv.scrollTop = aiMessagesDiv.scrollHeight;
+    }
+
+    function getNextAiResponse() {
+        const response = aiResponses[currentAiResponseIndex];
+        currentAiResponseIndex = (currentAiResponseIndex + 1) % aiResponses.length;
+        return response;
+    }
+
+    function simulateAiResponse() {
+        setTimeout(() => {
+            addAiMessage(false, getNextAiResponse());
+        }, 1000);
+    }
+
+    aiSendBtn.onclick = function () {
+        if (aiInput.value.trim()) {
+            addAiMessage(true, aiInput.value);
+            aiInput.value = '';
+            simulateAiResponse();
+        }
+    };
+
+    aiInput.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter' && aiInput.value.trim()) {
+            addAiMessage(true, aiInput.value);
+            aiInput.value = '';
+            simulateAiResponse();
+        }
+    });
+
+    // Initialize AI chat with welcome message
+    addAiMessage(false, "Merhaba! Ben radyo AI asistanınız. Size nasıl yardımcı olabilirim?");
+
+    // Otomatik AI yanıtları başlat
+    setInterval(() => {
+        addAiMessage(false, getNextAiResponse());
+    }, 10000); // Her 10 saniyede bir AI yanıtı
+
+    // Otomatik dinleyici yorumları başlat
+    setInterval(() => {
+        addNextMessage();
+    }, 3000); // Her 3 saniyede bir yeni yorum
+
     showFakeMessages();
 </script>
-<div class="sliderxo9x41body">
-  <div class="sliderxo9x41">
-    <div class="sliderxo9x41title">Sosyal Medyada Biz</div>
-    <div class="o9x41">
+<div class="sliderxhmjqhbody">
+  <div class="sliderxhmjqh">
+    <div class="sliderxhmjqhtitle">Sosyal Medyada Biz</div>
+    <div class="hmjqh">
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/facebook.png" class="o9x41-media" />
+            <img src="/src/icon/facebook.png" class="hmjqh-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/instagram.png" class="o9x41-media" />
+            <img src="/src/icon/instagram.png" class="hmjqh-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/linkedin.png" class="o9x41-media" />
+            <img src="/src/icon/linkedin.png" class="hmjqh-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/youtube.png" class="o9x41-media" />
+            <img src="/src/icon/youtube.png" class="hmjqh-media" />
         </a>
         <a href="https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/whatsapp.png" class="o9x41-media" />
+            <img src="/src/icon/whatsapp.png" class="hmjqh-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/google-maps.png" class="o9x41-media" />
+            <img src="/src/icon/google-maps.png" class="hmjqh-media" />
         </a></div>
   </div>
 </div>
@@ -328,12 +435,13 @@
   </ul>
   <p>VeRadyo 2025 cognite. &copy;</p>
 </footer>
+
 </div>
 </body>
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/src/js.js?v=lj2bz"></script>
-<script src="/src/cookie.js?v=lj2bz"></script>
+<script type="text/javascript" src="/src/js.js?v=qit7r"></script>
+<script src="/src/cookie.js?v=qit7r"></script>
 
 </html>
