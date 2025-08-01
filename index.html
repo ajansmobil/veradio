@@ -14,16 +14,16 @@
       content="upgrade-insecure-requests"
     />
     <title>VeRadyo</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="Gaziantep’in sevilen radyosu Veradyo 9.00 FM ile en iyi müzikler, canlı yayınlar ve mobil dinleme keyfi sizi bekliyor. Şimdi dinleyin!" />
+    <meta name="keywords" content="ve radyo , Veradyo, Veradyo canlı dinle, Veradyo Gaziantep, Veradyo 9.00 FM, Veradyo online radyo, Veradyo yayın akışı, Veradyo mobil uygulama, Radyo dinle canlı, Radyo yayını online, Türkçe müzik radyo kanalları, Popüler radyo kanalları, Gaziantep radyo, Gaziantep radyo frekansları, Gaziantep 9.00 FM, Gaziantep yerel radyo, 9.00 FM radyo frekansı, 9.00 FM canlı yayın, 9.00 FM online dinle, ve radyo, radyo ve, Radyo ve müzik, Radyo ve haber, Sabah radyo, Radyo uygulaması indir" />
     <meta property="og:title" content="VeRadyo" />
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="Gaziantep’in sevilen radyosu Veradyo 9.00 FM ile en iyi müzikler, canlı yayınlar ve mobil dinleme keyfi sizi bekliyor. Şimdi dinleyin!" />
     <meta property="og:image" content="https://veradyo.com.tr/img/icon.png" />
     <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="/src/css.css?v=af3uo" />
+    <link rel="stylesheet" href="/src/css.css?v=z9btv" />
     <link
       rel="shortcut icon"
-      href="/img/icon.png?v=af3uo"
+      href="/img/icon.png?v=z9btv"
       type="image/png"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,14 +35,14 @@
     <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
     <script src="/src/swiper-bundle.min.js"></script>
     
-  <link rel="stylesheet" href="style.css?v=af3uo">
+  <link rel="stylesheet" href="style.css?v=z9btv">
 </head>
 
   <body>
-    <div id="header"><div class="ku5gj">
-  <!-- <div class="ku5gjtitle">
-    <div class="ku5gjtitlebody">
-      <div class="ku5gjtitlebodylang">
+    <div id="header"><div class="rdh96">
+  <!-- <div class="rdh96title">
+    <div class="rdh96titlebody">
+      <div class="rdh96titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr"></a></li>
         </ul>
@@ -50,10 +50,10 @@
     </div>
   </div> -->
 
-  <div class="ku5gjbody">
+  <div class="rdh96body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=af3uo"
+        src="/img/logo.svg?v=z9btv"
         height="200px"
         alt="VeRadyo Logo"
     /></a>
@@ -78,7 +78,7 @@
   </div>
 </div>
 
-<div class="menu-mobil-ku5gj">
+<div class="menu-mobil-rdh96">
   <ul>
     <li>
       <span class="material-symbols-outlined">home</span>
@@ -171,8 +171,8 @@
   });
 </script>
 </div>
-    <div id="content"><div class="u0z5n-body">
-  <div class="u0z5n">
+    <div id="content"><div class="qgjwe-body">
+  <div class="qgjwe">
     <div class="chat-section">
       <div class="chat-header">
         <h3>Dinleyici Yorumları</h3>
@@ -185,7 +185,7 @@
       <div class="messages-youtube-input">
         <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="messages-youtube-input-input" />
         <button class="input-icon" id="sendBtn" type="button">
-          <span class="material-symbols-outlined">send</span>
+          >
         </button>
       </div>
     </div>
@@ -202,7 +202,7 @@
       <div class="ai-input-section">
         <input id="aiInput" type="text" placeholder="AI'ya sorunuzu yazın..." class="ai-input" />
         <button class="ai-send-btn" id="aiSendBtn" type="button">
-          <span class="material-symbols-outlined">smart_toy</span>
+          >
         </button>
       </div>
     </div>
@@ -260,9 +260,26 @@
   ];
 
   let currentMessageIndex = 0;
-  const messagesDiv = document.getElementById("messages");
-  const input = document.getElementById("msgInput");
-  const sendBtn = document.getElementById("sendBtn");
+  let messagesDiv, input, sendBtn;
+
+  // DOM yüklendikten sonra elementleri yakala
+  document.addEventListener("DOMContentLoaded", function () {
+    messagesDiv = document.getElementById("messages");
+    input = document.getElementById("msgInput");
+    sendBtn = document.getElementById("sendBtn");
+
+    aiMessagesDiv = document.getElementById("aiMessages");
+    aiInput = document.getElementById("aiInput");
+    aiSendBtn = document.getElementById("aiSendBtn");
+
+    // Event listener'ları burada tanımla
+    setupEventListeners();
+    setupAiEventListeners();
+    showFakeMessages();
+    startAutomaticMessages();
+    initializeAI();
+    startOnlineCounter();
+  });
 
   function addMessage(user, text, avatar) {
     const card = document.createElement("div");
@@ -305,23 +322,25 @@
     currentMessageIndex = (currentMessageIndex + 1) % fakeMessages.length;
   }
 
-  sendBtn.onclick = function () {
-    if (input.value.trim()) {
-      addMessage("Sen", input.value, "https://i.pravatar.cc/40?u=sen&img=7");
-      input.value = "";
-    }
-  };
-  input.addEventListener("keypress", function (e) {
-    if (e.key === "Enter" && input.value.trim()) {
-      addMessage("Sen", input.value, "https://i.pravatar.cc/40?u=sen&img=7");
-      input.value = "";
-    }
-  });
+  function setupEventListeners() {
+    sendBtn.onclick = function () {
+      console.log("Gönder butonuna tıklandı!"); // Debug için
+      if (input.value.trim()) {
+        addMessage("Sen", input.value, "https://i.pravatar.cc/40?u=sen&img=7");
+        input.value = "";
+      }
+    };
+
+    input.addEventListener("keypress", function (e) {
+      if (e.key === "Enter" && input.value.trim()) {
+        addMessage("Sen", input.value, "https://i.pravatar.cc/40?u=sen&img=7");
+        input.value = "";
+      }
+    });
+  }
 
   // AI Chat Functions
-  const aiMessagesDiv = document.getElementById("aiMessages");
-  const aiInput = document.getElementById("aiInput");
-  const aiSendBtn = document.getElementById("aiSendBtn");
+  let aiMessagesDiv, aiInput, aiSendBtn;
 
   const aiResponses = [
     "Merhaba! Radyo hakkında sorularınızı yanıtlamaya hazırım. Hangi konuda yardımcı olabilirim?",
@@ -370,43 +389,47 @@
     }, 3000);
   }
 
-  aiSendBtn.onclick = function () {
-    if (aiInput.value.trim()) {
-      addAiMessage(true, aiInput.value);
-      aiInput.value = "";
-      simulateAiResponse();
-    }
-  };
+  function setupAiEventListeners() {
+    aiSendBtn.onclick = function () {
+      if (aiInput.value.trim()) {
+        addAiMessage(true, aiInput.value);
+        aiInput.value = "";
+        simulateAiResponse();
+      }
+    };
 
-  aiInput.addEventListener("keypress", function (e) {
-    if (e.key === "Enter" && aiInput.value.trim()) {
-      addAiMessage(true, aiInput.value);
-      aiInput.value = "";
-      simulateAiResponse();
-    }
-  });
+    aiInput.addEventListener("keypress", function (e) {
+      if (e.key === "Enter" && aiInput.value.trim()) {
+        addAiMessage(true, aiInput.value);
+        aiInput.value = "";
+        simulateAiResponse();
+      }
+    });
+  }
 
-  // Initialize AI chat with welcome message
-  addAiMessage(
-    false,
-    "Merhaba! Ben radyo AI asistanınız. Size nasıl yardımcı olabilirim?",
-  );
+  function initializeAI() {
+    // Initialize AI chat with welcome message
+    addAiMessage(
+      false,
+      "Merhaba! Ben radyo AI asistanınız. Size nasıl yardımcı olabilirim?",
+    );
+  }
 
-  // Otomatik AI yanıtları başlat
-  setInterval(() => {
-    addAiMessage(false, getNextAiResponse());
-  }, 10000); // Her 10 saniyede bir AI yanıtı
+  function startAutomaticMessages() {
+    // Otomatik AI yanıtları başlat
+    setInterval(() => {
+      addAiMessage(false, getNextAiResponse());
+    }, 10000); // Her 10 saniyede bir AI yanıtı
 
-  // Otomatik dinleyici yorumları başlat
-  setInterval(() => {
-    addNextMessage();
-  }, 1000); // Her 3 saniyede bir yeni yorum
-
-  showFakeMessages();
+    // Otomatik dinleyici yorumları başlat
+    setInterval(() => {
+      addNextMessage();
+    }, 3000); // Her 3 saniyede bir yeni yorum
+  }
 
   // Online sayacı
   let currentOnlineCount = 2546;
-  const onlineCountElement = document.getElementById("onlineCount");
+  let onlineCountElement;
 
   function updateOnlineCount() {
     // -5 ile +5 arasında random değişim
@@ -423,30 +446,33 @@
     onlineCountElement.textContent = `${currentOnlineCount} Online`;
   }
 
-  // Her 3 saniyede bir online sayısını güncelle
-  setInterval(updateOnlineCount, 3000);
+  function startOnlineCounter() {
+    onlineCountElement = document.getElementById("onlineCount");
+    // Her 3 saniyede bir online sayısını güncelle
+    setInterval(updateOnlineCount, 3000);
+  }
 </script>
-<div class="sliderxp50xcbody">
-  <div class="sliderxp50xc">
-    <div class="sliderxp50xctitle">Sosyal Medyada Biz</div>
-    <div class="p50xc">
+<div class="sliderxba32abody">
+  <div class="sliderxba32a">
+    <div class="sliderxba32atitle">Sosyal Medyada Biz</div>
+    <div class="ba32a">
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/facebook.png" class="p50xc-media" />
+            <img src="/src/icon/facebook.png" class="ba32a-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/instagram.png" class="p50xc-media" />
+            <img src="/src/icon/instagram.png" class="ba32a-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/linkedin.png" class="p50xc-media" />
+            <img src="/src/icon/linkedin.png" class="ba32a-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/youtube.png" class="p50xc-media" />
+            <img src="/src/icon/youtube.png" class="ba32a-media" />
         </a>
         <a href="https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/whatsapp.png" class="p50xc-media" />
+            <img src="/src/icon/whatsapp.png" class="ba32a-media" />
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/google-maps.png" class="p50xc-media" />
+            <img src="/src/icon/google-maps.png" class="ba32a-media" />
         </a></div>
   </div>
 </div>
@@ -494,6 +520,6 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
   />
   
-  <script type="text/javascript" src="/src/js.js?v=af3uo"></script>
-  <script src="/src/cookie.js?v=af3uo"></script>
+  <script type="text/javascript" src="/src/js.js?v=z9btv"></script>
+  <script src="/src/cookie.js?v=z9btv"></script>
 </html>
