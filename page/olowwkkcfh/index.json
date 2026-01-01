@@ -1,30 +1,37 @@
 {
   "name": {
-    "tr": "İletişim"
+    "tr": "İletişim",
+    "en": ""
   },
   "status": "play",
   "category": "",
   "id": "olowwkkcfh",
-  "url": "",
+  "externalUrl": "",
   "path": "iletisim",
   "index": 5,
   "icon": "home",
   "description": {
-    "tr": ""
+    "tr": "Bu sayfadan bizimle iletişime geçebilir, soru ve görüşlerinizi iletebilirsiniz.",
+    "en": ""
   },
   "keyword": {
-    "tr": ""
+    "tr": "i̇letişim, i̇letişim, veradio i̇letişim",
+    "en": ""
   },
   "text": {
-    "tr": ""
+    "tr": "İletişim",
+    "en": ""
   },
   "spot": {
     "tr": ""
   },
-  "update": "2025-07-10T20:26:03.187Z",
+  "update": "2025-12-29T04:15:09.995Z",
   "desing": {
     "header": [],
-    "body": ["k5wklo", "cwurqi"],
+    "body": [
+      "k5wklo",
+      "cwurqi"
+    ],
     "footer": []
   },
   "date": "2025-06-09T14:25:51.154Z"

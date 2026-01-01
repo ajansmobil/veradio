@@ -1,0 +1,325 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Menü ",
+      "path": "menu-sade-1",
+      "local": "header",
+      "category": "menu",
+      "desing": {
+        "logo": "logo.svg",
+        "url": "iletisim",
+        "height": "100px"
+      },
+      "id": "toijiy",
+      "data": [
+        {
+          "name": {
+            "tr": "Bizi hemen arayın"
+          },
+          "spot": "+90 342 221 00 02",
+          "icon": "phone",
+          "externalUrl": "",
+          "titlecolor": "#000",
+          "spotcolor": "#000",
+          "iconcolor": "#000"
+        },
+        {
+          "name": {
+            "tr": "Bize yazın"
+          },
+          "spot": "info@{{domain}}",
+          "icon": "mail",
+          "url": "info@{{domain}}",
+          "titlecolor": "#000",
+          "spotcolor": "#000",
+          "iconcolor": "#000"
+        },
+        {
+          "name": {
+            "tr": "İncilipınar Mah. Şehit Yusuf Erin Cad."
+          },
+          "spot": "Çayırlı İş Mrk. B Blok Kat:6 No:22 Gaziantep",
+          "icon": "location_on",
+          "externalUrl": "",
+          "titlecolor": "#000",
+          "spotcolor": "#000",
+          "iconcolor": "#000"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Footer",
+      "path": "footer-1",
+      "local": "footer",
+      "category": "footer",
+      "desing": {
+        "bgcolor": "#ee5a24",
+        "color": "#fff",
+        "img": "",
+        "imgwidth": "250px"
+      },
+      "id": "w0cn43",
+      "data": [],
+      "version": "1.0.0",
+      "icon": "web_asset"
+    },
+    {
+      "name": "Maps",
+      "path": "map",
+      "local": "body",
+      "category": "map",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#fff",
+        "color": "#1e3046",
+        "img": "map.png",
+        "externalUrl": ""
+      },
+      "id": "cwurqi",
+      "index": 2,
+      "version": "1.0.0",
+      "icon": "map"
+    },
+    {
+      "index": 3,
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "desing": {
+        "color": "#1e3046",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": ""
+        },
+        "margin": "30px 0px 30px 0px"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "0532 505 99 97",
+          "url": "tel:05325059997"
+        },
+        {
+          "icon": "email",
+          "text": "info@{{domain}}"
+        },
+        {
+          "icon": "map",
+          "text": "Atatürk Mah. Süleyman Kamçı Cad. Erdem Apt. No:8/A Şehitkamil / Gaziantep"
+        }
+      ],
+      "id": "k5wklo",
+      "version": "1.0.0",
+      "icon": "contact_mail"
+    },
+    {
+      "index": 4,
+      "name": "Bilgilendirme",
+      "path": "page-desing-sade",
+      "local": "body",
+      "category": "page",
+      "desing": {
+        "height": "100",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "category": "bilgilendirme",
+        "menu-active": "#1e3046"
+      },
+      "id": "jc1rhg"
+    },
+    {
+      "index": 5,
+      "name": "Login",
+      "path": "login",
+      "local": "body",
+      "category": "login",
+      "desing": {
+        "color": "#ee5a24 ",
+        "bgcolor": "#101010",
+        "loginTitle": {
+          "tr": "Giriş Yap",
+          "en": ""
+        },
+        "registerTitle": {
+          "tr": "Üye Ol",
+          "en": ""
+        },
+        "emailPlaceholder": {
+          "tr": "Mail Adresiniz",
+          "en": ""
+        },
+        "passwordPlaceholder": {
+          "tr": "Şifre",
+          "en": ""
+        },
+        "passwordConfirmPlaceholder": {
+          "tr": "Şifre Tekrar",
+          "en": ""
+        },
+        "namePlaceholder": {
+          "tr": "Ad Soyad",
+          "en": ""
+        },
+        "loginButton": {
+          "tr": "Giriş Yap",
+          "en": ""
+        },
+        "registerButton": {
+          "tr": "Üye Ol",
+          "en": ""
+        },
+        "forgotPassword": {
+          "tr": "Şifremi Unuttum",
+          "en": ""
+        },
+        "alreadyMember": {
+          "tr": "Üye misin?",
+          "en": ""
+        },
+        "googleLogin": {
+          "tr": "Google İle Giriş Yap",
+          "en": ""
+        },
+        "resetPasswordButton": {
+          "tr": "Şifre Sıfırlama Maili Gönder",
+          "en": ""
+        },
+        "backToLogin": {
+          "tr": "Giriş Sayfasına Dön",
+          "en": ""
+        },
+        "nameRequired": {
+          "tr": "Ad soyad giriniz!",
+          "en": ""
+        },
+        "validEmailRequired": {
+          "tr": "Geçerli bir email adresi giriniz!",
+          "en": ""
+        },
+        "passwordMinLength": {
+          "tr": "Şifre en az 6 karakter olmalıdır!",
+          "en": ""
+        },
+        "passwordsNotMatch": {
+          "tr": "Şifreler eşleşmiyor!",
+          "en": ""
+        },
+        "emailAlreadyExists": {
+          "tr": "Bu email adresi zaten kullanımda!",
+          "en": ""
+        },
+        "registrationSuccess": {
+          "tr": "Üyelik başarıyla oluşturuldu!",
+          "en": ""
+        },
+        "registrationError": {
+          "tr": "Üyelik oluşturulurken bir hata oluştu!",
+          "en": ""
+        },
+        "passwordRequired": {
+          "tr": "Şifre giriniz!",
+          "en": ""
+        },
+        "invalidCredentials": {
+          "tr": "Email adresi veya şifre hatalı!",
+          "en": ""
+        },
+        "accountDeactivated": {
+          "tr": "Hesabınız deaktif durumda!",
+          "en": ""
+        },
+        "loginSuccess": {
+          "tr": "Giriş başarılı!",
+          "en": ""
+        },
+        "loginError": {
+          "tr": "Giriş yapılırken bir hata oluştu!",
+          "en": ""
+        },
+        "userNotFound": {
+          "tr": "Bu email adresine kayıtlı kullanıcı bulunamadı!",
+          "en": ""
+        },
+        "resetEmailSent": {
+          "tr": "Şifre sıfırlama maili gönderildi!",
+          "en": ""
+        },
+        "resetEmailError": {
+          "tr": "Şifre sıfırlama maili gönderilirken bir hata oluştu!",
+          "en": ""
+        },
+        "googleLoginDevelopment": {
+          "tr": "Google login özelliği geliştiriliyor...",
+          "en": ""
+        },
+        "alreadyLoggedIn": {
+          "tr": "Zaten giriş yapmışsınız!",
+          "en": ""
+        }
+      },
+      "id": "k3o6l7",
+      "version": "1.0.0",
+      "icon": "login"
+    },
+    {
+      "index": 6,
+      "name": "Sosyal Media Slider",
+      "path": "social-matrix-1",
+      "local": "body",
+      "category": "social slider",
+      "desing": {
+        "name": {
+          "tr": "Sosyal Medyada Biz",
+          "en": ""
+        },
+        "bgcolor": "#fff",
+        "padding": "25px 0px 25px 0px",
+        "margin": "0px 0px 0px 0px",
+        "color": "#000"
+      },
+      "data": [
+        {
+          "img": "/src/icon/facebook.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/instagram.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/linkedin.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/youtube.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/whatsapp.png",
+          "url": "https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0"
+        },
+        {
+          "img": "/src/icon/google-maps.png",
+          "externalUrl": ""
+        }
+      ],
+      "id": "fy1fst"
+    },
+    {
+      "name": "Code",
+      "path": "code",
+      "local": "body",
+      "category": "code",
+      "id": "arzcdr",
+      "index": 7,
+      "desing": {},
+      "version": "1.0.0",
+      "icon": "code"
+    }
+  ]
+}

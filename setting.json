@@ -1,0 +1,30 @@
+{
+  "order": false,
+  "user": true,
+  "description": {
+    "tr": "Gaziantep’in sevilen radyosu Veradyo 9.00 FM ile en iyi müzikler, canlı yayınlar ve mobil dinleme keyfi sizi bekliyor. Şimdi dinleyin!"
+  },
+  "keyword": {
+    "tr": "ve radyo , Veradyo, Veradyo canlı dinle, Veradyo Gaziantep, Veradyo 9.00 FM, Veradyo online radyo, Veradyo yayın akışı, Veradyo mobil uygulama, Radyo dinle canlı, Radyo yayını online, Türkçe müzik radyo kanalları, Popüler radyo kanalları, Gaziantep radyo, Gaziantep radyo frekansları, Gaziantep 9.00 FM, Gaziantep yerel radyo, 9.00 FM radyo frekansı, 9.00 FM canlı yayın, 9.00 FM online dinle, ve radyo, radyo ve, Radyo ve müzik, Radyo ve haber, Sabah radyo, Radyo uygulaması indir"
+  },
+  "multi": false,
+  "category": "Kurumsal",
+  "name": "VeRadyo",
+  "domain": "veradyo.com.tr",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": false,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.svg",
+  "firebaseCollection": ""
+}

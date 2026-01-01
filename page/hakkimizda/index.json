@@ -1,13 +1,15 @@
 {
   "name": {
-    "tr": "Hakkımızda"
+    "tr": "Hakkımızda",
+    "en": ""
   },
   "status": "play",
   "id": "hakkimizda",
   "path": "hakkimizda",
   "category": "kurumsal",
   "text": {
-    "tr": "<h2 style=\"font-size: 24px;\">Hakkımızda</h2><p style=\"font-size: 16px;\">Veradyo, yenilikçi radyo teknolojileriyle dijital dünyada fark yaratır. Dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Ekibimiz, sektörde deneyimli ve dinamik kişilerden oluşur. Amacımız, kullanıcı odaklı çözümlerle dijital radyoculuğu ileri taşımaktır.</p>"
+    "tr": "<h2 style=\"font-size: 24px;\">Hakkımızda</h2><p style=\"font-size: 16px;\">Veradyo, yenilikçi radyo teknolojileriyle dijital dünyada fark yaratır. Dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Ekibimiz, sektörde deneyimli ve dinamik kişilerden oluşur. Amacımız, kullanıcı odaklı çözümlerle dijital radyoculuğu ileri taşımaktır.</p>",
+    "en": ""
   },
   "desing": {
     "header": [],
@@ -15,10 +17,12 @@
     "footer": []
   },
   "keyword": {
-    "tr": ""
+    "tr": "hakkımızda, hakkımızda, veradio hakkımızda",
+    "en": ""
   },
   "description": {
-    "tr": ""
+    "tr": "Veradyo, yenilikçi radyo teknolojileri ve deneyimli ekibiyle dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Dijital radyoculuğu ileri taşıyoruz.",
+    "en": ""
   },
   "spot": {
     "tr": ""
@@ -27,7 +31,7 @@
   "desc": {},
   "icon": "home",
   "bgimg": "1.jpg",
-  "update": "2025-07-11T05:50:11.345Z",
+  "update": "2025-12-29T04:15:10.003Z",
   "date": "2025-06-09T14:25:51.205Z",
   "pathnext": ""
 }

@@ -1,0 +1,184 @@
+{
+  "name": "Bilgilendirme",
+  "path": "bilgilendirme",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": ""
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "description": {
+        "tr": "Veradyo, yenilikçi radyo teknolojileri ve deneyimli ekibiyle dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Dijital radyoculuğu ileri taşıyoruz."
+      },
+      "index": 0,
+      "icon": "home",
+      "pathnext": "",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Misyon",
+        "en": ""
+      },
+      "status": "play",
+      "id": "misyon",
+      "path": "misyon",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "description": {
+        "tr": "Dijital radyoculukta yenilikçi çözümlerle dinleyicilere en iyi deneyimi sunmayı ve teknolojiyi kullanarak erişilebilir, kaliteli içerikler üretmeyi misyon edindik."
+      },
+      "index": 1,
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Vizyon",
+        "en": ""
+      },
+      "status": "play",
+      "id": "vizyon",
+      "path": "vizyon",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "description": {
+        "tr": "VizyonumuzVizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır. Sürekli gelişim ve yenilikle, sektörde öncü olmayı amaçlıyoruz."
+      },
+      "index": 2,
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kalite Politikamız",
+        "en": ""
+      },
+      "status": "play",
+      "id": "kalitepolitikamiz",
+      "path": "kalite-politikamiz",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "description": {
+        "tr": "Kalite PolitikamızKalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en i..."
+      },
+      "index": 3,
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Gizlilik Politikası",
+        "en": ""
+      },
+      "status": "play",
+      "id": "gizlilikpolitikasi",
+      "path": "gizlilik-politikasi",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "description": {
+        "tr": "Veradio gizlilik politikası. Web sitemizi ziyaret ettiğinizde kullanıcı deneyimini iyileştirmek için çerezlerin nasıl kullanıldığını ve kişisel verilerinizin güvenliğini nasıl sağladığımızı öğrenin."
+      },
+      "index": 4,
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kişisel Veriler",
+        "en": ""
+      },
+      "status": "play",
+      "id": "kisiselveriler",
+      "path": "kisisel-veriler",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "description": {
+        "tr": "Kişisel verilerinizin güvenliği ve korunması hakkında bilgi edinin. 6698 sayılı KVKK uyarınca verilerinizi nasıl işlediğimizi, haklarınızı ve gizlilik politikamızı keşfedin."
+      },
+      "index": 5,
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kullanıcı Hakları",
+        "en": ""
+      },
+      "status": "play",
+      "id": "kullanicahaklari",
+      "path": "kullanicihaklari",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "description": {
+        "tr": "Kişisel verilerinizin korunması ve 6698 sayılı KVKK kapsamındaki haklarınız hakkında bilgi edinin. Veri güvenliği ve haklarınızı nasıl kullanacağınızı öğrenin."
+      },
+      "index": 6,
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Yasal Uyarı",
+        "en": ""
+      },
+      "status": "play",
+      "id": "yasaluyari",
+      "path": "yasal-uyari",
+      "category": "kurumsal",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "description": {
+        "tr": "Yasal Uyarı\n    \n        Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenle..."
+      },
+      "index": 7,
+      "icon": "home",
+      "desc": {}
+    }
+  ],
+  "index": 2,
+  "desing": {
+    "header": [],
+    "body": [
+      "jc1rhg"
+    ],
+    "footer": []
+  }
+}

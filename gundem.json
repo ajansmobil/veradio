@@ -1,0 +1,19 @@
+{
+  "name": "Gündem",
+  "path": "gundem",
+  "desc": [],
+  "data": [],
+  "index": 4,
+  "desing": {
+    "header": [],
+    "body": [
+      "d01aw8"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "detail": true,
+    "spot": true
+  }
+}

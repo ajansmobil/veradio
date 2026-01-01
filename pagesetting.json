@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "name": "Sayfalar",
+      "path": "page",
+      "desc": [],
+      "data": [],
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "img": false,
+        "page": true,
+        "body": true
+      }
+    },
+    {
+      "name": "Bilgilendirme",
+      "path": "bilgilendirme",
+      "desc": [],
+      "data": [],
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [
+          "jc1rhg"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "detail": true,
+        "bgimg": true
+      }
+    },
+    {
+      "name": "Üyelik Sayfası",
+      "path": "user",
+      "desc": [],
+      "data": [],
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "body": true
+      }
+    }
+  ]
+}

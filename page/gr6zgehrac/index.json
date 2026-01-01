@@ -1,27 +1,31 @@
 {
   "name": {
-    "tr": "Bilgilendirme"
+    "tr": "Bilgilendirme",
+    "en": ""
   },
   "status": "play",
   "category": "",
   "id": "gr6zgehrac",
-  "url": "",
+  "externalUrl": "",
   "path": "bilgilendirme",
   "index": 4,
   "icon": "home",
   "description": {
-    "tr": ""
+    "tr": "Veradio projesi hakkında detaylı bilgilere bu sayfadan ulaşabilirsiniz.",
+    "en": ""
   },
   "keyword": {
-    "tr": ""
+    "tr": "bilgilendirme, bilgilendirme, veradio bilgilendirme",
+    "en": ""
   },
   "text": {
-    "tr": ""
+    "tr": "Veradio, modern radyo yayıncılığına yeni bir soluk getiren yenilikçi bir projedir. Bu platform, kullanıcılara kesintisiz müzik ve podcast deneyimi sunmayı hedefler. Gelişmiş teknolojimiz sayesinde, kişiselleştirilmiş çalma listeleri oluşturabilir ve favori içeriklerinizi kolayca keşfedebilirsiniz. Projemiz, dinleyiciler ile içerik üreticileri arasında güçlü bir bağ kurmayı amaçlamaktadır. Daha fazla bilgi ve güncellemeler için bizi takip etmeye devam edin.",
+    "en": ""
   },
   "spot": {
     "tr": ""
   },
-  "update": "2025-07-10T20:26:03.181Z",
+  "update": "2025-12-29T04:15:09.988Z",
   "date": "2025-06-09T14:25:51.149Z",
   "desing": {
     "header": [],

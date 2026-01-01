@@ -1,0 +1,9 @@
+{
+  "data": [],
+  "modulestatus": {
+    "img": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}

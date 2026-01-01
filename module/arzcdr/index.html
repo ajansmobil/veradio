@@ -1,0 +1,695 @@
+<div class="modulex-body">
+  <div class="modulex">
+    <div class="chat-section">
+      <div class="chat-header">
+        <h3>Dinleyici Yorumları</h3>
+        <div class="online-indicator">
+          <span class="online-dot"></span>
+
+        </div>
+      </div>
+      <div id="messages" class="messages-youtube"></div>
+      <div class="messages-youtube-input">
+        <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="messages-youtube-input-input" />
+        <button class="input-icon" id="sendBtn" type="button">
+          >
+        </button>
+      </div>
+    </div>
+
+    <div class="ai-chat-section">
+      <div class="ai-chat-header">
+        <h3>AI Radyo Asistanı</h3>
+        <div class="ai-status">
+          <span class="ai-dot"></span>
+          <span>AI Aktif</span>
+        </div>
+      </div>
+      <div id="aiMessages" class="ai-messages"></div>
+      <div class="ai-input-section">
+        <input id="aiInput" type="text" placeholder="AI'ya sorunuzu yazın..." class="ai-input" />
+        <button class="ai-send-btn" id="aiSendBtn" type="button">
+          >
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .modulex {
+    width: var(--max);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color: #333333;
+    gap: 20px;
+  }
+
+  .modulex-body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color: #333333;
+  }
+
+  .chat-section {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .chat-header h3 {
+    color: #333;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .online-indicator {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #666;
+    font-size: 13px;
+  }
+
+  .online-dot {
+    width: 7px;
+    height: 7px;
+    background: #4caf50;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.3;
+    }
+  }
+
+  .messages-youtube {
+    width: 100%;
+    height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: none;
+    padding: 0;
+  }
+
+  .message-card {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 14px;
+    padding: 10px 16px;
+    gap: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: background 0.2s;
+  }
+
+  .message-card:hover {
+    background: rgba(0, 0, 0, 0.08);
+  }
+
+  .message-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .message-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .message-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .message-user {
+    font-weight: 600;
+    color: #333;
+    font-size: 15px;
+  }
+
+  .message-text {
+    color: #666;
+    font-size: 14px;
+    opacity: 0.9;
+  }
+
+  .messages-youtube-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    padding: 10px 18px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .messages-youtube-input-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    color: #333;
+  }
+
+  .messages-youtube-input-input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .input-icon {
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .input-icon:hover {
+    background: rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+  }
+
+  /* Scrollbar styling */
+  .messages-youtube::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .messages-youtube::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+  }
+
+  .messages-youtube::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+  }
+
+  .messages-youtube::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .ai-chat-section {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: #1f2937;
+    max-width: 450px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ai-chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f3f4f6;
+    margin-bottom: 8px;
+  }
+
+  .ai-chat-header h3 {
+    color: #111827;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+
+  .ai-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 12px;
+    background: #f9fafb;
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+  }
+
+  .ai-dot {
+    width: 8px;
+    height: 8px;
+    background: #10b981;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+
+  .ai-messages {
+    width: 100%;
+    height: 320px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #f3f4f6;
+  }
+
+  .ai-message {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    box-shadow:
+      0 1px 3px 0 rgba(0, 0, 0, 0.1),
+      0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease;
+  }
+
+  .ai-message:hover {
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .ai-message.user {
+    background: #ffffff;
+    margin-left: 24px;
+    border-left: 4px solid #3b82f6;
+  }
+
+  .ai-message.ai {
+    background: #ffffff;
+    margin-right: 24px;
+    border-left: 4px solid #10b981;
+  }
+
+  .ai-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-avatar.user {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  }
+
+  .ai-avatar.ai {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  }
+
+  .ai-message-content {
+    flex: 1;
+    color: #374151;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+
+  .ai-input-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 12px 16px;
+    border: 2px solid #e5e7eb;
+    box-shadow:
+      0 1px 3px 0 rgba(0, 0, 0, 0.1),
+      0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease;
+  }
+
+  .ai-input-section:focus-within {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  }
+
+  .ai-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #1f2937;
+    font-weight: 400;
+  }
+
+  .ai-input::placeholder {
+    color: #9ca3af;
+  }
+
+  .ai-send-btn {
+    background: #3b82f6;
+    border: none;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .ai-send-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+  }
+
+  .ai-send-btn:active {
+    transform: translateY(0);
+  }
+
+  /* AI Messages Scrollbar */
+  .ai-messages::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .ai-messages::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    border-radius: 4px;
+  }
+
+  .ai-messages::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 4px;
+  }
+
+  .ai-messages::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+  }
+
+  @media (max-width: 1200px) {
+    .modulex {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .chat-section,
+    .ai-chat-section {
+      width: calc(var(--max) - 60px);
+    }
+
+    .ai-chat-section {
+      max-width: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .modulex {
+      padding: 0 20px;
+    }
+
+    .chat-section,
+    .ai-chat-section {
+      width: calc(var(--max) - 40px);
+      max-width: none;
+    }
+
+    .ai-messages {
+      height: 280px;
+    }
+
+    .messages-youtube {
+      height: 320px;
+    }
+  }
+</style>
+
+<script>
+  const fakeMessages = [
+    {
+      user: "Ali",
+      text: "Selam, radyo harika!",
+      avatar: "https://i.pravatar.cc/40?u=ali&img=1",
+    },
+    {
+      user: "Ayşe",
+      text: "Şarkı çok iyiymiş.",
+      avatar: "https://i.pravatar.cc/40?u=ayse&img=47",
+    },
+    {
+      user: "Mehmet",
+      text: "Yorumlarınızı bekliyorum.",
+      avatar: "https://i.pravatar.cc/40?u=mehmet&img=11",
+    },
+    {
+      user: "Zeynep",
+      text: "Sıradaki parça ne?",
+      avatar: "https://i.pravatar.cc/40?u=zeynep&img=44",
+    },
+    {
+      user: "Can",
+      text: "Güzel yayın, elinize sağlık.",
+      avatar: "https://i.pravatar.cc/40?u=can&img=51",
+    },
+    {
+      user: "Elif",
+      text: "Bu şarkıyı çok seviyorum!",
+      avatar: "https://i.pravatar.cc/40?u=elif&img=24",
+    },
+    {
+      user: "Burak",
+      text: "Radyo kalitesi çok iyi.",
+      avatar: "https://i.pravatar.cc/40?u=burak&img=61",
+    },
+    {
+      user: "Selin",
+      text: "DJ çok güzel seçim yapıyor.",
+      avatar: "https://i.pravatar.cc/40?u=selin&img=31",
+    },
+    {
+      user: "Kemal",
+      text: "Müzik zevkiniz çok iyi.",
+      avatar: "https://i.pravatar.cc/40?u=kemal&img=56",
+    },
+  ];
+
+  let currentMessageIndex = 0;
+  let messagesDiv, input, sendBtn;
+
+  // DOM yüklendikten sonra elementleri yakala
+  document.addEventListener("DOMContentLoaded", function () {
+    messagesDiv = document.getElementById("messages");
+    input = document.getElementById("msgInput");
+    sendBtn = document.getElementById("sendBtn");
+
+    aiMessagesDiv = document.getElementById("aiMessages");
+    aiInput = document.getElementById("aiInput");
+    aiSendBtn = document.getElementById("aiSendBtn");
+
+    // Event listener'ları burada tanımla
+    setupEventListeners();
+    setupAiEventListeners();
+    showFakeMessages();
+    startAutomaticMessages();
+    initializeAI();
+
+  });
+
+  function addMessage(user, text, avatar) {
+    const card = document.createElement("div");
+    card.classList.add("message-card");
+    const avatarDiv = document.createElement("div");
+    avatarDiv.classList.add("message-avatar");
+    avatarDiv.innerHTML = `<img src="${avatar}" alt="${user}">`;
+    const info = document.createElement("div");
+    info.classList.add("message-info");
+    const name = document.createElement("div");
+    name.classList.add("message-user");
+    name.textContent = user;
+    const messageText = document.createElement("div");
+    messageText.classList.add("message-text");
+    messageText.textContent = text;
+    info.appendChild(name);
+    info.appendChild(messageText);
+    card.appendChild(avatarDiv);
+    card.appendChild(info);
+    messagesDiv.appendChild(card);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+  }
+
+  function showFakeMessages() {
+    messagesDiv.innerHTML = "";
+    // İlk 5 yorumu göster
+    for (let i = 0; i < 5; i++) {
+      addMessage(
+        fakeMessages[i].user,
+        fakeMessages[i].text,
+        fakeMessages[i].avatar,
+      );
+    }
+    currentMessageIndex = 5; // Sonraki yorumlar için index
+  }
+
+  function addNextMessage() {
+    const message = fakeMessages[currentMessageIndex];
+    addMessage(message.user, message.text, message.avatar);
+    currentMessageIndex = (currentMessageIndex + 1) % fakeMessages.length;
+  }
+
+  function setupEventListeners() {
+    sendBtn.onclick = function () {
+      if (input.value.trim()) {
+        addMessage("Sen", input.value, "https://i.pravatar.cc/40?u=sen&img=7");
+        input.value = "";
+      }
+    };
+
+    input.addEventListener("keypress", function (e) {
+      if (e.key === "Enter" && input.value.trim()) {
+        addMessage("Sen", input.value, "https://i.pravatar.cc/40?u=sen&img=7");
+        input.value = "";
+      }
+    });
+  }
+
+  // AI Chat Functions
+  let aiMessagesDiv, aiInput, aiSendBtn;
+
+  const aiResponses = [
+    "Merhaba! Radyo hakkında sorularınızı yanıtlamaya hazırım. Hangi konuda yardımcı olabilirim?",
+    "Şu anda çalan şarkı hakkında bilgi almak ister misiniz?",
+    "Radyo frekansımız hakkında detaylı bilgi verebilirim.",
+    "Dinleyici yorumlarınızı bekliyoruz!",
+    "Hangi tür müzik dinlemek istiyorsunuz?",
+    "Radyo programımız hakkında sorularınızı yanıtlayabilirim.",
+    "Canlı yayın saatlerimiz hakkında bilgi verebilirim.",
+    "Özel istek şarkılarınızı dinleyebiliriz.",
+    "Radyo DJ'lerimiz hakkında bilgi almak ister misiniz?",
+    "Müzik önerilerinizi bekliyoruz!",
+  ];
+
+  let currentAiResponseIndex = 0;
+
+  function addAiMessage(isUser, text) {
+    const messageDiv = document.createElement("div");
+    messageDiv.classList.add("ai-message");
+    messageDiv.classList.add(isUser ? "user" : "ai");
+
+    const avatar = document.createElement("div");
+    avatar.classList.add("ai-avatar");
+    avatar.classList.add(isUser ? "user" : "ai");
+    avatar.innerHTML = isUser ? "👤" : "🤖";
+
+    const content = document.createElement("div");
+    content.classList.add("ai-message-content");
+    content.textContent = text;
+
+    messageDiv.appendChild(avatar);
+    messageDiv.appendChild(content);
+    aiMessagesDiv.appendChild(messageDiv);
+    aiMessagesDiv.scrollTop = aiMessagesDiv.scrollHeight;
+  }
+
+  function getNextAiResponse() {
+    const response = aiResponses[currentAiResponseIndex];
+    currentAiResponseIndex = (currentAiResponseIndex + 1) % aiResponses.length;
+    return response;
+  }
+
+  function simulateAiResponse() {
+    setTimeout(() => {
+      addAiMessage(false, getNextAiResponse());
+    }, 3000);
+  }
+
+  function setupAiEventListeners() {
+    aiSendBtn.onclick = function () {
+      if (aiInput.value.trim()) {
+        addAiMessage(true, aiInput.value);
+        aiInput.value = "";
+        simulateAiResponse();
+      }
+    };
+
+    aiInput.addEventListener("keypress", function (e) {
+      if (e.key === "Enter" && aiInput.value.trim()) {
+        addAiMessage(true, aiInput.value);
+        aiInput.value = "";
+        simulateAiResponse();
+      }
+    });
+  }
+
+  function initializeAI() {
+    // Initialize AI chat with welcome message
+    addAiMessage(
+      false,
+      "Merhaba! Ben radyo AI asistanınız. Size nasıl yardımcı olabilirim?",
+    );
+  }
+
+  function startAutomaticMessages() {
+    // Otomatik AI yanıtları başlat
+    setInterval(() => {
+      addAiMessage(false, getNextAiResponse());
+    }, 10000); // Her 10 saniyede bir AI yanıtı
+
+    // Otomatik dinleyici yorumları başlat
+    setInterval(() => {
+      addNextMessage();
+    }, 3000); // Her 3 saniyede bir yeni yorum
+  }
+
+</script>

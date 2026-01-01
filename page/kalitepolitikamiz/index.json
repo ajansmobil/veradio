@@ -1,13 +1,15 @@
 {
   "name": {
-    "tr": "Kalite Politikamız"
+    "tr": "Kalite Politikamız",
+    "en": ""
   },
   "status": "play",
   "id": "kalitepolitikamiz",
-  "path": "kalitepolitikamiz",
+  "path": "kalite-politikamiz",
   "category": "kurumsal",
   "text": {
-    "tr": "<h2 style=\"font-size: 24px;\">Kalite Politikamız</h2><p style=\" font-size: 16px;\">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz.</p>"
+    "tr": "<h2 style=\"font-size: 24px;\">Kalite Politikamız</h2><p style=\" font-size: 16px;\">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz.</p>",
+    "en": ""
   },
   "desing": {
     "header": [],
@@ -15,10 +17,12 @@
     "footer": []
   },
   "keyword": {
-    "tr": ""
+    "tr": "kalite, politikamız, kalite politikamız, veradio kalite",
+    "en": ""
   },
   "description": {
-    "tr": ""
+    "tr": "Kalite PolitikamızKalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en i...",
+    "en": ""
   },
   "spot": {
     "tr": ""
@@ -27,6 +31,6 @@
   "desc": {},
   "icon": "home",
   "bgimg": "1.jpg",
-  "update": "2025-07-10T20:26:03.250Z",
+  "update": "2025-12-29T04:15:10.024Z",
   "date": "2025-06-09T14:25:51.225Z"
 }

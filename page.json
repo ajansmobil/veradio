@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Bilgilendirme",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "gr6zgehrac",
+      "path": "bilgilendirme",
+      "index": 0,
+      "icon": "home",
+      "description": {
+        "tr": "Veradio projesi hakkında detaylı bilgilere bu sayfadan ulaşabilirsiniz."
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "hakkimizda"
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "olowwkkcfh",
+      "path": "iletisim",
+      "index": 1,
+      "icon": "home",
+      "description": {
+        "tr": "Bu sayfadan bizimle iletişime geçebilir, soru ve görüşlerinizi iletebilirsiniz."
+      },
+      "desing": {
+        "header": [],
+        "body": [
+          "k5wklo",
+          "cwurqi"
+        ],
+        "footer": []
+      }
+    }
+  ],
+  "modulestatus": {
+    "img": false,
+    "page": true,
+    "body": true
+  }
+}

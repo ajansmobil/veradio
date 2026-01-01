@@ -1,13 +1,15 @@
 {
   "name": {
-    "tr": "Misyon"
+    "tr": "Misyon",
+    "en": ""
   },
   "status": "play",
   "id": "misyon",
   "path": "misyon",
   "category": "kurumsal",
   "text": {
-    "tr": "<h2 style=\"font-size: 24px;\">Misyonumuz</h2><p style=\"font-size: 16px;\">Misyonumuz, dijital radyoculukta yenilikçi çözümler sunmak ve dinleyicilere en iyi deneyimi yaşatmaktır. Teknolojiyi etkin kullanarak, erişilebilir ve kaliteli içerik üretmeyi hedefliyoruz.</p>"
+    "tr": "<h2 style=\"font-size: 24px;\">Misyonumuz</h2><p style=\"font-size: 16px;\">Misyonumuz, dijital radyoculukta yenilikçi çözümler sunmak ve dinleyicilere en iyi deneyimi yaşatmaktır. Teknolojiyi etkin kullanarak, erişilebilir ve kaliteli içerik üretmeyi hedefliyoruz.</p>",
+    "en": ""
   },
   "desing": {
     "header": [],
@@ -15,10 +17,12 @@
     "footer": []
   },
   "keyword": {
-    "tr": ""
+    "tr": "dijital radyoculuk, misyon, yenilikçi çözümler, dinleyici deneyimi, kaliteli içerik, teknoloji, Veradio misyonu",
+    "en": ""
   },
   "description": {
-    "tr": ""
+    "tr": "Dijital radyoculukta yenilikçi çözümlerle dinleyicilere en iyi deneyimi sunmayı ve teknolojiyi kullanarak erişilebilir, kaliteli içerikler üretmeyi misyon edindik.",
+    "en": ""
   },
   "spot": {
     "tr": ""
@@ -27,6 +31,6 @@
   "desc": {},
   "icon": "home",
   "bgimg": "1.jpg",
-  "update": "2025-07-10T20:26:03.239Z",
+  "update": "2025-12-29T04:15:10.010Z",
   "date": "2025-06-09T14:25:51.212Z"
 }

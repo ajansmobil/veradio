@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Login",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "vqaq8yx90g",
+      "path": "login",
+      "index": 0,
+      "description": {
+        "tr": "Veradio platformuna giriş yapmak için kullanıcı adı ve şifrenizi kullanın. Güvenli ve hızlı bir şekilde hesabınıza erişerek tüm özelliklerden yararlanın."
+      },
+      "desing": {
+        "header": [],
+        "body": [
+          "k3o6l7"
+        ],
+        "footer": []
+      },
+      "pathnext": ""
+    }
+  ]
+}

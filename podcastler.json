@@ -1,0 +1,19 @@
+{
+  "name": "Podcastler",
+  "path": "podcastler",
+  "desc": [],
+  "data": [],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [
+      "afobi0"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "detail": true,
+    "img": true,
+    "spot": true
+  }
+}
