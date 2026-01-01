@@ -1,10 +1,10 @@
 
-  .menu-mobil-jjtot {
+  .menu-mobil-ckn6d {
     display: none;
   }
 
   @media (max-width: 1200px) {
-    .menu-mobil-jjtot {
+    .menu-mobil-ckn6d {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -23,11 +23,11 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .jjtot {
+    .ckn6d {
       display: none;
     }
 
-    .menu-mobil-jjtot ul {
+    .menu-mobil-ckn6d ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-jjtot ul li > * {
+    .menu-mobil-ckn6d ul li > * {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-jjtot ul li {
+    .menu-mobil-ckn6d ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-jjtot ul li:hover {
+    .menu-mobil-ckn6d ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-jjtot ul li.active {
+    .menu-mobil-ckn6d ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .jjtotmenu {
+    .ckn6dmenu {
       display: none !important;
     }
 
@@ -70,7 +70,7 @@
     }
   }
 
-  .jjtot {
+  .ckn6d {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -81,17 +81,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .jjtottitlebodylang {
+  .ckn6dtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .jjtottitlebodylang ul {
+  .ckn6dtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .jjtottitlebodylang ul a {
+  .ckn6dtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -100,11 +100,11 @@
     transition: background 0.3s;
   }
 
-  .jjtottitlebodylang ul a:hover {
+  .ckn6dtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .jjtottitle {
+  .ckn6dtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -112,7 +112,7 @@
     justify-content: center;
   }
 
-  .jjtottitlebody {
+  .ckn6dtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -120,7 +120,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .jjtotbody {
+  .ckn6dbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -128,14 +128,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .jjtotmenu {
+  .ckn6dmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .jjtotmenulist {
+  .ckn6dmenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -143,7 +143,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .jjtotmenulist ul {
+  .ckn6dmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -153,7 +153,7 @@
     overflow-x: auto;
   }
 
-  .jjtotmenulist ul a {
+  .ckn6dmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -169,18 +169,18 @@
     font-weight: 500;
   }
 
-  .jjtotmenulist ul a:hover {
+  .ckn6dmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .jjtot-menu-active {
+  .ckn6d-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .jjtotmenulistbody {
+  .ckn6dmenulistbody {
     width: 100%;
   }
 
@@ -267,7 +267,7 @@
   }
 
 
-  .q9vu3 {
+  .jq1al {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -276,14 +276,14 @@
     position: relative;
   }
 
-  .q9vu3containertitle {
+  .jq1alcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
 
-  .q9vu3containerlist {
+  .jq1alcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -292,26 +292,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .q9vu3containerlist>div {
+  .jq1alcontainerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .q9vu3containerlist:hover {
+  .jq1alcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
 
-  .q9vu3container {
+  .jq1alcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .q9vu3containerbody {
+  .jq1alcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -321,7 +321,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .q9vu3body {
+  .jq1albody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -329,19 +329,19 @@
     padding: 20px;
   }
 
-  .q9vu3containerlist>span {
+  .jq1alcontainerlist>span {
     font-size: 24px;
     color: #1e3046;
   }
 
   @media screen and (max-width: 1024px) {
-    .q9vu3body {
+    .jq1albody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .q9vu3containerbody {
+    .jq1alcontainerbody {
       padding: 15px;
     }
   }
@@ -371,13 +371,13 @@
       transform: scale(1);
     }
   }
-  .rb656-body {
+  .y3ljh-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .rb656-body-chile {
+  .y3ljh-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -385,10 +385,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .rb656-body-chile > div {
+  .y3ljh-body-chile > div {
     width: 100% !important;
   }
-  .rb6562 {
+  .y3ljh2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -399,22 +399,22 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .rb656 {
+  .y3ljh {
     display: flex;
     flex-direction: column;
   }
-  .rb656 > svg {
+  .y3ljh > svg {
     width: 100vw;
   }
-  .rb656botton {
+  .y3ljhbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
  
-  .rb656-svg {
+  .y3ljh-svg {
     fill: #fff;
   }
-  .rb656-bg {
+  .y3ljh-bg {
     background-image: url("/img/cwurqi/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;

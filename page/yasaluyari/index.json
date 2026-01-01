@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "Yasal Uyarı",
-    "en": ""
+    "en": "Legal Notice"
   },
   "status": "play",
   "id": "yasaluyari",
@@ -9,7 +9,7 @@
   "category": "kurumsal",
   "text": {
     "tr": "<h2 style=\"font-size: 24px;\">Yasal Uyarı</h2>\n    <p style=\" font-size: 16px;\">\n        Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun'un hükümleri uyarınca korunmaktadır. Sitemizde yer alan hiçbir içeriğin kopyalanması, çoğaltılması, yayılması, satılması, dağıtılması, sergilenmesi, yayımlanması, herhangi bir şekilde ticari amaçla kullanılması veya başka platformlarda izinsiz olarak paylaşılması yasaktır. Bu kurallara aykırı hareket edenler, ilgili kanunlar kapsamında hukuki ve cezai yaptırımlarla karşılaşabilirler. </p>\n    <p style=\" font-size: 16px;\">\n        Sitemizde yer alan içeriğin hukuka aykırı bir şekilde kullanılması veya dağıtılması durumunda, sitemiz yetkili mercilere başvurma ve yasal haklarını koruma hakkını saklı tutar. İnternet ortamında yer alan içeriklerin izinsiz paylaşımı, hukuki olarak ağır yaptırımlar doğurabileceği gibi, eser sahiplerinin haklarını ihlal eder. Eser sahibi olarak haklarınızı korumanız gerektiği durumda, hukuki süreç başlatma hakkınız mevcuttur.</p>\n    <p style=\" font-size: 16px;\">\n        Sitemizde yer alan içeriklerin izinsiz kullanımını veya paylaşımını fark ederseniz, lütfen bizimle iletişime geçin. Sitemizi kullanmaya devam ederek, bu yasal uyarıyı kabul etmiş sayılırsınız.</p>",
-    "en": ""
+    "en": "<h2 style=\"font-size: 24px;\">Legal Disclaimer</h2>\n    <p style=\" font-size: 16px;\">\n        All content on our website is protected by the provisions of Law No. 5846 on Intellectual and Artistic Works and Law No. 5651 on the Regulation of Publications Made on the Internet and the Fight Against Crimes Committed Through These Publications. Copying, reproducing, distributing, selling, disseminating, exhibiting, publishing, using for any commercial purpose, or sharing without permission any content on our website is prohibited. Those who act contrary to these rules may face legal and criminal sanctions under the relevant laws. </p>\n    <p style=\" font-size: 16px;\">\n        In the event of unlawful use or distribution of the content on our website, our website reserves the right to apply to the competent authorities and protect its legal rights. Unauthorized sharing of content on the internet can lead to severe legal sanctions, as well as infringe the rights of copyright holders. If you need to protect your rights as a copyright holder, you have the right to initiate legal proceedings.</p>\n    <p style=\" font-size: 16px;\">\n        If you notice any unauthorized use or sharing of the content on our website, please contact us. By continuing to use our website, you are deemed to have accepted this legal disclaimer.</p>"
   },
   "desing": {
     "header": [],
@@ -18,11 +18,11 @@
   },
   "keyword": {
     "tr": "yasal uyarı, kullanım koşulları, gizlilik politikası, telif hakkı, hukuki sorumluluk",
-    "en": ""
+    "en": "legal disclaimer, terms of use, privacy policy, copyright, legal liability"
   },
   "description": {
     "tr": "Yasal Uyarı\n    \n        Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenle...",
-    "en": ""
+    "en": "**Legal Disclaimer**\n\nAll content on this website is protected by Turkish Law No. 5846 regarding Intellectual and Artistic Works, and Law No. 5651 regulating Publications Made on the Internet. Reproduction, distribution, or modification of any material without prior written consent is prohibited. We are committed to respecting intellectual property rights and will promptly address any reported copyright infringements in accordance with applicable laws. This site is for informational purposes only and does not constitute professional advice. We disclaim all liability for any inaccuracies or omissions, and for any loss or damage arising from the use of this information."
   },
   "spot": {
     "tr": ""

@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "Misyon",
-    "en": ""
+    "en": "Mission"
   },
   "status": "play",
   "id": "misyon",
@@ -9,7 +9,7 @@
   "category": "kurumsal",
   "text": {
     "tr": "<h2 style=\"font-size: 24px;\">Misyonumuz</h2><p style=\"font-size: 16px;\">Misyonumuz, dijital radyoculukta yenilikçi çözümler sunmak ve dinleyicilere en iyi deneyimi yaşatmaktır. Teknolojiyi etkin kullanarak, erişilebilir ve kaliteli içerik üretmeyi hedefliyoruz.</p>",
-    "en": ""
+    "en": "<h2 style=\"font-size: 24px;\">Our Mission</h2><p style=\"font-size: 16px;\">Our mission is to provide innovative solutions in digital radio and to offer the best experience to listeners. We aim to produce accessible and high-quality content by effectively using technology.</p>"
   },
   "desing": {
     "header": [],
@@ -18,11 +18,11 @@
   },
   "keyword": {
     "tr": "dijital radyoculuk, misyon, yenilikçi çözümler, dinleyici deneyimi, kaliteli içerik, teknoloji, Veradio misyonu",
-    "en": ""
+    "en": "digital radio, mission, innovative solutions, listener experience, quality content, technology, Veradio mission"
   },
   "description": {
     "tr": "Dijital radyoculukta yenilikçi çözümlerle dinleyicilere en iyi deneyimi sunmayı ve teknolojiyi kullanarak erişilebilir, kaliteli içerikler üretmeyi misyon edindik.",
-    "en": ""
+    "en": "We're dedicated to providing the best possible listening experience through innovative digital radio solutions. Our mission is to leverage technology to create accessible, high-quality content for everyone."
   },
   "spot": {
     "tr": ""

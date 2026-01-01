@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "Vizyon",
-    "en": ""
+    "en": "Vision"
   },
   "status": "play",
   "id": "vizyon",
@@ -9,7 +9,7 @@
   "category": "kurumsal",
   "text": {
     "tr": "<h2 style=\"font-size: 24px;\">Vizyonumuz</h2><p style=\"font-size: 16px;\">Vizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır. Sürekli gelişim ve yenilikle, sektörde öncü olmayı amaçlıyoruz.</p>",
-    "en": ""
+    "en": "<h2 style=\"font-size: 24px;\">Our Vision</h2><p style=\"font-size: 16px;\">Our vision is to be a leading and reliable platform in the digital radio field. We aim to be pioneers in the industry through continuous development and innovation.</p>"
   },
   "desing": {
     "header": [],
@@ -18,11 +18,11 @@
   },
   "keyword": {
     "tr": "vizyon, dijital radyo, lider platform, güvenilir radyo, yenilik, sektörde öncü, veradio vizyon",
-    "en": ""
+    "en": "vision, digital radio, leading platform, reliable radio, innovation, industry pioneer, veradio vision"
   },
   "description": {
     "tr": "VizyonumuzVizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır. Sürekli gelişim ve yenilikle, sektörde öncü olmayı amaçlıyoruz.",
-    "en": ""
+    "en": "Our vision is to be a leading and trusted platform in the digital radio space. We aim to be pioneers in the industry through continuous development and innovation."
   },
   "spot": {
     "tr": ""

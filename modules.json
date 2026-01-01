@@ -15,7 +15,8 @@
       "data": [
         {
           "name": {
-            "tr": "Bizi hemen arayın"
+            "tr": "Bizi hemen arayın",
+            "en": "Call us now"
           },
           "spot": "+90 342 221 00 02",
           "icon": "phone",
@@ -26,7 +27,8 @@
         },
         {
           "name": {
-            "tr": "Bize yazın"
+            "tr": "Bize yazın",
+            "en": "Write to us"
           },
           "spot": "info@{{domain}}",
           "icon": "mail",
@@ -37,7 +39,8 @@
         },
         {
           "name": {
-            "tr": "İncilipınar Mah. Şehit Yusuf Erin Cad."
+            "tr": "İncilipınar Mah. Şehit Yusuf Erin Cad.",
+            "en": "İncilipınar Mah. Şehit Yusuf Erin Cad."
           },
           "spot": "Çayırlı İş Mrk. B Blok Kat:6 No:22 Gaziantep",
           "icon": "location_on",
@@ -93,7 +96,7 @@
         "color": "#1e3046",
         "name": {
           "tr": "Bize Ulaşın",
-          "en": ""
+          "en": "Contact Us"
         },
         "margin": "30px 0px 30px 0px"
       },
@@ -143,123 +146,123 @@
         "bgcolor": "#101010",
         "loginTitle": {
           "tr": "Giriş Yap",
-          "en": ""
+          "en": "Login"
         },
         "registerTitle": {
           "tr": "Üye Ol",
-          "en": ""
+          "en": "Sign Up"
         },
         "emailPlaceholder": {
           "tr": "Mail Adresiniz",
-          "en": ""
+          "en": "Your Email Address"
         },
         "passwordPlaceholder": {
           "tr": "Şifre",
-          "en": ""
+          "en": "Password"
         },
         "passwordConfirmPlaceholder": {
           "tr": "Şifre Tekrar",
-          "en": ""
+          "en": "Confirm Password"
         },
         "namePlaceholder": {
           "tr": "Ad Soyad",
-          "en": ""
+          "en": "Full Name"
         },
         "loginButton": {
           "tr": "Giriş Yap",
-          "en": ""
+          "en": "Login"
         },
         "registerButton": {
           "tr": "Üye Ol",
-          "en": ""
+          "en": "Sign Up"
         },
         "forgotPassword": {
           "tr": "Şifremi Unuttum",
-          "en": ""
+          "en": "Forgot Password"
         },
         "alreadyMember": {
           "tr": "Üye misin?",
-          "en": ""
+          "en": "Already a member?"
         },
         "googleLogin": {
           "tr": "Google İle Giriş Yap",
-          "en": ""
+          "en": "Login with Google"
         },
         "resetPasswordButton": {
           "tr": "Şifre Sıfırlama Maili Gönder",
-          "en": ""
+          "en": "Send Password Reset Email"
         },
         "backToLogin": {
           "tr": "Giriş Sayfasına Dön",
-          "en": ""
+          "en": "Back to Login"
         },
         "nameRequired": {
           "tr": "Ad soyad giriniz!",
-          "en": ""
+          "en": "Please enter your full name!"
         },
         "validEmailRequired": {
           "tr": "Geçerli bir email adresi giriniz!",
-          "en": ""
+          "en": "Please enter a valid email address!"
         },
         "passwordMinLength": {
           "tr": "Şifre en az 6 karakter olmalıdır!",
-          "en": ""
+          "en": "Password must be at least 6 characters!"
         },
         "passwordsNotMatch": {
           "tr": "Şifreler eşleşmiyor!",
-          "en": ""
+          "en": "Passwords do not match!"
         },
         "emailAlreadyExists": {
           "tr": "Bu email adresi zaten kullanımda!",
-          "en": ""
+          "en": "This email address is already in use!"
         },
         "registrationSuccess": {
           "tr": "Üyelik başarıyla oluşturuldu!",
-          "en": ""
+          "en": "Registration created successfully!"
         },
         "registrationError": {
           "tr": "Üyelik oluşturulurken bir hata oluştu!",
-          "en": ""
+          "en": "An error occurred while creating registration!"
         },
         "passwordRequired": {
           "tr": "Şifre giriniz!",
-          "en": ""
+          "en": "Please enter password!"
         },
         "invalidCredentials": {
           "tr": "Email adresi veya şifre hatalı!",
-          "en": ""
+          "en": "Email address or password incorrect!"
         },
         "accountDeactivated": {
           "tr": "Hesabınız deaktif durumda!",
-          "en": ""
+          "en": "Your account is deactivated!"
         },
         "loginSuccess": {
           "tr": "Giriş başarılı!",
-          "en": ""
+          "en": "Login successful!"
         },
         "loginError": {
           "tr": "Giriş yapılırken bir hata oluştu!",
-          "en": ""
+          "en": "An error occurred during login!"
         },
         "userNotFound": {
           "tr": "Bu email adresine kayıtlı kullanıcı bulunamadı!",
-          "en": ""
+          "en": "No user found with this email address!"
         },
         "resetEmailSent": {
           "tr": "Şifre sıfırlama maili gönderildi!",
-          "en": ""
+          "en": "Password reset email sent!"
         },
         "resetEmailError": {
           "tr": "Şifre sıfırlama maili gönderilirken bir hata oluştu!",
-          "en": ""
+          "en": "An error occurred while sending password reset email!"
         },
         "googleLoginDevelopment": {
           "tr": "Google login özelliği geliştiriliyor...",
-          "en": ""
+          "en": "Google login feature is under development..."
         },
         "alreadyLoggedIn": {
           "tr": "Zaten giriş yapmışsınız!",
-          "en": ""
+          "en": "You are already logged in!"
         }
       },
       "id": "k3o6l7",
@@ -275,7 +278,7 @@
       "desing": {
         "name": {
           "tr": "Sosyal Medyada Biz",
-          "en": ""
+          "en": "Follow Us on Social Media"
         },
         "bgcolor": "#fff",
         "padding": "25px 0px 25px 0px",

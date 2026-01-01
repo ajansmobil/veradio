@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "Hakkımızda",
-    "en": ""
+    "en": "About us"
   },
   "status": "play",
   "id": "hakkimizda",
@@ -9,7 +9,7 @@
   "category": "kurumsal",
   "text": {
     "tr": "<h2 style=\"font-size: 24px;\">Hakkımızda</h2><p style=\"font-size: 16px;\">Veradyo, yenilikçi radyo teknolojileriyle dijital dünyada fark yaratır. Dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Ekibimiz, sektörde deneyimli ve dinamik kişilerden oluşur. Amacımız, kullanıcı odaklı çözümlerle dijital radyoculuğu ileri taşımaktır.</p>",
-    "en": ""
+    "en": "<h2 style=\"font-size: 24px;\">About Us</h2><p style=\"font-size: 16px;\">Veradyo makes a difference in the digital world with its innovative radio technologies. "
   },
   "desing": {
     "header": [],
@@ -18,11 +18,11 @@
   },
   "keyword": {
     "tr": "hakkımızda, hakkımızda, veradio hakkımızda",
-    "en": ""
+    "en": "about us, about us, veradio about us"
   },
   "description": {
     "tr": "Veradyo, yenilikçi radyo teknolojileri ve deneyimli ekibiyle dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Dijital radyoculuğu ileri taşıyoruz.",
-    "en": ""
+    "en": "Veradyo offers quality content and uninterrupted music experience to listeners with its innovative radio technologies and experienced team. "
   },
   "spot": {
     "tr": ""

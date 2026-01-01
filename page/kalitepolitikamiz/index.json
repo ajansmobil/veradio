@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "Kalite Politikamız",
-    "en": ""
+    "en": "Our Quality Policy"
   },
   "status": "play",
   "id": "kalitepolitikamiz",
@@ -9,7 +9,7 @@
   "category": "kurumsal",
   "text": {
     "tr": "<h2 style=\"font-size: 24px;\">Kalite Politikamız</h2><p style=\" font-size: 16px;\">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz.</p>",
-    "en": ""
+    "en": "<h2 style=\"font-size: 24px;\">Our Quality Policy</h2><p style=\" font-size: 16px;\">Our quality policy is based on an approach that aims to keep customer satisfaction at the highest level and to continuously improve. "
   },
   "desing": {
     "header": [],
@@ -18,11 +18,11 @@
   },
   "keyword": {
     "tr": "kalite, politikamız, kalite politikamız, veradio kalite",
-    "en": ""
+    "en": "quality, our policy, our quality policy, veradio quality"
   },
   "description": {
     "tr": "Kalite PolitikamızKalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en i...",
-    "en": ""
+    "en": "Our Quality PolicyOur quality policy is based on an approach that aims to keep customer satisfaction at the highest level and to continuously improve. "
   },
   "spot": {
     "tr": ""

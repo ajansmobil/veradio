@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "İletişim",
-    "en": ""
+    "en": "Communication"
   },
   "status": "play",
   "category": "",
@@ -12,15 +12,15 @@
   "icon": "home",
   "description": {
     "tr": "Bu sayfadan bizimle iletişime geçebilir, soru ve görüşlerinizi iletebilirsiniz.",
-    "en": ""
+    "en": "You can contact us through this page to submit your questions and feedback."
   },
   "keyword": {
     "tr": "i̇letişim, i̇letişim, veradio i̇letişim",
-    "en": ""
+    "en": "communication, communication, radio communication"
   },
   "text": {
     "tr": "İletişim",
-    "en": ""
+    "en": "Contact"
   },
   "spot": {
     "tr": ""

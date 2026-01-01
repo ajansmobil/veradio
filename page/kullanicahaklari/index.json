@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "Kullanıcı Hakları",
-    "en": ""
+    "en": "User Rights"
   },
   "status": "play",
   "id": "kullanicahaklari",
@@ -9,7 +9,7 @@
   "category": "kurumsal",
   "text": {
     "tr": "<h2 style=\"font-size: 24px;\">Kullanıcı Hakları</h2>\n    <p style=\"font-size: 16px;\">\n        Herkes, kişisel verilerinin korunmasını isteme hakkına sahiptir. Kişisel verilerinizin korunması bizim için çok önemlidir ve bu doğrultuda 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat çerçevesinde hareket etmekteyiz. Kullanıcılar, verilerinin hangi amaçlarla toplandığı, nasıl saklandığı ve kimlerle paylaşıldığı konusunda bilgilendirilme hakkına sahiptir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizi güncelleme, düzeltme, silme ve anonimleştirme taleplerinde bulunabilirsiniz. Aynı zamanda, toplanan verilerin hangi amaçla kullanıldığı ve işleme süreciyle ilgili ayrıntılı bilgi talep edebilir, bu süreçlerde yer alan üçüncü taraflar hakkında bilgi alabilirsiniz. Haklarınızı kullanmak için bizimle her zaman iletişime geçebilirsiniz.</p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizin korunması ve haklarınızla ilgili detaylı bilgi almak için sitemizde yer alan Gizlilik Politikası'nı inceleyebilirsiniz. Kullanıcı olarak, verilerinizin güvenliği bizim önceliğimizdir ve gerekli teknik ve idari önlemleri almış bulunmaktayız.</p>",
-    "en": ""
+    "en": "<h2 style=\"font-size: 24px;\">User Rights</h2>\n    <p style=\"font-size: 16px;\">\n        Everyone has the right to request the protection of their personal data. The protection of your personal data is very important to us, and in this regard, we act within the framework of Law No. 6698 on the Protection of Personal Data (KVKK) and related legislation. Users have the right to be informed about the purposes for which their data is collected, how it is stored, and with whom it is shared.\n    </p>\n    <p style=\"font-size: 16px;\">\n        You can submit requests to update, correct, delete, and anonymize your personal data. You can also request detailed information about the purpose for which the collected data is used and the processing process, and obtain information about third parties involved in these processes. You can always contact us to exercise your rights. </p>\n    <p style=\"font-size: 16px;\">\n        You can find detailed information about the protection of your personal data and your rights by reviewing our Privacy Policy on our website. As a user, the security of your data is our priority, and we have taken the necessary technical and administrative measures. </p>"
   },
   "desing": {
     "header": [],
@@ -18,11 +18,11 @@
   },
   "keyword": {
     "tr": "kullanıcı, hakları, kullanıcı hakları, veradio kullanıcı",
-    "en": ""
+    "en": "user, rights, user rights, Veradio user"
   },
   "description": {
     "tr": "Kişisel verilerinizin korunması ve 6698 sayılı KVKK kapsamındaki haklarınız hakkında bilgi edinin. Veri güvenliği ve haklarınızı nasıl kullanacağınızı öğrenin.",
-    "en": ""
+    "en": "Learn about the protection of your personal data and your rights under Law No. 6698 (KVKK). Discover how we ensure data security and how you can exercise your rights."
   },
   "spot": {
     "tr": ""
