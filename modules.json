@@ -263,7 +263,24 @@
         "alreadyLoggedIn": {
           "tr": "Zaten giriş yapmışsınız!",
           "en": "You are already logged in!"
-        }
+        },
+        "userPlaceholder": {
+          "tr": "Kullanıcı adı",
+          "en": "Username"
+        },
+        "surnamePlaceholder": {
+          "tr": "Soyad",
+          "en": "Surname"
+        },
+        "userRequired": {
+          "tr": "Kullanıcı adı giriniz!",
+          "en": "Please enter username!"
+        },
+        "userAlreadyExists": {
+          "tr": "Bu kullanıcı adı zaten kullanılıyor!",
+          "en": "This username is already in use!"
+        },
+        "nextUrl": "user"
       },
       "id": "k3o6l7",
       "version": "1.0.0",
@@ -274,7 +291,7 @@
       "name": "Sosyal Media Slider",
       "path": "social-matrix-1",
       "local": "body",
-      "category": "social slider",
+      "category": "social-slider",
       "desing": {
         "name": {
           "tr": "Sosyal Medyada Biz",
@@ -323,6 +340,47 @@
       "desing": {},
       "version": "1.0.0",
       "icon": "code"
+    },
+    {
+      "index": 8,
+      "name": "Tema",
+      "path": "tema-1",
+      "local": "body",
+      "category": "tema",
+      "id": "juutwj",
+      "desing": {
+        "color": "#000",
+        "bgcolor": "#ee5a24 ",
+        "colortitle": "#fff",
+        "url": "user",
+        "coloractive": "#f00",
+        "activeBg": "rgba(243,128,32,0.15)",
+        "activeColor": "#f38020",
+        "bodyBg": "#E9E9E9",
+        "darkBg": "#e9e9e9"
+      },
+      "data": [
+        {
+          "name": {
+            "tr": "Muhasebe"
+          },
+          "page": "muhasebe"
+        },
+        {
+          "name": {
+            "tr": "E-Ticaret"
+          },
+          "page": "eticaret"
+        },
+        {
+          "name": {
+            "tr": "Ayarlar"
+          },
+          "page": "ayarlar"
+        }
+      ],
+      "version": "1.0.0",
+      "icon": "dashboard"
     }
   ]
 }

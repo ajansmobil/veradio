@@ -24,13 +24,14 @@
     "tr": "Kalite PolitikamızKalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en i...",
     "en": "Our Quality PolicyOur quality policy is based on an approach that aims to keep customer satisfaction at the highest level and to continuously improve. "
   },
-  "spot": {
-    "tr": ""
-  },
   "index": 3,
   "desc": {},
   "icon": "home",
   "bgimg": "1.jpg",
-  "update": "2025-12-29T04:15:10.024Z",
-  "date": "2025-06-09T14:25:51.225Z"
+  "update": "2026-02-22T18:27:05.220Z",
+  "date": "2025-06-09T14:25:51.225Z",
+  "title": {
+    "tr": "Kalite Politikamız",
+    "en": "Our Quality Policy"
+  }
 }

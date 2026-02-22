@@ -24,13 +24,14 @@
     "tr": "Kişisel verilerinizin korunması ve 6698 sayılı KVKK kapsamındaki haklarınız hakkında bilgi edinin. Veri güvenliği ve haklarınızı nasıl kullanacağınızı öğrenin.",
     "en": "Learn about the protection of your personal data and your rights under Law No. 6698 (KVKK). Discover how we ensure data security and how you can exercise your rights."
   },
-  "spot": {
-    "tr": ""
-  },
   "index": 6,
   "desc": {},
   "icon": "home",
   "bgimg": "1.jpg",
-  "update": "2025-12-29T04:15:10.044Z",
-  "date": "2025-06-09T14:25:51.247Z"
+  "update": "2026-02-22T18:27:05.241Z",
+  "date": "2025-06-09T14:25:51.247Z",
+  "title": {
+    "tr": "Kullanıcı Hakları",
+    "en": "User Rights"
+  }
 }

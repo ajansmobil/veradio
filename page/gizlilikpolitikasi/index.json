@@ -24,13 +24,14 @@
     "tr": "Veradio gizlilik politikası. Web sitemizi ziyaret ettiğinizde kullanıcı deneyimini iyileştirmek için çerezlerin nasıl kullanıldığını ve kişisel verilerinizin güvenliğini nasıl sağladığımızı öğrenin.",
     "en": "Veradio privacy policy. Learn how cookies are used to improve user experience when you visit our website and how we ensure the security of your personal data."
   },
-  "spot": {
-    "tr": ""
-  },
   "index": 4,
   "desc": {},
   "icon": "home",
   "bgimg": "1.jpg",
-  "update": "2025-12-29T04:15:10.030Z",
-  "date": "2025-06-09T14:25:51.231Z"
+  "update": "2026-02-22T18:27:05.227Z",
+  "date": "2025-06-09T14:25:51.231Z",
+  "title": {
+    "tr": "Gizlilik Politikası",
+    "en": "Privacy Policy"
+  }
 }

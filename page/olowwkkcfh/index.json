@@ -22,10 +22,7 @@
     "tr": "İletişim",
     "en": "Contact"
   },
-  "spot": {
-    "tr": ""
-  },
-  "update": "2025-12-29T04:15:09.995Z",
+  "update": "2026-02-22T18:27:05.195Z",
   "desing": {
     "header": [],
     "body": [
@@ -34,5 +31,9 @@
     ],
     "footer": []
   },
-  "date": "2025-06-09T14:25:51.154Z"
+  "date": "2025-06-09T14:25:51.154Z",
+  "title": {
+    "tr": "İletişim",
+    "en": "Communication"
+  }
 }

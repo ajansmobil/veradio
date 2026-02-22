@@ -22,15 +22,16 @@
     "tr": "Veradio, modern radyo yayıncılığına yeni bir soluk getiren yenilikçi bir projedir. Bu platform, kullanıcılara kesintisiz müzik ve podcast deneyimi sunmayı hedefler. Gelişmiş teknolojimiz sayesinde, kişiselleştirilmiş çalma listeleri oluşturabilir ve favori içeriklerinizi kolayca keşfedebilirsiniz. Projemiz, dinleyiciler ile içerik üreticileri arasında güçlü bir bağ kurmayı amaçlamaktadır. Daha fazla bilgi ve güncellemeler için bizi takip etmeye devam edin.",
     "en": "Veradio is an innovative project that brings a new breath to modern radio broadcasting. This platform aims to provide users with uninterrupted music and podcast experience. Thanks to our advanced technology, you can create personalized playlists and easily discover your favorite content. Our project aims to establish a strong connection between listeners and content creators. Keep following us for more information and updates."
   },
-  "spot": {
-    "tr": ""
-  },
-  "update": "2025-12-29T04:15:09.988Z",
+  "update": "2026-02-22T18:27:05.189Z",
   "date": "2025-06-09T14:25:51.149Z",
   "desing": {
     "header": [],
     "body": [],
     "footer": []
   },
-  "pathnext": "hakkimizda"
+  "pathnext": "hakkimizda",
+  "title": {
+    "tr": "Bilgilendirme",
+    "en": "Information"
+  }
 }

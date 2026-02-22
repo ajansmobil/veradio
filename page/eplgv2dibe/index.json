@@ -1,0 +1,38 @@
+{
+  "name": {
+    "tr": "User",
+    "en": ""
+  },
+  "status": "play",
+  "category": "",
+  "id": "eplgv2dibe",
+  "url": "",
+  "path": "user",
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "slider": [],
+  "pathnext": "",
+  "title": {
+    "tr": "",
+    "en": ""
+  },
+  "description": {
+    "tr": "",
+    "en": ""
+  },
+  "keyword": {
+    "tr": "",
+    "en": ""
+  },
+  "text": {
+    "tr": "",
+    "en": ""
+  },
+  "textmodul": false,
+  "update": "2026-02-22T23:14:34.409Z",
+  "date": "2026-02-22T23:14:34.409Z"
+}

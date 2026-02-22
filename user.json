@@ -1,26 +1,47 @@
 {
+  "name": "Üyelik Sayfası",
+  "path": "user",
+  "desc": [],
   "data": [
     {
       "name": {
-        "tr": "Login",
+        "tr": "user",
         "en": ""
       },
       "status": "play",
       "category": "",
-      "id": "vqaq8yx90g",
-      "path": "login",
+      "id": "eyozte0qlj",
+      "url": "",
+      "path": "user",
       "index": 0,
-      "description": {
-        "tr": "Veradio platformuna giriş yapmak için kullanıcı adı ve şifrenizi kullanın. Güvenli ve hızlı bir şekilde hesabınıza erişerek tüm özelliklerden yararlanın."
-      },
       "desing": {
         "header": [],
         "body": [
-          "k3o6l7"
+          "k5wklo"
         ],
         "footer": []
       },
-      "pathnext": ""
+      "pathnext": "",
+      "description": {
+        "tr": "",
+        "en": ""
+      },
+      "textmodul": false,
+      "desc": {}
     }
-  ]
+  ],
+  "index": 2,
+  "desing": {
+    "header": [],
+    "body": [
+      "juutwj"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "body": true
+  },
+  "active": true,
+  "activeicon": "pause",
+  "activeclass": "buttonGreen"
 }

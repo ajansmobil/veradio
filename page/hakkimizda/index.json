@@ -24,14 +24,15 @@
     "tr": "Veradyo, yenilikçi radyo teknolojileri ve deneyimli ekibiyle dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Dijital radyoculuğu ileri taşıyoruz.",
     "en": "Veradyo offers quality content and uninterrupted music experience to listeners with its innovative radio technologies and experienced team. "
   },
-  "spot": {
-    "tr": ""
-  },
   "index": 0,
   "desc": {},
   "icon": "home",
   "bgimg": "1.jpg",
-  "update": "2025-12-29T04:15:10.003Z",
+  "update": "2026-02-22T18:27:05.202Z",
   "date": "2025-06-09T14:25:51.205Z",
-  "pathnext": ""
+  "pathnext": "",
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About us"
+  }
 }

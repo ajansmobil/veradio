@@ -6,7 +6,7 @@
     {
       "name": {
         "tr": "Hakkımızda",
-        "en": ""
+        "en": "About us"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -18,7 +18,8 @@
         "footer": []
       },
       "description": {
-        "tr": "Veradyo, yenilikçi radyo teknolojileri ve deneyimli ekibiyle dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Dijital radyoculuğu ileri taşıyoruz."
+        "tr": "Veradyo, yenilikçi radyo teknolojileri ve deneyimli ekibiyle dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar. Dijital radyoculuğu ileri taşıyoruz.",
+        "en": "Veradyo offers quality content and uninterrupted music experience to listeners with its innovative radio technologies and experienced team. "
       },
       "index": 0,
       "icon": "home",
@@ -28,7 +29,7 @@
     {
       "name": {
         "tr": "Misyon",
-        "en": ""
+        "en": "Mission"
       },
       "status": "play",
       "id": "misyon",
@@ -40,7 +41,8 @@
         "footer": []
       },
       "description": {
-        "tr": "Dijital radyoculukta yenilikçi çözümlerle dinleyicilere en iyi deneyimi sunmayı ve teknolojiyi kullanarak erişilebilir, kaliteli içerikler üretmeyi misyon edindik."
+        "tr": "Dijital radyoculukta yenilikçi çözümlerle dinleyicilere en iyi deneyimi sunmayı ve teknolojiyi kullanarak erişilebilir, kaliteli içerikler üretmeyi misyon edindik.",
+        "en": "We're dedicated to providing the best possible listening experience through innovative digital radio solutions. Our mission is to leverage technology to create accessible, high-quality content for everyone."
       },
       "index": 1,
       "icon": "home",
@@ -49,7 +51,7 @@
     {
       "name": {
         "tr": "Vizyon",
-        "en": ""
+        "en": "Vision"
       },
       "status": "play",
       "id": "vizyon",
@@ -61,7 +63,8 @@
         "footer": []
       },
       "description": {
-        "tr": "VizyonumuzVizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır. Sürekli gelişim ve yenilikle, sektörde öncü olmayı amaçlıyoruz."
+        "tr": "VizyonumuzVizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır. Sürekli gelişim ve yenilikle, sektörde öncü olmayı amaçlıyoruz.",
+        "en": "Our vision is to be a leading and trusted platform in the digital radio space. We aim to be pioneers in the industry through continuous development and innovation."
       },
       "index": 2,
       "icon": "home",
@@ -70,7 +73,7 @@
     {
       "name": {
         "tr": "Kalite Politikamız",
-        "en": ""
+        "en": "Our Quality Policy"
       },
       "status": "play",
       "id": "kalitepolitikamiz",
@@ -82,7 +85,8 @@
         "footer": []
       },
       "description": {
-        "tr": "Kalite PolitikamızKalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en i..."
+        "tr": "Kalite PolitikamızKalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en i...",
+        "en": "Our Quality PolicyOur quality policy is based on an approach that aims to keep customer satisfaction at the highest level and to continuously improve. "
       },
       "index": 3,
       "icon": "home",
@@ -91,7 +95,7 @@
     {
       "name": {
         "tr": "Gizlilik Politikası",
-        "en": ""
+        "en": "Privacy Policy"
       },
       "status": "play",
       "id": "gizlilikpolitikasi",
@@ -103,7 +107,8 @@
         "footer": []
       },
       "description": {
-        "tr": "Veradio gizlilik politikası. Web sitemizi ziyaret ettiğinizde kullanıcı deneyimini iyileştirmek için çerezlerin nasıl kullanıldığını ve kişisel verilerinizin güvenliğini nasıl sağladığımızı öğrenin."
+        "tr": "Veradio gizlilik politikası. Web sitemizi ziyaret ettiğinizde kullanıcı deneyimini iyileştirmek için çerezlerin nasıl kullanıldığını ve kişisel verilerinizin güvenliğini nasıl sağladığımızı öğrenin.",
+        "en": "Veradio privacy policy. Learn how cookies are used to improve user experience when you visit our website and how we ensure the security of your personal data."
       },
       "index": 4,
       "icon": "home",
@@ -112,7 +117,7 @@
     {
       "name": {
         "tr": "Kişisel Veriler",
-        "en": ""
+        "en": "Personal Data"
       },
       "status": "play",
       "id": "kisiselveriler",
@@ -124,7 +129,8 @@
         "footer": []
       },
       "description": {
-        "tr": "Kişisel verilerinizin güvenliği ve korunması hakkında bilgi edinin. 6698 sayılı KVKK uyarınca verilerinizi nasıl işlediğimizi, haklarınızı ve gizlilik politikamızı keşfedin."
+        "tr": "Kişisel verilerinizin güvenliği ve korunması hakkında bilgi edinin. 6698 sayılı KVKK uyarınca verilerinizi nasıl işlediğimizi, haklarınızı ve gizlilik politikamızı keşfedin.",
+        "en": "Learn about the security and protection of your personal data. Discover how we process your data in accordance with Law No. 6698 (KVKK), your rights, and our privacy policy."
       },
       "index": 5,
       "icon": "home",
@@ -133,7 +139,7 @@
     {
       "name": {
         "tr": "Kullanıcı Hakları",
-        "en": ""
+        "en": "User Rights"
       },
       "status": "play",
       "id": "kullanicahaklari",
@@ -145,7 +151,8 @@
         "footer": []
       },
       "description": {
-        "tr": "Kişisel verilerinizin korunması ve 6698 sayılı KVKK kapsamındaki haklarınız hakkında bilgi edinin. Veri güvenliği ve haklarınızı nasıl kullanacağınızı öğrenin."
+        "tr": "Kişisel verilerinizin korunması ve 6698 sayılı KVKK kapsamındaki haklarınız hakkında bilgi edinin. Veri güvenliği ve haklarınızı nasıl kullanacağınızı öğrenin.",
+        "en": "Learn about the protection of your personal data and your rights under Law No. 6698 (KVKK). Discover how we ensure data security and how you can exercise your rights."
       },
       "index": 6,
       "icon": "home",
@@ -154,7 +161,7 @@
     {
       "name": {
         "tr": "Yasal Uyarı",
-        "en": ""
+        "en": "Legal Notice"
       },
       "status": "play",
       "id": "yasaluyari",
@@ -166,7 +173,8 @@
         "footer": []
       },
       "description": {
-        "tr": "Yasal Uyarı\n    \n        Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenle..."
+        "tr": "Yasal Uyarı\n    \n        Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenle...",
+        "en": "**Legal Disclaimer**\n\nAll content on this website is protected by Turkish Law No. 5846 regarding Intellectual and Artistic Works, and Law No. 5651 regulating Publications Made on the Internet. Reproduction, distribution, or modification of any material without prior written consent is prohibited. We are committed to respecting intellectual property rights and will promptly address any reported copyright infringements in accordance with applicable laws. This site is for informational purposes only and does not constitute professional advice. We disclaim all liability for any inaccuracies or omissions, and for any loss or damage arising from the use of this information."
       },
       "index": 7,
       "icon": "home",

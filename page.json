@@ -3,7 +3,7 @@
     {
       "name": {
         "tr": "Bilgilendirme",
-        "en": ""
+        "en": "Information"
       },
       "status": "play",
       "category": "",
@@ -12,7 +12,8 @@
       "index": 0,
       "icon": "home",
       "description": {
-        "tr": "Veradio projesi hakkında detaylı bilgilere bu sayfadan ulaşabilirsiniz."
+        "tr": "Veradio projesi hakkında detaylı bilgilere bu sayfadan ulaşabilirsiniz.",
+        "en": "You can find detailed information about the Veradio project on this page."
       },
       "desing": {
         "header": [],
@@ -24,7 +25,7 @@
     {
       "name": {
         "tr": "İletişim",
-        "en": ""
+        "en": "Communication"
       },
       "status": "play",
       "category": "",
@@ -33,7 +34,8 @@
       "index": 1,
       "icon": "home",
       "description": {
-        "tr": "Bu sayfadan bizimle iletişime geçebilir, soru ve görüşlerinizi iletebilirsiniz."
+        "tr": "Bu sayfadan bizimle iletişime geçebilir, soru ve görüşlerinizi iletebilirsiniz.",
+        "en": "You can contact us through this page to submit your questions and feedback."
       },
       "desing": {
         "header": [],

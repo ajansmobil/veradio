@@ -21,10 +21,7 @@
     "tr": "# Hoş Geldiniz!\n\nDevam etmek için lütfen kullanıcı adı ve şifrenizle giriş yapın. Hesabınız yoksa, kayıt olabilirsiniz.",
     "en": "# Welcome!\n\nPlease log in with your username and password to continue. If you don't have an account, you can register."
   },
-  "spot": {
-    "tr": ""
-  },
-  "update": "2025-12-29T04:15:10.058Z",
+  "update": "2026-02-22T18:27:05.257Z",
   "desing": {
     "header": [],
     "body": [
@@ -33,5 +30,10 @@
     "footer": []
   },
   "date": "2025-06-09T14:25:51.540Z",
-  "pathnext": ""
+  "pathnext": "",
+  "title": {
+    "tr": "Login",
+    "en": "Log In"
+  },
+  "slider": []
 }

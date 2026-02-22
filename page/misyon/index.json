@@ -24,13 +24,14 @@
     "tr": "Dijital radyoculukta yenilikçi çözümlerle dinleyicilere en iyi deneyimi sunmayı ve teknolojiyi kullanarak erişilebilir, kaliteli içerikler üretmeyi misyon edindik.",
     "en": "We're dedicated to providing the best possible listening experience through innovative digital radio solutions. Our mission is to leverage technology to create accessible, high-quality content for everyone."
   },
-  "spot": {
-    "tr": ""
-  },
   "index": 1,
   "desc": {},
   "icon": "home",
   "bgimg": "1.jpg",
-  "update": "2025-12-29T04:15:10.010Z",
-  "date": "2025-06-09T14:25:51.212Z"
+  "update": "2026-02-22T18:27:05.208Z",
+  "date": "2025-06-09T14:25:51.212Z",
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission"
+  }
 }

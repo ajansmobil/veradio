@@ -15,7 +15,10 @@
         "img": false,
         "page": true,
         "body": true
-      }
+      },
+      "active": true,
+      "activeicon": "pause",
+      "activeclass": "buttonGreen"
     },
     {
       "name": "Bilgilendirme",
@@ -33,7 +36,10 @@
       "modulestatus": {
         "detail": true,
         "bgimg": true
-      }
+      },
+      "active": true,
+      "activeicon": "pause",
+      "activeclass": "buttonGreen"
     },
     {
       "name": "Üyelik Sayfası",
@@ -43,11 +49,29 @@
       "index": 2,
       "desing": {
         "header": [],
-        "body": [],
+        "body": [
+          "juutwj"
+        ],
         "footer": []
       },
       "modulestatus": {
         "body": true
+      },
+      "active": true,
+      "activeicon": "pause",
+      "activeclass": "buttonGreen"
+    },
+    {
+      "name": "Kapalı",
+      "path": "kapali",
+      "desc": [],
+      "data": [],
+      "active": true,
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
       }
     }
   ]

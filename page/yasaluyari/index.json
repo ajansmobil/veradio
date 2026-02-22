@@ -24,13 +24,14 @@
     "tr": "Yasal Uyarı\n    \n        Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenle...",
     "en": "**Legal Disclaimer**\n\nAll content on this website is protected by Turkish Law No. 5846 regarding Intellectual and Artistic Works, and Law No. 5651 regulating Publications Made on the Internet. Reproduction, distribution, or modification of any material without prior written consent is prohibited. We are committed to respecting intellectual property rights and will promptly address any reported copyright infringements in accordance with applicable laws. This site is for informational purposes only and does not constitute professional advice. We disclaim all liability for any inaccuracies or omissions, and for any loss or damage arising from the use of this information."
   },
-  "spot": {
-    "tr": ""
-  },
   "index": 7,
   "desc": {},
   "icon": "home",
   "bgimg": "1.jpg",
-  "update": "2025-12-29T04:15:10.051Z",
-  "date": "2025-06-09T14:25:51.254Z"
+  "update": "2026-02-22T18:27:05.249Z",
+  "date": "2025-06-09T14:25:51.254Z",
+  "title": {
+    "tr": "Yasal Uyarı",
+    "en": "Legal Notice"
+  }
 }
