@@ -280,7 +280,7 @@
           "tr": "Bu kullanıcı adı zaten kullanılıyor!",
           "en": "This username is already in use!"
         },
-        "nextUrl": "user"
+        "nextUrl": ""
       },
       "id": "k3o6l7",
       "version": "1.0.0",

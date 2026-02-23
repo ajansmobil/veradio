@@ -1,4 +1,3 @@
-// Dinleyici yorumları ve AI radyo asistanı yanıtları API'den gelir (Kaldırapi/sabit veri kaldırıldı).
-// Modül HTML tarafında LISTENER_COMMENTS_API ve AI_ASSISTANT_API ile endpoint'ler kullanılır.
-console.log('code bos');
+// Chat/chatlist API: modül kuralı gereği index.html'de apiurl = "https://{{domain}}/api" kullanılır (login ile aynı).
+// Küfür içeren yorum gönderilince API 400 döner; ekranda "Küfretmek yasaktır. Lütfen ifadenizi düzeltin." uyarısı gösterilir (arzcdr-profanity-warning).
 html = html;

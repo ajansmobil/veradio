@@ -1,10 +1,10 @@
 
-  .menu-mobil-pg1e3 {
+  .menu-mobil-gvhmc {
     display: none;
   }
 
   @media (max-width: 1200px) {
-    .menu-mobil-pg1e3 {
+    .menu-mobil-gvhmc {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -23,11 +23,11 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .pg1e3 {
+    .gvhmc {
       display: none;
     }
 
-    .menu-mobil-pg1e3 ul {
+    .menu-mobil-gvhmc ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-pg1e3 ul li > * {
+    .menu-mobil-gvhmc ul li > * {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-pg1e3 ul li {
+    .menu-mobil-gvhmc ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-pg1e3 ul li:hover {
+    .menu-mobil-gvhmc ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-pg1e3 ul li.active {
+    .menu-mobil-gvhmc ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .pg1e3menu {
+    .gvhmcmenu {
       display: none !important;
     }
 
@@ -70,7 +70,7 @@
     }
   }
 
-  .pg1e3 {
+  .gvhmc {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -81,17 +81,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .pg1e3titlebodylang {
+  .gvhmctitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .pg1e3titlebodylang ul {
+  .gvhmctitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .pg1e3titlebodylang ul a {
+  .gvhmctitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -100,11 +100,11 @@
     transition: background 0.3s;
   }
 
-  .pg1e3titlebodylang ul a:hover {
+  .gvhmctitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .pg1e3title {
+  .gvhmctitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -112,7 +112,7 @@
     justify-content: center;
   }
 
-  .pg1e3titlebody {
+  .gvhmctitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -120,7 +120,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .pg1e3body {
+  .gvhmcbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -128,14 +128,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .pg1e3menu {
+  .gvhmcmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .pg1e3menulist {
+  .gvhmcmenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -143,7 +143,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .pg1e3menulist ul {
+  .gvhmcmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -153,7 +153,7 @@
     overflow-x: auto;
   }
 
-  .pg1e3menulist ul a {
+  .gvhmcmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -169,18 +169,18 @@
     font-weight: 500;
   }
 
-  .pg1e3menulist ul a:hover {
+  .gvhmcmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .pg1e3-menu-active {
+  .gvhmc-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .pg1e3menulistbody {
+  .gvhmcmenulistbody {
     width: 100%;
   }
 
@@ -267,7 +267,7 @@
   }
 
 
-  .s2i04 {
+  .k9c8l {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -277,7 +277,7 @@
     gap: 20px;
   }
 
-  .s2i04-body {
+  .k9c8l-body {
     width: 100%;
     display: flex;
     align-items: center;
@@ -421,6 +421,19 @@
 
   .messages-youtube-input-input::placeholder {
     color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Küfür uyarısı: ekranda "Küfretmek yasaktır" mesajı */
+  .arzcdr-profanity-warning {
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: rgba(200, 60, 50, 0.12);
+    border: 1px solid rgba(200, 60, 50, 0.35);
+    color: #b52a20;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 8px;
   }
 
   .input-icon {
@@ -671,7 +684,7 @@
   }
 
   @media (max-width: 1200px) {
-    .s2i04 {
+    .k9c8l {
       flex-direction: column;
       gap: 30px;
     }
@@ -687,7 +700,7 @@
   }
 
   @media (max-width: 768px) {
-    .s2i04 {
+    .k9c8l {
       padding: 0 20px;
     }
 
@@ -707,7 +720,7 @@
   }
 
 
-  .sliderxjglhybody {
+  .sliderxmw639body {
     width: 100%;
     display: flex;
     align-items: center;
@@ -715,7 +728,7 @@
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
   }
-  .sliderxjglhy {
+  .sliderxmw639 {
     width: calc(var(--max) - 40px);
     display: flex;
     background-color: #f9f9f9;
@@ -726,10 +739,10 @@
     transition: transform 0.3s ease-in-out;
     background-color: #fff;
   }
-  .sliderxjglhy:hover {
+  .sliderxmw639:hover {
     transform: translateY(-5px);
   }
-  .sliderxjglhytitle {
+  .sliderxmw639title {
     width: 60%;
     font-size: 28px;
     padding-right: 15px;
@@ -740,41 +753,41 @@
     justify-content: center;
     border-right: 2px solid #000;
   }
-  .jglhy {
+  .mw639 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
   }
-  .jglhy-media {
+  .mw639-media {
     width: 55px;
     height: 55px;
     border-radius: 5px;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
   }
-  .jglhy-media:hover {
+  .mw639-media:hover {
     transform: scale(1.2);
   }
   @media screen and (max-width: 1200px) {
-    .sliderxjglhytitle {
+    .sliderxmw639title {
       width: 100%;
       text-align: center;
       border-right: none;
       border-bottom: none;
       padding-bottom: 0px;
     }
-    .sliderxjglhy {
+    .sliderxmw639 {
       width: calc(var(--max) - 40px) !important;
       flex-direction: column;
     }
-    .jglhy-media {
+    .mw639-media {
       width: 40px;
       height: 40px;
     }
 
-    .sliderxjglhybody {
+    .sliderxmw639body {
       width: calc(var(--max) - 20px);
     }
   }
