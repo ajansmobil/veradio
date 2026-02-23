@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=wcr7z" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=wcr7z" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=d8k6b" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=d8k6b" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=wcr7z" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=d8k6b" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,14 +52,14 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=wcr7z">
+<link rel="stylesheet" href="style.css?v=d8k6b">
 </head>
 
 <body>
-  <div id="header"><div class="p5nht">
-  <!-- <div class="p5nhttitle">
-    <div class="p5nhttitlebody">
-      <div class="p5nhttitlebodylang">
+  <div id="header"><div class="n9vex">
+  <!-- <div class="n9vextitle">
+    <div class="n9vextitlebody">
+      <div class="n9vextitlebodylang">
         <ul>
           <li><a href="/tr/login/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/login/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
         </ul>
@@ -67,10 +67,10 @@
     </div>
   </div> -->
 
-  <div class="p5nhtbody">
+  <div class="n9vexbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=wcr7z"
+        src="/img/logo.svg?v=d8k6b"
         height="100px"
         alt="VeRadyo Logo"
         loading="lazy"
@@ -96,7 +96,7 @@
   </div>
 </div>
 
-<div class="menu-mobil-p5nht">
+<div class="menu-mobil-n9vex">
   <ul>
     <li>
       <span class="material-symbols-outlined" aria-hidden="true">home</span>
@@ -189,13 +189,13 @@
   });
 </script>
 </div>
-  <div id="content"><div class="w3iic">
-  <div class="w3iic-body">
-    <div class="w3iic-login-menu">
-      <div id="w3iic-login-menu-left">Giriş Yap</div>
-      <div id="w3iic-login-menu-right">Üye Ol</div>
+  <div id="content"><div class="shxzm">
+  <div class="shxzm-body">
+    <div class="shxzm-login-menu">
+      <div id="shxzm-login-menu-left">Giriş Yap</div>
+      <div id="shxzm-login-menu-right">Üye Ol</div>
     </div>
-    <div class="w3iic-body-form" id="w3iic-login">
+    <div class="shxzm-body-form" id="shxzm-login">
       <div class="input-container">
         <input type="text" id="login-user" class="inputmatrix1" placeholder="Kullanıcı adı" autocomplete="username" />
         <label for="input" class="placeholder">Kullanıcı adı</label>
@@ -204,9 +204,9 @@
         <input type="password" id="login-password" class="inputmatrix1" placeholder="Şifre" />
         <label for="input" class="placeholder">Şifre</label>
       </div>
-      <div class="w3iic-button" onclick="loginUser()">Giriş Yap</div>
+      <div class="shxzm-button" onclick="loginUser()">Giriş Yap</div>
     </div>
-    <div class="w3iic-body-form" id="w3iic-memberol">
+    <div class="shxzm-body-form" id="shxzm-memberol">
       <div class="input-container">
         <input type="text" id="register-name" class="inputmatrix1" placeholder="Ad Soyad" />
         <label for="input" class="placeholder">Ad Soyad</label>
@@ -227,8 +227,8 @@
         <input type="password" id="register-password-confirm" class="inputmatrix1" placeholder="Şifre Tekrar" />
         <label for="input" class="placeholder">Şifre Tekrar</label>
       </div>
-      <div class="w3iic-button" onclick="registerUser()">Üye Ol</div>
-      <div class="w3iic-null" onclick="switchToLogin()">Üye misin?</div>
+      <div class="shxzm-button" onclick="registerUser()">Üye Ol</div>
+      <div class="shxzm-null" onclick="switchToLogin()">Üye misin?</div>
     </div>
   </div>
 </div>
@@ -255,17 +255,17 @@
   }
 
   function switchToLogin() {
-    document.getElementById("w3iic-login-menu-left").style.backgroundColor = "#101010";
-    document.getElementById("w3iic-login-menu-right").style.backgroundColor = "#ee5a24 ";
-    document.getElementById("w3iic-login").style.display = "flex";
-    document.getElementById("w3iic-memberol").style.display = "none";
+    document.getElementById("shxzm-login-menu-left").style.backgroundColor = "#101010";
+    document.getElementById("shxzm-login-menu-right").style.backgroundColor = "#ee5a24 ";
+    document.getElementById("shxzm-login").style.display = "flex";
+    document.getElementById("shxzm-memberol").style.display = "none";
   }
 
   function switchToRegister() {
-    document.getElementById("w3iic-login-menu-right").style.backgroundColor = "#101010";
-    document.getElementById("w3iic-login-menu-left").style.backgroundColor = "#ee5a24 ";
-    document.getElementById("w3iic-login").style.display = "none";
-    document.getElementById("w3iic-memberol").style.display = "flex";
+    document.getElementById("shxzm-login-menu-right").style.backgroundColor = "#101010";
+    document.getElementById("shxzm-login-menu-left").style.backgroundColor = "#ee5a24 ";
+    document.getElementById("shxzm-login").style.display = "none";
+    document.getElementById("shxzm-memberol").style.display = "flex";
   }
 
   function validateEmail(email) {
@@ -404,8 +404,8 @@
   })();
 
   setTimeout(function () {
-    var left = document.getElementById("w3iic-login-menu-left");
-    var right = document.getElementById("w3iic-login-menu-right");
+    var left = document.getElementById("shxzm-login-menu-left");
+    var right = document.getElementById("shxzm-login-menu-right");
     if (left) left.addEventListener("click", switchToLogin);
     if (right) right.addEventListener("click", switchToRegister);
   }, 100);
@@ -466,8 +466,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=wcr7z"></script>
-<script defer src="/src/cookie.js?v=wcr7z"></script>
+<script defer type="text/javascript" src="/src/js.js?v=d8k6b"></script>
+<script defer src="/src/cookie.js?v=d8k6b"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

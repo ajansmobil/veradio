@@ -1,10 +1,10 @@
 
-  .menu-mobil-habwl {
+  .menu-mobil-fp91s {
     display: none;
   }
 
   @media (max-width: 1200px) {
-    .menu-mobil-habwl {
+    .menu-mobil-fp91s {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -23,11 +23,11 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .habwl {
+    .fp91s {
       display: none;
     }
 
-    .menu-mobil-habwl ul {
+    .menu-mobil-fp91s ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-habwl ul li > * {
+    .menu-mobil-fp91s ul li > * {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-habwl ul li {
+    .menu-mobil-fp91s ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-habwl ul li:hover {
+    .menu-mobil-fp91s ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-habwl ul li.active {
+    .menu-mobil-fp91s ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .habwlmenu {
+    .fp91smenu {
       display: none !important;
     }
 
@@ -70,7 +70,7 @@
     }
   }
 
-  .habwl {
+  .fp91s {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -81,17 +81,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .habwltitlebodylang {
+  .fp91stitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .habwltitlebodylang ul {
+  .fp91stitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .habwltitlebodylang ul a {
+  .fp91stitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -100,11 +100,11 @@
     transition: background 0.3s;
   }
 
-  .habwltitlebodylang ul a:hover {
+  .fp91stitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .habwltitle {
+  .fp91stitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -112,7 +112,7 @@
     justify-content: center;
   }
 
-  .habwltitlebody {
+  .fp91stitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -120,7 +120,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .habwlbody {
+  .fp91sbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -128,14 +128,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .habwlmenu {
+  .fp91smenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .habwlmenulist {
+  .fp91smenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -143,7 +143,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .habwlmenulist ul {
+  .fp91smenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -153,7 +153,7 @@
     overflow-x: auto;
   }
 
-  .habwlmenulist ul a {
+  .fp91smenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -169,18 +169,18 @@
     font-weight: 500;
   }
 
-  .habwlmenulist ul a:hover {
+  .fp91smenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .habwl-menu-active {
+  .fp91s-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .habwlmenulistbody {
+  .fp91smenulistbody {
     width: 100%;
   }
 
@@ -267,7 +267,7 @@
   }
 
 
-  .hkoor {
+  .gghsh {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -276,14 +276,14 @@
     position: relative;
   }
 
-  .hkoorcontainertitle {
+  .gghshcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin: 0 0 20px 0;
   }
 
-  .hkoorcontainerlist {
+  .gghshcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -292,26 +292,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .hkoorcontainerlist>div {
+  .gghshcontainerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .hkoorcontainerlist:hover {
+  .gghshcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
 
-  .hkoorcontainer {
+  .gghshcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .hkoorcontainerbody {
+  .gghshcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -321,7 +321,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .hkoorbody {
+  .gghshbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -329,150 +329,222 @@
     padding: 20px;
   }
 
-  .hkoorcontainerlist>span {
+  .gghshcontainerlist>span {
     font-size: 24px;
     color: #1e3046;
   }
 
   @media screen and (max-width: 1024px) {
-    .hkoorbody {
+    .gghshbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .hkoorcontainerbody {
+    .gghshcontainerbody {
       padding: 15px;
     }
   }
 
 
+  /*
+   * RENK YAPISI (desing): Menü = menu*, İçerik = body*
+   * menuBg / menuText / menuBgHover / menuTextHover / menuBorder / menuActiveBg / menuActiveText
+   * bodyBg / bodyText | url (profil path)
+   */
   /* --- Box model: taşma önleme (padding + width kuralı) --- */
-  .a5i5g,
-  .a5i5g-menu,
-  .a5i5g-body {
+  .h1bmw,
+  .h1bmw-menu,
+  .h1bmw-body {
     box-sizing: border-box;
   }
 
   /* --- Ana layout: yan menü + içerik alanı --- */
-  .a5i5g {
+  .h1bmw {
     width: var(--max);
     max-width: 100%;
     display: flex;
     flex-direction: row;
     gap: 15px;
     margin: 10px 0;
+    flex: 1;
   }
 
-  /* --- Sol menü: içerik büyür, çıkış en altta (margin-top: auto) --- */
-  .a5i5g-menu {
-    width: 220px;
-    min-width: 200px;
-    padding: 10px;
-    background-color: #ee5a24 ;
+  /* --- Sol menü: kart, geniş padding --- */
+  .h1bmw-menu {
+    width: 280px;
+    min-width: 260px;
+    padding: 20px;
+    background-color: #f38020;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    gap: 0;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   }
 
-  .a5i5g-menu-nav {
+  .h1bmw-menu-nav {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 4px;
     min-height: 0;
+    padding: 20px 0 0;
   }
 
-  /* Profil: darkBg + color (hover aynı darkBg, color) --- */
-  .a5i5g-profile {
-    background-color: #e9e9e9;
-    color: #000;
-    padding: 10px;
-    border-radius: 8px;
+  /* --- Profil: avatar + isim + ok (kart hissi) --- */
+  .h1bmw-profile {
+    background: #000;
+    color: #fff;
+    padding: 2px;
+    border-radius: 14px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 14px;
     text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.2s ease, transform 0.2s ease;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
   }
 
-  .a5i5g-profile:hover {
-    background-color: #e9e9e9;
-    opacity: 0.9;
-    transform: scale(1.02);
+  .h1bmw-profile:hover {
+    color: #fff;
+    transform: translateX(2px);
   }
 
-  /* Kategori grubu (back.js ile doldurulur) --- */
-  .a5i5g-menu-category {
+  .h1bmw-profile:hover .h1bmw-profile-arrow {
+    opacity: 1;
+  }
+
+  .h1bmw-profile-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff !important;
+
+  }
+
+  .h1bmw-profile-avatar .material-symbols-outlined {
+    font-size: 26px;
+    opacity: 0.95;
+  }
+
+  .h1bmw-profile-name {
+    flex: 1;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff !important;
+  }
+
+  .h1bmw-profile-arrow {
+    font-size: 20px;
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  /* Kategori: gruplar arası boşluk --- */
+  .h1bmw-menu-category {
     display: flex;
     flex-direction: column;
     gap: 4px;
   }
 
-  /* Menü linki: renkler desing (colortitle, coloractive) --- */
-  .a5i5g-menu-category .a5i5g-menu-link {
+ 
+
+  /* Menü linki: ikon + metin, border yok; hover’da arka plan --- */
+  .h1bmw-menu-category .h1bmw-menu-link {
     color: #fff;
-    border-bottom-color: #f00;
-    padding: 10px 12px;
+    min-height: 48px;
+    padding: 0 16px;
+    border-radius: 12px;
     cursor: pointer;
-    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    transition: background 0.2s ease, color 0.2s ease;
     display: flex;
     align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-    border: 1px solid transparent;
+    gap: 14px;
     text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
   }
 
-  .a5i5g-menu-category .a5i5g-menu-link:hover {
-    background-color: #e9e9e9;
-    color: #000;
+  .h1bmw-menu-category .h1bmw-menu-link .material-symbols-outlined {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    opacity: 0.9;
   }
 
-  /* Aktif sayfa: activeBg + activeColor (çerçeve de activeColor) --- */
-  .a5i5g-menu-category .a5i5g-menu-active {
-    background-color: rgba(243,128,32,0.15);
-    border-color: #f38020;
+  .h1bmw-menu-category .h1bmw-menu-link:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  /* Aktif: sol çizgi + arka plan (net vurgu) --- */
+  .h1bmw-menu-category .h1bmw-menu-active {
+    background: rgba(243,128,32,0.15);
+    color: #f38020;
+    border-left: 4px solid #f38020;
+    border-radius: 0 12px 12px 0;
+    padding-left: 12px;
+  }
+
+  .h1bmw-menu-category .h1bmw-menu-active .material-symbols-outlined {
+    opacity: 1;
+  }
+
+  .h1bmw-menu-category .h1bmw-menu-active:hover {
+    background: rgba(243,128,32,0.15);
     color: #f38020;
   }
 
-  .a5i5g-menu-category .a5i5g-menu-active:hover {
-    background-color: rgba(243,128,32,0.15);
-    color: #f38020;
-  }
-
-  /* Menü en altı: her zaman üye çıkış --- */
-  .a5i5g-menu-logout {
+  /* --- Çıkış: en altta, buton alanı, net ayrım --- */
+  .h1bmw-menu-logout {
     margin-top: auto;
+    padding: 10px;
     color: #fff;
-    padding: 10px 12px;
+    background: rgba(0, 0, 0, 0.18);
+    border-radius: 12px;
     cursor: pointer;
-    transition: background-color 0.2s ease, color 0.2s ease;
+    transition: background 0.2s ease, color 0.2s ease;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
-    border-radius: 8px;
     text-decoration: none;
-    border: 1px solid transparent;
-    border-top: 1px solid #f00;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff !important;
   }
 
-  .a5i5g-menu-logout:hover {
-    background-color: #e9e9e9;
-    color: #000;
+  .h1bmw-menu-logout .material-symbols-outlined {
+    font-size: 22px;
+    width: 22px;
+    height: 22px;
   }
 
-  .a5i5g-menu-logout .material-symbols-outlined {
-    font-size: 20px;
+  .h1bmw-menu-logout:hover {
+    background: #000;
+    color: #fff;
   }
 
-  .a5i5g-body {
+  /* İçerik alanı: bodyBg, bodyText --- */
+  .h1bmw-body {
     flex: 1;
     min-width: 0;
     background-color: #E9E9E9;
+    color: #e2e8f0;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -483,12 +555,12 @@
 
   /* Responsive: dar ekranda menü üstte, tam genişlik --- */
   @media screen and (max-width: 768px) {
-    .a5i5g {
+    .h1bmw {
       flex-direction: column;
       gap: 10px;
     }
 
-    .a5i5g-menu {
+    .h1bmw-menu {
       width: 100%;
       min-width: 0;
       flex-direction: row;
@@ -496,13 +568,13 @@
       justify-content: flex-start;
     }
 
-    .a5i5g-menu-category {
+    .h1bmw-menu-category {
       flex-direction: row;
       flex-wrap: wrap;
       gap: 6px;
     }
 
-    .a5i5g-body {
+    .h1bmw-body {
       min-height: 50vh;
     }
   }

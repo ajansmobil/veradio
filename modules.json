@@ -349,15 +349,16 @@
       "category": "tema",
       "id": "juutwj",
       "desing": {
-        "color": "#000",
-        "bgcolor": "#ee5a24 ",
-        "colortitle": "#fff",
         "url": "user",
-        "coloractive": "#f00",
-        "activeBg": "rgba(243,128,32,0.15)",
-        "activeColor": "#f38020",
         "bodyBg": "#E9E9E9",
-        "darkBg": "#e9e9e9"
+        "menuBg": "#f38020",
+        "menuText": "#fff",
+        "menuBgHover": "#000",
+        "menuTextHover": "#fff",
+        "menuBorder": "#fff",
+        "menuActiveBg": "rgba(243,128,32,0.15)",
+        "menuActiveText": "#f38020",
+        "bodyText": "#e2e8f0"
       },
       "data": [
         {
