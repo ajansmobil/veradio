@@ -1,17 +1,40 @@
 
   /* ─ Genel sıfırlama ─────────────────────────────────── */
+  .az-page,
+  .az-col,
   .az-logo-bar,
-  .az-main,
-  .az-panel,
-  .az-social-bar {
+  .az-panel {
     box-sizing: border-box;
-    
   }
 
-  /* ─ Logo alanı ──────────────────────────────────────── */
+  /* ─ 3 sütun sayfa: sol %25 | orta %50 | sağ %25 ──────── */
+  .az-page {
+    width: 100%;
+    max-width: --max--;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    align-items: start;
+    padding: 0 0 24px 0;
+  }
+
+  .az-col {
+    min-width: 0;
+  }
+
+  /* Orta sütun: logo, player, sosyal, footer (dikey sıra) */
+  .az-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  /* ─ Logo (sayfa üstü, tam genişlik ortada) ─────────────── */
   .az-logo-bar {
     width: 100%;
-    max-width: var(--max);
+    max-width: --max--;
     margin: 0 auto 20px auto;
     padding: 16px 20px;
     background: #fff;
@@ -22,20 +45,8 @@
   }
 
   .az-logo-bar img {
-
     width: 200px;
     object-fit: contain;
-  }
-
-  /* ─ 3 sütunlu ana alan ──────────────────────────────── */
-  .az-main {
-    width: 100%;
-    max-width: var(--max);
-    margin: 0 auto 24px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    align-items: stretch;
   }
 
   /* ─ Panel (kart) genel ──────────────────────────────── */
@@ -47,6 +58,7 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    height: 520px;
   }
 
   .az-panel-head {
@@ -64,23 +76,31 @@
     color: #222;
   }
 
-  /* ─ Nokta indikatörler ──────────────────────────────── */
-  .az-dot {
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    display: inline-block;
-    animation: az-pulse 2s infinite;
+  /* ─ Aktif rozeti (yeşil nokta + metin) ───────────────── */
+  .az-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #166534;
   }
 
-  .az-dot-green {
+  .az-badge-active::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
     background: #22c55e;
     box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.25);
+    animation: az-pulse 2s infinite;
+    margin-right: 4px;
   }
 
   @keyframes az-pulse {
     0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
+    50% { opacity: 0.5; }
   }
 
   /* ─ SOL: Chat mesaj listesi ─────────────────────────── */
@@ -154,7 +174,7 @@
     border-radius: 10px;
     background: rgba(200, 60, 50, 0.1);
     border: 1px solid rgba(200, 60, 50, 0.3);
-    color: #b52a20;
+    color: #ee5a24;
     font-size: 13px;
     font-weight: 500;
     text-align: center;
@@ -206,134 +226,120 @@
     transform: scale(1.05);
   }
 
-  /* ─ ORTA: Canlı yayın paneli ────────────────────────── */
-  .az-panel-live {
-    border-color: rgba(238, 90, 36, 0.25);
-    box-shadow: 0 4px 20px rgba(238, 90, 36, 0.08), 0 2px 8px rgba(0,0,0,0.06);
+  /* Sol panel: gri ok butonu ────────────────────────────── */
+  .az-send-btn-grey {
+    background: rgba(0, 0, 0, 0.12);
+    color: #555;
   }
 
-  .az-panel-live .az-panel-head {
-    border-bottom-color: rgba(238, 90, 36, 0.15);
+  .az-send-btn-grey:hover {
+    background: rgba(0, 0, 0, 0.2);
   }
 
-  .az-live-badge {
-    background: #ee5a24;
-    color: #fff;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    animation: az-pulse 2s infinite;
+  /* ─ 90.0 | CANLI DİNLE | pause — turuncu pill oynatıcı çubuğu ─ */
+  .az-center-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 24px 0;
   }
 
-  .az-live-body {
-    flex: 1;
+  /* Alt alan içeriği: pill + sosyal + footer — pill satırı tam yükseklik */
+  .az-fixed-bottom-inner {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  .az-player-pill-container {
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
-    padding: 32px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 350px;
   }
 
-  .az-freq {
+  .az-player-pill {
     display: flex;
-    align-items: baseline;
-    gap: 6px;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 32px;
+    min-height: 80px;
+    background-color: #ee5a243d;
+    border-radius: 10px;
+    box-shadow: 0 6px 24px rgba(238, 90, 36, 0.4), 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    box-sizing: border-box;
+    border: none;
   }
 
-  .az-freq-num {
-    font-size: 52px;
+  .az-player-freq {
+    font-size: 22px;
     font-weight: 800;
     color: #ee5a24;
-    line-height: 1;
+    letter-spacing: 0.02em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   }
 
-  .az-freq-fm {
-    font-size: 20px;
-    font-weight: 600;
-    color: #888;
+  .az-player-label {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: #ee5a2496;
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  .az-play-btn {
-    width: 72px;
-    height: 72px;
+  .az-player-pause-btn {
+    width: 48px;
+    height: 48px;
     border: none;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
-    box-shadow: 0 6px 20px rgba(238, 90, 36, 0.4);
+    border-radius: 100%;
+    background-color: #ee5a24;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-
-  .az-play-btn .material-symbols-outlined {
-    font-size: 38px;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
     color: #fff;
+    flex-shrink: 0;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 2px 6px rgba(0,0,0,0.15);
   }
 
-  .az-play-btn:hover {
-    transform: scale(1.08);
-    box-shadow: 0 8px 28px rgba(238, 90, 36, 0.5);
+  .az-player-pause-btn .material-symbols-outlined {
+    font-size: 26px;
   }
 
-  .az-live-hint {
-    margin: 0;
-    font-size: 13px;
-    color: #aaa;
-    text-align: center;
+  .az-player-pause-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.06);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.25), 0 4px 12px rgba(0,0,0,0.2);
   }
 
-  /* ─ SAĞ: AI Asistan paneli ──────────────────────────── */
+  .az-player-pause-btn.playing .material-symbols-outlined {
+    font-size: 26px;
+  }
+
+  /* ─ SAĞ: Al Radyo Asistanı paneli ────────────────────── */
   .az-panel-ai {
-    border-color: rgba(238, 90, 36, 0.15);
-    box-shadow: 0 4px 20px rgba(238, 90, 36, 0.06), 0 2px 8px rgba(0,0,0,0.06);
+    border-color: rgba(0, 0, 0, 0.08);
   }
 
   .az-panel-head-ai {
-    background: linear-gradient(135deg, rgba(238,90,36,0.05) 0%, rgba(255,107,107,0.03) 100%);
-    border-bottom: 2px solid rgba(238, 90, 36, 0.12);
-  }
-
-  .az-ai-title {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .az-ai-icon {
-    width: 36px;
-    height: 36px;
-    border-radius: 10px;
-    background: linear-gradient(135deg, #ee5a24 0%, #ff6b6b 100%);
-    color: #fff;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 3px 10px rgba(238, 90, 36, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   }
 
   .az-panel-head-ai h3 {
     margin: 0;
-    font-size: 16px;
-    font-weight: 700;
-    color: #222;
-  }
-
-  .az-ai-status {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 600;
-    color: #555;
-    padding: 5px 12px;
-    background: rgba(255,255,255,0.9);
-    border-radius: 20px;
-    border: 1px solid rgba(238, 90, 36, 0.18);
+    color: #222;
   }
 
   .az-ai-messages {
@@ -345,7 +351,8 @@
     flex-direction: column;
     gap: 12px;
     padding: 16px;
-    background: #f8f9fa;
+    background: #fafafa;
+    box-sizing: border-box;
   }
 
   .az-ai-messages::-webkit-scrollbar { width: 5px; }
@@ -406,86 +413,80 @@
     box-shadow: 0 2px 8px rgba(238, 90, 36, 0.22);
   }
 
+  /* Bot mesajı: yeşil çerçeve + açık yeşil arka plan (görsel) */
   .az-ai-msg-bot .az-ai-msg-text {
-    background: #fff;
-    color: #334155;
-    border: 1px solid rgba(0, 0, 0, 0.07);
+    background: rgba(34, 197, 94, 0.08);
+    color: #166534;
+    border: 1px solid rgba(34, 197, 94, 0.35);
     border-bottom-left-radius: 4px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
   }
 
-  /* AI input satırı */
   .az-input-row-ai {
-    border-top-color: rgba(238, 90, 36, 0.12);
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
   }
 
-  .az-input-row-ai:focus-within {
-    outline: none;
-    box-shadow: inset 0 0 0 2px rgba(238, 90, 36, 0.2);
-  }
-
-  .az-send-btn-ai {
-    background: linear-gradient(135deg, #ee5a24 0%, #ff6b6b 100%);
+  /* Sağ panel: mavi ok butonu ─────────────────────────── */
+  .az-send-btn-blue {
+    background: #2563eb;
     color: #fff;
-    box-shadow: 0 3px 10px rgba(238, 90, 36, 0.3);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
   }
 
-  .az-send-btn-ai:hover {
-    background: linear-gradient(135deg, #d44d1c 0%, #ee5a24 100%);
+  .az-send-btn-blue:hover {
+    background: #1d4ed8;
+    transform: scale(1.05);
   }
 
-  .az-send-btn-ai .material-symbols-outlined {
+  .az-send-btn-blue .material-symbols-outlined {
     color: #fff;
   }
 
-  /* ─ Sosyal medya alanı ──────────────────────────────── */
+  /* ─ Sosyal Medyada Biz + ikonlar yan yana ──────────────── */
   .az-soc-wrap {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 24px;
   }
 
   .az-soc-inner {
-    width: calc(var(--max) - 40px);
+    width: 100%;
     background-color: --bgcolor--;
     border-radius: 20px;
-    padding: 32px 28px;
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    padding: 20px 24px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 24px;
+    justify-content: center;
+    gap: 20px;
     box-sizing: border-box;
   }
 
-  /* Başlık satırı: çizgi — yazı — çizgi */
-  .az-soc-header {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .az-soc-line {
-    flex: 1;
-    height: 1px;
-    background: --color--;
-    opacity: 0.25;
-    max-width: 160px;
-  }
-
   .az-soc-title {
-    font-size: 14px;
+    margin: 0;
+    font-size: 16px;
     font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
     color: --color--;
     white-space: nowrap;
   }
 
+  /* Dikey ayırıcı çizgi (başlık ile ikonlar arası) */
+  .az-soc-line {
+    display: inline-block;
+    width: 1px;
+    height: 24px;
+    background: --color--;
+    opacity: 0.25;
   /* İkon satırı */
+    flex-shrink: 0;
+  }
+
   .az-soc-icons {
     display: flex;
     flex-wrap: wrap;
@@ -498,7 +499,7 @@
     display: inline-block;
   }
 
-  .az-soc-icons .owqfs2-media {
+  .az-soc-icons .wmww22-media {
     width: 36px;
     height: 36px;
     border-radius: 14px;
@@ -507,20 +508,65 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   }
 
-  .az-soc-icons .owqfs2-media:hover {
+  .az-soc-icons .wmww22-media:hover {
     transform: translateY(-4px) scale(1.08);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
   }
 
-  /* ─ Alt navigasyon — tüm ekranlarda sabit ───────────── */
+  /* ─ Turuncu footer (orta sütun içinde, tam genişlik) ──── */
+  .az-footer-bar {
+    width: 100%;
+    background: #ee5a24;
+    color: #fff;
+    padding: 20px 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .az-footer-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .az-footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .az-footer-links a:hover {
+    text-decoration: underline;
+  }
+
+  .az-footer-sep {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+  }
+
+  .az-footer-copy {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  /* ─ Alt navigasyon: sadece mobilde görünür (sabit) ─────── */
   .az-mobile-nav {
-    display: block;
+    display: none;
     position: fixed;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    max-width: var(--max);
+    max-width: --max--;
     z-index: 1000;
   }
 
@@ -641,41 +687,37 @@
     50%       { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
   }
 
-  /* İçerik menünün altına kaymasın */
-  .az-main {
-    padding-bottom: 20px;
-  }
-
-  .az-soc-wrap {
-    padding-bottom: 96px;
-  }
-
-  /* ─ Responsive ──────────────────────────────────────── */
+  /* ─ Responsive: tek sütun, orta (logo+player+sosyal+footer) üstte ─ */
   @media (max-width: 1200px) {
-    /* Grid: tek sütun, canlı yayın paneli en üste (order ile) */
-    .az-main {
-      grid-template-columns: 1fr;
-      width: calc(var(--max) - 40px);
-      max-width: calc(100% - 40px);
-      padding-bottom: 76px;
+    .az-mobile-nav {
+      display: block;
     }
 
-    .az-panel-live { order: 1; }
-    .az-panel-chat { order: 2; }
-    .az-panel-ai   { order: 3; }
+    .az-page {
+      grid-template-columns: 1fr;
+      width: calc(100% - 40px);
+      max-width: calc(100% - 40px);
+      padding-bottom: 96px;
+    }
+
+    .az-col-center { order: 1; }
+    .az-col-left   { order: 2; height: 350px; }
+    .az-col-right  { order: 3; height: 350px; }
 
     .az-logo-bar {
-      width: calc(var(--max) - 40px);
-      max-width: calc(100% - 40px);
+      width: 100%;
+    }
+
+    .az-soc-wrap {
+      padding-bottom: 96px;
     }
 
     .az-soc-inner {
-      width: calc(var(--max) - 40px);
-      max-width: calc(100% - 40px);
+      width: 100%;
       padding: 24px 16px;
     }
 
-    .az-soc-icons .owqfs2-media {
+    .az-soc-icons .wmww22-media {
       width: 44px;
       height: 44px;
       border-radius: 10px;

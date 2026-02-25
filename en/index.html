@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=rfpe6" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=rfpe6" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=achqr" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=achqr" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rfpe6" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=achqr" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,25 +50,22 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=rfpe6">
+<link rel="stylesheet" href="style.css?v=achqr">
 </head>
 
 <body>
   <div id="header"></div>
   <div id="content"><!-- =====================================================
-  ARZCDR MODÜLÜ — Veradio Canlı Yayın + Chat + AI Asistan
-  Yapı: Üstte logo | Yatayda 3 sütun (chat | canlı yayın | AI)
-  Altta sosyal medya linkleri
+  ARZCDR MODÜLÜ — Logo üstte | Sol panel | Orta (player+sosyal+footer) | Sağ panel
 ====================================================== -->
 
-<!-- ── LOGO ─────────────────────────────────────────────── -->
+<!-- ── ÜST: Logo (tam genişlik, ortada) ─────────────────────── -->
 <div class="az-logo-bar">
   <a href="/en/" style="cursor: pointer;">
-    <img src="/img/logo.svg?v=lf9xg" alt="VeRadyo" loading="lazy" />
+    <img src="/img/logo.svg?v=b6jrt" alt="VeRadyo" loading="lazy" />
   </a>
 </div>
 
-<!-- ── MOBİL ALT MENÜ (≤1200px) ─────────────────────────── -->
 <nav class="az-mobile-nav">
   <ul>
     <li class="az-nav-item">
@@ -96,94 +93,118 @@
   </ul>
 </nav>
 
-<!-- ── 3 SÜTUNLU ANA İÇERİK ─────────────────────────────── -->
-<div class="az-main">
-
+<!-- ── 3 SÜTUN: Sol %25 | Orta %50 (logo+player+sosyal+footer) | Sağ %25 ─── -->
+<div class="az-page">
   <!-- SOL: Dinleyici Yorumları -->
-  <div class="az-panel az-panel-chat">
-    <div class="az-panel-head">
-      <h3>Dinleyici Yorumları</h3>
-      <span class="az-dot az-dot-green"></span>
-    </div>
-    <div id="arzcdr-profanity-warning" class="az-warning" role="alert" aria-live="polite" style="display:none;">
-      Küfretmek yasaktır. Lütfen ifadenizi düzeltin.
-    </div>
-    <div id="messages" class="az-messages"></div>
-    <div class="az-input-row">
-      <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="az-input" />
-      <button id="sendBtn" type="button" class="az-send-btn" title="Gönder" style="cursor: pointer;">
-        <span class="material-symbols-outlined">send</span>
-      </button>
+  <div class="az-col az-col-left">
+    <div class="az-panel az-panel-chat">
+      <div class="az-panel-head">
+        <h3>Dinleyici Yorumları</h3>
+        <span class="az-badge az-badge-active">aktif</span>
+      </div>
+      <div id="arzcdr-profanity-warning" class="az-warning" role="alert" aria-live="polite" style="display:none;">
+        Küfretmek yasaktır. Lütfen ifadenizi düzeltin.
+      </div>
+      <div id="messages" class="az-messages"></div>
+      <div class="az-input-row">
+        <input id="msgInput" type="text" placeholder="Yorum yazmak için giriş yapın..." class="az-input" />
+        <button id="sendBtn" type="button" class="az-send-btn az-send-btn-grey" title="Gönder" style="cursor: pointer;">
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </button>
+      </div>
     </div>
   </div>
 
-  <!-- ORTA: Canlı Yayın -->
-  <div class="az-panel az-panel-live">
-    <div class="az-panel-head">
-      <h3>Canlı Yayın</h3>
-      <span class="az-live-badge">CANLI</span>
-    </div>
-    <div class="az-live-body">
-      <div class="az-freq">
-        <span class="az-freq-num">90.0</span>
-        <span class="az-freq-fm">FM</span>
-      </div>
-      <button id="playBtn" type="button" class="az-play-btn" title="Oynat / Duraklat" style="cursor: pointer;">
-        <span class="material-symbols-outlined">play_arrow</span>
-      </button>
-      <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
-      <p class="az-live-hint">Play butonuna tıklayarak dinleyin</p>
-    </div>
-  </div>
+  <!-- ORTA: Boş alan (oynatıcı + sosyal + footer altta sabit) ─ -->
+  <div class="az-col az-col-center">
 
-  <!-- SAĞ: AI Radyo Asistanı -->
-  <div class="az-panel az-panel-ai">
-    <div class="az-panel-head az-panel-head-ai">
-      <div class="az-ai-title">
-        <span class="az-ai-icon">&#9835;</span>
-        <h3>AI Radyo Asistanı</h3>
-      </div>
-      <div class="az-ai-status">
-        <span class="az-dot az-dot-green"></span>
-        <span>Çevrimiçi</span>
-      </div>
-    </div>
-    <div id="aiMessages" class="az-ai-messages"></div>
-    <div class="az-input-row az-input-row-ai">
-      <input id="aiInput" type="text" placeholder="Radyo hakkında soru sorun..." class="az-input" />
-      <button id="aiSendBtn" type="button" class="az-send-btn az-send-btn-ai" title="Gönder" style="cursor: pointer;">
-        <span class="material-symbols-outlined">send</span>
+
+
+<aside class="az-fixed-bottom">
+ 
+ 
+ 
+  <div class="az-fixed-bottom-inner">
+   
+
+
+    <div class="az-player-pill-container">
+   
+    <div class="az-player-pill">
+      <span class="az-player-freq">90.0</span>
+      <span class="az-player-label">CANLI DİNLE</span>
+      <button id="playBtn" type="button" class="az-player-pause-btn" title="Oynat / Duraklat" style="cursor: pointer;">
+        <span class="material-symbols-outlined">pause</span>
       </button>
     </div>
+
   </div>
 
-</div>
-
-<!-- ── SOSYAL MEDYA ALANI ────────────────────────────────── -->
-<div class="az-soc-wrap">
-  <div class="az-soc-inner">
-    
-    <div class="az-soc-icons">
-        <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/facebook.png" alt="undefined" class="owqfs2-media"  loading="lazy"/>
+   
+    <div class="az-soc-inner">
+      <h4 class="az-soc-title">Sosyal Medyada Biz</h4>
+      <span class="az-soc-line"></span>
+      <div class="az-soc-icons">
+        <a href="" target="_blank" style="text-decoration: none; cursor: pointer;">
+            <img src="/src/icon/facebook.png" alt="undefined" class="wmww22-media"  loading="lazy"/>
         </a>
-        <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/instagram.png" alt="undefined" class="owqfs2-media"  loading="lazy"/>
+        <a href="" target="_blank" style="text-decoration: none; cursor: pointer;">
+            <img src="/src/icon/instagram.png" alt="undefined" class="wmww22-media"  loading="lazy"/>
         </a>
-        <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/linkedin.png" alt="undefined" class="owqfs2-media"  loading="lazy"/>
+        <a href="" target="_blank" style="text-decoration: none; cursor: pointer;">
+            <img src="/src/icon/linkedin.png" alt="undefined" class="wmww22-media"  loading="lazy"/>
         </a>
-        <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/youtube.png" alt="undefined" class="owqfs2-media"  loading="lazy"/>
+        <a href="" target="_blank" style="text-decoration: none; cursor: pointer;">
+            <img src="/src/icon/youtube.png" alt="undefined" class="wmww22-media"  loading="lazy"/>
         </a>
-        <a href="undefined" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/whatsapp.png" alt="undefined" class="owqfs2-media"  loading="lazy"/>
+        <a href="undefined" target="_blank" style="text-decoration: none; cursor: pointer;">
+            <img src="/src/icon/whatsapp.png" alt="undefined" class="wmww22-media"  loading="lazy"/>
         </a>
-        <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/google-maps.png" alt="undefined" class="owqfs2-media"  loading="lazy"/>
+        <a href="" target="_blank" style="text-decoration: none; cursor: pointer;">
+            <img src="/src/icon/google-maps.png" alt="undefined" class="wmww22-media"  loading="lazy"/>
         </a></div>
+    </div>
+
+
+
+
+    <footer class="az-footer-bar">
+      <div class="az-footer-links">
+        <a href="/en/" style="cursor: pointer;">Anasayfa</a>
+        <span class="az-footer-sep">|</span>
+        <a href="/en/bilgilendirme" style="cursor: pointer;">Bilgilendirme</a>
+        <span class="az-footer-sep">|</span>
+        <a href="/en/iletisim" style="cursor: pointer;">İletişim</a>
+      </div>
+      <div class="az-footer-copy">VeRadyo 2025 cognite. ©</div>
+    </footer>
+  </div>
+  <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
+</aside>
+
+
+
+  </div>
+
+  <!-- SAĞ: Al Radyo Asistanı -->
+  <div class="az-col az-col-right">
+    <div class="az-panel az-panel-ai">
+      <div class="az-panel-head az-panel-head-ai">
+        <h3>Al Radyo Asistanı</h3>
+        <span class="az-badge az-badge-active">Al Aktif</span>
+      </div>
+      <div id="aiMessages" class="az-ai-messages"></div>
+      <div class="az-input-row az-input-row-ai">
+        <input id="aiInput" type="text" placeholder="Yazmak için giriş yapın..." class="az-input" />
+        <button id="aiSendBtn" type="button" class="az-send-btn az-send-btn-blue" title="Gönder" style="cursor: pointer;">
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </button>
+      </div>
+    </div>
   </div>
 </div>
+
+
 
 <!-- ══════════════════════════════════════════════════════
   STYLES
@@ -200,11 +221,16 @@
     var isPlaying = false;
 
     function updatePlayIcons() {
-      /* Ana play butonu ikonu */
+      /* Ana pill oynatıcı butonu: ikon + playing class */
       var mainBtn = document.getElementById("playBtn");
       if (mainBtn) {
         var mainSym = mainBtn.querySelector(".material-symbols-outlined");
         if (mainSym) mainSym.textContent = isPlaying ? "pause" : "play_arrow";
+        if (isPlaying) {
+          mainBtn.classList.add("playing");
+        } else {
+          mainBtn.classList.remove("playing");
+        }
       }
       /* Mobil play butonu: ikon + playing class */
       var mobilePlay = document.querySelector(".az-mobile-play");
@@ -467,7 +493,7 @@
       azAiInput.addEventListener("keydown", function (e) { if (!azIsLoggedIn()) { e.preventDefault(); azGoLogin(); } });
       azAiInput.addEventListener("keypress", function (e) { if (e.key === "Enter") azSendAiMsg(); });
       azAiSendBtn.onclick = azSendAiMsg;
-      azAddAiMsg(false, "Merhaba! Ben Veradyo AI asistanıyım. Radyo hakkında sorularınızı yanıtlamaya hazırım.");
+      azAddAiMsg(false, "Merhaba! Ben radyo Al asistanınız. Size nasıl yardımcı olabilirim?");
     }
 
     /* Yorumları yükle, her 3 sn yenile */
@@ -506,8 +532,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=rfpe6"></script>
-<script defer src="/src/cookie.js?v=rfpe6"></script>
+<script defer type="text/javascript" src="/src/js.js?v=achqr"></script>
+<script defer src="/src/cookie.js?v=achqr"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
