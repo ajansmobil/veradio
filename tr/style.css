@@ -499,7 +499,7 @@
     display: inline-block;
   }
 
-  .az-soc-icons .tfm4c2-media {
+  .az-soc-icons .efzj32-media {
     width: 36px;
     height: 36px;
     border-radius: 14px;
@@ -508,7 +508,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   }
 
-  .az-soc-icons .tfm4c2-media:hover {
+  .az-soc-icons .efzj32-media:hover {
     transform: translateY(-4px) scale(1.08);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
   }
@@ -687,7 +687,7 @@
     50%       { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
   }
 
-  /* ─ Responsive: tek sütun, orta (logo+player+sosyal+footer) üstte ─ */
+  /* ─ Responsive: tek sütun, orta (player+sosyal+footer) üstte, taşma yok ─ */
   @media (max-width: 1200px) {
     .az-mobile-nav {
       display: block;
@@ -697,19 +697,52 @@
       grid-template-columns: 1fr;
       width: calc(100% - 40px);
       max-width: calc(100% - 40px);
-      padding-bottom: 96px;
+      padding-bottom: 24px;
+      align-items: stretch;
     }
 
-    .az-col-center { order: 1; }
-    .az-col-left   { order: 2; height: 350px; }
-    .az-col-right  { order: 3; height: 350px; }
-
-    .az-logo-bar {
+    .az-col-center {
+      order: 1;
       width: 100%;
+      min-height: 0;
     }
 
-    .az-soc-wrap {
-      padding-bottom: 96px;
+    .az-col-left {
+      order: 2;
+      height: auto;
+      min-height: 0;
+    }
+
+    .az-col-right {
+      order: 3;
+      height: auto;
+      min-height: 0;
+    }
+
+    /* Paneller sütuna sığsın; sabit 520px mobilde taşma yapıyordu */
+    .az-panel {
+      height: auto;
+      min-height: 280px;
+      max-height: 380px;
+    }
+
+    .az-messages,
+    .az-ai-messages {
+      min-height: 220px;
+      max-height: 280px;
+    }
+
+    /* Player alanı mobilde daha kısa; 350px yerine içeriğe uyum */
+    .az-player-pill-container {
+      height: auto;
+      min-height: 120px;
+      padding: 20px 16px;
+    }
+
+    .az-fixed-bottom,
+    .az-fixed-bottom-inner {
+      min-height: 0;
+      width: 100%;
     }
 
     .az-soc-inner {
@@ -717,7 +750,20 @@
       padding: 24px 16px;
     }
 
-    .az-soc-icons .tfm4c2-media {
+    /* Mobilde footer bar gizli */
+    .az-footer-bar {
+      display: none;
+    }
+
+    .az-logo-bar {
+      width: 100%;
+    }
+
+    .az-soc-wrap {
+      padding-bottom: 24px;
+    }
+
+    .az-soc-icons .efzj32-media {
       width: 44px;
       height: 44px;
       border-radius: 10px;

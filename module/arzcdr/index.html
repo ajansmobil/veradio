@@ -101,7 +101,7 @@
         <span class="az-footer-sep">|</span>
         <a href="/{{lang}}/iletisim" style="cursor: pointer;">İletişim</a>
       </div>
-      <div class="az-footer-copy">VeRadyo 2025 cognite. ©</div>
+      <div class="az-footer-copy">VeRadyo 2026 cognite. ©</div>
     </footer>
   </div>
   <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
@@ -823,7 +823,7 @@
     50%       { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
   }
 
-  /* ─ Responsive: tek sütun, orta (logo+player+sosyal+footer) üstte ─ */
+  /* ─ Responsive: tek sütun, orta (player+sosyal+footer) üstte, taşma yok ─ */
   @media (max-width: 1200px) {
     .az-mobile-nav {
       display: block;
@@ -833,24 +833,70 @@
       grid-template-columns: 1fr;
       width: calc(100% - 40px);
       max-width: calc(100% - 40px);
-      padding-bottom: 96px;
+      padding-bottom: 24px;
+      align-items: stretch;
     }
 
-    .az-col-center { order: 1; }
-    .az-col-left   { order: 2; height: 350px; }
-    .az-col-right  { order: 3; height: 350px; }
+    .az-col-center {
+      order: 1;
+      width: 100%;
+      min-height: 0;
+    }
+
+    .az-col-left {
+      order: 2;
+      height: auto;
+      min-height: 0;
+    }
+
+    .az-col-right {
+      order: 3;
+      height: auto;
+      min-height: 0;
+    }
+
+    /* Paneller sütuna sığsın; sabit 520px mobilde taşma yapıyordu */
+    .az-panel {
+      height: auto;
+      min-height: 280px;
+      max-height: 380px;
+    }
+
+    .az-messages,
+    .az-ai-messages {
+      min-height: 220px;
+      max-height: 280px;
+    }
+
+    /* Player alanı mobilde daha kısa; 350px yerine içeriğe uyum */
+    .az-player-pill-container {
+      height: auto;
+      min-height: 120px;
+      padding: 20px 16px;
+    }
+
+    .az-fixed-bottom,
+    .az-fixed-bottom-inner {
+      min-height: 0;
+      width: 100%;
+    }
+
+    .az-soc-inner {
+      width: 100%;
+      padding: 24px 16px;
+    }
+
+    /* Mobilde footer bar gizli */
+    .az-footer-bar {
+      display: none;
+    }
 
     .az-logo-bar {
       width: 100%;
     }
 
     .az-soc-wrap {
-      padding-bottom: 96px;
-    }
-
-    .az-soc-inner {
-      width: 100%;
-      padding: 24px 16px;
+      padding-bottom: 24px;
     }
 
     .az-soc-icons .modulex2-media {
