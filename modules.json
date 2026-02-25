@@ -333,15 +333,44 @@
       "id": "fy1fst"
     },
     {
+      "index": 7,
       "name": "Code",
       "path": "code",
       "local": "body",
       "category": "code",
       "id": "arzcdr",
-      "index": 7,
-      "desing": {},
+      "desing": {
+        "height": "200px"
+      },
+      "data": [
+        {
+          "img": "/src/icon/facebook.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/instagram.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/linkedin.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/youtube.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/whatsapp.png",
+          "url": "https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0"
+        },
+        {
+          "img": "/src/icon/google-maps.png",
+          "externalUrl": ""
+        }
+      ],
       "version": "1.0.0",
-      "icon": "code"
+      "icon": "code",
+      "error": "An error occurred while reading the file."
     },
     {
       "index": 8,

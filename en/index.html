@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=lqert" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=lqert" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=dun5h" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=dun5h" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=lqert" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=dun5h" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,202 +50,216 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=lqert">
+<link rel="stylesheet" href="style.css?v=dun5h">
 </head>
 
 <body>
-  <div id="header"><!-- Tek header çubuğu: logo sol, canlı yayın bar sağ -->
-<div class="i4r4i i4r4i-header-row">
-  <div class="i4r4ibody">
-    <a href="/en/"
-      ><img
-        src="/img/logo.svg?v=lqert"
-        height="150px"
-        alt="VeRadyo Logo"
-        loading="lazy"
-    /></a>
-  </div>
+  <div id="header"></div>
+  <div id="content"><!-- =====================================================
+  ARZCDR MODÜLÜ — Veradio Canlı Yayın + Chat + AI Asistan
+  Yapı: Üstte logo | Yatayda 3 sütun (chat | canlı yayın | AI)
+  Altta sosyal medya linkleri
+====================================================== -->
 
-  <div class="radio-top-bar">
-    <div class="radio-freq">
-      <span class="freq">90.0</span>
-      <span class="live-badge">CANLI DİNLE</span>
-    </div>
-    <div class="radio-player-bar">
-      <button class="play-btn" id="playBtn">
-        <span class="material-symbols-outlined" aria-hidden="true">play_arrow</span>
-      </button>
-
-      <audio
-        id="radioPlayer"
-        src="https://sslyayin.netyayin.net/veradyo/stream"
-        preload="none"
-      ></audio>
-    </div>
-  </div>
+<!-- ── LOGO ─────────────────────────────────────────────── -->
+<div class="az-logo-bar">
+  <a href="/en/" style="cursor: pointer;">
+    <img src="/img/logo.svg?v=x2qd8" alt="VeRadyo" loading="lazy" />
+  </a>
 </div>
 
-<div class="menu-mobil-i4r4i">
+<!-- ── MOBİL ALT MENÜ (≤1200px) ─────────────────────────── -->
+<nav class="az-mobile-nav">
   <ul>
-    <li>
-      <span class="material-symbols-outlined" aria-hidden="true">home</span>
-      <a href="/en/">Anasayfa</a>
+    <li class="az-nav-item">
+      <a href="/en/" style="cursor: pointer;">
+        <span class="material-symbols-outlined">home</span>
+        <span>Anasayfa</span>
+      </a>
     </li>
-
-    <li>
-      <span class="material-symbols-outlined" aria-hidden="true">home</span>
-      <a href="/en/hakkimizda">Bilgilendirme</a>
+    <li class="az-nav-item">
+      <a href="/en/hakkimizda" style="cursor: pointer;">
+        <span class="material-symbols-outlined">info</span>
+        <span>Bilgi</span>
+      </a>
     </li>
-
-    <li>
-      <span class="material-symbols-outlined" aria-hidden="true">person</span>
-      <a href="/en/login">Profil</a>
+    <li class="az-nav-item az-nav-play az-mobile-play" style="cursor: pointer;">
+      <span class="material-symbols-outlined az-nav-play-icon">play_circle</span>
+      <span class="az-nav-play-label">Canlı</span>
     </li>
-
-    <li id="playBtn">
-      <span class="material-symbols-outlined">play_circle</span>
-      <div>Canlı Yayın</div>
+    <li class="az-nav-item">
+      <a href="/en/login" style="cursor: pointer;">
+        <span class="material-symbols-outlined">person</span>
+        <span>Profil</span>
+      </a>
     </li>
   </ul>
+</nav>
+
+<!-- ── 3 SÜTUNLU ANA İÇERİK ─────────────────────────────── -->
+<div class="az-main">
+
+  <!-- SOL: Dinleyici Yorumları -->
+  <div class="az-panel az-panel-chat">
+    <div class="az-panel-head">
+      <h3>Dinleyici Yorumları</h3>
+      <span class="az-dot az-dot-green"></span>
+    </div>
+    <div id="arzcdr-profanity-warning" class="az-warning" role="alert" aria-live="polite" style="display:none;">
+      Küfretmek yasaktır. Lütfen ifadenizi düzeltin.
+    </div>
+    <div id="messages" class="az-messages"></div>
+    <div class="az-input-row">
+      <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="az-input" />
+      <button id="sendBtn" type="button" class="az-send-btn" title="Gönder" style="cursor: pointer;">
+        <span class="material-symbols-outlined">send</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ORTA: Canlı Yayın -->
+  <div class="az-panel az-panel-live">
+    <div class="az-panel-head">
+      <h3>Canlı Yayın</h3>
+      <span class="az-live-badge">CANLI</span>
+    </div>
+    <div class="az-live-body">
+      <div class="az-freq">
+        <span class="az-freq-num">90.0</span>
+        <span class="az-freq-fm">FM</span>
+      </div>
+      <button id="playBtn" type="button" class="az-play-btn" title="Oynat / Duraklat" style="cursor: pointer;">
+        <span class="material-symbols-outlined">play_arrow</span>
+      </button>
+      <audio id="radioPlayer" src="https://sslyayin.netyayin.net/veradyo/stream" preload="none"></audio>
+      <p class="az-live-hint">Play butonuna tıklayarak dinleyin</p>
+    </div>
+  </div>
+
+  <!-- SAĞ: AI Radyo Asistanı -->
+  <div class="az-panel az-panel-ai">
+    <div class="az-panel-head az-panel-head-ai">
+      <div class="az-ai-title">
+        <span class="az-ai-icon">&#9835;</span>
+        <h3>AI Radyo Asistanı</h3>
+      </div>
+      <div class="az-ai-status">
+        <span class="az-dot az-dot-green"></span>
+        <span>Çevrimiçi</span>
+      </div>
+    </div>
+    <div id="aiMessages" class="az-ai-messages"></div>
+    <div class="az-input-row az-input-row-ai">
+      <input id="aiInput" type="text" placeholder="Radyo hakkında soru sorun..." class="az-input" />
+      <button id="aiSendBtn" type="button" class="az-send-btn az-send-btn-ai" title="Gönder" style="cursor: pointer;">
+        <span class="material-symbols-outlined">send</span>
+      </button>
+    </div>
+  </div>
+
 </div>
 
+<!-- ── SOSYAL MEDYA ALANI ────────────────────────────────── -->
+<div class="az-soc-wrap">
+  <div class="az-soc-inner">
+    
+    <div class="az-soc-icons">
+        <a href="" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/facebook.png" alt="undefined" class="e8gmp2-media"  loading="lazy"/>
+        </a>
+        <a href="" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/instagram.png" alt="undefined" class="e8gmp2-media"  loading="lazy"/>
+        </a>
+        <a href="" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/linkedin.png" alt="undefined" class="e8gmp2-media"  loading="lazy"/>
+        </a>
+        <a href="" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/youtube.png" alt="undefined" class="e8gmp2-media"  loading="lazy"/>
+        </a>
+        <a href="undefined" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/whatsapp.png" alt="undefined" class="e8gmp2-media"  loading="lazy"/>
+        </a>
+        <a href="" target="_blank" style="text-decoration: none;">
+            <img src="/src/icon/google-maps.png" alt="undefined" class="e8gmp2-media"  loading="lazy"/>
+        </a></div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+  STYLES
+══════════════════════════════════════════════════════ -->
 
 
+<!-- ══════════════════════════════════════════════════════
+  SCRIPTS
+══════════════════════════════════════════════════════ -->
 <script>
+  /* ── Play / Pause ────────────────────────────────────── */
   (function () {
-    // Kritik kural: DOMContentLoaded kullanılmaz; setTimeout ile DOM hazır olana kadar bekle
-    var playBtns = document.querySelectorAll("#playBtn");
-    var radioPlayer = document.getElementById("radioPlayer");
+    var radioPlayer;
     var isPlaying = false;
 
+    function updatePlayIcons() {
+      /* Ana play butonu ikonu */
+      var mainBtn = document.getElementById("playBtn");
+      if (mainBtn) {
+        var mainSym = mainBtn.querySelector(".material-symbols-outlined");
+        if (mainSym) mainSym.textContent = isPlaying ? "pause" : "play_arrow";
+      }
+      /* Mobil play butonu: ikon + playing class */
+      var mobilePlay = document.querySelector(".az-mobile-play");
+      if (mobilePlay) {
+        var mobileSym = mobilePlay.querySelector(".az-nav-play-icon");
+        if (mobileSym) mobileSym.textContent = isPlaying ? "pause" : "play_circle";
+        if (isPlaying) {
+          mobilePlay.classList.add("playing");
+        } else {
+          mobilePlay.classList.remove("playing");
+        }
+      }
+    }
+
     function togglePlay() {
+      if (!radioPlayer) return;
       if (isPlaying) {
         radioPlayer.pause();
-        isPlaying = false;
       } else {
         radioPlayer.play();
-        isPlaying = true;
       }
     }
 
-    function updateIcons() {
-      for (var i = 0; i < playBtns.length; i++) {
-        var btn = playBtns[i];
-        var icon = btn.querySelector(".material-symbols-outlined");
-        if (icon) {
-          icon.textContent = isPlaying ? "pause" : "play_arrow";
-        }
-        var mobileLi = btn.closest("li");
-        if (mobileLi) {
-          if (isPlaying) {
-            mobileLi.classList.add("active");
-          } else {
-            mobileLi.classList.remove("active");
-          }
-        }
-      }
-    }
-
-    function bindPlay() {
-      playBtns = document.querySelectorAll("#playBtn");
+    function bindPlayer() {
       radioPlayer = document.getElementById("radioPlayer");
       if (!radioPlayer) return;
 
-      for (var j = 0; j < playBtns.length; j++) {
-        var b = playBtns[j];
-        b.addEventListener("click", togglePlay);
-        var li = b.closest("li");
-        if (li) {
-          li.addEventListener("click", togglePlay);
-        }
+      var playBtn = document.getElementById("playBtn");
+      if (playBtn) playBtn.addEventListener("click", togglePlay);
+
+      var mobileBtns = document.querySelectorAll(".az-mobile-play");
+      for (var i = 0; i < mobileBtns.length; i++) {
+        mobileBtns[i].addEventListener("click", togglePlay);
       }
 
-      radioPlayer.addEventListener("play", function () {
-        isPlaying = true;
-        updateIcons();
-      });
-      radioPlayer.addEventListener("pause", function () {
-        isPlaying = false;
-        updateIcons();
-      });
-      radioPlayer.addEventListener("error", function () {
-        isPlaying = false;
-        updateIcons();
-      });
+      radioPlayer.addEventListener("play", function () { isPlaying = true; updatePlayIcons(); });
+      radioPlayer.addEventListener("pause", function () { isPlaying = false; updatePlayIcons(); });
+      radioPlayer.addEventListener("error", function () { isPlaying = false; updatePlayIcons(); });
     }
 
-    setTimeout(function () {
-      bindPlay();
-    }, 100);
+    setTimeout(bindPlayer, 100);
   })();
-</script>
-</div>
-  <div id="content"><div class="ri5ub-body">
-  <div class="ri5ub">
-    <div class="chat-section">
-      <div class="chat-header">
-        <h3>Dinleyici Yorumları</h3>
-        <div class="online-indicator">
-          <span class="online-dot"></span>
 
-        </div>
-      </div>
-      <div id="arzcdr-profanity-warning" class="arzcdr-profanity-warning" role="alert" aria-live="polite" style="display: none;">
-        Küfretmek yasaktır. Lütfen ifadenizi düzeltin.
-      </div>
-      <div id="messages" class="messages-youtube"></div>
-      <div class="messages-youtube-input">
-        <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="messages-youtube-input-input" />
-        <button class="input-icon" id="sendBtn" type="button" title="Gönder">
-          <span class="material-symbols-outlined" aria-hidden="true">arrow_forward_ios</span>
-        </button>
-      </div>
-    </div>
-
-    <div class="ai-chat-section">
-      <div class="ai-chat-header">
-        <div class="ai-chat-title-wrap">
-          <span class="ai-chat-icon" aria-hidden="true">&#9835;</span>
-          <h3>AI Radyo Asistanı</h3>
-        </div>
-        <div class="ai-status">
-          <span class="ai-dot"></span>
-          <span>Çevrimiçi</span>
-        </div>
-      </div>
-      <div id="aiMessages" class="ai-messages"></div>
-      <div class="ai-input-section">
-        <input id="aiInput" type="text" placeholder="Radyo hakkında soru sorun..." class="ai-input" />
-        <button class="ai-send-btn" id="aiSendBtn" type="button" title="Gönder">
-          <span class="material-symbols-outlined" aria-hidden="true">arrow_forward_ios</span>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<script>
-
-
-
-
-  // Modül kuralı: iç API her zaman https://veradyo.com.tr/api (login index.html 59-60 ile aynı; veradyo.com.tr render'da doldurulur)
+  /* ── Chat + AI ───────────────────────────────────────── */
   var apiurl = "https://veradyo.com.tr/api";
   var CHATLIST_API = (apiurl && apiurl.indexOf("{{") === -1) ? (apiurl.replace(/\/+$/, "") + "/chatlist") : "";
   var CHAT_API = (apiurl && apiurl.indexOf("{{") === -1) ? (apiurl.replace(/\/+$/, "") + "/chat") : "";
+  var AI_ASSISTANT_API = "";
 
+  var azMessagesDiv, azInput, azSendBtn;
+  var azAiDiv, azAiInput, azAiSendBtn;
+  var azChatInterval;
 
-
-
-
-  var AI_ASSISTANT_API = ""; // Backend: AI radyo asistanı yanıt endpoint
-
-  var messagesDiv, input, sendBtn;
-  var chatListInterval; // 3 sn'de bir chat listesini yenilemek için
-
-  /** Üye girişi yapılmış mı? (loginToken localStorage'da tutuluyor) */
-  function arzcdrIsLoggedIn() {
+  /* Kullanıcı giriş kontrolü */
+  function azIsLoggedIn() {
     try {
       return !!(typeof localStorage !== "undefined" && localStorage.getItem("loginToken"));
     } catch (e) {
@@ -253,388 +267,247 @@
     }
   }
 
-  /** Giriş yapılmamışsa kullanıcıyı login sayfasına yönlendirir. */
-  function arzcdrRedirectToLogin() {
-    var path = window.location.pathname || "";
-    var parts = path.split("/").filter(Boolean);
+  /* Login sayfasına yönlendir */
+  function azGoLogin() {
+    var parts = (window.location.pathname || "").split("/").filter(Boolean);
     var lang = parts[0] || "tr";
-    var loginUrl = "/" + lang + "/login/";
     try {
-      window.location.assign(loginUrl);
+      window.location.assign("/" + lang + "/login/");
     } catch (e) {
-      window.location.href = loginUrl;
+      window.location.href = "/" + lang + "/login/";
     }
   }
 
-  /** Giriş yapılmamışsa yorum ve AI inputlarını yazılamaz yapar, tıklanınca login'e gider. */
-  function arzcdrApplyGuestState() {
-    if (!input) return;
-    input.readOnly = true;
-    input.placeholder = "Yorum yazmak için giriş yapın...";
-    if (aiInput) {
-      aiInput.readOnly = true;
-      aiInput.placeholder = "Yazmak için giriş yapın...";
+  /* Input durumlarını güncelle */
+  function azSetInputState() {
+    var loggedIn = azIsLoggedIn();
+    if (azInput) {
+      azInput.readOnly = !loggedIn;
+      azInput.placeholder = loggedIn ? "Yorumunuzu yazın..." : "Yorum yazmak için giriş yapın...";
+    }
+    if (azAiInput) {
+      azAiInput.readOnly = !loggedIn;
+      azAiInput.placeholder = loggedIn ? "Radyo hakkında soru sorun..." : "Yazmak için giriş yapın...";
     }
   }
 
-  /** Giriş yapılmışsa inputları yazılabilir yapar. */
-  function arzcdrApplyLoggedInState() {
-    if (!input) return;
-    input.readOnly = false;
-    input.placeholder = "Yorumunuzu yazın...";
-    if (aiInput) {
-      aiInput.readOnly = false;
-      aiInput.placeholder = "AI'ya sorunuzu yazın...";
-    }
-  }
+  /* Yorum mesajı DOM'a ekle */
+  function azAddMsg(user, text, avatar) {
+    var card = document.createElement("div");
+    card.className = "az-msg-card";
 
-  function arzcdrInit() {
-    messagesDiv = document.getElementById("messages");
-    input = document.getElementById("msgInput");
-    sendBtn = document.getElementById("sendBtn");
-    aiMessagesDiv = document.getElementById("aiMessages");
-    aiInput = document.getElementById("aiInput");
-    aiSendBtn = document.getElementById("aiSendBtn");
-
-    if (!messagesDiv || !input || !sendBtn) return;
-
-    if (arzcdrIsLoggedIn()) {
-      arzcdrApplyLoggedInState();
+    var avatarEl = document.createElement("div");
+    avatarEl.className = "az-msg-avatar";
+    if (avatar) {
+      var img = document.createElement("img");
+      img.src = avatar;
+      img.alt = user || "";
+      avatarEl.appendChild(img);
     } else {
-      arzcdrApplyGuestState();
+      avatarEl.textContent = user ? user.charAt(0).toUpperCase() : "?";
     }
 
-    setupEventListeners();
-    if (aiMessagesDiv && aiInput && aiSendBtn) {
-      setupAiEventListeners();
-      initializeAI();
-    }
-    loadListenerCommentsFromApi();
-    if (CHATLIST_API) {
-      chatListInterval = setInterval(loadListenerCommentsFromApi, 3000);
-      window.addEventListener("beforeunload", function () { clearInterval(chatListInterval); });
-    }
+    var info = document.createElement("div");
+    var nameEl = document.createElement("div");
+    nameEl.className = "az-msg-name";
+    nameEl.textContent = user || "Dinleyici";
+    var textEl = document.createElement("div");
+    textEl.className = "az-msg-text";
+    textEl.textContent = text || "";
+    info.appendChild(nameEl);
+    info.appendChild(textEl);
+
+    card.appendChild(avatarEl);
+    card.appendChild(info);
+    azMessagesDiv.appendChild(card);
+    azMessagesDiv.scrollTop = azMessagesDiv.scrollHeight;
   }
 
-  setTimeout(arzcdrInit, 100);
-
-  /** API'den dinleyici yorumlarını çekip listeler. Veradyo: GET /api/chatlist → { ok, list: [{ name, yorum }] }. */
-  function loadListenerCommentsFromApi() {
+  /* API'den yorum listesi çek */
+  function azLoadComments() {
+    if (!azMessagesDiv) return;
     if (!CHATLIST_API) {
-      messagesDiv.innerHTML = "";
+      azMessagesDiv.innerHTML = "";
       return;
     }
     fetch(CHATLIST_API)
       .then(function (res) { return res.ok ? res.json() : Promise.reject(res); })
       .then(function (data) {
-        messagesDiv.innerHTML = "";
+        azMessagesDiv.innerHTML = "";
         var list = (data && data.ok && data.list) ? data.list : (Array.isArray(data) ? data : (data && (data.items || data.list)) || []);
-        list.forEach(function (item) {
-          addMessage(
+        for (var i = 0; i < list.length; i++) {
+          var item = list[i];
+          azAddMsg(
             item.user || item.author || item.name || "Dinleyici",
             item.text || item.content || item.message || item.yorum || "",
             item.avatar || item.image || ""
           );
-        });
-        if (messagesDiv.scrollHeight) messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
       })
-      .catch(function () {
-        messagesDiv.innerHTML = "";
-      });
+      .catch(function () { azMessagesDiv.innerHTML = ""; });
   }
 
-  /** Tek bir yorum kartı DOM'a ekler (API verisi: user, text, avatar). */
-  function addMessage(user, text, avatar) {
-    var card = document.createElement("div");
-    card.classList.add("message-card");
-    var avatarDiv = document.createElement("div");
-    avatarDiv.classList.add("message-avatar");
-    avatarDiv.innerHTML = avatar
-      ? '<img src="' + avatar + '" alt="' + (user || "") + '" loading="lazy">'
-      : '<span style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#ddd;font-size:14px;">' + (user ? user.charAt(0).toUpperCase() : "?") + "</span>";
-    var info = document.createElement("div");
-    info.classList.add("message-info");
-    var name = document.createElement("div");
-    name.classList.add("message-user");
-    name.textContent = user || "Dinleyici";
-    var messageText = document.createElement("div");
-    messageText.classList.add("message-text");
-    messageText.textContent = text || "";
-    info.appendChild(name);
-    info.appendChild(messageText);
-    card.appendChild(avatarDiv);
-    card.appendChild(info);
-    messagesDiv.appendChild(card);
-    messagesDiv.scrollTop = messagesDiv.scrollHeight;
-  }
-
-  /** Küfür uyarısını ekranda gösterir; birkaç saniye sonra gizler. */
-  function showProfanityWarning() {
+  /* Küfür uyarısını göster */
+  function azShowWarning() {
     var el = document.getElementById("arzcdr-profanity-warning");
     if (!el) return;
     el.style.display = "block";
-    clearTimeout(showProfanityWarning._hideTimer);
-    showProfanityWarning._hideTimer = setTimeout(function () {
-      el.style.display = "none";
-    }, 5000);
+    clearTimeout(azShowWarning._t);
+    azShowWarning._t = setTimeout(function () { el.style.display = "none"; }, 5000);
   }
 
-  /** Yorum gönderir. Veradyo: POST /api/chat { token, yorum }. Küfür varsa ekranda "Küfretmek yasaktır" uyarısı. */
-  function sendComment(text) {
-    if (!arzcdrIsLoggedIn()) {
-      arzcdrRedirectToLogin();
-      return;
-    }
-    var trimmed = (text || "").trim();
-    if (!trimmed) return;
+  /* Yorum gönder */
+  function azSendComment() {
+    if (!azIsLoggedIn()) { azGoLogin(); return; }
+    var text = (azInput.value || "").trim();
+    if (!text) return;
     if (CHAT_API) {
-      var token = typeof localStorage !== "undefined" ? localStorage.getItem("loginToken") : "";
+      var token = "";
+      try { token = localStorage.getItem("loginToken") || ""; } catch (e) {}
       fetch(CHAT_API, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ token: token || "", yorum: trimmed }),
+        body: JSON.stringify({ token: token, yorum: text })
       })
         .then(function (res) { return res.ok ? res.json() : Promise.reject(res); })
         .then(function (data) {
           if (data && data.ok) {
-            input.value = "";
-            loadListenerCommentsFromApi();
+            azInput.value = "";
+            azLoadComments();
           } else {
-            input.value = trimmed;
-            if (data && data.error && data.error.indexOf("küfür") !== -1) {
-              showProfanityWarning();
-            } else if (data && data.error) {
-              alert(data.error);
-            }
+            if (data && data.error && data.error.indexOf("küfür") !== -1) azShowWarning();
+            else if (data && data.error) alert(data.error);
           }
         })
         .catch(function (err) {
-          input.value = trimmed;
           if (err && typeof err.json === "function") {
-            err.json().then(function (body) {
-              if (body && body.error) {
-                if (body.error.indexOf("küfür") !== -1) showProfanityWarning();
-                else alert(body.error);
+            err.json().then(function (b) {
+              if (b && b.error) {
+                if (b.error.indexOf("küfür") !== -1) azShowWarning();
+                else alert(b.error);
               }
             }).catch(function () {});
           }
         });
     } else {
-      addMessage("Sen", trimmed, "");
-      input.value = "";
+      azAddMsg("Sen", text, "");
+      azInput.value = "";
     }
   }
 
-  function setupEventListeners() {
-    // Giriş yapmamış kullanıcı: yorum alanına tıklayınca/odaklanınca veya tuş basınca login'e yönlendir
-    input.addEventListener("focus", function () {
-      if (!arzcdrIsLoggedIn()) {
-        input.blur();
-        arzcdrRedirectToLogin();
-      }
-    });
-    input.addEventListener("click", function () {
-      if (!arzcdrIsLoggedIn()) arzcdrRedirectToLogin();
-    });
-    input.addEventListener("keydown", function (e) {
-      if (!arzcdrIsLoggedIn()) {
-        e.preventDefault();
-        arzcdrRedirectToLogin();
-      }
-    });
-    sendBtn.onclick = function () {
-      if (!arzcdrIsLoggedIn()) {
-        arzcdrRedirectToLogin();
-        return;
-      }
-      sendComment(input.value);
-    };
-    input.addEventListener("keypress", function (e) {
-      if (e.key === "Enter") {
-        if (!arzcdrIsLoggedIn()) {
-          arzcdrRedirectToLogin();
-          return;
-        }
-        sendComment(input.value);
-      }
-    });
+  /* AI mesaj balonu ekle */
+  function azAddAiMsg(isUser, text) {
+    var wrap = document.createElement("div");
+    wrap.className = "az-ai-msg " + (isUser ? "az-ai-msg-user" : "az-ai-msg-bot");
+
+    var av = document.createElement("div");
+    av.className = "az-ai-msg-avatar";
+    av.textContent = isUser ? "S" : "AI";
+
+    var bubble = document.createElement("div");
+    bubble.className = "az-ai-msg-text";
+    bubble.textContent = text || "";
+
+    wrap.appendChild(av);
+    wrap.appendChild(bubble);
+    azAiDiv.appendChild(wrap);
+    azAiDiv.scrollTop = azAiDiv.scrollHeight;
   }
 
-  // AI Radyo Asistanı — yanıtlar API'den gelecek (sabit liste ve dinleyici yorumu referansı kaldırıldı)
-  var aiMessagesDiv, aiInput, aiSendBtn;
-
-  function addAiMessage(isUser, text) {
-    var messageDiv = document.createElement("div");
-    messageDiv.classList.add("ai-message");
-    messageDiv.classList.add(isUser ? "user" : "ai");
-
-    var avatar = document.createElement("div");
-    avatar.classList.add("ai-avatar");
-    avatar.classList.add(isUser ? "user" : "ai");
-    avatar.textContent = isUser ? "S" : "AI";
-
-    var content = document.createElement("div");
-    content.classList.add("ai-message-content");
-    content.textContent = text || "";
-
-    messageDiv.appendChild(avatar);
-    messageDiv.appendChild(content);
-    aiMessagesDiv.appendChild(messageDiv);
-    aiMessagesDiv.scrollTop = aiMessagesDiv.scrollHeight;
-  }
-
-  /** AI yanıtını API'den alır; endpoint yoksa varsayılan mesaj gösterir. */
-  function fetchAiResponse(userMessage, onResult) {
+  /* AI yanıt al */
+  function azFetchAiReply(msg, cb) {
     if (!AI_ASSISTANT_API) {
-      onResult("Merhaba! Radyo hakkında sorularınızı yanıtlamaya hazırım. API bağlantısı kurulduğunda yanıtlar buradan gelecek.");
+      cb("Merhaba! Radyo hakkında sorularınızı yanıtlamaya hazırım. API bağlantısı kurulduğunda yanıtlar buradan gelecek.");
       return;
     }
     fetch(AI_ASSISTANT_API, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ message: userMessage, text: userMessage }),
+      body: JSON.stringify({ message: msg })
     })
       .then(function (res) { return res.ok ? res.json() : Promise.reject(res); })
       .then(function (data) {
-        var reply = data.reply || data.text || data.message || data.content || "";
-        onResult(reply || "Yanıt alınamadı.");
+        cb(data.reply || data.text || data.message || data.content || "Yanıt alınamadı.");
       })
-      .catch(function () {
-        onResult("Şu an yanıt alınamıyor. Lütfen daha sonra tekrar deneyin.");
-      });
+      .catch(function () { cb("Şu an yanıt alınamıyor. Lütfen daha sonra deneyin."); });
   }
 
-  function setupAiEventListeners() {
-    // Giriş yapmamış kullanıcı: AI alanına tıklayınca/odaklanınca veya tuş basınca login'e yönlendir
-    aiInput.addEventListener("focus", function () {
-      if (!arzcdrIsLoggedIn()) {
-        aiInput.blur();
-        arzcdrRedirectToLogin();
-      }
-    });
-    aiInput.addEventListener("click", function () {
-      if (!arzcdrIsLoggedIn()) arzcdrRedirectToLogin();
-    });
-    aiInput.addEventListener("keydown", function (e) {
-      if (!arzcdrIsLoggedIn()) {
-        e.preventDefault();
-        arzcdrRedirectToLogin();
-      }
-    });
-    aiSendBtn.onclick = function () {
-      if (!arzcdrIsLoggedIn()) {
-        arzcdrRedirectToLogin();
-        return;
-      }
-      var val = (aiInput.value || "").trim();
-      if (!val) return;
-      addAiMessage(true, val);
-      aiInput.value = "";
-      fetchAiResponse(val, function (reply) {
-        addAiMessage(false, reply);
-      });
-    };
-
-    aiInput.addEventListener("keypress", function (e) {
-      if (e.key === "Enter" && !arzcdrIsLoggedIn()) {
-        arzcdrRedirectToLogin();
-        return;
-      }
-      if (e.key !== "Enter") return;
-      var val = (aiInput.value || "").trim();
-      if (!val) return;
-      addAiMessage(true, val);
-      aiInput.value = "";
-      fetchAiResponse(val, function (reply) {
-        addAiMessage(false, reply);
-      });
-    });
+  /* AI mesaj gönder */
+  function azSendAiMsg() {
+    if (!azIsLoggedIn()) { azGoLogin(); return; }
+    var val = (azAiInput.value || "").trim();
+    if (!val) return;
+    azAddAiMsg(true, val);
+    azAiInput.value = "";
+    azFetchAiReply(val, function (reply) { azAddAiMsg(false, reply); });
   }
 
-  function initializeAI() {
-    addAiMessage(false, "Merhaba! Ben radyo AI asistanınız. Size nasıl yardımcı olabilirim?");
+  /* Tüm modülü başlat */
+  function azInit() {
+    azMessagesDiv = document.getElementById("messages");
+    azInput = document.getElementById("msgInput");
+    azSendBtn = document.getElementById("sendBtn");
+    azAiDiv = document.getElementById("aiMessages");
+    azAiInput = document.getElementById("aiInput");
+    azAiSendBtn = document.getElementById("aiSendBtn");
+
+    if (!azMessagesDiv || !azInput || !azSendBtn) return;
+
+    azSetInputState();
+
+    /* Chat olayları */
+    azInput.addEventListener("focus", function () { if (!azIsLoggedIn()) { azInput.blur(); azGoLogin(); } });
+    azInput.addEventListener("keydown", function (e) { if (!azIsLoggedIn()) { e.preventDefault(); azGoLogin(); } });
+    azInput.addEventListener("keypress", function (e) { if (e.key === "Enter") azSendComment(); });
+    azSendBtn.onclick = azSendComment;
+
+    /* AI olayları */
+    if (azAiDiv && azAiInput && azAiSendBtn) {
+      azAiInput.addEventListener("focus", function () { if (!azIsLoggedIn()) { azAiInput.blur(); azGoLogin(); } });
+      azAiInput.addEventListener("keydown", function (e) { if (!azIsLoggedIn()) { e.preventDefault(); azGoLogin(); } });
+      azAiInput.addEventListener("keypress", function (e) { if (e.key === "Enter") azSendAiMsg(); });
+      azAiSendBtn.onclick = azSendAiMsg;
+      azAddAiMsg(false, "Merhaba! Ben Veradyo AI asistanıyım. Radyo hakkında sorularınızı yanıtlamaya hazırım.");
+    }
+
+    /* Yorumları yükle, her 3 sn yenile */
+    azLoadComments();
+    if (CHATLIST_API) {
+      azChatInterval = setInterval(azLoadComments, 3000);
+      window.addEventListener("beforeunload", function () { clearInterval(azChatInterval); });
+    }
   }
 
+  /* Aktif sayfayı mobil menüde işaretle */
+  (function () {
+    function azMarkActiveNav() {
+      var path = window.location.pathname || "";
+      var navLinks = document.querySelectorAll(".az-nav-item > a");
+      for (var i = 0; i < navLinks.length; i++) {
+        var href = navLinks[i].getAttribute("href") || "";
+        var li = navLinks[i].parentElement;
+        if (href && path === href || (href.length > 3 && path.indexOf(href) === 0)) {
+          li.classList.add("az-nav-active");
+        } else {
+          li.classList.remove("az-nav-active");
+        }
+      }
+    }
+    setTimeout(azMarkActiveNav, 100);
+  })();
+
+  setTimeout(azInit, 100);
 </script>
-<div class="sliderxe9yfkbody">
-  <div class="sliderxe9yfk">
-    <div class="sliderxe9yfktitle">Follow Us on Social Media</div>
-    <div class="e9yfk">
-        <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/facebook.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
-        </a>
-        <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/instagram.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
-        </a>
-        <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/linkedin.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
-        </a>
-        <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/youtube.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
-        </a>
-        <a href="undefined" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/whatsapp.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
-        </a>
-        <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/google-maps.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
-        </a></div>
-  </div>
 </div>
-
-</div>
-  <div id="footer"><footer class="footer">
-  <div class="waves">
-    <div class="wave" id="wave1"></div>
-    <div class="wave" id="wave2"></div>
-    <div class="wave" id="wave3"></div>
-    <div class="wave" id="wave4"></div>
-  </div>
-  <ul class="social-icon">
-
-
-
-    
-    
-
- 
-
-
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-facebook"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-x"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-    </li>
-    <li class="social-icon__item">
-      <a class="social-icon__link" href="#">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a>
-    </li>
-  </ul>
-  <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="/en">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/bilgilendirme">Information</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim">Communication</a></li>
-  </ul>
-  <p>VeRadyo 2025 cognite. &copy;</p>
-</footer>
-
-</div>
+  <div id="footer"></div>
 </body>
 <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=lqert"></script>
-<script defer src="/src/cookie.js?v=lqert"></script>
+<script defer type="text/javascript" src="/src/js.js?v=dun5h"></script>
+<script defer src="/src/cookie.js?v=dun5h"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
