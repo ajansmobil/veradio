@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=d7cbv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=d7cbv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=lqert" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=lqert" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=d7cbv" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=lqert" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,16 +50,16 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=d7cbv">
+<link rel="stylesheet" href="style.css?v=lqert">
 </head>
 
 <body>
   <div id="header"><!-- Tek header çubuğu: logo sol, canlı yayın bar sağ -->
-<div class="wclhi wclhi-header-row">
-  <div class="wclhibody">
+<div class="i4r4i i4r4i-header-row">
+  <div class="i4r4ibody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=d7cbv"
+        src="/img/logo.svg?v=lqert"
         height="150px"
         alt="VeRadyo Logo"
         loading="lazy"
@@ -85,7 +85,7 @@
   </div>
 </div>
 
-<div class="menu-mobil-wclhi">
+<div class="menu-mobil-i4r4i">
   <ul>
     <li>
       <span class="material-symbols-outlined" aria-hidden="true">home</span>
@@ -180,8 +180,8 @@
   })();
 </script>
 </div>
-  <div id="content"><div class="s0jsm-body">
-  <div class="s0jsm">
+  <div id="content"><div class="ri5ub-body">
+  <div class="ri5ub">
     <div class="chat-section">
       <div class="chat-header">
         <h3>Dinleyici Yorumları</h3>
@@ -196,25 +196,28 @@
       <div id="messages" class="messages-youtube"></div>
       <div class="messages-youtube-input">
         <input id="msgInput" type="text" placeholder="Yorumunuzu yazın..." class="messages-youtube-input-input" />
-        <button class="input-icon" id="sendBtn" type="button">
-          >
+        <button class="input-icon" id="sendBtn" type="button" title="Gönder">
+          <span class="material-symbols-outlined" aria-hidden="true">arrow_forward_ios</span>
         </button>
       </div>
     </div>
 
     <div class="ai-chat-section">
       <div class="ai-chat-header">
-        <h3>AI Radyo Asistanı</h3>
+        <div class="ai-chat-title-wrap">
+          <span class="ai-chat-icon" aria-hidden="true">&#9835;</span>
+          <h3>AI Radyo Asistanı</h3>
+        </div>
         <div class="ai-status">
           <span class="ai-dot"></span>
-          <span>AI Aktif</span>
+          <span>Çevrimiçi</span>
         </div>
       </div>
       <div id="aiMessages" class="ai-messages"></div>
       <div class="ai-input-section">
-        <input id="aiInput" type="text" placeholder="AI'ya sorunuzu yazın..." class="ai-input" />
-        <button class="ai-send-btn" id="aiSendBtn" type="button">
-          >
+        <input id="aiInput" type="text" placeholder="Radyo hakkında soru sorun..." class="ai-input" />
+        <button class="ai-send-btn" id="aiSendBtn" type="button" title="Gönder">
+          <span class="material-symbols-outlined" aria-hidden="true">arrow_forward_ios</span>
         </button>
       </div>
     </div>
@@ -285,14 +288,15 @@
     }
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
+  function arzcdrInit() {
     messagesDiv = document.getElementById("messages");
     input = document.getElementById("msgInput");
     sendBtn = document.getElementById("sendBtn");
-
     aiMessagesDiv = document.getElementById("aiMessages");
     aiInput = document.getElementById("aiInput");
     aiSendBtn = document.getElementById("aiSendBtn");
+
+    if (!messagesDiv || !input || !sendBtn) return;
 
     if (arzcdrIsLoggedIn()) {
       arzcdrApplyLoggedInState();
@@ -301,15 +305,18 @@
     }
 
     setupEventListeners();
-    setupAiEventListeners();
+    if (aiMessagesDiv && aiInput && aiSendBtn) {
+      setupAiEventListeners();
+      initializeAI();
+    }
     loadListenerCommentsFromApi();
-    // Chat listesini 3 saniyede bir yenile; yeni yorumlar listeye eklenir
     if (CHATLIST_API) {
       chatListInterval = setInterval(loadListenerCommentsFromApi, 3000);
       window.addEventListener("beforeunload", function () { clearInterval(chatListInterval); });
     }
-    initializeAI();
-  });
+  }
+
+  setTimeout(arzcdrInit, 100);
 
   /** API'den dinleyici yorumlarını çekip listeler. Veradyo: GET /api/chatlist → { ok, list: [{ name, yorum }] }. */
   function loadListenerCommentsFromApi() {
@@ -464,7 +471,7 @@
     var avatar = document.createElement("div");
     avatar.classList.add("ai-avatar");
     avatar.classList.add(isUser ? "user" : "ai");
-    avatar.innerHTML = isUser ? "👤" : "🤖";
+    avatar.textContent = isUser ? "S" : "AI";
 
     var content = document.createElement("div");
     content.classList.add("ai-message-content");
@@ -549,27 +556,27 @@
   }
 
 </script>
-<div class="sliderxrbcu9body">
-  <div class="sliderxrbcu9">
-    <div class="sliderxrbcu9title">Follow Us on Social Media</div>
-    <div class="rbcu9">
+<div class="sliderxe9yfkbody">
+  <div class="sliderxe9yfk">
+    <div class="sliderxe9yfktitle">Follow Us on Social Media</div>
+    <div class="e9yfk">
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/facebook.png" alt="undefined" class="rbcu9-media"  loading="lazy"/>
+            <img src="/src/icon/facebook.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/instagram.png" alt="undefined" class="rbcu9-media"  loading="lazy"/>
+            <img src="/src/icon/instagram.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/linkedin.png" alt="undefined" class="rbcu9-media"  loading="lazy"/>
+            <img src="/src/icon/linkedin.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/youtube.png" alt="undefined" class="rbcu9-media"  loading="lazy"/>
+            <img src="/src/icon/youtube.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
         </a>
         <a href="undefined" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/whatsapp.png" alt="undefined" class="rbcu9-media"  loading="lazy"/>
+            <img src="/src/icon/whatsapp.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
         </a>
         <a href="" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/google-maps.png" alt="undefined" class="rbcu9-media"  loading="lazy"/>
+            <img src="/src/icon/google-maps.png" alt="undefined" class="e9yfk-media"  loading="lazy"/>
         </a></div>
   </div>
 </div>
@@ -626,8 +633,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=d7cbv"></script>
-<script defer src="/src/cookie.js?v=d7cbv"></script>
+<script defer type="text/javascript" src="/src/js.js?v=lqert"></script>
+<script defer src="/src/cookie.js?v=lqert"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

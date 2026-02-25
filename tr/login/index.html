@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=cc06y" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=cc06y" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=m2151" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=m2151" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=cc06y" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=m2151" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,16 +50,16 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=cc06y">
+<link rel="stylesheet" href="style.css?v=m2151">
 </head>
 
 <body>
   <div id="header"><!-- Tek header çubuğu: logo sol, canlı yayın bar sağ -->
-<div class="zbhm0 zbhm0-header-row">
-  <div class="zbhm0body">
+<div class="w5g6e w5g6e-header-row">
+  <div class="w5g6ebody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=cc06y"
+        src="/img/logo.svg?v=m2151"
         height="150px"
         alt="VeRadyo Logo"
         loading="lazy"
@@ -85,7 +85,7 @@
   </div>
 </div>
 
-<div class="menu-mobil-zbhm0">
+<div class="menu-mobil-w5g6e">
   <ul>
     <li>
       <span class="material-symbols-outlined" aria-hidden="true">home</span>
@@ -180,13 +180,13 @@
   })();
 </script>
 </div>
-  <div id="content"><div class="pd3cq">
-  <div class="pd3cq-body">
-    <div class="pd3cq-login-menu">
-      <div id="pd3cq-login-menu-left">Giriş Yap</div>
-      <div id="pd3cq-login-menu-right">Üye Ol</div>
+  <div id="content"><div class="hvhut">
+  <div class="hvhut-body">
+    <div class="hvhut-login-menu">
+      <div id="hvhut-login-menu-left">Giriş Yap</div>
+      <div id="hvhut-login-menu-right">Üye Ol</div>
     </div>
-    <div class="pd3cq-body-form" id="pd3cq-login">
+    <div class="hvhut-body-form" id="hvhut-login">
       <div class="input-container">
         <input type="text" id="login-user" class="inputmatrix1" placeholder="Kullanıcı adı" autocomplete="username" />
         <label for="input" class="placeholder">Kullanıcı adı</label>
@@ -195,9 +195,9 @@
         <input type="password" id="login-password" class="inputmatrix1" placeholder="Şifre" />
         <label for="input" class="placeholder">Şifre</label>
       </div>
-      <div class="pd3cq-button" onclick="loginUser()">Giriş Yap</div>
+      <div class="hvhut-button" onclick="loginUser()">Giriş Yap</div>
     </div>
-    <div class="pd3cq-body-form" id="pd3cq-memberol">
+    <div class="hvhut-body-form" id="hvhut-memberol">
       <div class="input-container">
         <input type="text" id="register-name" class="inputmatrix1" placeholder="Ad Soyad" />
         <label for="input" class="placeholder">Ad Soyad</label>
@@ -218,8 +218,8 @@
         <input type="password" id="register-password-confirm" class="inputmatrix1" placeholder="Şifre Tekrar" />
         <label for="input" class="placeholder">Şifre Tekrar</label>
       </div>
-      <div class="pd3cq-button" onclick="registerUser()">Üye Ol</div>
-      <div class="pd3cq-null" onclick="switchToLogin()">Üye misin?</div>
+      <div class="hvhut-button" onclick="registerUser()">Üye Ol</div>
+      <div class="hvhut-null" onclick="switchToLogin()">Üye misin?</div>
     </div>
   </div>
 </div>
@@ -246,17 +246,17 @@
   }
 
   function switchToLogin() {
-    document.getElementById("pd3cq-login-menu-left").style.backgroundColor = "#101010";
-    document.getElementById("pd3cq-login-menu-right").style.backgroundColor = "#ee5a24 ";
-    document.getElementById("pd3cq-login").style.display = "flex";
-    document.getElementById("pd3cq-memberol").style.display = "none";
+    document.getElementById("hvhut-login-menu-left").style.backgroundColor = "#101010";
+    document.getElementById("hvhut-login-menu-right").style.backgroundColor = "#ee5a24 ";
+    document.getElementById("hvhut-login").style.display = "flex";
+    document.getElementById("hvhut-memberol").style.display = "none";
   }
 
   function switchToRegister() {
-    document.getElementById("pd3cq-login-menu-right").style.backgroundColor = "#101010";
-    document.getElementById("pd3cq-login-menu-left").style.backgroundColor = "#ee5a24 ";
-    document.getElementById("pd3cq-login").style.display = "none";
-    document.getElementById("pd3cq-memberol").style.display = "flex";
+    document.getElementById("hvhut-login-menu-right").style.backgroundColor = "#101010";
+    document.getElementById("hvhut-login-menu-left").style.backgroundColor = "#ee5a24 ";
+    document.getElementById("hvhut-login").style.display = "none";
+    document.getElementById("hvhut-memberol").style.display = "flex";
   }
 
   function validateEmail(email) {
@@ -395,8 +395,8 @@
   })();
 
   setTimeout(function () {
-    var left = document.getElementById("pd3cq-login-menu-left");
-    var right = document.getElementById("pd3cq-login-menu-right");
+    var left = document.getElementById("hvhut-login-menu-left");
+    var right = document.getElementById("hvhut-login-menu-right");
     if (left) left.addEventListener("click", switchToLogin);
     if (right) right.addEventListener("click", switchToRegister);
   }, 100);
@@ -453,8 +453,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=cc06y"></script>
-<script defer src="/src/cookie.js?v=cc06y"></script>
+<script defer type="text/javascript" src="/src/js.js?v=m2151"></script>
+<script defer src="/src/cookie.js?v=m2151"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

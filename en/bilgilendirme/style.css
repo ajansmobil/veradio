@@ -1,10 +1,10 @@
 
-  .menu-mobil-qa2m6 {
+  .menu-mobil-xqjay {
     display: none;
   }
 
   @media (max-width: 1200px) {
-    .menu-mobil-qa2m6 {
+    .menu-mobil-xqjay {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -23,11 +23,11 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .qa2m6 {
+    .xqjay {
       display: none;
     }
 
-    .menu-mobil-qa2m6 ul {
+    .menu-mobil-xqjay ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-qa2m6 ul li > * {
+    .menu-mobil-xqjay ul li > * {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-qa2m6 ul li {
+    .menu-mobil-xqjay ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-qa2m6 ul li:hover {
+    .menu-mobil-xqjay ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-qa2m6 ul li.active {
+    .menu-mobil-xqjay ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .qa2m6menu {
+    .xqjaymenu {
       display: none !important;
     }
 
@@ -71,7 +71,7 @@
   }
 
   /* Web sürümü: tek header çubuğu, logo sol / canlı bar sağ */
-  .qa2m6 {
+  .xqjay {
     width: 100%;
     max-width: var(--max);
     margin: 0 auto 20px auto;
@@ -79,7 +79,7 @@
     color: #333333;
   }
 
-  .qa2m6-header-row {
+  .xqjay-header-row {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -91,17 +91,17 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   }
 
-  .qa2m6titlebodylang {
+  .xqjaytitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qa2m6titlebodylang ul {
+  .xqjaytitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qa2m6titlebodylang ul a {
+  .xqjaytitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -110,11 +110,11 @@
     transition: background 0.3s;
   }
 
-  .qa2m6titlebodylang ul a:hover {
+  .xqjaytitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .qa2m6title {
+  .xqjaytitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -122,7 +122,7 @@
     justify-content: center;
   }
 
-  .qa2m6titlebody {
+  .xqjaytitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -130,25 +130,25 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qa2m6body {
+  .xqjaybody {
     flex-shrink: 0;
     display: flex;
     align-items: center;
   }
 
-  .qa2m6body a {
+  .xqjaybody a {
     display: flex;
     align-items: center;
   }
 
-  .qa2m6menu {
+  .xqjaymenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .qa2m6menulist {
+  .xqjaymenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -156,7 +156,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .qa2m6menulist ul {
+  .xqjaymenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -166,7 +166,7 @@
     overflow-x: auto;
   }
 
-  .qa2m6menulist ul a {
+  .xqjaymenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -182,18 +182,18 @@
     font-weight: 500;
   }
 
-  .qa2m6menulist ul a:hover {
+  .xqjaymenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .qa2m6-menu-active {
+  .xqjay-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .qa2m6menulistbody {
+  .xqjaymenulistbody {
     width: 100%;
   }
 
@@ -218,13 +218,13 @@
   }
 
   .freq {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: bold;
     color: #ee5a24;
   }
 
   .station {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 500;
     color: #333;
   }
@@ -232,9 +232,9 @@
   .live-badge {
     background: #ee5a24;
     color: #fff;
-    padding: 4px 10px;
+    padding: 6px 14px;
     border-radius: 8px;
-    font-size: 13px;
+    font-size: 17px;
     font-weight: bold;
     letter-spacing: 0.02em;
     animation: pulse 2s infinite;
@@ -247,8 +247,8 @@
   }
 
   .play-btn {
-    width: 44px;
-    height: 44px;
+    width: 54px;
+    height: 54px;
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     border: none;
     border-radius: 50%;
@@ -262,7 +262,7 @@
 
   .play-btn .material-symbols-outlined {
     color: #fff;
-    font-size: 26px;
+    font-size: 34px;
   }
 
   .play-btn:hover {
