@@ -499,7 +499,7 @@
     display: inline-block;
   }
 
-  .az-soc-icons .kget72-media {
+  .az-soc-icons .tnl972-media {
     width: 36px;
     height: 36px;
     border-radius: 14px;
@@ -508,7 +508,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   }
 
-  .az-soc-icons .kget72-media:hover {
+  .az-soc-icons .tnl972-media:hover {
     transform: translateY(-4px) scale(1.08);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
   }
@@ -701,21 +701,22 @@
       align-items: stretch;
     }
 
-    .az-col-center {
-      order: 1;
-      width: 100%;
-      min-height: 0;
-    }
-
+    /* Mobilde sıra: chat | AI | player+sosyal — sosyal sayfanın en altında olur */
     .az-col-left {
-      order: 2;
+      order: 1;
       height: auto;
       min-height: 0;
     }
 
     .az-col-right {
-      order: 3;
+      order: 2;
       height: auto;
+      min-height: 0;
+    }
+
+    .az-col-center {
+      order: 3;
+      width: 100%;
       min-height: 0;
     }
 
@@ -745,6 +746,7 @@
       width: 100%;
     }
 
+    /* Mobilde sosyal kutu normal akışta; sütun sırası sayesinde sayfa en altında */
     .az-soc-inner {
       width: 100%;
       padding: 24px 16px;
@@ -763,7 +765,7 @@
       padding-bottom: 24px;
     }
 
-    .az-soc-icons .kget72-media {
+    .az-soc-icons .tnl972-media {
       width: 44px;
       height: 44px;
       border-radius: 10px;

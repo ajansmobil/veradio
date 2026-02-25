@@ -837,21 +837,22 @@
       align-items: stretch;
     }
 
-    .az-col-center {
-      order: 1;
-      width: 100%;
-      min-height: 0;
-    }
-
+    /* Mobilde sıra: chat | AI | player+sosyal — sosyal sayfanın en altında olur */
     .az-col-left {
-      order: 2;
+      order: 1;
       height: auto;
       min-height: 0;
     }
 
     .az-col-right {
-      order: 3;
+      order: 2;
       height: auto;
+      min-height: 0;
+    }
+
+    .az-col-center {
+      order: 3;
+      width: 100%;
       min-height: 0;
     }
 
@@ -881,6 +882,7 @@
       width: 100%;
     }
 
+    /* Mobilde sosyal kutu normal akışta; sütun sırası sayesinde sayfa en altında */
     .az-soc-inner {
       width: 100%;
       padding: 24px 16px;
