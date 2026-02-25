@@ -1,10 +1,10 @@
 
-  .menu-mobil-cnw6y {
+  .menu-mobil-faz4c {
     display: none;
   }
 
   @media (max-width: 1200px) {
-    .menu-mobil-cnw6y {
+    .menu-mobil-faz4c {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -23,11 +23,11 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .cnw6y {
+    .faz4c {
       display: none;
     }
 
-    .menu-mobil-cnw6y ul {
+    .menu-mobil-faz4c ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-cnw6y ul li > * {
+    .menu-mobil-faz4c ul li > * {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-cnw6y ul li {
+    .menu-mobil-faz4c ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-cnw6y ul li:hover {
+    .menu-mobil-faz4c ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-cnw6y ul li.active {
+    .menu-mobil-faz4c ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .cnw6ymenu {
+    .faz4cmenu {
       display: none !important;
     }
 
@@ -71,7 +71,7 @@
   }
 
   /* Web sürümü: tek header çubuğu, logo sol / canlı bar sağ */
-  .cnw6y {
+  .faz4c {
     width: 100%;
     max-width: var(--max);
     margin: 0 auto 20px auto;
@@ -79,7 +79,7 @@
     color: #333333;
   }
 
-  .cnw6y-header-row {
+  .faz4c-header-row {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -91,17 +91,17 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   }
 
-  .cnw6ytitlebodylang {
+  .faz4ctitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .cnw6ytitlebodylang ul {
+  .faz4ctitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .cnw6ytitlebodylang ul a {
+  .faz4ctitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -110,11 +110,11 @@
     transition: background 0.3s;
   }
 
-  .cnw6ytitlebodylang ul a:hover {
+  .faz4ctitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .cnw6ytitle {
+  .faz4ctitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -122,7 +122,7 @@
     justify-content: center;
   }
 
-  .cnw6ytitlebody {
+  .faz4ctitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -130,25 +130,25 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .cnw6ybody {
+  .faz4cbody {
     flex-shrink: 0;
     display: flex;
     align-items: center;
   }
 
-  .cnw6ybody a {
+  .faz4cbody a {
     display: flex;
     align-items: center;
   }
 
-  .cnw6ymenu {
+  .faz4cmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .cnw6ymenulist {
+  .faz4cmenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -156,7 +156,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .cnw6ymenulist ul {
+  .faz4cmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -166,7 +166,7 @@
     overflow-x: auto;
   }
 
-  .cnw6ymenulist ul a {
+  .faz4cmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -182,18 +182,18 @@
     font-weight: 500;
   }
 
-  .cnw6ymenulist ul a:hover {
+  .faz4cmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .cnw6y-menu-active {
+  .faz4c-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .cnw6ymenulistbody {
+  .faz4cmenulistbody {
     width: 100%;
   }
 
@@ -281,7 +281,7 @@
   }
 
 
-  .iv6mr {
+  .n8vou {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -290,14 +290,14 @@
     position: relative;
   }
 
-  .iv6mrcontainertitle {
+  .n8voucontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin: 0 0 20px 0;
   }
 
-  .iv6mrcontainerlist {
+  .n8voucontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -306,26 +306,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .iv6mrcontainerlist>div {
+  .n8voucontainerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .iv6mrcontainerlist:hover {
+  .n8voucontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
 
-  .iv6mrcontainer {
+  .n8voucontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .iv6mrcontainerbody {
+  .n8voucontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -335,7 +335,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .iv6mrbody {
+  .n8voubody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -343,19 +343,19 @@
     padding: 20px;
   }
 
-  .iv6mrcontainerlist>span {
+  .n8voucontainerlist>span {
     font-size: 24px;
     color: #1e3046;
   }
 
   @media screen and (max-width: 1024px) {
-    .iv6mrbody {
+    .n8voubody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .iv6mrcontainerbody {
+    .n8voucontainerbody {
       padding: 15px;
     }
   }
@@ -367,14 +367,14 @@
    * bodyBg / bodyText | url (profil path)
    */
   /* --- Box model: taşma önleme (padding + width kuralı) --- */
-  .kbtku,
-  .kbtku-menu,
-  .kbtku-body {
+  .yday1,
+  .yday1-menu,
+  .yday1-body {
     box-sizing: border-box;
   }
 
   /* --- Ana layout: yan menü + içerik alanı --- */
-  .kbtku {
+  .yday1 {
     width: var(--max);
     max-width: 100%;
     display: flex;
@@ -385,7 +385,7 @@
   }
 
   /* --- Sol menü: kart, geniş padding --- */
-  .kbtku-menu {
+  .yday1-menu {
     width: 280px;
     min-width: 260px;
     padding: 20px;
@@ -397,7 +397,7 @@
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   }
 
-  .kbtku-menu-nav {
+  .yday1-menu-nav {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -407,7 +407,7 @@
   }
 
   /* --- Profil: avatar + isim + ok (kart hissi) --- */
-  .kbtku-profile {
+  .yday1-profile {
     background: #000;
     color: #fff;
     padding: 2px;
@@ -420,16 +420,16 @@
     transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
   }
 
-  .kbtku-profile:hover {
+  .yday1-profile:hover {
     color: #fff;
     transform: translateX(2px);
   }
 
-  .kbtku-profile:hover .kbtku-profile-arrow {
+  .yday1-profile:hover .yday1-profile-arrow {
     opacity: 1;
   }
 
-  .kbtku-profile-avatar {
+  .yday1-profile-avatar {
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -441,12 +441,12 @@
 
   }
 
-  .kbtku-profile-avatar .material-symbols-outlined {
+  .yday1-profile-avatar .material-symbols-outlined {
     font-size: 26px;
     opacity: 0.95;
   }
 
-  .kbtku-profile-name {
+  .yday1-profile-name {
     flex: 1;
     font-size: 15px;
     font-weight: 600;
@@ -459,7 +459,7 @@
     color: #fff !important;
   }
 
-  .kbtku-profile-arrow {
+  .yday1-profile-arrow {
     font-size: 20px;
     opacity: 0.5;
     transition: opacity 0.2s ease;
@@ -467,7 +467,7 @@
   }
 
   /* Kategori: gruplar arası boşluk --- */
-  .kbtku-menu-category {
+  .yday1-menu-category {
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -476,7 +476,7 @@
  
 
   /* Menü linki: ikon + metin, border yok; hover’da arka plan --- */
-  .kbtku-menu-category .kbtku-menu-link {
+  .yday1-menu-category .yday1-menu-link {
     color: #fff;
     min-height: 48px;
     padding: 0 16px;
@@ -492,7 +492,7 @@
     letter-spacing: -0.01em;
   }
 
-  .kbtku-menu-category .kbtku-menu-link .material-symbols-outlined {
+  .yday1-menu-category .yday1-menu-link .material-symbols-outlined {
     font-size: 24px;
     width: 24px;
     height: 24px;
@@ -500,13 +500,13 @@
     opacity: 0.9;
   }
 
-  .kbtku-menu-category .kbtku-menu-link:hover {
+  .yday1-menu-category .yday1-menu-link:hover {
     background: #000;
     color: #fff;
   }
 
   /* Aktif: sol çizgi + arka plan (net vurgu) --- */
-  .kbtku-menu-category .kbtku-menu-active {
+  .yday1-menu-category .yday1-menu-active {
     background: rgba(243,128,32,0.15);
     color: #f38020;
     border-left: 4px solid #f38020;
@@ -514,17 +514,17 @@
     padding-left: 12px;
   }
 
-  .kbtku-menu-category .kbtku-menu-active .material-symbols-outlined {
+  .yday1-menu-category .yday1-menu-active .material-symbols-outlined {
     opacity: 1;
   }
 
-  .kbtku-menu-category .kbtku-menu-active:hover {
+  .yday1-menu-category .yday1-menu-active:hover {
     background: rgba(243,128,32,0.15);
     color: #f38020;
   }
 
   /* --- Çıkış: en altta, buton alanı, net ayrım --- */
-  .kbtku-menu-logout {
+  .yday1-menu-logout {
     margin-top: auto;
     padding: 10px;
     color: #fff;
@@ -542,19 +542,19 @@
     color: #fff !important;
   }
 
-  .kbtku-menu-logout .material-symbols-outlined {
+  .yday1-menu-logout .material-symbols-outlined {
     font-size: 22px;
     width: 22px;
     height: 22px;
   }
 
-  .kbtku-menu-logout:hover {
+  .yday1-menu-logout:hover {
     background: #000;
     color: #fff;
   }
 
   /* İçerik alanı: bodyBg, bodyText --- */
-  .kbtku-body {
+  .yday1-body {
     flex: 1;
     min-width: 0;
     background-color: #E9E9E9;
@@ -569,12 +569,12 @@
 
   /* Responsive: dar ekranda menü üstte, tam genişlik --- */
   @media screen and (max-width: 768px) {
-    .kbtku {
+    .yday1 {
       flex-direction: column;
       gap: 10px;
     }
 
-    .kbtku-menu {
+    .yday1-menu {
       width: 100%;
       min-width: 0;
       flex-direction: row;
@@ -582,13 +582,13 @@
       justify-content: flex-start;
     }
 
-    .kbtku-menu-category {
+    .yday1-menu-category {
       flex-direction: row;
       flex-wrap: wrap;
       gap: 6px;
     }
 
-    .kbtku-body {
+    .yday1-body {
       min-height: 50vh;
     }
   }

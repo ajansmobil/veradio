@@ -1,10 +1,10 @@
 
-  .menu-mobil-a8s8f {
+  .menu-mobil-eb0ri {
     display: none;
   }
 
   @media (max-width: 1200px) {
-    .menu-mobil-a8s8f {
+    .menu-mobil-eb0ri {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -23,11 +23,11 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .a8s8f {
+    .eb0ri {
       display: none;
     }
 
-    .menu-mobil-a8s8f ul {
+    .menu-mobil-eb0ri ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-a8s8f ul li > * {
+    .menu-mobil-eb0ri ul li > * {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-a8s8f ul li {
+    .menu-mobil-eb0ri ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-a8s8f ul li:hover {
+    .menu-mobil-eb0ri ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-a8s8f ul li.active {
+    .menu-mobil-eb0ri ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .a8s8fmenu {
+    .eb0rimenu {
       display: none !important;
     }
 
@@ -71,7 +71,7 @@
   }
 
   /* Web sürümü: tek header çubuğu, logo sol / canlı bar sağ */
-  .a8s8f {
+  .eb0ri {
     width: 100%;
     max-width: var(--max);
     margin: 0 auto 20px auto;
@@ -79,7 +79,7 @@
     color: #333333;
   }
 
-  .a8s8f-header-row {
+  .eb0ri-header-row {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -91,17 +91,17 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   }
 
-  .a8s8ftitlebodylang {
+  .eb0rititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .a8s8ftitlebodylang ul {
+  .eb0rititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .a8s8ftitlebodylang ul a {
+  .eb0rititlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -110,11 +110,11 @@
     transition: background 0.3s;
   }
 
-  .a8s8ftitlebodylang ul a:hover {
+  .eb0rititlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .a8s8ftitle {
+  .eb0rititle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -122,7 +122,7 @@
     justify-content: center;
   }
 
-  .a8s8ftitlebody {
+  .eb0rititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -130,25 +130,25 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .a8s8fbody {
+  .eb0ribody {
     flex-shrink: 0;
     display: flex;
     align-items: center;
   }
 
-  .a8s8fbody a {
+  .eb0ribody a {
     display: flex;
     align-items: center;
   }
 
-  .a8s8fmenu {
+  .eb0rimenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .a8s8fmenulist {
+  .eb0rimenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -156,7 +156,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .a8s8fmenulist ul {
+  .eb0rimenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -166,7 +166,7 @@
     overflow-x: auto;
   }
 
-  .a8s8fmenulist ul a {
+  .eb0rimenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -182,18 +182,18 @@
     font-weight: 500;
   }
 
-  .a8s8fmenulist ul a:hover {
+  .eb0rimenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .a8s8f-menu-active {
+  .eb0ri-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .a8s8fmenulistbody {
+  .eb0rimenulistbody {
     width: 100%;
   }
 
@@ -281,17 +281,17 @@
   }
 
 
-  .o31rj { width: 95%; height: 500px; flex: 1; display: flex; align-items: center; justify-content: center; margin-top: 20px; }
-  .o31rj-null { color: #fff; cursor: pointer; text-align: right; padding: 15px 0 0 0; font-size: 14px; }
-  .o31rj-null:hover { color: #999; }
-  .o31rj-body { background-color: #101010; width: 500px; border-radius: 20px; display: flex; flex-direction: column; }
-  .o31rj-body-form { padding: 20px; display: flex; flex-direction: column; }
-  .o31rj-button { padding: 10px; background-color: #ee5a24 ; margin-top: 20px; font-size: 16px; color: #fff !important; border-radius: 5px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
-  .o31rj-login-menu { display: flex; gap: 2px; }
-  #o31rj-login-menu-left { border-radius: 20px 0 0 0; background-color: #101010; }
-  #o31rj-login-menu-right { border-radius: 0 20px 0 0; }
-  #o31rj-memberol { display: none; flex-direction: column; }
-  .o31rj-login-menu > div { background-color: #ee5a24 ; width: 100%; display: flex; align-items: center; justify-content: center; padding: 10px; font-size: 18px; font-weight: 400; color: #fff; cursor: pointer; }
+  .k6kys { width: 95%; height: 500px; flex: 1; display: flex; align-items: center; justify-content: center; margin-top: 20px; }
+  .k6kys-null { color: #fff; cursor: pointer; text-align: right; padding: 15px 0 0 0; font-size: 14px; }
+  .k6kys-null:hover { color: #999; }
+  .k6kys-body { background-color: #101010; width: 500px; border-radius: 20px; display: flex; flex-direction: column; }
+  .k6kys-body-form { padding: 20px; display: flex; flex-direction: column; }
+  .k6kys-button { padding: 10px; background-color: #ee5a24 ; margin-top: 20px; font-size: 16px; color: #fff !important; border-radius: 5px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+  .k6kys-login-menu { display: flex; gap: 2px; }
+  #k6kys-login-menu-left { border-radius: 20px 0 0 0; background-color: #101010; }
+  #k6kys-login-menu-right { border-radius: 0 20px 0 0; }
+  #k6kys-memberol { display: none; flex-direction: column; }
+  .k6kys-login-menu > div { background-color: #ee5a24 ; width: 100%; display: flex; align-items: center; justify-content: center; padding: 10px; font-size: 18px; font-weight: 400; color: #fff; cursor: pointer; }
   #content { justify-content: start; }
 
 

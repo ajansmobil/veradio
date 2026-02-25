@@ -1,10 +1,10 @@
 
-  .menu-mobil-neukh {
+  .menu-mobil-zbhm0 {
     display: none;
   }
 
   @media (max-width: 1200px) {
-    .menu-mobil-neukh {
+    .menu-mobil-zbhm0 {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -23,11 +23,11 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .neukh {
+    .zbhm0 {
       display: none;
     }
 
-    .menu-mobil-neukh ul {
+    .menu-mobil-zbhm0 ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-neukh ul li > * {
+    .menu-mobil-zbhm0 ul li > * {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-neukh ul li {
+    .menu-mobil-zbhm0 ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-neukh ul li:hover {
+    .menu-mobil-zbhm0 ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-neukh ul li.active {
+    .menu-mobil-zbhm0 ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .neukhmenu {
+    .zbhm0menu {
       display: none !important;
     }
 
@@ -71,7 +71,7 @@
   }
 
   /* Web sürümü: tek header çubuğu, logo sol / canlı bar sağ */
-  .neukh {
+  .zbhm0 {
     width: 100%;
     max-width: var(--max);
     margin: 0 auto 20px auto;
@@ -79,7 +79,7 @@
     color: #333333;
   }
 
-  .neukh-header-row {
+  .zbhm0-header-row {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -91,17 +91,17 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   }
 
-  .neukhtitlebodylang {
+  .zbhm0titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .neukhtitlebodylang ul {
+  .zbhm0titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .neukhtitlebodylang ul a {
+  .zbhm0titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -110,11 +110,11 @@
     transition: background 0.3s;
   }
 
-  .neukhtitlebodylang ul a:hover {
+  .zbhm0titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .neukhtitle {
+  .zbhm0title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -122,7 +122,7 @@
     justify-content: center;
   }
 
-  .neukhtitlebody {
+  .zbhm0titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -130,25 +130,25 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .neukhbody {
+  .zbhm0body {
     flex-shrink: 0;
     display: flex;
     align-items: center;
   }
 
-  .neukhbody a {
+  .zbhm0body a {
     display: flex;
     align-items: center;
   }
 
-  .neukhmenu {
+  .zbhm0menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .neukhmenulist {
+  .zbhm0menulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -156,7 +156,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .neukhmenulist ul {
+  .zbhm0menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -166,7 +166,7 @@
     overflow-x: auto;
   }
 
-  .neukhmenulist ul a {
+  .zbhm0menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -182,18 +182,18 @@
     font-weight: 500;
   }
 
-  .neukhmenulist ul a:hover {
+  .zbhm0menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .neukh-menu-active {
+  .zbhm0-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .neukhmenulistbody {
+  .zbhm0menulistbody {
     width: 100%;
   }
 
@@ -281,17 +281,17 @@
   }
 
 
-  .shfn6 { width: 95%; height: 500px; flex: 1; display: flex; align-items: center; justify-content: center; margin-top: 20px; }
-  .shfn6-null { color: #fff; cursor: pointer; text-align: right; padding: 15px 0 0 0; font-size: 14px; }
-  .shfn6-null:hover { color: #999; }
-  .shfn6-body { background-color: #101010; width: 500px; border-radius: 20px; display: flex; flex-direction: column; }
-  .shfn6-body-form { padding: 20px; display: flex; flex-direction: column; }
-  .shfn6-button { padding: 10px; background-color: #ee5a24 ; margin-top: 20px; font-size: 16px; color: #fff !important; border-radius: 5px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
-  .shfn6-login-menu { display: flex; gap: 2px; }
-  #shfn6-login-menu-left { border-radius: 20px 0 0 0; background-color: #101010; }
-  #shfn6-login-menu-right { border-radius: 0 20px 0 0; }
-  #shfn6-memberol { display: none; flex-direction: column; }
-  .shfn6-login-menu > div { background-color: #ee5a24 ; width: 100%; display: flex; align-items: center; justify-content: center; padding: 10px; font-size: 18px; font-weight: 400; color: #fff; cursor: pointer; }
+  .pd3cq { width: 95%; height: 500px; flex: 1; display: flex; align-items: center; justify-content: center; margin-top: 20px; }
+  .pd3cq-null { color: #fff; cursor: pointer; text-align: right; padding: 15px 0 0 0; font-size: 14px; }
+  .pd3cq-null:hover { color: #999; }
+  .pd3cq-body { background-color: #101010; width: 500px; border-radius: 20px; display: flex; flex-direction: column; }
+  .pd3cq-body-form { padding: 20px; display: flex; flex-direction: column; }
+  .pd3cq-button { padding: 10px; background-color: #ee5a24 ; margin-top: 20px; font-size: 16px; color: #fff !important; border-radius: 5px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+  .pd3cq-login-menu { display: flex; gap: 2px; }
+  #pd3cq-login-menu-left { border-radius: 20px 0 0 0; background-color: #101010; }
+  #pd3cq-login-menu-right { border-radius: 0 20px 0 0; }
+  #pd3cq-memberol { display: none; flex-direction: column; }
+  .pd3cq-login-menu > div { background-color: #ee5a24 ; width: 100%; display: flex; align-items: center; justify-content: center; padding: 10px; font-size: 18px; font-weight: 400; color: #fff; cursor: pointer; }
   #content { justify-content: start; }
 
 
