@@ -25,16 +25,16 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=b80hr" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=b80hr" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ohbvt" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ohbvt" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=b80hr" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ohbvt" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "VeRadyo",
-  "description": "Gaziantep’in sevilen radyosu Veradyo 9.00 FM ile en iyi müzikler, canlı yayınlar ve mobil dinleme keyfi sizi bekliyor. Şimdi dinleyin!",
+  "description": "Gaziantep'in sevilen radyosu Veradyo 9.00 FM ile en iyi müzikler, canlı yayınlar ve mobil dinleme keyfi sizi bekliyor. Şimdi dinleyin!",
   "url": "https://veradyo.com.tr",
   "logo": "https://veradyo.com.tr/img/logo.svg",
   "image": "https://veradyo.com.tr/img/logo.svg"
@@ -50,28 +50,17 @@
 }
 </script>
   
-  
-  
-<link rel="stylesheet" href="style.css?v=b80hr">
+<link rel="stylesheet" href="style.css?v=ohbvt">
 </head>
 
 <body>
-  <div id="header"><div class="jlr2f">
-  <!-- <div class="jlr2ftitle">
-    <div class="jlr2ftitlebody">
-      <div class="jlr2ftitlebodylang">
-        <ul>
-          <li><a href="/tr/kisisel-veriler/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kisisel-veriler/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
-        </ul>
-      </div>
-    </div>
-  </div> -->
-
-  <div class="jlr2fbody">
+  <div id="header"><!-- Tek header çubuğu: logo sol, canlı yayın bar sağ -->
+<div class="emi2h emi2h-header-row">
+  <div class="emi2hbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=b80hr"
-        height="100px"
+        src="/img/logo.svg?v=ohbvt"
+        height="150px"
         alt="VeRadyo Logo"
         loading="lazy"
     /></a>
@@ -96,7 +85,7 @@
   </div>
 </div>
 
-<div class="menu-mobil-jlr2f">
+<div class="menu-mobil-emi2h">
   <ul>
     <li>
       <span class="material-symbols-outlined" aria-hidden="true">home</span>
@@ -123,32 +112,30 @@
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const playBtns = document.querySelectorAll("#playBtn");
-    const radioPlayer = document.getElementById("radioPlayer");
-    let isPlaying = false;
+  (function () {
+    // Kritik kural: DOMContentLoaded kullanılmaz; setTimeout ile DOM hazır olana kadar bekle
+    var playBtns = document.querySelectorAll("#playBtn");
+    var radioPlayer = document.getElementById("radioPlayer");
+    var isPlaying = false;
 
     function togglePlay() {
       if (isPlaying) {
-        // Durdur
         radioPlayer.pause();
         isPlaying = false;
       } else {
-        // Başlat
         radioPlayer.play();
         isPlaying = true;
       }
     }
 
     function updateIcons() {
-      playBtns.forEach((btn) => {
-        const icon = btn.querySelector(".material-symbols-outlined");
+      for (var i = 0; i < playBtns.length; i++) {
+        var btn = playBtns[i];
+        var icon = btn.querySelector(".material-symbols-outlined");
         if (icon) {
           icon.textContent = isPlaying ? "pause" : "play_arrow";
         }
-
-        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
-        const mobileLi = btn.closest("li");
+        var mobileLi = btn.closest("li");
         if (mobileLi) {
           if (isPlaying) {
             mobileLi.classList.add("active");
@@ -156,49 +143,53 @@
             mobileLi.classList.remove("active");
           }
         }
+      }
+    }
+
+    function bindPlay() {
+      playBtns = document.querySelectorAll("#playBtn");
+      radioPlayer = document.getElementById("radioPlayer");
+      if (!radioPlayer) return;
+
+      for (var j = 0; j < playBtns.length; j++) {
+        var b = playBtns[j];
+        b.addEventListener("click", togglePlay);
+        var li = b.closest("li");
+        if (li) {
+          li.addEventListener("click", togglePlay);
+        }
+      }
+
+      radioPlayer.addEventListener("play", function () {
+        isPlaying = true;
+        updateIcons();
+      });
+      radioPlayer.addEventListener("pause", function () {
+        isPlaying = false;
+        updateIcons();
+      });
+      radioPlayer.addEventListener("error", function () {
+        isPlaying = false;
+        updateIcons();
       });
     }
 
-    // Her iki butona da event listener ekle
-    playBtns.forEach((btn) => {
-      btn.addEventListener("click", togglePlay);
-
-      // Mobil menüdeki li elementine de tıklama eventi ekle
-      const mobileLi = btn.closest("li");
-      if (mobileLi) {
-        mobileLi.addEventListener("click", togglePlay);
-      }
-    });
-
-    // Audio event listeners
-    radioPlayer.addEventListener("play", function () {
-      isPlaying = true;
-      updateIcons();
-    });
-
-    radioPlayer.addEventListener("pause", function () {
-      isPlaying = false;
-      updateIcons();
-    });
-
-    radioPlayer.addEventListener("error", function () {
-      console.log("Radio yüklenirken hata oluştu");
-      isPlaying = false;
-      updateIcons();
-    });
-  });
+    setTimeout(function () {
+      bindPlay();
+    }, 100);
+  })();
 </script>
 </div>
-  <div id="content"><div class="loo2h">
-  <div class="loo2h-menu-btn">
+  <div id="content"><div class="y599a">
+  <div class="y599a-menu-btn">
     <span>Menu</span>
     <i class="fas fa-bars"></i>
   </div>
-  <div class="loo2h-menu"><a   href="/en/hakkimizda" >About us</a><a   href="/en/misyon" >Mission</a><a   href="/en/vizyon" >Vision</a><a   href="/en/kalite-politikamiz" >Our Quality Policy</a><a   href="/en/gizlilik-politikasi" >Privacy Policy</a><a class="active"  href="/en/kisisel-veriler" >Personal Data</a><a   href="/en/kullanicihaklari" >User Rights</a><a   href="/en/yasal-uyari" >Legal Notice</a></div>
-  <div class="loo2h-desc">
+  <div class="y599a-menu"><a   href="/en/hakkimizda" >About us</a><a   href="/en/misyon" >Mission</a><a   href="/en/vizyon" >Vision</a><a   href="/en/kalite-politikamiz" >Our Quality Policy</a><a   href="/en/gizlilik-politikasi" >Privacy Policy</a><a class="active"  href="/en/kisisel-veriler" >Personal Data</a><a   href="/en/kullanicihaklari" >User Rights</a><a   href="/en/yasal-uyari" >Legal Notice</a></div>
+  <div class="y599a-desc">
     
 
-    <div class="loo2h-body"><p><h2 style="font-size: 24px;">Personal Data</h2></p>
+    <div class="y599a-body"><p><h2 style="font-size: 24px;">Personal Data</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Your personal data is collected solely to comply with legal requirements, fulfill your requests, and provide you with better service. The security of your personal data is our priority, and we take the necessary technical and administrative measures within the framework of all relevant legislation, primarily Law No. 6698 on the Protection of Personal Data (KVKK), to protect this data.</p>
 <p>    </p></p>
@@ -213,9 +204,9 @@
 
 <script>
   document
-    .querySelector(".loo2h-menu-btn")
+    .querySelector(".y599a-menu-btn")
     .addEventListener("click", function () {
-      document.querySelector(".loo2h-menu").classList.toggle("active");
+      document.querySelector(".y599a-menu").classList.toggle("active");
       const icon = this.querySelector("i");
       icon.classList.toggle("fa-bars");
       icon.classList.toggle("fa-times");
@@ -280,8 +271,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=b80hr"></script>
-<script defer src="/src/cookie.js?v=b80hr"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ohbvt"></script>
+<script defer src="/src/cookie.js?v=ohbvt"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

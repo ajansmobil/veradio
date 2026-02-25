@@ -25,16 +25,16 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=qhswc" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=qhswc" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=is22u" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=is22u" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=qhswc" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=is22u" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "VeRadyo",
-  "description": "Gaziantep’in sevilen radyosu Veradyo 9.00 FM ile en iyi müzikler, canlı yayınlar ve mobil dinleme keyfi sizi bekliyor. Şimdi dinleyin!",
+  "description": "Gaziantep'in sevilen radyosu Veradyo 9.00 FM ile en iyi müzikler, canlı yayınlar ve mobil dinleme keyfi sizi bekliyor. Şimdi dinleyin!",
   "url": "https://veradyo.com.tr",
   "logo": "https://veradyo.com.tr/img/logo.svg",
   "image": "https://veradyo.com.tr/img/logo.svg"
@@ -50,28 +50,17 @@
 }
 </script>
   
-  
-  
-<link rel="stylesheet" href="style.css?v=qhswc">
+<link rel="stylesheet" href="style.css?v=is22u">
 </head>
 
 <body>
-  <div id="header"><div class="q6rzc">
-  <!-- <div class="q6rzctitle">
-    <div class="q6rzctitlebody">
-      <div class="q6rzctitlebodylang">
-        <ul>
-          <li><a href="/tr/login/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/login/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
-        </ul>
-      </div>
-    </div>
-  </div> -->
-
-  <div class="q6rzcbody">
+  <div id="header"><!-- Tek header çubuğu: logo sol, canlı yayın bar sağ -->
+<div class="a8s8f a8s8f-header-row">
+  <div class="a8s8fbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=qhswc"
-        height="100px"
+        src="/img/logo.svg?v=is22u"
+        height="150px"
         alt="VeRadyo Logo"
         loading="lazy"
     /></a>
@@ -96,7 +85,7 @@
   </div>
 </div>
 
-<div class="menu-mobil-q6rzc">
+<div class="menu-mobil-a8s8f">
   <ul>
     <li>
       <span class="material-symbols-outlined" aria-hidden="true">home</span>
@@ -123,32 +112,30 @@
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const playBtns = document.querySelectorAll("#playBtn");
-    const radioPlayer = document.getElementById("radioPlayer");
-    let isPlaying = false;
+  (function () {
+    // Kritik kural: DOMContentLoaded kullanılmaz; setTimeout ile DOM hazır olana kadar bekle
+    var playBtns = document.querySelectorAll("#playBtn");
+    var radioPlayer = document.getElementById("radioPlayer");
+    var isPlaying = false;
 
     function togglePlay() {
       if (isPlaying) {
-        // Durdur
         radioPlayer.pause();
         isPlaying = false;
       } else {
-        // Başlat
         radioPlayer.play();
         isPlaying = true;
       }
     }
 
     function updateIcons() {
-      playBtns.forEach((btn) => {
-        const icon = btn.querySelector(".material-symbols-outlined");
+      for (var i = 0; i < playBtns.length; i++) {
+        var btn = playBtns[i];
+        var icon = btn.querySelector(".material-symbols-outlined");
         if (icon) {
           icon.textContent = isPlaying ? "pause" : "play_arrow";
         }
-
-        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
-        const mobileLi = btn.closest("li");
+        var mobileLi = btn.closest("li");
         if (mobileLi) {
           if (isPlaying) {
             mobileLi.classList.add("active");
@@ -156,46 +143,50 @@
             mobileLi.classList.remove("active");
           }
         }
+      }
+    }
+
+    function bindPlay() {
+      playBtns = document.querySelectorAll("#playBtn");
+      radioPlayer = document.getElementById("radioPlayer");
+      if (!radioPlayer) return;
+
+      for (var j = 0; j < playBtns.length; j++) {
+        var b = playBtns[j];
+        b.addEventListener("click", togglePlay);
+        var li = b.closest("li");
+        if (li) {
+          li.addEventListener("click", togglePlay);
+        }
+      }
+
+      radioPlayer.addEventListener("play", function () {
+        isPlaying = true;
+        updateIcons();
+      });
+      radioPlayer.addEventListener("pause", function () {
+        isPlaying = false;
+        updateIcons();
+      });
+      radioPlayer.addEventListener("error", function () {
+        isPlaying = false;
+        updateIcons();
       });
     }
 
-    // Her iki butona da event listener ekle
-    playBtns.forEach((btn) => {
-      btn.addEventListener("click", togglePlay);
-
-      // Mobil menüdeki li elementine de tıklama eventi ekle
-      const mobileLi = btn.closest("li");
-      if (mobileLi) {
-        mobileLi.addEventListener("click", togglePlay);
-      }
-    });
-
-    // Audio event listeners
-    radioPlayer.addEventListener("play", function () {
-      isPlaying = true;
-      updateIcons();
-    });
-
-    radioPlayer.addEventListener("pause", function () {
-      isPlaying = false;
-      updateIcons();
-    });
-
-    radioPlayer.addEventListener("error", function () {
-      console.log("Radio yüklenirken hata oluştu");
-      isPlaying = false;
-      updateIcons();
-    });
-  });
+    setTimeout(function () {
+      bindPlay();
+    }, 100);
+  })();
 </script>
 </div>
-  <div id="content"><div class="n1r1z">
-  <div class="n1r1z-body">
-    <div class="n1r1z-login-menu">
-      <div id="n1r1z-login-menu-left">Login</div>
-      <div id="n1r1z-login-menu-right">Sign Up</div>
+  <div id="content"><div class="o31rj">
+  <div class="o31rj-body">
+    <div class="o31rj-login-menu">
+      <div id="o31rj-login-menu-left">Login</div>
+      <div id="o31rj-login-menu-right">Sign Up</div>
     </div>
-    <div class="n1r1z-body-form" id="n1r1z-login">
+    <div class="o31rj-body-form" id="o31rj-login">
       <div class="input-container">
         <input type="text" id="login-user" class="inputmatrix1" placeholder="Username" autocomplete="username" />
         <label for="input" class="placeholder">Username</label>
@@ -204,9 +195,9 @@
         <input type="password" id="login-password" class="inputmatrix1" placeholder="Password" />
         <label for="input" class="placeholder">Password</label>
       </div>
-      <div class="n1r1z-button" onclick="loginUser()">Login</div>
+      <div class="o31rj-button" onclick="loginUser()">Login</div>
     </div>
-    <div class="n1r1z-body-form" id="n1r1z-memberol">
+    <div class="o31rj-body-form" id="o31rj-memberol">
       <div class="input-container">
         <input type="text" id="register-name" class="inputmatrix1" placeholder="Full Name" />
         <label for="input" class="placeholder">Full Name</label>
@@ -227,8 +218,8 @@
         <input type="password" id="register-password-confirm" class="inputmatrix1" placeholder="Confirm Password" />
         <label for="input" class="placeholder">Confirm Password</label>
       </div>
-      <div class="n1r1z-button" onclick="registerUser()">Sign Up</div>
-      <div class="n1r1z-null" onclick="switchToLogin()">Already a member?</div>
+      <div class="o31rj-button" onclick="registerUser()">Sign Up</div>
+      <div class="o31rj-null" onclick="switchToLogin()">Already a member?</div>
     </div>
   </div>
 </div>
@@ -255,17 +246,17 @@
   }
 
   function switchToLogin() {
-    document.getElementById("n1r1z-login-menu-left").style.backgroundColor = "#101010";
-    document.getElementById("n1r1z-login-menu-right").style.backgroundColor = "#ee5a24 ";
-    document.getElementById("n1r1z-login").style.display = "flex";
-    document.getElementById("n1r1z-memberol").style.display = "none";
+    document.getElementById("o31rj-login-menu-left").style.backgroundColor = "#101010";
+    document.getElementById("o31rj-login-menu-right").style.backgroundColor = "#ee5a24 ";
+    document.getElementById("o31rj-login").style.display = "flex";
+    document.getElementById("o31rj-memberol").style.display = "none";
   }
 
   function switchToRegister() {
-    document.getElementById("n1r1z-login-menu-right").style.backgroundColor = "#101010";
-    document.getElementById("n1r1z-login-menu-left").style.backgroundColor = "#ee5a24 ";
-    document.getElementById("n1r1z-login").style.display = "none";
-    document.getElementById("n1r1z-memberol").style.display = "flex";
+    document.getElementById("o31rj-login-menu-right").style.backgroundColor = "#101010";
+    document.getElementById("o31rj-login-menu-left").style.backgroundColor = "#ee5a24 ";
+    document.getElementById("o31rj-login").style.display = "none";
+    document.getElementById("o31rj-memberol").style.display = "flex";
   }
 
   function validateEmail(email) {
@@ -404,8 +395,8 @@
   })();
 
   setTimeout(function () {
-    var left = document.getElementById("n1r1z-login-menu-left");
-    var right = document.getElementById("n1r1z-login-menu-right");
+    var left = document.getElementById("o31rj-login-menu-left");
+    var right = document.getElementById("o31rj-login-menu-right");
     if (left) left.addEventListener("click", switchToLogin);
     if (right) right.addEventListener("click", switchToRegister);
   }, 100);
@@ -462,8 +453,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=qhswc"></script>
-<script defer src="/src/cookie.js?v=qhswc"></script>
+<script defer type="text/javascript" src="/src/js.js?v=is22u"></script>
+<script defer src="/src/cookie.js?v=is22u"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

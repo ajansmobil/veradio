@@ -1,5 +1,14 @@
-<!-- Tek header çubuğu: logo sol, canlı yayın bar sağ -->
-<div class="modulex modulex-header-row">
+<div class="modulex">
+  <!-- <div class="modulextitle">
+    <div class="modulextitlebody">
+      <div class="modulextitlebodylang">
+        <ul>
+          {{langhtml}}
+        </ul>
+      </div>
+    </div>
+  </div> -->
+
   <div class="modulexbody">
     <a href="/{{lang}}/"
       ><img
@@ -125,25 +134,15 @@
     }
   }
 
-  /* Web sürümü: tek header çubuğu, logo sol / canlı bar sağ */
   .modulex {
     width: 100%;
-    max-width: var(--max);
-    margin: 0 auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: #ffffff;
     color: #333333;
-  }
-
-  .modulex-header-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
-    padding: 12px 20px;
-    border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    margin: 0px 0px 20px 0px;
   }
 
   .modulextitlebodylang {
@@ -186,14 +185,11 @@
   }
 
   .modulexbody {
-    flex-shrink: 0;
+    width: var(--max);
     display: flex;
     align-items: center;
-  }
-
-  .modulexbody a {
-    display: flex;
-    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
   }
 
   .modulexmenu {
@@ -252,18 +248,18 @@
     width: 100%;
   }
 
-  /* Canlı yayın bar: header içinde sağda, daha kompakt */
   .radio-top-bar {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 16px;
-    padding: 10px 16px;
-    border-radius: 10px;
-    background: rgba(238, 90, 36, 0.08);
-    border: 1px solid rgba(238, 90, 36, 0.2);
+    align-items: center;
     color: #333;
-    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: calc(var(--max) - 50px);
   }
 
   .radio-freq {
@@ -273,37 +269,36 @@
   }
 
   .freq {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
-    color: #ee5a24;
+    color: #ff6b6b;
   }
 
   .station {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 500;
     color: #333;
   }
 
   .live-badge {
-    background: #ee5a24;
+    background: #ff0000;
     color: #fff;
-    padding: 4px 10px;
-    border-radius: 8px;
-    font-size: 13px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 20px;
     font-weight: bold;
-    letter-spacing: 0.02em;
     animation: pulse 2s infinite;
   }
 
   .radio-player-bar {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
   }
 
   .play-btn {
-    width: 44px;
-    height: 44px;
+    width: 60px;
+    height: 60px;
     background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
     border: none;
     border-radius: 50%;
@@ -312,12 +307,12 @@
     justify-content: center;
     cursor: pointer;
     transition: all 0.3s;
-    box-shadow: 0 4px 12px rgba(238, 90, 36, 0.35);
+    box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
   }
 
   .play-btn .material-symbols-outlined {
     color: #fff;
-    font-size: 26px;
+    font-size: 38px;
   }
 
   .play-btn:hover {
@@ -337,30 +332,32 @@
 </style>
 
 <script>
-  (function () {
-    // Kritik kural: DOMContentLoaded kullanılmaz; setTimeout ile DOM hazır olana kadar bekle
-    var playBtns = document.querySelectorAll("#playBtn");
-    var radioPlayer = document.getElementById("radioPlayer");
-    var isPlaying = false;
+  document.addEventListener("DOMContentLoaded", function () {
+    const playBtns = document.querySelectorAll("#playBtn");
+    const radioPlayer = document.getElementById("radioPlayer");
+    let isPlaying = false;
 
     function togglePlay() {
       if (isPlaying) {
+        // Durdur
         radioPlayer.pause();
         isPlaying = false;
       } else {
+        // Başlat
         radioPlayer.play();
         isPlaying = true;
       }
     }
 
     function updateIcons() {
-      for (var i = 0; i < playBtns.length; i++) {
-        var btn = playBtns[i];
-        var icon = btn.querySelector(".material-symbols-outlined");
+      playBtns.forEach((btn) => {
+        const icon = btn.querySelector(".material-symbols-outlined");
         if (icon) {
           icon.textContent = isPlaying ? "pause" : "play_arrow";
         }
-        var mobileLi = btn.closest("li");
+
+        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
+        const mobileLi = btn.closest("li");
         if (mobileLi) {
           if (isPlaying) {
             mobileLi.classList.add("active");
@@ -368,39 +365,35 @@
             mobileLi.classList.remove("active");
           }
         }
-      }
-    }
-
-    function bindPlay() {
-      playBtns = document.querySelectorAll("#playBtn");
-      radioPlayer = document.getElementById("radioPlayer");
-      if (!radioPlayer) return;
-
-      for (var j = 0; j < playBtns.length; j++) {
-        var b = playBtns[j];
-        b.addEventListener("click", togglePlay);
-        var li = b.closest("li");
-        if (li) {
-          li.addEventListener("click", togglePlay);
-        }
-      }
-
-      radioPlayer.addEventListener("play", function () {
-        isPlaying = true;
-        updateIcons();
-      });
-      radioPlayer.addEventListener("pause", function () {
-        isPlaying = false;
-        updateIcons();
-      });
-      radioPlayer.addEventListener("error", function () {
-        isPlaying = false;
-        updateIcons();
       });
     }
 
-    setTimeout(function () {
-      bindPlay();
-    }, 100);
-  })();
+    // Her iki butona da event listener ekle
+    playBtns.forEach((btn) => {
+      btn.addEventListener("click", togglePlay);
+
+      // Mobil menüdeki li elementine de tıklama eventi ekle
+      const mobileLi = btn.closest("li");
+      if (mobileLi) {
+        mobileLi.addEventListener("click", togglePlay);
+      }
+    });
+
+    // Audio event listeners
+    radioPlayer.addEventListener("play", function () {
+      isPlaying = true;
+      updateIcons();
+    });
+
+    radioPlayer.addEventListener("pause", function () {
+      isPlaying = false;
+      updateIcons();
+    });
+
+    radioPlayer.addEventListener("error", function () {
+      console.log("Radio yüklenirken hata oluştu");
+      isPlaying = false;
+      updateIcons();
+    });
+  });
 </script>
