@@ -1,10 +1,10 @@
 
-  .menu-mobil-ecflm {
+  .menu-mobil-x5gid {
     display: none;
   }
 
   @media (max-width: 1200px) {
-    .menu-mobil-ecflm {
+    .menu-mobil-x5gid {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -23,11 +23,11 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .ecflm {
+    .x5gid {
       display: none;
     }
 
-    .menu-mobil-ecflm ul {
+    .menu-mobil-x5gid ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-ecflm ul li > * {
+    .menu-mobil-x5gid ul li > * {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-ecflm ul li {
+    .menu-mobil-x5gid ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-ecflm ul li:hover {
+    .menu-mobil-x5gid ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-ecflm ul li.active {
+    .menu-mobil-x5gid ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .ecflmmenu {
+    .x5gidmenu {
       display: none !important;
     }
 
@@ -71,7 +71,7 @@
   }
 
   /* Web sürümü: tek header çubuğu, logo sol / canlı bar sağ */
-  .ecflm {
+  .x5gid {
     width: 100%;
     max-width: var(--max);
     margin: 0 auto 20px auto;
@@ -79,7 +79,7 @@
     color: #333333;
   }
 
-  .ecflm-header-row {
+  .x5gid-header-row {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -91,17 +91,17 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   }
 
-  .ecflmtitlebodylang {
+  .x5gidtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ecflmtitlebodylang ul {
+  .x5gidtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ecflmtitlebodylang ul a {
+  .x5gidtitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -110,11 +110,11 @@
     transition: background 0.3s;
   }
 
-  .ecflmtitlebodylang ul a:hover {
+  .x5gidtitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .ecflmtitle {
+  .x5gidtitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -122,7 +122,7 @@
     justify-content: center;
   }
 
-  .ecflmtitlebody {
+  .x5gidtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -130,25 +130,25 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ecflmbody {
+  .x5gidbody {
     flex-shrink: 0;
     display: flex;
     align-items: center;
   }
 
-  .ecflmbody a {
+  .x5gidbody a {
     display: flex;
     align-items: center;
   }
 
-  .ecflmmenu {
+  .x5gidmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .ecflmmenulist {
+  .x5gidmenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -156,7 +156,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .ecflmmenulist ul {
+  .x5gidmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -166,7 +166,7 @@
     overflow-x: auto;
   }
 
-  .ecflmmenulist ul a {
+  .x5gidmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -182,18 +182,18 @@
     font-weight: 500;
   }
 
-  .ecflmmenulist ul a:hover {
+  .x5gidmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .ecflm-menu-active {
+  .x5gid-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .ecflmmenulistbody {
+  .x5gidmenulistbody {
     width: 100%;
   }
 
@@ -281,7 +281,7 @@
   }
 
 
-  .jgzmb {
+  .pm8w2 {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -290,14 +290,14 @@
     position: relative;
   }
 
-  .jgzmbcontainertitle {
+  .pm8w2containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin: 0 0 20px 0;
   }
 
-  .jgzmbcontainerlist {
+  .pm8w2containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -306,26 +306,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .jgzmbcontainerlist>div {
+  .pm8w2containerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .jgzmbcontainerlist:hover {
+  .pm8w2containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
 
-  .jgzmbcontainer {
+  .pm8w2container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .jgzmbcontainerbody {
+  .pm8w2containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -335,7 +335,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .jgzmbbody {
+  .pm8w2body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -343,19 +343,19 @@
     padding: 20px;
   }
 
-  .jgzmbcontainerlist>span {
+  .pm8w2containerlist>span {
     font-size: 24px;
     color: #1e3046;
   }
 
   @media screen and (max-width: 1024px) {
-    .jgzmbbody {
+    .pm8w2body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .jgzmbcontainerbody {
+    .pm8w2containerbody {
       padding: 15px;
     }
   }
@@ -385,13 +385,13 @@
       transform: scale(1);
     }
   }
-  .in9tg-body {
+  .g81ml-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .in9tg-body-chile {
+  .g81ml-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -399,10 +399,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .in9tg-body-chile > div {
+  .g81ml-body-chile > div {
     width: 100% !important;
   }
-  .in9tg2 {
+  .g81ml2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -413,23 +413,23 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .in9tg {
+  .g81ml {
     display: flex;
     flex-direction: column;
   }
-  .in9tg > svg {
+  .g81ml > svg {
     width: 100vw;
   }
-  .in9tgbotton {
+  .g81mlbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
  
-  .in9tg-svg {
+  .g81ml-svg {
     fill: #fff;
   }
-  .in9tg-bg {
-    background-image: url("/img/cwurqi/map.png?v=uom6q") !important;
+  .g81ml-bg {
+    background-image: url("/img/cwurqi/map.png?v=k6hp6") !important;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

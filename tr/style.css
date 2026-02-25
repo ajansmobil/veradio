@@ -49,6 +49,11 @@
     object-fit: contain;
   }
 
+  /* Mobilde logonun altındaki player pill: masaüstünde gizli */
+  .az-player-pill-mobile-wrap {
+    display: none;
+  }
+
   /* ─ Panel (kart) genel ──────────────────────────────── */
   .az-panel {
     background: #fff;
@@ -499,7 +504,7 @@
     display: inline-block;
   }
 
-  .az-soc-icons .k8mss2-media {
+  .az-soc-icons .z7sns2-media {
     width: 36px;
     height: 36px;
     border-radius: 14px;
@@ -508,7 +513,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   }
 
-  .az-soc-icons .k8mss2-media:hover {
+  .az-soc-icons .z7sns2-media:hover {
     transform: translateY(-4px) scale(1.08);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
   }
@@ -740,6 +745,11 @@
       padding: 20px 16px;
     }
 
+    /* Mobilde orta sütundaki (en alttaki) player pill gizli; logonun altındaki kullanılıyor */
+    .az-fixed-bottom-inner > .az-player-pill-container {
+      display: none;
+    }
+
     .az-fixed-bottom,
     .az-fixed-bottom-inner {
       min-height: 0;
@@ -761,11 +771,19 @@
       width: 100%;
     }
 
+    /* Mobilde logonun altında player pill göster */
+    .az-player-pill-mobile-wrap {
+      display: block;
+      width: 100%;
+      padding: 0 20px 16px;
+      box-sizing: border-box;
+    }
+
     .az-soc-wrap {
       padding-bottom: 24px;
     }
 
-    .az-soc-icons .k8mss2-media {
+    .az-soc-icons .z7sns2-media {
       width: 44px;
       height: 44px;
       border-radius: 10px;

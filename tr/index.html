@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=i831x" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=i831x" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=iejeu" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=iejeu" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=i831x" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=iejeu" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,7 +50,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=i831x">
+<link rel="stylesheet" href="style.css?v=iejeu">
 </head>
 
 <body>
@@ -62,8 +62,21 @@
 <!-- ── ÜST: Logo (tam genişlik, ortada) ─────────────────────── -->
 <div class="az-logo-bar">
   <a href="/tr/" style="cursor: pointer;">
-    <img src="/img/logo.svg?v=t05l7" alt="VeRadyo" loading="lazy" />
+    <img src="/img/logo.svg?v=l8d4b" alt="VeRadyo" loading="lazy" />
   </a>
+</div>
+
+<!-- Mobilde logonun altında ikinci player pill (sadece mobilde görünür) -->
+<div class="az-player-pill-mobile-wrap">
+  <div class="az-player-pill-container">
+    <div class="az-player-pill">
+      <span class="az-player-freq">90.0</span>
+      <span class="az-player-label">CANLI DİNLE</span>
+      <button type="button" class="az-player-pause-btn az-player-play-trigger" title="Oynat / Duraklat" style="cursor: pointer;">
+        <span class="material-symbols-outlined">pause</span>
+      </button>
+    </div>
+  </div>
 </div>
 
 <nav class="az-mobile-nav">
@@ -133,7 +146,7 @@
     <div class="az-player-pill">
       <span class="az-player-freq">90.0</span>
       <span class="az-player-label">CANLI DİNLE</span>
-      <button id="playBtn" type="button" class="az-player-pause-btn" title="Oynat / Duraklat" style="cursor: pointer;">
+      <button id="playBtn" type="button" class="az-player-pause-btn az-player-play-trigger" title="Oynat / Duraklat" style="cursor: pointer;">
         <span class="material-symbols-outlined">pause</span>
       </button>
     </div>
@@ -146,22 +159,22 @@
       <span class="az-soc-line"></span>
       <div class="az-soc-icons">
         <a href="" target="_blank" style="text-decoration: none; cursor: pointer;">
-            <img src="/src/icon/facebook.png" alt="undefined" class="k8mss2-media"  loading="lazy"/>
+            <img src="/src/icon/facebook.png" alt="undefined" class="z7sns2-media"  loading="lazy"/>
         </a>
         <a href="" target="_blank" style="text-decoration: none; cursor: pointer;">
-            <img src="/src/icon/instagram.png" alt="undefined" class="k8mss2-media"  loading="lazy"/>
+            <img src="/src/icon/instagram.png" alt="undefined" class="z7sns2-media"  loading="lazy"/>
         </a>
         <a href="" target="_blank" style="text-decoration: none; cursor: pointer;">
-            <img src="/src/icon/linkedin.png" alt="undefined" class="k8mss2-media"  loading="lazy"/>
+            <img src="/src/icon/linkedin.png" alt="undefined" class="z7sns2-media"  loading="lazy"/>
         </a>
         <a href="" target="_blank" style="text-decoration: none; cursor: pointer;">
-            <img src="/src/icon/youtube.png" alt="undefined" class="k8mss2-media"  loading="lazy"/>
+            <img src="/src/icon/youtube.png" alt="undefined" class="z7sns2-media"  loading="lazy"/>
         </a>
         <a href="undefined" target="_blank" style="text-decoration: none; cursor: pointer;">
-            <img src="/src/icon/whatsapp.png" alt="undefined" class="k8mss2-media"  loading="lazy"/>
+            <img src="/src/icon/whatsapp.png" alt="undefined" class="z7sns2-media"  loading="lazy"/>
         </a>
         <a href="" target="_blank" style="text-decoration: none; cursor: pointer;">
-            <img src="/src/icon/google-maps.png" alt="undefined" class="k8mss2-media"  loading="lazy"/>
+            <img src="/src/icon/google-maps.png" alt="undefined" class="z7sns2-media"  loading="lazy"/>
         </a></div>
     </div>
 
@@ -221,18 +234,19 @@
     var isPlaying = false;
 
     function updatePlayIcons() {
-      /* Ana pill oynatıcı butonu: ikon + playing class */
-      var mainBtn = document.getElementById("playBtn");
-      if (mainBtn) {
-        var mainSym = mainBtn.querySelector(".material-symbols-outlined");
-        if (mainSym) mainSym.textContent = isPlaying ? "pause" : "play_arrow";
+      /* Tüm pill oynatıcı butonları (ana + logonun altındaki mobil): ikon + playing class */
+      var pillBtns = document.querySelectorAll(".az-player-play-trigger");
+      for (var p = 0; p < pillBtns.length; p++) {
+        var btn = pillBtns[p];
+        var sym = btn.querySelector(".material-symbols-outlined");
+        if (sym) sym.textContent = isPlaying ? "pause" : "play_arrow";
         if (isPlaying) {
-          mainBtn.classList.add("playing");
+          btn.classList.add("playing");
         } else {
-          mainBtn.classList.remove("playing");
+          btn.classList.remove("playing");
         }
       }
-      /* Mobil play butonu: ikon + playing class */
+      /* Alt menü mobil play butonu: ikon + playing class */
       var mobilePlay = document.querySelector(".az-mobile-play");
       if (mobilePlay) {
         var mobileSym = mobilePlay.querySelector(".az-nav-play-icon");
@@ -258,8 +272,10 @@
       radioPlayer = document.getElementById("radioPlayer");
       if (!radioPlayer) return;
 
-      var playBtn = document.getElementById("playBtn");
-      if (playBtn) playBtn.addEventListener("click", togglePlay);
+      var pillBtns = document.querySelectorAll(".az-player-play-trigger");
+      for (var p = 0; p < pillBtns.length; p++) {
+        pillBtns[p].addEventListener("click", togglePlay);
+      }
 
       var mobileBtns = document.querySelectorAll(".az-mobile-play");
       for (var i = 0; i < mobileBtns.length; i++) {
@@ -532,8 +548,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=i831x"></script>
-<script defer src="/src/cookie.js?v=i831x"></script>
+<script defer type="text/javascript" src="/src/js.js?v=iejeu"></script>
+<script defer src="/src/cookie.js?v=iejeu"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

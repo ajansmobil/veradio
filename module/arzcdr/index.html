@@ -9,6 +9,19 @@
   </a>
 </div>
 
+<!-- Mobilde logonun altında ikinci player pill (sadece mobilde görünür) -->
+<div class="az-player-pill-mobile-wrap">
+  <div class="az-player-pill-container">
+    <div class="az-player-pill">
+      <span class="az-player-freq">90.0</span>
+      <span class="az-player-label">CANLI DİNLE</span>
+      <button type="button" class="az-player-pause-btn az-player-play-trigger" title="Oynat / Duraklat" style="cursor: pointer;">
+        <span class="material-symbols-outlined">pause</span>
+      </button>
+    </div>
+  </div>
+</div>
+
 <nav class="az-mobile-nav">
   <ul>
     <li class="az-nav-item">
@@ -76,7 +89,7 @@
     <div class="az-player-pill">
       <span class="az-player-freq">90.0</span>
       <span class="az-player-label">CANLI DİNLE</span>
-      <button id="playBtn" type="button" class="az-player-pause-btn" title="Oynat / Duraklat" style="cursor: pointer;">
+      <button id="playBtn" type="button" class="az-player-pause-btn az-player-play-trigger" title="Oynat / Duraklat" style="cursor: pointer;">
         <span class="material-symbols-outlined">pause</span>
       </button>
     </div>
@@ -183,6 +196,11 @@
   .az-logo-bar img {
     width: 200px;
     object-fit: contain;
+  }
+
+  /* Mobilde logonun altındaki player pill: masaüstünde gizli */
+  .az-player-pill-mobile-wrap {
+    display: none;
   }
 
   /* ─ Panel (kart) genel ──────────────────────────────── */
@@ -876,6 +894,11 @@
       padding: 20px 16px;
     }
 
+    /* Mobilde orta sütundaki (en alttaki) player pill gizli; logonun altındaki kullanılıyor */
+    .az-fixed-bottom-inner > .az-player-pill-container {
+      display: none;
+    }
+
     .az-fixed-bottom,
     .az-fixed-bottom-inner {
       min-height: 0;
@@ -895,6 +918,14 @@
 
     .az-logo-bar {
       width: 100%;
+    }
+
+    /* Mobilde logonun altında player pill göster */
+    .az-player-pill-mobile-wrap {
+      display: block;
+      width: 100%;
+      padding: 0 20px 16px;
+      box-sizing: border-box;
     }
 
     .az-soc-wrap {
@@ -942,18 +973,19 @@
     var isPlaying = false;
 
     function updatePlayIcons() {
-      /* Ana pill oynatıcı butonu: ikon + playing class */
-      var mainBtn = document.getElementById("playBtn");
-      if (mainBtn) {
-        var mainSym = mainBtn.querySelector(".material-symbols-outlined");
-        if (mainSym) mainSym.textContent = isPlaying ? "pause" : "play_arrow";
+      /* Tüm pill oynatıcı butonları (ana + logonun altındaki mobil): ikon + playing class */
+      var pillBtns = document.querySelectorAll(".az-player-play-trigger");
+      for (var p = 0; p < pillBtns.length; p++) {
+        var btn = pillBtns[p];
+        var sym = btn.querySelector(".material-symbols-outlined");
+        if (sym) sym.textContent = isPlaying ? "pause" : "play_arrow";
         if (isPlaying) {
-          mainBtn.classList.add("playing");
+          btn.classList.add("playing");
         } else {
-          mainBtn.classList.remove("playing");
+          btn.classList.remove("playing");
         }
       }
-      /* Mobil play butonu: ikon + playing class */
+      /* Alt menü mobil play butonu: ikon + playing class */
       var mobilePlay = document.querySelector(".az-mobile-play");
       if (mobilePlay) {
         var mobileSym = mobilePlay.querySelector(".az-nav-play-icon");
@@ -979,8 +1011,10 @@
       radioPlayer = document.getElementById("radioPlayer");
       if (!radioPlayer) return;
 
-      var playBtn = document.getElementById("playBtn");
-      if (playBtn) playBtn.addEventListener("click", togglePlay);
+      var pillBtns = document.querySelectorAll(".az-player-play-trigger");
+      for (var p = 0; p < pillBtns.length; p++) {
+        pillBtns[p].addEventListener("click", togglePlay);
+      }
 
       var mobileBtns = document.querySelectorAll(".az-mobile-play");
       for (var i = 0; i < mobileBtns.length; i++) {
