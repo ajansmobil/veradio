@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=vmafx" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=vmafx" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=shgsv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=shgsv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=vmafx" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=shgsv" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,14 +52,14 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=vmafx">
+<link rel="stylesheet" href="style.css?v=shgsv">
 </head>
 
 <body>
-  <div id="header"><div class="l93pu">
-  <!-- <div class="l93putitle">
-    <div class="l93putitlebody">
-      <div class="l93putitlebodylang">
+  <div id="header"><div class="e72op">
+  <!-- <div class="e72optitle">
+    <div class="e72optitlebody">
+      <div class="e72optitlebodylang">
         <ul>
           <li><a href="/tr/login/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/login/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
         </ul>
@@ -67,10 +67,10 @@
     </div>
   </div> -->
 
-  <div class="l93pubody">
+  <div class="e72opbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=vmafx"
+        src="/img/logo.svg?v=shgsv"
         height="100px"
         alt="VeRadyo Logo"
         loading="lazy"
@@ -96,7 +96,7 @@
   </div>
 </div>
 
-<div class="menu-mobil-l93pu">
+<div class="menu-mobil-e72op">
   <ul>
     <li>
       <span class="material-symbols-outlined" aria-hidden="true">home</span>
@@ -189,13 +189,13 @@
   });
 </script>
 </div>
-  <div id="content"><div class="sc2io">
-  <div class="sc2io-body">
-    <div class="sc2io-login-menu">
-      <div id="sc2io-login-menu-left">Giriş Yap</div>
-      <div id="sc2io-login-menu-right">Üye Ol</div>
+  <div id="content"><div class="cvliu">
+  <div class="cvliu-body">
+    <div class="cvliu-login-menu">
+      <div id="cvliu-login-menu-left">Giriş Yap</div>
+      <div id="cvliu-login-menu-right">Üye Ol</div>
     </div>
-    <div class="sc2io-body-form" id="sc2io-login">
+    <div class="cvliu-body-form" id="cvliu-login">
       <div class="input-container">
         <input type="text" id="login-user" class="inputmatrix1" placeholder="Kullanıcı adı" autocomplete="username" />
         <label for="input" class="placeholder">Kullanıcı adı</label>
@@ -204,9 +204,9 @@
         <input type="password" id="login-password" class="inputmatrix1" placeholder="Şifre" />
         <label for="input" class="placeholder">Şifre</label>
       </div>
-      <div class="sc2io-button" onclick="loginUser()">Giriş Yap</div>
+      <div class="cvliu-button" onclick="loginUser()">Giriş Yap</div>
     </div>
-    <div class="sc2io-body-form" id="sc2io-memberol">
+    <div class="cvliu-body-form" id="cvliu-memberol">
       <div class="input-container">
         <input type="text" id="register-name" class="inputmatrix1" placeholder="Ad Soyad" />
         <label for="input" class="placeholder">Ad Soyad</label>
@@ -227,8 +227,8 @@
         <input type="password" id="register-password-confirm" class="inputmatrix1" placeholder="Şifre Tekrar" />
         <label for="input" class="placeholder">Şifre Tekrar</label>
       </div>
-      <div class="sc2io-button" onclick="registerUser()">Üye Ol</div>
-      <div class="sc2io-null" onclick="switchToLogin()">Üye misin?</div>
+      <div class="cvliu-button" onclick="registerUser()">Üye Ol</div>
+      <div class="cvliu-null" onclick="switchToLogin()">Üye misin?</div>
     </div>
   </div>
 </div>
@@ -255,17 +255,17 @@
   }
 
   function switchToLogin() {
-    document.getElementById("sc2io-login-menu-left").style.backgroundColor = "#101010";
-    document.getElementById("sc2io-login-menu-right").style.backgroundColor = "#ee5a24 ";
-    document.getElementById("sc2io-login").style.display = "flex";
-    document.getElementById("sc2io-memberol").style.display = "none";
+    document.getElementById("cvliu-login-menu-left").style.backgroundColor = "#101010";
+    document.getElementById("cvliu-login-menu-right").style.backgroundColor = "#ee5a24 ";
+    document.getElementById("cvliu-login").style.display = "flex";
+    document.getElementById("cvliu-memberol").style.display = "none";
   }
 
   function switchToRegister() {
-    document.getElementById("sc2io-login-menu-right").style.backgroundColor = "#101010";
-    document.getElementById("sc2io-login-menu-left").style.backgroundColor = "#ee5a24 ";
-    document.getElementById("sc2io-login").style.display = "none";
-    document.getElementById("sc2io-memberol").style.display = "flex";
+    document.getElementById("cvliu-login-menu-right").style.backgroundColor = "#101010";
+    document.getElementById("cvliu-login-menu-left").style.backgroundColor = "#ee5a24 ";
+    document.getElementById("cvliu-login").style.display = "none";
+    document.getElementById("cvliu-memberol").style.display = "flex";
   }
 
   function validateEmail(email) {
@@ -404,8 +404,8 @@
   })();
 
   setTimeout(function () {
-    var left = document.getElementById("sc2io-login-menu-left");
-    var right = document.getElementById("sc2io-login-menu-right");
+    var left = document.getElementById("cvliu-login-menu-left");
+    var right = document.getElementById("cvliu-login-menu-right");
     if (left) left.addEventListener("click", switchToLogin);
     if (right) right.addEventListener("click", switchToRegister);
   }, 100);
@@ -457,17 +457,13 @@
 
 </div>
 </body>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="preload"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-  as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=vmafx"></script>
-<script defer src="/src/cookie.js?v=vmafx"></script>
+<script defer type="text/javascript" src="/src/js.js?v=shgsv"></script>
+<script defer src="/src/cookie.js?v=shgsv"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

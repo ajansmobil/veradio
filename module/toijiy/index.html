@@ -1,10 +1,74 @@
+<div class="modulex">
+  <!-- <div class="modulextitle">
+    <div class="modulextitlebody">
+      <div class="modulextitlebodylang">
+        <ul>
+          {{langhtml}}
+        </ul>
+      </div>
+    </div>
+  </div> -->
 
-  .menu-mobil-e72op {
+  <div class="modulexbody">
+    <a href="/{{lang}}/"
+      ><img
+        src="/img/{{logo}}?v={{random}}"
+        height="--height--"
+        alt="{{web-name}} Logo"
+        loading="lazy"
+    /></a>
+  </div>
+
+  <div class="radio-top-bar">
+    <div class="radio-freq">
+      <span class="freq">90.0</span>
+      <span class="live-badge">CANLI DİNLE</span>
+    </div>
+    <div class="radio-player-bar">
+      <button class="play-btn" id="playBtn">
+        <span class="material-symbols-outlined" aria-hidden="true">play_arrow</span>
+      </button>
+
+      <audio
+        id="radioPlayer"
+        src="https://sslyayin.netyayin.net/veradyo/stream"
+        preload="none"
+      ></audio>
+    </div>
+  </div>
+</div>
+
+<div class="menu-mobil-modulex">
+  <ul>
+    <li>
+      <span class="material-symbols-outlined" aria-hidden="true">home</span>
+      <a href="/{{lang}}/">Anasayfa</a>
+    </li>
+
+    <li>
+      <span class="material-symbols-outlined" aria-hidden="true">home</span>
+      <a href="/{{lang}}/hakkimizda">Bilgilendirme</a>
+    </li>
+
+    <li>
+      <span class="material-symbols-outlined" aria-hidden="true">person</span>
+      <a href="/{{lang}}/login">Profil</a>
+    </li>
+
+    <li id="playBtn">
+      <span class="material-symbols-outlined">play_circle</span>
+      <div>Canlı Yayın</div>
+    </li>
+  </ul>
+</div>
+
+<style>
+  .menu-mobil-modulex {
     display: none;
   }
 
   @media (max-width: 1200px) {
-    .menu-mobil-e72op {
+    .menu-mobil-modulex {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -23,11 +87,11 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .e72op {
+    .modulex {
       display: none;
     }
 
-    .menu-mobil-e72op ul {
+    .menu-mobil-modulex ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +99,7 @@
       width: 100%;
     }
 
-    .menu-mobil-e72op ul li > * {
+    .menu-mobil-modulex ul li > * {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +107,23 @@
       color: #fff;
     }
 
-    .menu-mobil-e72op ul li {
+    .menu-mobil-modulex ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-e72op ul li:hover {
+    .menu-mobil-modulex ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-e72op ul li.active {
+    .menu-mobil-modulex ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .e72opmenu {
+    .modulexmenu {
       display: none !important;
     }
 
@@ -70,7 +134,7 @@
     }
   }
 
-  .e72op {
+  .modulex {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -81,17 +145,17 @@
     margin: 0px 0px 20px 0px;
   }
 
-  .e72optitlebodylang {
+  .modulextitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .e72optitlebodylang ul {
+  .modulextitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .e72optitlebodylang ul a {
+  .modulextitlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -100,11 +164,11 @@
     transition: background 0.3s;
   }
 
-  .e72optitlebodylang ul a:hover {
+  .modulextitlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .e72optitle {
+  .modulextitle {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -112,7 +176,7 @@
     justify-content: center;
   }
 
-  .e72optitlebody {
+  .modulextitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -120,7 +184,7 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .e72opbody {
+  .modulexbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -128,14 +192,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .e72opmenu {
+  .modulexmenu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .e72opmenulist {
+  .modulexmenulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -143,7 +207,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .e72opmenulist ul {
+  .modulexmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -153,7 +217,7 @@
     overflow-x: auto;
   }
 
-  .e72opmenulist ul a {
+  .modulexmenulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -169,18 +233,18 @@
     font-weight: 500;
   }
 
-  .e72opmenulist ul a:hover {
+  .modulexmenulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .e72op-menu-active {
+  .modulex-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .e72opmenulistbody {
+  .modulexmenulistbody {
     width: 100%;
   }
 
@@ -265,148 +329,71 @@
       opacity: 0.3;
     }
   }
+</style>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const playBtns = document.querySelectorAll("#playBtn");
+    const radioPlayer = document.getElementById("radioPlayer");
+    let isPlaying = false;
 
-  .cvliu { width: 95%; height: 500px; flex: 1; display: flex; align-items: center; justify-content: center; margin-top: 20px; }
-  .cvliu-null { color: #fff; cursor: pointer; text-align: right; padding: 15px 0 0 0; font-size: 14px; }
-  .cvliu-null:hover { color: #999; }
-  .cvliu-body { background-color: #101010; width: 500px; border-radius: 20px; display: flex; flex-direction: column; }
-  .cvliu-body-form { padding: 20px; display: flex; flex-direction: column; }
-  .cvliu-button { padding: 10px; background-color: #ee5a24 ; margin-top: 20px; font-size: 16px; color: #fff !important; border-radius: 5px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
-  .cvliu-login-menu { display: flex; gap: 2px; }
-  #cvliu-login-menu-left { border-radius: 20px 0 0 0; background-color: #101010; }
-  #cvliu-login-menu-right { border-radius: 0 20px 0 0; }
-  #cvliu-memberol { display: none; flex-direction: column; }
-  .cvliu-login-menu > div { background-color: #ee5a24 ; width: 100%; display: flex; align-items: center; justify-content: center; padding: 10px; font-size: 18px; font-weight: 400; color: #fff; cursor: pointer; }
-  #content { justify-content: start; }
-
-
-  .moduleimg {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .moduleimg > img {
-    width: 100%;
-    max-width: 250px;
-  }
-
-  .footer {
-    position: relative;
-    background: #ee5a24;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 120px;
-  }
-
-  .social-icon,
-  .menu {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    flex-wrap: wrap;
-  }
-
-  .social-icon__item,
-  .menu__item {
-    list-style: none;
-  }
-
-  .social-icon__link {
-    font-size: 2rem;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-  }
-
-  .social-icon__link:hover {
-    transform: translateY(-10px);
-  } 
-
-  .menu__link {
-    font-size: 1.2rem;
-    color: #fff !important;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-    text-decoration: none;
-    opacity: 0.75;
-    font-weight: 300;
-  }
-
-  .menu__link:hover {
-    opacity: 1;
-  }
-
-  .footer p { 
-    color: #fff;
-    margin: 15px 0 10px 0;
-    font-size: 1rem;
-    font-weight: 300;
-  }
-
-  .wave {
-    position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23ee5a24;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
-    background-size: 1000px 102px;
-  }
-
-  .wave#wave1 {
-    z-index: 100;
-    opacity: 1;
-    bottom: 0;
-    animation: animateWaves 4s linear infinite;
-  }
-
-  .wave#wave2 {
-    z-index: 99;
-    opacity: 0.5;
-    bottom: 10px;
-    animation: animate 4s linear infinite !important;
-  }
-
-  .wave#wave3 {
-    z-index: 100;
-    opacity: 0.2;
-    bottom: 15px;
-    animation: animateWaves 3s linear infinite;
-  }
-
-  .wave#wave4 {
-    z-index: 99;
-    opacity: 0.7;
-    bottom: 20px;
-    animation: animate 3s linear infinite;
-  }
-
-  @keyframes animateWaves {
-    0% {
-      background-position-x: 1000px;
+    function togglePlay() {
+      if (isPlaying) {
+        // Durdur
+        radioPlayer.pause();
+        isPlaying = false;
+      } else {
+        // Başlat
+        radioPlayer.play();
+        isPlaying = true;
+      }
     }
 
-    100% {
-      background-positon-x: 0px;
-    }
-  }
+    function updateIcons() {
+      playBtns.forEach((btn) => {
+        const icon = btn.querySelector(".material-symbols-outlined");
+        if (icon) {
+          icon.textContent = isPlaying ? "pause" : "play_arrow";
+        }
 
-  @keyframes animate {
-    0% {
-      background-position-x: -1000px;
+        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
+        const mobileLi = btn.closest("li");
+        if (mobileLi) {
+          if (isPlaying) {
+            mobileLi.classList.add("active");
+          } else {
+            mobileLi.classList.remove("active");
+          }
+        }
+      });
     }
 
-    100% {
-      background-positon-x: 0px;
-    }
-  }
+    // Her iki butona da event listener ekle
+    playBtns.forEach((btn) => {
+      btn.addEventListener("click", togglePlay);
 
+      // Mobil menüdeki li elementine de tıklama eventi ekle
+      const mobileLi = btn.closest("li");
+      if (mobileLi) {
+        mobileLi.addEventListener("click", togglePlay);
+      }
+    });
+
+    // Audio event listeners
+    radioPlayer.addEventListener("play", function () {
+      isPlaying = true;
+      updateIcons();
+    });
+
+    radioPlayer.addEventListener("pause", function () {
+      isPlaying = false;
+      updateIcons();
+    });
+
+    radioPlayer.addEventListener("error", function () {
+      console.log("Radio yüklenirken hata oluştu");
+      isPlaying = false;
+      updateIcons();
+    });
+  });
+</script>

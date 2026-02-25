@@ -3,9 +3,9 @@
     {
       "index": 0,
       "name": "Menü ",
-      "path": "menu-sade-1",
-      "local": "header",
-      "category": "menu",
+      "path": "code",
+      "local": "body",
+      "category": "code",
       "desing": {
         "logo": "logo.svg",
         "url": "iletisim",
@@ -49,7 +49,9 @@
           "spotcolor": "#000",
           "iconcolor": "#000"
         }
-      ]
+      ],
+      "version": "1.0.0",
+      "icon": "code"
     },
     {
       "index": 1,
