@@ -16,8 +16,6 @@
     padding: 16px 20px;
     background: #fff;
     border-radius: 12px;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -500,7 +498,7 @@
     display: inline-block;
   }
 
-  .az-soc-icons .e8gmp2-media {
+  .az-soc-icons .owqfs2-media {
     width: 36px;
     height: 36px;
     border-radius: 14px;
@@ -509,7 +507,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   }
 
-  .az-soc-icons .e8gmp2-media:hover {
+  .az-soc-icons .owqfs2-media:hover {
     transform: translateY(-4px) scale(1.08);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
   }
@@ -677,7 +675,7 @@
       padding: 24px 16px;
     }
 
-    .az-soc-icons .e8gmp2-media {
+    .az-soc-icons .owqfs2-media {
       width: 44px;
       height: 44px;
       border-radius: 10px;
