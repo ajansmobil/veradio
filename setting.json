@@ -13,7 +13,7 @@
   "domain": "veradyo.com.tr",
   "langs": {
     "tr": true,
-    "en": true,
+    "en": false,
     "ar": false,
     "de": false,
     "ru": false,

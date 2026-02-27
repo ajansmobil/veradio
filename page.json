@@ -2,8 +2,7 @@
   "data": [
     {
       "name": {
-        "tr": "Bilgilendirme",
-        "en": "Information"
+        "tr": "Bilgilendirme"
       },
       "status": "play",
       "category": "",
@@ -24,8 +23,7 @@
     },
     {
       "name": {
-        "tr": "İletişim",
-        "en": "Communication"
+        "tr": "İletişim"
       },
       "status": "play",
       "category": "",

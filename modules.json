@@ -97,8 +97,7 @@
       "desing": {
         "color": "#1e3046",
         "name": {
-          "tr": "Bize Ulaşın",
-          "en": "Contact Us"
+          "tr": "Bize Ulaşın"
         },
         "margin": "30px 0px 30px 0px"
       },
@@ -147,140 +146,106 @@
         "color": "#ee5a24 ",
         "bgcolor": "#101010",
         "loginTitle": {
-          "tr": "Giriş Yap",
-          "en": "Login"
+          "tr": "Giriş Yap"
         },
         "registerTitle": {
-          "tr": "Üye Ol",
-          "en": "Sign Up"
+          "tr": "Üye Ol"
         },
         "emailPlaceholder": {
-          "tr": "Mail Adresiniz",
-          "en": "Your Email Address"
+          "tr": "Mail Adresiniz"
         },
         "passwordPlaceholder": {
-          "tr": "Şifre",
-          "en": "Password"
+          "tr": "Şifre"
         },
         "passwordConfirmPlaceholder": {
-          "tr": "Şifre Tekrar",
-          "en": "Confirm Password"
+          "tr": "Şifre Tekrar"
         },
         "namePlaceholder": {
-          "tr": "Ad Soyad",
-          "en": "Full Name"
+          "tr": "Ad Soyad"
         },
         "loginButton": {
-          "tr": "Giriş Yap",
-          "en": "Login"
+          "tr": "Giriş Yap"
         },
         "registerButton": {
-          "tr": "Üye Ol",
-          "en": "Sign Up"
+          "tr": "Üye Ol"
         },
         "forgotPassword": {
-          "tr": "Şifremi Unuttum",
-          "en": "Forgot Password"
+          "tr": "Şifremi Unuttum"
         },
         "alreadyMember": {
-          "tr": "Üye misin?",
-          "en": "Already a member?"
+          "tr": "Üye misin?"
         },
         "googleLogin": {
-          "tr": "Google İle Giriş Yap",
-          "en": "Login with Google"
+          "tr": "Google İle Giriş Yap"
         },
         "resetPasswordButton": {
-          "tr": "Şifre Sıfırlama Maili Gönder",
-          "en": "Send Password Reset Email"
+          "tr": "Şifre Sıfırlama Maili Gönder"
         },
         "backToLogin": {
-          "tr": "Giriş Sayfasına Dön",
-          "en": "Back to Login"
+          "tr": "Giriş Sayfasına Dön"
         },
         "nameRequired": {
-          "tr": "Ad soyad giriniz!",
-          "en": "Please enter your full name!"
+          "tr": "Ad soyad giriniz!"
         },
         "validEmailRequired": {
-          "tr": "Geçerli bir email adresi giriniz!",
-          "en": "Please enter a valid email address!"
+          "tr": "Geçerli bir email adresi giriniz!"
         },
         "passwordMinLength": {
-          "tr": "Şifre en az 6 karakter olmalıdır!",
-          "en": "Password must be at least 6 characters!"
+          "tr": "Şifre en az 6 karakter olmalıdır!"
         },
         "passwordsNotMatch": {
-          "tr": "Şifreler eşleşmiyor!",
-          "en": "Passwords do not match!"
+          "tr": "Şifreler eşleşmiyor!"
         },
         "emailAlreadyExists": {
-          "tr": "Bu email adresi zaten kullanımda!",
-          "en": "This email address is already in use!"
+          "tr": "Bu email adresi zaten kullanımda!"
         },
         "registrationSuccess": {
-          "tr": "Üyelik başarıyla oluşturuldu!",
-          "en": "Registration created successfully!"
+          "tr": "Üyelik başarıyla oluşturuldu!"
         },
         "registrationError": {
-          "tr": "Üyelik oluşturulurken bir hata oluştu!",
-          "en": "An error occurred while creating registration!"
+          "tr": "Üyelik oluşturulurken bir hata oluştu!"
         },
         "passwordRequired": {
-          "tr": "Şifre giriniz!",
-          "en": "Please enter password!"
+          "tr": "Şifre giriniz!"
         },
         "invalidCredentials": {
-          "tr": "Email adresi veya şifre hatalı!",
-          "en": "Email address or password incorrect!"
+          "tr": "Email adresi veya şifre hatalı!"
         },
         "accountDeactivated": {
-          "tr": "Hesabınız deaktif durumda!",
-          "en": "Your account is deactivated!"
+          "tr": "Hesabınız deaktif durumda!"
         },
         "loginSuccess": {
-          "tr": "Giriş başarılı!",
-          "en": "Login successful!"
+          "tr": "Giriş başarılı!"
         },
         "loginError": {
-          "tr": "Giriş yapılırken bir hata oluştu!",
-          "en": "An error occurred during login!"
+          "tr": "Giriş yapılırken bir hata oluştu!"
         },
         "userNotFound": {
-          "tr": "Bu email adresine kayıtlı kullanıcı bulunamadı!",
-          "en": "No user found with this email address!"
+          "tr": "Bu email adresine kayıtlı kullanıcı bulunamadı!"
         },
         "resetEmailSent": {
-          "tr": "Şifre sıfırlama maili gönderildi!",
-          "en": "Password reset email sent!"
+          "tr": "Şifre sıfırlama maili gönderildi!"
         },
         "resetEmailError": {
-          "tr": "Şifre sıfırlama maili gönderilirken bir hata oluştu!",
-          "en": "An error occurred while sending password reset email!"
+          "tr": "Şifre sıfırlama maili gönderilirken bir hata oluştu!"
         },
         "googleLoginDevelopment": {
-          "tr": "Google login özelliği geliştiriliyor...",
-          "en": "Google login feature is under development..."
+          "tr": "Google login özelliği geliştiriliyor..."
         },
         "alreadyLoggedIn": {
-          "tr": "Zaten giriş yapmışsınız!",
-          "en": "You are already logged in!"
+          "tr": "Zaten giriş yapmışsınız!"
         },
         "userPlaceholder": {
-          "tr": "Kullanıcı adı",
-          "en": "Username"
+          "tr": "Kullanıcı adı"
         },
         "surnamePlaceholder": {
-          "tr": "Soyad",
-          "en": "Surname"
+          "tr": "Soyad"
         },
         "userRequired": {
-          "tr": "Kullanıcı adı giriniz!",
-          "en": "Please enter username!"
+          "tr": "Kullanıcı adı giriniz!"
         },
         "userAlreadyExists": {
-          "tr": "Bu kullanıcı adı zaten kullanılıyor!",
-          "en": "This username is already in use!"
+          "tr": "Bu kullanıcı adı zaten kullanılıyor!"
         },
         "nextUrl": ""
       },
@@ -296,8 +261,7 @@
       "category": "social-slider",
       "desing": {
         "name": {
-          "tr": "Sosyal Medyada Biz",
-          "en": "Follow Us on Social Media"
+          "tr": "Sosyal Medyada Biz"
         },
         "bgcolor": "#fff",
         "padding": "25px 0px 25px 0px",

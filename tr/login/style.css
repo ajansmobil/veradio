@@ -1,10 +1,10 @@
 
-  .menu-mobil-f3980 {
+  .menu-mobil-vxf47 {
     display: none;
   }
 
   @media (max-width: 1200px) {
-    .menu-mobil-f3980 {
+    .menu-mobil-vxf47 {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -23,11 +23,11 @@
       border-radius: 10px 10px 0px 0px;
     }
 
-    .f3980 {
+    .vxf47 {
       display: none;
     }
 
-    .menu-mobil-f3980 ul {
+    .menu-mobil-vxf47 ul {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -35,7 +35,7 @@
       width: 100%;
     }
 
-    .menu-mobil-f3980 ul li > * {
+    .menu-mobil-vxf47 ul li > * {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -43,23 +43,23 @@
       color: #fff;
     }
 
-    .menu-mobil-f3980 ul li {
+    .menu-mobil-vxf47 ul li {
       cursor: pointer;
       transition: all 0.3s ease;
       padding: 5px 10px;
       border-radius: 10px;
     }
 
-    .menu-mobil-f3980 ul li:hover {
+    .menu-mobil-vxf47 ul li:hover {
       transform: scale(1.05);
     }
 
-    .menu-mobil-f3980 ul li.active {
+    .menu-mobil-vxf47 ul li.active {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 10px;
     }
 
-    .f3980menu {
+    .vxf47menu {
       display: none !important;
     }
 
@@ -71,7 +71,7 @@
   }
 
   /* Web sürümü: tek header çubuğu, logo sol / canlı bar sağ */
-  .f3980 {
+  .vxf47 {
     width: 100%;
     max-width: var(--max);
     margin: 0 auto 20px auto;
@@ -79,7 +79,7 @@
     color: #333333;
   }
 
-  .f3980-header-row {
+  .vxf47-header-row {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -91,17 +91,17 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   }
 
-  .f3980titlebodylang {
+  .vxf47titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .f3980titlebodylang ul {
+  .vxf47titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .f3980titlebodylang ul a {
+  .vxf47titlebodylang ul a {
     color: #333333;
     text-decoration: none;
     font-weight: 500;
@@ -110,11 +110,11 @@
     transition: background 0.3s;
   }
 
-  .f3980titlebodylang ul a:hover {
+  .vxf47titlebodylang ul a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
 
-  .f3980title {
+  .vxf47title {
     width: 100%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
@@ -122,7 +122,7 @@
     justify-content: center;
   }
 
-  .f3980titlebody {
+  .vxf47titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -130,25 +130,25 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .f3980body {
+  .vxf47body {
     flex-shrink: 0;
     display: flex;
     align-items: center;
   }
 
-  .f3980body a {
+  .vxf47body a {
     display: flex;
     align-items: center;
   }
 
-  .f3980menu {
+  .vxf47menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: var(--max);
   }
 
-  .f3980menulist {
+  .vxf47menulist {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
@@ -156,7 +156,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .f3980menulist ul {
+  .vxf47menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -166,7 +166,7 @@
     overflow-x: auto;
   }
 
-  .f3980menulist ul a {
+  .vxf47menulist ul a {
     padding: 12px 20px;
     font-size: 16px;
     color: #fff;
@@ -182,18 +182,18 @@
     font-weight: 500;
   }
 
-  .f3980menulist ul a:hover {
+  .vxf47menulist ul a:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .f3980-menu-active {
+  .vxf47-menu-active {
     background: rgba(255, 255, 255, 0.3) !important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .f3980menulistbody {
+  .vxf47menulistbody {
     width: 100%;
   }
 
@@ -281,17 +281,17 @@
   }
 
 
-  .dkss5 { width: 95%; height: 500px; flex: 1; display: flex; align-items: center; justify-content: center; margin-top: 20px; }
-  .dkss5-null { color: #fff; cursor: pointer; text-align: right; padding: 15px 0 0 0; font-size: 14px; }
-  .dkss5-null:hover { color: #999; }
-  .dkss5-body { background-color: #101010; width: 500px; border-radius: 20px; display: flex; flex-direction: column; }
-  .dkss5-body-form { padding: 20px; display: flex; flex-direction: column; }
-  .dkss5-button { padding: 10px; background-color: #ee5a24 ; margin-top: 20px; font-size: 16px; color: #fff !important; border-radius: 5px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
-  .dkss5-login-menu { display: flex; gap: 2px; }
-  #dkss5-login-menu-left { border-radius: 20px 0 0 0; background-color: #101010; }
-  #dkss5-login-menu-right { border-radius: 0 20px 0 0; }
-  #dkss5-memberol { display: none; flex-direction: column; }
-  .dkss5-login-menu > div { background-color: #ee5a24 ; width: 100%; display: flex; align-items: center; justify-content: center; padding: 10px; font-size: 18px; font-weight: 400; color: #fff; cursor: pointer; }
+  .t2uob { width: 95%; height: 500px; flex: 1; display: flex; align-items: center; justify-content: center; margin-top: 20px; }
+  .t2uob-null { color: #fff; cursor: pointer; text-align: right; padding: 15px 0 0 0; font-size: 14px; }
+  .t2uob-null:hover { color: #999; }
+  .t2uob-body { background-color: #101010; width: 500px; border-radius: 20px; display: flex; flex-direction: column; }
+  .t2uob-body-form { padding: 20px; display: flex; flex-direction: column; }
+  .t2uob-button { padding: 10px; background-color: #ee5a24 ; margin-top: 20px; font-size: 16px; color: #fff !important; border-radius: 5px; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+  .t2uob-login-menu { display: flex; gap: 2px; }
+  #t2uob-login-menu-left { border-radius: 20px 0 0 0; background-color: #101010; }
+  #t2uob-login-menu-right { border-radius: 0 20px 0 0; }
+  #t2uob-memberol { display: none; flex-direction: column; }
+  .t2uob-login-menu > div { background-color: #ee5a24 ; width: 100%; display: flex; align-items: center; justify-content: center; padding: 10px; font-size: 18px; font-weight: 400; color: #fff; cursor: pointer; }
   #content { justify-content: start; }
 
 
