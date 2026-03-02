@@ -255,81 +255,28 @@
     },
     {
       "index": 6,
-      "name": "Sosyal Media Slider",
-      "path": "social-matrix-1",
-      "local": "body",
-      "category": "social-slider",
-      "desing": {
-        "name": {
-          "tr": "Sosyal Medyada Biz"
-        },
-        "bgcolor": "#fff",
-        "padding": "25px 0px 25px 0px",
-        "margin": "0px 0px 0px 0px",
-        "color": "#000"
-      },
-      "data": [
-        {
-          "img": "/src/icon/facebook.png",
-          "externalUrl": ""
-        },
-        {
-          "img": "/src/icon/instagram.png",
-          "externalUrl": ""
-        },
-        {
-          "img": "/src/icon/linkedin.png",
-          "externalUrl": ""
-        },
-        {
-          "img": "/src/icon/youtube.png",
-          "externalUrl": ""
-        },
-        {
-          "img": "/src/icon/whatsapp.png",
-          "url": "https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0"
-        },
-        {
-          "img": "/src/icon/google-maps.png",
-          "externalUrl": ""
-        }
-      ],
-      "id": "fy1fst"
-    },
-    {
-      "index": 7,
       "name": "Code",
       "path": "code",
       "local": "body",
       "category": "code",
       "id": "arzcdr",
-      "desing": {
-        "height": "200px"
-      },
+      "desing": {},
       "data": [
         {
-          "img": "/src/icon/facebook.png",
-          "externalUrl": ""
-        },
-        {
           "img": "/src/icon/instagram.png",
-          "externalUrl": ""
-        },
-        {
-          "img": "/src/icon/linkedin.png",
-          "externalUrl": ""
+          "externalUrl": "https://www.instagram.com/ve_radyo"
         },
         {
           "img": "/src/icon/youtube.png",
-          "externalUrl": ""
+          "externalUrl": "https://www.youtube.com/@ve_radyo"
         },
         {
           "img": "/src/icon/whatsapp.png",
-          "url": "https://api.whatsapp.com/send/?phone=905320000000&text=&app_absent=0"
+          "url": "https://api.whatsapp.com/send/?phone=905325059997&text=&app_absent=0"
         },
         {
           "img": "/src/icon/google-maps.png",
-          "externalUrl": ""
+          "externalUrl": "https://maps.app.goo.gl/rCAvaY9fpvdG8rRK7"
         }
       ],
       "version": "1.0.0",
@@ -337,7 +284,7 @@
       "error": "An error occurred while reading the file."
     },
     {
-      "index": 8,
+      "index": 7,
       "name": "Tema",
       "path": "tema-1",
       "local": "body",
