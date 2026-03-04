@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=hm2ox" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=hm2ox" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=cxqae" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=cxqae" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=hm2ox" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=cxqae" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,16 +50,16 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=hm2ox">
+<link rel="stylesheet" href="style.css?v=cxqae">
 </head>
 
 <body>
   <div id="header"><!-- Tek header çubuğu: logo sol, canlı yayın bar sağ -->
-<div class="xwies xwies-header-row">
-  <div class="xwiesbody">
+<div class="ykwzi ykwzi-header-row">
+  <div class="ykwzibody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=f9jyq"
+        src="/img/logo.svg?v=ap2o0"
         height="150px"
         alt="VeRadyo Logo"
         loading="lazy"
@@ -85,7 +85,7 @@
   </div>
 </div>
 
-<div class="menu-mobil-xwies">
+<div class="menu-mobil-ykwzi">
   <ul>
     <li>
       <span class="material-symbols-outlined" aria-hidden="true">home</span>
@@ -180,13 +180,13 @@
   })();
 </script>
 </div>
-  <div id="content"><div class="s3xdy">
-  <div class="s3xdy-body">
-    <div class="s3xdy-login-menu">
-      <div id="s3xdy-login-menu-left">Giriş Yap</div>
-      <div id="s3xdy-login-menu-right">Üye Ol</div>
+  <div id="content"><div class="njkx2">
+  <div class="njkx2-body">
+    <div class="njkx2-login-menu">
+      <div id="njkx2-login-menu-left">Giriş Yap</div>
+      <div id="njkx2-login-menu-right">Üye Ol</div>
     </div>
-    <div class="s3xdy-body-form" id="s3xdy-login">
+    <div class="njkx2-body-form" id="njkx2-login">
       <div class="input-container">
         <input type="text" id="login-user" class="inputmatrix1" placeholder="Kullanıcı adı" autocomplete="username" />
         <label for="input" class="placeholder">Kullanıcı adı</label>
@@ -195,9 +195,9 @@
         <input type="password" id="login-password" class="inputmatrix1" placeholder="Şifre" />
         <label for="input" class="placeholder">Şifre</label>
       </div>
-      <div class="s3xdy-button" onclick="loginUser()">Giriş Yap</div>
+      <div class="njkx2-button" onclick="loginUser()">Giriş Yap</div>
     </div>
-    <div class="s3xdy-body-form" id="s3xdy-memberol">
+    <div class="njkx2-body-form" id="njkx2-memberol">
       <div class="input-container">
         <input type="text" id="register-name" class="inputmatrix1" placeholder="Ad Soyad" />
         <label for="input" class="placeholder">Ad Soyad</label>
@@ -218,8 +218,8 @@
         <input type="password" id="register-password-confirm" class="inputmatrix1" placeholder="Şifre Tekrar" />
         <label for="input" class="placeholder">Şifre Tekrar</label>
       </div>
-      <div class="s3xdy-button" onclick="registerUser()">Üye Ol</div>
-      <div class="s3xdy-null" onclick="switchToLogin()">Üye misin?</div>
+      <div class="njkx2-button" onclick="registerUser()">Üye Ol</div>
+      <div class="njkx2-null" onclick="switchToLogin()">Üye misin?</div>
     </div>
   </div>
 </div>
@@ -246,17 +246,17 @@
   }
 
   function switchToLogin() {
-    document.getElementById("s3xdy-login-menu-left").style.backgroundColor = "#101010";
-    document.getElementById("s3xdy-login-menu-right").style.backgroundColor = "#ee5a24 ";
-    document.getElementById("s3xdy-login").style.display = "flex";
-    document.getElementById("s3xdy-memberol").style.display = "none";
+    document.getElementById("njkx2-login-menu-left").style.backgroundColor = "#101010";
+    document.getElementById("njkx2-login-menu-right").style.backgroundColor = "#ee5a24 ";
+    document.getElementById("njkx2-login").style.display = "flex";
+    document.getElementById("njkx2-memberol").style.display = "none";
   }
 
   function switchToRegister() {
-    document.getElementById("s3xdy-login-menu-right").style.backgroundColor = "#101010";
-    document.getElementById("s3xdy-login-menu-left").style.backgroundColor = "#ee5a24 ";
-    document.getElementById("s3xdy-login").style.display = "none";
-    document.getElementById("s3xdy-memberol").style.display = "flex";
+    document.getElementById("njkx2-login-menu-right").style.backgroundColor = "#101010";
+    document.getElementById("njkx2-login-menu-left").style.backgroundColor = "#ee5a24 ";
+    document.getElementById("njkx2-login").style.display = "none";
+    document.getElementById("njkx2-memberol").style.display = "flex";
   }
 
   function validateEmail(email) {
@@ -395,8 +395,8 @@
   })();
 
   setTimeout(function () {
-    var left = document.getElementById("s3xdy-login-menu-left");
-    var right = document.getElementById("s3xdy-login-menu-right");
+    var left = document.getElementById("njkx2-login-menu-left");
+    var right = document.getElementById("njkx2-login-menu-right");
     if (left) left.addEventListener("click", switchToLogin);
     if (right) right.addEventListener("click", switchToRegister);
   }, 100);
@@ -453,8 +453,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=hm2ox"></script>
-<script defer src="/src/cookie.js?v=hm2ox"></script>
+<script defer type="text/javascript" src="/src/js.js?v=cxqae"></script>
+<script defer src="/src/cookie.js?v=cxqae"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
