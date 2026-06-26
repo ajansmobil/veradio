@@ -8,7 +8,7 @@
   "id": "olowwkkcfh",
   "externalUrl": "",
   "path": "iletisim",
-  "index": 5,
+  "index": 2,
   "icon": "home",
   "description": {
     "tr": "Bu sayfadan bizimle iletişime geçebilir, soru ve görüşlerinizi iletebilirsiniz.",
@@ -35,5 +35,6 @@
   "title": {
     "tr": "İletişim",
     "en": "Communication"
-  }
+  },
+  "slider": []
 }

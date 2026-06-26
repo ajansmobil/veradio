@@ -22,8 +22,7 @@
       },
       "index": 0,
       "icon": "home",
-      "pathnext": "",
-      "desc": {}
+      "pathnext": ""
     },
     {
       "name": {
@@ -43,8 +42,7 @@
         "en": "We're dedicated to providing the best possible listening experience through innovative digital radio solutions. Our mission is to leverage technology to create accessible, high-quality content for everyone."
       },
       "index": 1,
-      "icon": "home",
-      "desc": {}
+      "icon": "home"
     },
     {
       "name": {
@@ -64,8 +62,7 @@
         "en": "Our vision is to be a leading and trusted platform in the digital radio space. We aim to be pioneers in the industry through continuous development and innovation."
       },
       "index": 2,
-      "icon": "home",
-      "desc": {}
+      "icon": "home"
     },
     {
       "name": {
@@ -85,8 +82,7 @@
         "en": "Our Quality PolicyOur quality policy is based on an approach that aims to keep customer satisfaction at the highest level and to continuously improve. "
       },
       "index": 3,
-      "icon": "home",
-      "desc": {}
+      "icon": "home"
     },
     {
       "name": {
@@ -106,8 +102,7 @@
         "en": "Veradio privacy policy. Learn how cookies are used to improve user experience when you visit our website and how we ensure the security of your personal data."
       },
       "index": 4,
-      "icon": "home",
-      "desc": {}
+      "icon": "home"
     },
     {
       "name": {
@@ -127,8 +122,7 @@
         "en": "Learn about the security and protection of your personal data. Discover how we process your data in accordance with Law No. 6698 (KVKK), your rights, and our privacy policy."
       },
       "index": 5,
-      "icon": "home",
-      "desc": {}
+      "icon": "home"
     },
     {
       "name": {
@@ -148,8 +142,7 @@
         "en": "Learn about the protection of your personal data and your rights under Law No. 6698 (KVKK). Discover how we ensure data security and how you can exercise your rights."
       },
       "index": 6,
-      "icon": "home",
-      "desc": {}
+      "icon": "home"
     },
     {
       "name": {
@@ -169,8 +162,7 @@
         "en": "**Legal Disclaimer**\n\nAll content on this website is protected by Turkish Law No. 5846 regarding Intellectual and Artistic Works, and Law No. 5651 regulating Publications Made on the Internet. Reproduction, distribution, or modification of any material without prior written consent is prohibited. We are committed to respecting intellectual property rights and will promptly address any reported copyright infringements in accordance with applicable laws. This site is for informational purposes only and does not constitute professional advice. We disclaim all liability for any inaccuracies or omissions, and for any loss or damage arising from the use of this information."
       },
       "index": 7,
-      "icon": "home",
-      "desc": {}
+      "icon": "home"
     }
   ],
   "index": 2,

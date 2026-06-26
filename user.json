@@ -22,11 +22,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "",
-        "en": ""
-      },
-      "textmodul": false,
-      "desc": {}
+        "tr": "Üyelik sayfası",
+        "en": "Membership page"
+      }
     }
   ],
   "index": 2,

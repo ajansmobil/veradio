@@ -10,22 +10,12 @@
       "status": "play",
       "category": "",
       "id": "vqaq8yx90g",
-      "externalUrl": "",
       "path": "login",
       "index": 0,
       "description": {
         "tr": "Veradio platformuna giriş yapmak için kullanıcı adı ve şifrenizi kullanın. Güvenli ve hızlı bir şekilde hesabınıza erişerek tüm özelliklerden yararlanın.",
         "en": "Log in to the Veradio platform with your username and password. Access your account securely and quickly to enjoy all features."
       },
-      "keyword": {
-        "tr": "giriş yap, oturum aç, kullanıcı girişi, login",
-        "en": "log in, sign in, user login, login"
-      },
-      "text": {
-        "tr": "# Hoş Geldiniz!\n\nDevam etmek için lütfen kullanıcı adı ve şifrenizle giriş yapın. Hesabınız yoksa, kayıt olabilirsiniz.",
-        "en": "# Welcome!\n\nPlease log in with your username and password to continue. If you don't have an account, you can register."
-      },
-      "update": "2026-02-22T18:27:05.257Z",
       "desing": {
         "header": [],
         "body": [
@@ -33,14 +23,7 @@
         ],
         "footer": []
       },
-      "date": "2025-06-09T14:25:51.540Z",
-      "pathnext": "",
-      "title": {
-        "tr": "Login",
-        "en": "Log In"
-      },
-      "slider": [],
-      "desc": {}
+      "pathnext": ""
     }
   ],
   "active": true,

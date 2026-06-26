@@ -1,5 +1,287 @@
 
-  /* ─ Genel sıfırlama ─────────────────────────────────── */
+  .menu-mobil-h0000 {
+    display: none;
+  }
+
+  @media (max-width: 1200px) {
+    .menu-mobil-h0000 {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border: solid #fff;
+      border-width: 2px 0px 0px 0px;
+      background: #ee5a24;
+
+      color: #333333;
+      z-index: 1000;
+      padding: 5px 10px 5px 10px;
+      width: calc(var(--max) - 20px);
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    .h0000 {
+      display: none;
+    }
+
+    .menu-mobil-h0000 ul {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .menu-mobil-h0000 ul li > * {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .menu-mobil-h0000 ul li {
+      cursor: pointer;
+      transition: all 0.3s ease;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+
+    .menu-mobil-h0000 ul li:hover {
+      transform: scale(1.05);
+    }
+
+    .menu-mobil-h0000 ul li.active {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+    }
+
+    .h0000menu {
+      display: none !important;
+    }
+
+    .radio-top-bar {
+      margin-top: 0px !important;
+      padding: 10px !important;
+      width: calc(var(--max) - 40px);
+    }
+  }
+
+  
+  .h0000 {
+    width: 100%;
+    max-width: var(--max);
+    margin: 0 auto 20px auto;
+    background: #ffffff;
+    color: #333333;
+  }
+
+  .h0000-header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .h0000titlebodylang {
+    width: auto;
+    margin: -5px 0px -5px 0px;
+  }
+
+  .h0000titlebodylang ul {
+    display: flex;
+    gap: 5px;
+  }
+
+  .h0000titlebodylang ul a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+
+  .h0000titlebodylang ul a:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .h0000title {
+    width: 100%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h0000titlebody {
+    color: #fff;
+    width: var(--max);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .h0000body {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .h0000body a {
+    display: flex;
+    align-items: center;
+  }
+
+  .h0000menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: var(--max);
+  }
+
+  .h0000menulist {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .h0000menulist ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+  }
+
+  .h0000menulist ul a {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 25px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    font-weight: 500;
+  }
+
+  .h0000menulist ul a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .h0000-menu-active {
+    background: rgba(255, 255, 255, 0.3) !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .h0000menulistbody {
+    width: 100%;
+  }
+
+  
+  .radio-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    background: rgba(238, 90, 36, 0.08);
+    border: 1px solid rgba(238, 90, 36, 0.2);
+    color: #333;
+    flex-shrink: 0;
+  }
+
+  .radio-freq {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .freq {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ee5a24;
+  }
+
+  .station {
+    font-size: 28px;
+    font-weight: 500;
+    color: #333;
+  }
+
+  .live-badge {
+    background: #ee5a24;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    animation: pulse 2s infinite;
+  }
+
+  .radio-player-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .play-btn {
+    width: 54px;
+    height: 54px;
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 12px rgba(238, 90, 36, 0.35);
+  }
+
+  .play-btn .material-symbols-outlined {
+    color: #fff;
+    font-size: 34px;
+  }
+
+  .play-btn:hover {
+    transform: scale(1.08);
+  }
+
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.3;
+    }
+  }
+
+
+  
   .az-page,
   .az-col,
   .az-logo-bar,
@@ -7,7 +289,7 @@
     box-sizing: border-box;
   }
 
-  /* ─ 3 sütun sayfa: sol %25 | orta %50 | sağ %25 ──────── */
+  
   .az-page {
     width: 100%;
     max-width: --max--;
@@ -23,7 +305,7 @@
     min-width: 0;
   }
 
-  /* Orta sütun: logo, player, sosyal, footer (dikey sıra) */
+  
   .az-col-center {
     display: flex;
     flex-direction: column;
@@ -31,7 +313,7 @@
     gap: 0;
   }
 
-  /* ─ Logo (sayfa üstü, tam genişlik ortada) ─────────────── */
+  
   .az-logo-bar {
     width: 100%;
     max-width: --max--;
@@ -49,12 +331,12 @@
     object-fit: contain;
   }
 
-  /* Mobilde logonun altındaki player pill: masaüstünde gizli */
+  
   .az-player-pill-mobile-wrap {
     display: none;
   }
 
-  /* ─ Panel (kart) genel ──────────────────────────────── */
+  
   .az-panel {
     background: #fff;
     border-radius: 20px;
@@ -81,7 +363,7 @@
     color: #222;
   }
 
-  /* ─ Aktif rozeti (yeşil nokta + metin) ───────────────── */
+  
   .az-badge {
     display: inline-flex;
     align-items: center;
@@ -108,7 +390,7 @@
     50% { opacity: 0.5; }
   }
 
-  /* ─ SOL: Chat mesaj listesi ─────────────────────────── */
+  
   .az-messages {
     flex: 1;
     min-height: 360px;
@@ -124,7 +406,7 @@
   .az-messages::-webkit-scrollbar-track { background: #f0f0f0; border-radius: 3px; }
   .az-messages::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.18); border-radius: 3px; }
 
-  /* Yorum kartı */
+  
   .az-msg-card {
     display: flex;
     align-items: center;
@@ -172,7 +454,7 @@
     color: #666;
   }
 
-  /* ─ Küfür uyarısı ───────────────────────────────────── */
+  
   .az-warning {
     margin: 0 16px;
     padding: 10px 14px;
@@ -185,7 +467,7 @@
     text-align: center;
   }
 
-  /* ─ Ortak input satırı ──────────────────────────────── */
+  
   .az-input-row {
     display: flex;
     align-items: center;
@@ -231,7 +513,7 @@
     transform: scale(1.05);
   }
 
-  /* Sol panel: gri ok butonu ────────────────────────────── */
+  
   .az-send-btn-grey {
     background: rgba(0, 0, 0, 0.12);
     color: #555;
@@ -241,7 +523,7 @@
     background: rgba(0, 0, 0, 0.2);
   }
 
-  /* ─ 90.0 | CANLI DİNLE | pause — turuncu pill oynatıcı çubuğu ─ */
+  
   .az-center-wrap {
     width: 100%;
     display: flex;
@@ -250,7 +532,7 @@
     padding: 0 0 24px 0;
   }
 
-  /* Alt alan içeriği: pill + sosyal + footer — pill satırı tam yükseklik */
+  
   .az-fixed-bottom-inner {
     display: flex;
     flex-direction: column;
@@ -331,7 +613,7 @@
     font-size: 26px;
   }
 
-  /* ─ SAĞ: Al Radyo Asistanı paneli ────────────────────── */
+  
   .az-panel-ai {
     border-color: rgba(0, 0, 0, 0.08);
   }
@@ -365,7 +647,7 @@
   .az-ai-messages::-webkit-scrollbar-thumb { background: rgba(238,90,36,0.2); border-radius: 3px; }
   .az-ai-messages::-webkit-scrollbar-thumb:hover { background: rgba(238,90,36,0.38); }
 
-  /* AI mesaj balonu */
+  
   .az-ai-msg {
     display: flex;
     align-items: flex-end;
@@ -418,7 +700,7 @@
     box-shadow: 0 2px 8px rgba(238, 90, 36, 0.22);
   }
 
-  /* Bot mesajı: yeşil çerçeve + açık yeşil arka plan (görsel) */
+  
   .az-ai-msg-bot .az-ai-msg-text {
     background: rgba(34, 197, 94, 0.08);
     color: #166534;
@@ -431,7 +713,7 @@
     border-top: 1px solid rgba(0, 0, 0, 0.07);
   }
 
-  /* Sağ panel: mavi ok butonu ─────────────────────────── */
+  
   .az-send-btn-blue {
     background: #2563eb;
     color: #fff;
@@ -447,7 +729,7 @@
     color: #fff;
   }
 
-  /* ─ Sosyal Medyada Biz + ikonlar yan yana ──────────────── */
+  
   .az-soc-wrap {
     width: 100%;
     display: flex;
@@ -481,14 +763,14 @@
     white-space: nowrap;
   }
 
-  /* Dikey ayırıcı çizgi (başlık ile ikonlar arası) */
+  
   .az-soc-line {
     display: inline-block;
     width: 1px;
     height: 24px;
     background: --color--;
     opacity: 0.25;
-  /* İkon satırı */
+  
     flex-shrink: 0;
   }
 
@@ -504,7 +786,7 @@
     display: inline-block;
   }
 
-  .az-soc-icons .kt32u2-media {
+  .az-soc-icons .b00002-media {
     width: 36px;
     height: 36px;
     border-radius: 14px;
@@ -513,12 +795,12 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   }
 
-  .az-soc-icons .kt32u2-media:hover {
+  .az-soc-icons .b00002-media:hover {
     transform: translateY(-4px) scale(1.08);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
   }
 
-  /* ─ Turuncu footer (orta sütun içinde, tam genişlik) ──── */
+  
   .az-footer-bar {
     width: 100%;
     background: #ee5a24;
@@ -563,7 +845,7 @@
     color: rgba(255, 255, 255, 0.9);
   }
 
-  /* ─ Alt navigasyon: sadece mobilde görünür (sabit) ─────── */
+  
   .az-mobile-nav {
     display: none;
     position: fixed;
@@ -692,7 +974,7 @@
     50%       { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
   }
 
-  /* ─ Responsive: tek sütun, orta (player+sosyal+footer) üstte, taşma yok ─ */
+  
   @media (max-width: 1200px) {
     .az-mobile-nav {
       display: block;
@@ -706,7 +988,7 @@
       align-items: stretch;
     }
 
-    /* Mobilde sıra: chat | AI | player+sosyal — sosyal sayfanın en altında olur */
+    
     .az-col-left {
       order: 1;
       height: auto;
@@ -725,7 +1007,7 @@
       min-height: 0;
     }
 
-    /* Paneller sütuna sığsın; sabit 520px mobilde taşma yapıyordu */
+    
     .az-panel {
       height: auto;
       min-height: 280px;
@@ -738,14 +1020,14 @@
       max-height: 280px;
     }
 
-    /* Player alanı mobilde daha kısa; 350px yerine içeriğe uyum */
+    
     .az-player-pill-container {
       height: auto;
       min-height: 120px;
       padding: 20px 16px;
     }
 
-    /* Mobilde orta sütundaki (en alttaki) player pill gizli; logonun altındaki kullanılıyor */
+    
     .az-fixed-bottom-inner > .az-player-pill-container {
       display: none;
     }
@@ -756,13 +1038,13 @@
       width: 100%;
     }
 
-    /* Mobilde sosyal kutu normal akışta; sütun sırası sayesinde sayfa en altında */
+    
     .az-soc-inner {
       width: 100%;
       padding: 24px 16px;
     }
 
-    /* Mobilde footer bar gizli */
+    
     .az-footer-bar {
       display: none;
     }
@@ -771,7 +1053,7 @@
       width: 100%;
     }
 
-    /* Mobilde logonun altında player pill göster */
+    
     .az-player-pill-mobile-wrap {
       display: block;
       width: 100%;
@@ -783,7 +1065,7 @@
       padding-bottom: 24px;
     }
 
-    .az-soc-icons .kt32u2-media {
+    .az-soc-icons .b00002-media {
       width: 44px;
       height: 44px;
       border-radius: 10px;
@@ -810,6 +1092,166 @@
 
     .az-play-btn .material-symbols-outlined {
       font-size: 30px;
+    }
+  }
+
+
+    .moduleimg {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .moduleimg > img {
+      width: 100%;
+      max-width: 250px;
+    }
+  
+    .footer {
+      position: relative;
+      background: #ee5a24;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 120px;
+    }
+  
+    .social-icon,
+    .menu {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0;
+      flex-wrap: wrap;
+    }
+  
+    .social-icon__item,
+    .menu__item {
+      list-style: none;
+    }
+  
+    .social-icon__link {
+      font-size: 2rem;
+      color: #fff;
+      margin: 0 10px;
+      display: inline-block;
+      transition: 0.5s;
+    }
+  
+    .social-icon__link:hover {
+      transform: translateY(-10px);
+    } 
+  
+    .menu__link {
+      font-size: 1.2rem;
+      color: #fff !important;
+      margin: 0 10px;
+      display: inline-block;
+      transition: 0.5s;
+      text-decoration: none;
+      opacity: 0.75;
+      font-weight: 300;
+    }
+  
+    .menu__link:hover {
+      opacity: 1;
+    }
+  
+    .footer p { 
+      color: #fff;
+      margin: 15px 0 10px 0;
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  
+    .wave {
+      position: absolute;
+      top: -100px;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23ee5a24;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
+      background-size: 1000px 102px;
+    }
+  
+    .wave#wave1 {
+      z-index: 100;
+      opacity: 1;
+      bottom: 0;
+      animation: animateWaves 4s linear infinite;
+    }
+  
+    .wave#wave2 {
+      z-index: 99;
+      opacity: 0.5;
+      bottom: 10px;
+      animation: animate 4s linear infinite !important;
+    }
+  
+    .wave#wave3 {
+      z-index: 100;
+      opacity: 0.2;
+      bottom: 15px;
+      animation: animateWaves 3s linear infinite;
+    }
+  
+    .wave#wave4 {
+      z-index: 99;
+      opacity: 0.7;
+      bottom: 20px;
+      animation: animate 3s linear infinite;
+    }
+  
+    @keyframes animateWaves {
+      0% {
+        background-position-x: 1000px;
+      }
+  
+      100% {
+        background-positon-x: 0px;
+      }
+    }
+  
+    @keyframes animate {
+      0% {
+        background-position-x: -1000px;
+      }
+  
+      100% {
+        background-positon-x: 0px;
+      }
+    }
+  
+  
+  @keyframes f0000W2Enter {
+    from { opacity: 0.98; }
+    to { opacity: 1; }
+  }
+
+  [class*="f0000"] {
+    box-sizing: border-box;
+    animation: f0000W2Enter 0.3s ease;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+
+  a, button, [role="button"], input[type="submit"], input[type="button"] {
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    [class*="f0000"] {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [class*="f0000"] {
+      animation: none !important;
+      transition: none !important;
     }
   }
 

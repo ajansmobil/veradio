@@ -1,6 +1,27 @@
 {
   "data": [
     {
+      "id": "nfss0szb0c",
+      "name": {
+        "tr": "Künye"
+      },
+      "description": {
+        "tr": "Veradio medya hizmet sağlayıcı kuruluş kimlik bilgileri."
+      },
+
+      "path": "yeni-sayfa-ouph",
+      "icon": "article",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 0,
+      "pathnext": ""
+    },
+    {
       "name": {
         "tr": "Bilgilendirme"
       },
@@ -8,7 +29,7 @@
       "category": "",
       "id": "gr6zgehrac",
       "path": "bilgilendirme",
-      "index": 0,
+      "index": 1,
       "icon": "home",
       "description": {
         "tr": "Veradio projesi hakkında detaylı bilgilere bu sayfadan ulaşabilirsiniz.",
@@ -23,13 +44,14 @@
     },
     {
       "name": {
-        "tr": "İletişim"
+        "tr": "İletişim",
+        "en": "Communication"
       },
       "status": "play",
       "category": "",
       "id": "olowwkkcfh",
       "path": "iletisim",
-      "index": 1,
+      "index": 2,
       "icon": "home",
       "description": {
         "tr": "Bu sayfadan bizimle iletişime geçebilir, soru ve görüşlerinizi iletebilirsiniz.",

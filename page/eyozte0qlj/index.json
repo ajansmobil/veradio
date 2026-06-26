@@ -1,7 +1,7 @@
 {
   "name": {
     "tr": "user",
-    "en": ""
+    "en": "user"
   },
   "status": "play",
   "category": "",
@@ -19,20 +19,20 @@
   "slider": [],
   "pathnext": "",
   "title": {
-    "tr": "",
-    "en": ""
+    "tr": "Üyelik Sayfamız",
+    "en": "Our Membership Page"
   },
   "description": {
-    "tr": "",
-    "en": ""
+    "tr": "Üyelik sayfası",
+    "en": "Membership page"
   },
   "keyword": {
-    "tr": "",
-    "en": ""
+    "tr": "üyelik, üye ol, giriş yap",
+    "en": "membership, register, login"
   },
   "text": {
-    "tr": "",
-    "en": ""
+    "tr": "<p>Üyelik sayfasına hoş geldiniz. Size özel içerikler için üye olabilirsiniz.</p>",
+    "en": "<p>Welcome to the membership page. You can register to access exclusive content.</p>"
   },
   "textmodul": false,
   "update": "2026-02-22T23:17:15.444Z",

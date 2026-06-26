@@ -1,0 +1,33 @@
+{
+  "id": "nfss0szb0c",
+  "name": {
+    "tr": "Künye"
+  },
+  "description": {
+    "tr": "Veradio medya hizmet sağlayıcı kuruluş kimlik bilgileri."
+  },
+  "keyword": {
+    "tr": "künye, medya, yayıncı, veradio"
+  },
+  "path": "yeni-sayfa-ouph",
+  "icon": "article",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 0,
+  "text": {
+    "tr": "Medya Hizmet Sağlayıcı Kuruluş Kimlik Bilgisi\n\nŞirket Bilgileri\nUnvanı:\n\nLogo / Çağrı İşareti: \nYayın Ortamı: \nLisans Tipi: \nYayın Türü: \nYazışma Adresi: \nTelefon ve Faks:\nE-Tebligat Adresi: \nİnternet Adresi: \nKayıtlı Elektronik Posta Adresi: \n\nSorumlu Müdür\nAd Soyad: : \nAdres:\nTelefon ve Faks: \nE-Posta: \n\nDinleyici Temsilcisi\nAd Soyad: \nAdres:\nTelefon ve Faks: \nE-Posta: \n\nYayın Hizmetinin İletildiği Platform\nve/vaya İnternet Sitesi: \n\nİletişim Bilgileri\nAdres: \nTelefon ve Faks: \nE-Posta:"
+  },
+  "title": {
+    "tr": "Künye"
+  },
+  "date": "2026-05-07T12:44:01.307Z",
+  "update": "2026-05-07T12:44:32.083Z",
+  "slider": [],
+  "pathnext": "",
+  "textmodul": false
+}
