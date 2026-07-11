@@ -1,6 +1,4 @@
-// Find the page with `modulestatus.page` set to true
 
-// Dil linkleri: bulunulan sayfada kalsın (ana sayfa değilse aynı path ile dil değişsin)
 langhtml = "";
 var currentPagePath = (page && typeof page === "object" && page.path !== undefined) ? page.path : "";
 for (const key in webmakerdata.setting.langs) {

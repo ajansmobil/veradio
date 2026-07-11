@@ -14,6 +14,13 @@ var backhtml = "";
 var i;
 for (i = 0; i < json.data.length; i++) {
   var iterator = json.data[i];
-  backhtml += "\n        <a href=\"" + iterator["externalUrl"] + "\" target=\"_blank\" style=\"text-decoration: none; cursor: pointer;\">\n            <img src=\"" + iterator["img"] + "\" alt=\"" + iterator["name"] + "\" class=\"modulex2-media\" />\n        </a>";
+  var svUrl = iterator["externalUrl"] || iterator["url"] || "";
+  var svAlt = iterator["name"] || "";
+  var svImg = "<img src=\"" + iterator["img"] + "\" alt=\"" + svAlt + "\" class=\"modulex2-media\" />";
+  if (svUrl) {
+    backhtml += "\n        <a href=\"" + svUrl + "\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"text-decoration: none; cursor: pointer;\">\n            " + svImg + "\n        </a>";
+  } else {
+    backhtml += "\n        <span style=\"text-decoration: none;\">\n            " + svImg + "\n        </span>";
+  }
 }
 html = html.replace(new RegExp("{{html}}", "g"), backhtml);

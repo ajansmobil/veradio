@@ -1,13 +1,5 @@
 <div class="modulex">
-  <!-- <div class="modulextitle">
-    <div class="modulextitlebody">
-      <div class="modulextitlebodylang">
-        <ul>
-          {{langhtml}}
-        </ul>
-      </div>
-    </div>
-  </div> -->
+  
 
   <div class="modulexbody">
     <a href="/{{lang}}/"
@@ -339,11 +331,9 @@
 
     function togglePlay() {
       if (isPlaying) {
-        // Durdur
         radioPlayer.pause();
         isPlaying = false;
       } else {
-        // Başlat
         radioPlayer.play();
         isPlaying = true;
       }
@@ -355,8 +345,6 @@
         if (icon) {
           icon.textContent = isPlaying ? "pause" : "play_arrow";
         }
-
-        // Mobil menüdeki li elementini bul ve active class'ını ekle/çıkar
         const mobileLi = btn.closest("li");
         if (mobileLi) {
           if (isPlaying) {
@@ -367,19 +355,13 @@
         }
       });
     }
-
-    // Her iki butona da event listener ekle
     playBtns.forEach((btn) => {
       btn.addEventListener("click", togglePlay);
-
-      // Mobil menüdeki li elementine de tıklama eventi ekle
       const mobileLi = btn.closest("li");
       if (mobileLi) {
         mobileLi.addEventListener("click", togglePlay);
       }
     });
-
-    // Audio event listeners
     radioPlayer.addEventListener("play", function () {
       isPlaying = true;
       updateIcons();

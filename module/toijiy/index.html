@@ -1,9 +1,9 @@
-<!-- Tek header çubuğu: logo sol, canlı yayın bar sağ -->
+
 <div class="modulex modulex-header-row">
   <div class="modulexbody">
     <a href="/{{lang}}/"
       ><img
-        src="/img/{{logo}}?v={{random}}"
+        src="/img/logo.svg?v={{random}}"
         height="--height--"
         alt="{{web-name}} Logo"
         loading="lazy"
@@ -125,7 +125,7 @@
     }
   }
 
-  /* Web sürümü: tek header çubuğu, logo sol / canlı bar sağ */
+  
   .modulex {
     width: 100%;
     max-width: var(--max);
@@ -252,7 +252,7 @@
     width: 100%;
   }
 
-  /* Canlı yayın bar: header içinde sağda, daha kompakt */
+  
   .radio-top-bar {
     display: flex;
     align-items: center;
@@ -338,7 +338,6 @@
 
 <script>
   (function () {
-    // Kritik kural: DOMContentLoaded kullanılmaz; setTimeout ile DOM hazır olana kadar bekle
     var playBtns = document.querySelectorAll("#playBtn");
     var radioPlayer = document.getElementById("radioPlayer");
     var isPlaying = false;

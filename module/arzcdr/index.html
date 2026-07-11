@@ -1,15 +1,13 @@
-<!-- =====================================================
-  ARZCDR MODÜLÜ — Logo üstte | Sol panel | Orta (player+sosyal+footer) | Sağ panel
-====================================================== -->
 
-<!-- ── ÜST: Logo (tam genişlik, ortada) ─────────────────────── -->
+
+
 <div class="az-logo-bar">
   <a href="/{{lang}}/" style="cursor: pointer;">
     <img src="/img/{{logo}}?v={{random}}" alt="{{web-name}}" loading="lazy" />
   </a>
 </div>
 
-<!-- Mobilde logonun altında ikinci player pill (sadece mobilde görünür) -->
+
 <div class="az-player-pill-mobile-wrap">
   <div class="az-player-pill-container">
     <div class="az-player-pill">
@@ -49,9 +47,9 @@
   </ul>
 </nav>
 
-<!-- ── 3 SÜTUN: Sol %25 | Orta %50 (logo+player+sosyal+footer) | Sağ %25 ─── -->
+
 <div class="az-page">
-  <!-- SOL: Dinleyici Yorumları -->
+  
   <div class="az-col az-col-left">
     <div class="az-panel az-panel-chat">
       <div class="az-panel-head">
@@ -71,7 +69,7 @@
     </div>
   </div>
 
-  <!-- ORTA: Boş alan (oynatıcı + sosyal + footer altta sabit) ─ -->
+  
   <div class="az-col az-col-center">
 
 
@@ -100,7 +98,19 @@
     <div class="az-soc-inner">
       <h4 class="az-soc-title">Sosyal Medyada Biz</h4>
       <span class="az-soc-line"></span>
-      <div class="az-soc-icons">{{html}}</div>
+      <div class="az-soc-icons">
+        <a href="https://www.instagram.com/ve_radyo" target="_blank" rel="noopener noreferrer" style="text-decoration: none; cursor: pointer;">
+            <img src="/src/icon/instagram.png" alt="" class="modulex2-media" />
+        </a>
+        <a href="https://www.youtube.com/@ve_radyo" target="_blank" rel="noopener noreferrer" style="text-decoration: none; cursor: pointer;">
+            <img src="/src/icon/youtube.png" alt="" class="modulex2-media" />
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=905325059997&text=&app_absent=0" target="_blank" rel="noopener noreferrer" style="text-decoration: none; cursor: pointer;">
+            <img src="/src/icon/whatsapp.png" alt="" class="modulex2-media" />
+        </a>
+        <a href="https://maps.app.goo.gl/rCAvaY9fpvdG8rRK7" target="_blank" rel="noopener noreferrer" style="text-decoration: none; cursor: pointer;">
+            <img src="/src/icon/google-maps.png" alt="" class="modulex2-media" />
+        </a></div>
     </div>
 
 
@@ -124,7 +134,7 @@
 
   </div>
 
-  <!-- SAĞ: Al Radyo Asistanı -->
+  
   <div class="az-col az-col-right">
     <div class="az-panel az-panel-ai">
       <div class="az-panel-head az-panel-head-ai">
@@ -144,11 +154,9 @@
 
 
 
-<!-- ══════════════════════════════════════════════════════
-  STYLES
-══════════════════════════════════════════════════════ -->
+
 <style>
-  /* ─ Genel sıfırlama ─────────────────────────────────── */
+  
   .az-page,
   .az-col,
   .az-logo-bar,
@@ -156,7 +164,7 @@
     box-sizing: border-box;
   }
 
-  /* ─ 3 sütun sayfa: sol %25 | orta %50 | sağ %25 ──────── */
+  
   .az-page {
     width: 100%;
     max-width: --max--;
@@ -172,7 +180,7 @@
     min-width: 0;
   }
 
-  /* Orta sütun: logo, player, sosyal, footer (dikey sıra) */
+  
   .az-col-center {
     display: flex;
     flex-direction: column;
@@ -180,7 +188,7 @@
     gap: 0;
   }
 
-  /* ─ Logo (sayfa üstü, tam genişlik ortada) ─────────────── */
+  
   .az-logo-bar {
     width: 100%;
     max-width: --max--;
@@ -198,12 +206,12 @@
     object-fit: contain;
   }
 
-  /* Mobilde logonun altındaki player pill: masaüstünde gizli */
+  
   .az-player-pill-mobile-wrap {
     display: none;
   }
 
-  /* ─ Panel (kart) genel ──────────────────────────────── */
+  
   .az-panel {
     background: #fff;
     border-radius: 20px;
@@ -230,7 +238,7 @@
     color: #222;
   }
 
-  /* ─ Aktif rozeti (yeşil nokta + metin) ───────────────── */
+  
   .az-badge {
     display: inline-flex;
     align-items: center;
@@ -257,7 +265,7 @@
     50% { opacity: 0.5; }
   }
 
-  /* ─ SOL: Chat mesaj listesi ─────────────────────────── */
+  
   .az-messages {
     flex: 1;
     min-height: 360px;
@@ -273,7 +281,7 @@
   .az-messages::-webkit-scrollbar-track { background: #f0f0f0; border-radius: 3px; }
   .az-messages::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.18); border-radius: 3px; }
 
-  /* Yorum kartı */
+  
   .az-msg-card {
     display: flex;
     align-items: center;
@@ -321,7 +329,7 @@
     color: #666;
   }
 
-  /* ─ Küfür uyarısı ───────────────────────────────────── */
+  
   .az-warning {
     margin: 0 16px;
     padding: 10px 14px;
@@ -334,7 +342,7 @@
     text-align: center;
   }
 
-  /* ─ Ortak input satırı ──────────────────────────────── */
+  
   .az-input-row {
     display: flex;
     align-items: center;
@@ -380,7 +388,7 @@
     transform: scale(1.05);
   }
 
-  /* Sol panel: gri ok butonu ────────────────────────────── */
+  
   .az-send-btn-grey {
     background: rgba(0, 0, 0, 0.12);
     color: #555;
@@ -390,7 +398,7 @@
     background: rgba(0, 0, 0, 0.2);
   }
 
-  /* ─ 90.0 | CANLI DİNLE | pause — turuncu pill oynatıcı çubuğu ─ */
+  
   .az-center-wrap {
     width: 100%;
     display: flex;
@@ -399,7 +407,7 @@
     padding: 0 0 24px 0;
   }
 
-  /* Alt alan içeriği: pill + sosyal + footer — pill satırı tam yükseklik */
+  
   .az-fixed-bottom-inner {
     display: flex;
     flex-direction: column;
@@ -480,7 +488,7 @@
     font-size: 26px;
   }
 
-  /* ─ SAĞ: Al Radyo Asistanı paneli ────────────────────── */
+  
   .az-panel-ai {
     border-color: rgba(0, 0, 0, 0.08);
   }
@@ -514,7 +522,7 @@
   .az-ai-messages::-webkit-scrollbar-thumb { background: rgba(238,90,36,0.2); border-radius: 3px; }
   .az-ai-messages::-webkit-scrollbar-thumb:hover { background: rgba(238,90,36,0.38); }
 
-  /* AI mesaj balonu */
+  
   .az-ai-msg {
     display: flex;
     align-items: flex-end;
@@ -567,7 +575,7 @@
     box-shadow: 0 2px 8px rgba(238, 90, 36, 0.22);
   }
 
-  /* Bot mesajı: yeşil çerçeve + açık yeşil arka plan (görsel) */
+  
   .az-ai-msg-bot .az-ai-msg-text {
     background: rgba(34, 197, 94, 0.08);
     color: #166534;
@@ -580,7 +588,7 @@
     border-top: 1px solid rgba(0, 0, 0, 0.07);
   }
 
-  /* Sağ panel: mavi ok butonu ─────────────────────────── */
+  
   .az-send-btn-blue {
     background: #2563eb;
     color: #fff;
@@ -596,7 +604,7 @@
     color: #fff;
   }
 
-  /* ─ Sosyal Medyada Biz + ikonlar yan yana ──────────────── */
+  
   .az-soc-wrap {
     width: 100%;
     display: flex;
@@ -630,14 +638,14 @@
     white-space: nowrap;
   }
 
-  /* Dikey ayırıcı çizgi (başlık ile ikonlar arası) */
+  
   .az-soc-line {
     display: inline-block;
     width: 1px;
     height: 24px;
     background: --color--;
     opacity: 0.25;
-  /* İkon satırı */
+  
     flex-shrink: 0;
   }
 
@@ -667,7 +675,7 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
   }
 
-  /* ─ Turuncu footer (orta sütun içinde, tam genişlik) ──── */
+  
   .az-footer-bar {
     width: 100%;
     background: #ee5a24;
@@ -712,7 +720,7 @@
     color: rgba(255, 255, 255, 0.9);
   }
 
-  /* ─ Alt navigasyon: sadece mobilde görünür (sabit) ─────── */
+  
   .az-mobile-nav {
     display: none;
     position: fixed;
@@ -841,7 +849,7 @@
     50%       { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
   }
 
-  /* ─ Responsive: tek sütun, orta (player+sosyal+footer) üstte, taşma yok ─ */
+  
   @media (max-width: 1200px) {
     .az-mobile-nav {
       display: block;
@@ -855,7 +863,7 @@
       align-items: stretch;
     }
 
-    /* Mobilde sıra: chat | AI | player+sosyal — sosyal sayfanın en altında olur */
+    
     .az-col-left {
       order: 1;
       height: auto;
@@ -874,7 +882,7 @@
       min-height: 0;
     }
 
-    /* Paneller sütuna sığsın; sabit 520px mobilde taşma yapıyordu */
+    
     .az-panel {
       height: auto;
       min-height: 280px;
@@ -887,14 +895,14 @@
       max-height: 280px;
     }
 
-    /* Player alanı mobilde daha kısa; 350px yerine içeriğe uyum */
+    
     .az-player-pill-container {
       height: auto;
       min-height: 120px;
       padding: 20px 16px;
     }
 
-    /* Mobilde orta sütundaki (en alttaki) player pill gizli; logonun altındaki kullanılıyor */
+    
     .az-fixed-bottom-inner > .az-player-pill-container {
       display: none;
     }
@@ -905,13 +913,13 @@
       width: 100%;
     }
 
-    /* Mobilde sosyal kutu normal akışta; sütun sırası sayesinde sayfa en altında */
+    
     .az-soc-inner {
       width: 100%;
       padding: 24px 16px;
     }
 
-    /* Mobilde footer bar gizli */
+    
     .az-footer-bar {
       display: none;
     }
@@ -920,7 +928,7 @@
       width: 100%;
     }
 
-    /* Mobilde logonun altında player pill göster */
+    
     .az-player-pill-mobile-wrap {
       display: block;
       width: 100%;
@@ -963,17 +971,15 @@
   }
 </style>
 
-<!-- ══════════════════════════════════════════════════════
-  SCRIPTS
-══════════════════════════════════════════════════════ -->
+
 <script>
-  /* ── Play / Pause ────────────────────────────────────── */
+  
   (function () {
     var radioPlayer;
     var isPlaying = false;
 
     function updatePlayIcons() {
-      /* Tüm pill oynatıcı butonları (ana + logonun altındaki mobil): ikon + playing class */
+      
       var pillBtns = document.querySelectorAll(".az-player-play-trigger");
       for (var p = 0; p < pillBtns.length; p++) {
         var btn = pillBtns[p];
@@ -985,7 +991,7 @@
           btn.classList.remove("playing");
         }
       }
-      /* Alt menü mobil play butonu: ikon + playing class */
+      
       var mobilePlay = document.querySelector(".az-mobile-play");
       if (mobilePlay) {
         var mobileSym = mobilePlay.querySelector(".az-nav-play-icon");
@@ -1029,7 +1035,7 @@
     setTimeout(bindPlayer, 100);
   })();
 
-  /* ── Chat + AI ───────────────────────────────────────── */
+  
   var apiurl = "https://{{domain}}/api";
   var CHATLIST_API = (apiurl && apiurl.indexOf("{{") === -1) ? (apiurl.replace(/\/+$/, "") + "/chatlist") : "";
   var CHAT_API = (apiurl && apiurl.indexOf("{{") === -1) ? (apiurl.replace(/\/+$/, "") + "/chat") : "";
@@ -1039,7 +1045,7 @@
   var azAiDiv, azAiInput, azAiSendBtn;
   var azChatInterval;
 
-  /* Kullanıcı giriş kontrolü */
+  
   function azIsLoggedIn() {
     try {
       return !!(typeof localStorage !== "undefined" && localStorage.getItem("loginToken"));
@@ -1048,7 +1054,7 @@
     }
   }
 
-  /* Login sayfasına yönlendir */
+  
   function azGoLogin() {
     var parts = (window.location.pathname || "").split("/").filter(Boolean);
     var lang = parts[0] || "tr";
@@ -1059,7 +1065,7 @@
     }
   }
 
-  /* Input durumlarını güncelle */
+  
   function azSetInputState() {
     var loggedIn = azIsLoggedIn();
     if (azInput) {
@@ -1072,7 +1078,7 @@
     }
   }
 
-  /* Yorum mesajı DOM'a ekle */
+  
   function azAddMsg(user, text, avatar) {
     var card = document.createElement("div");
     card.className = "az-msg-card";
@@ -1104,7 +1110,7 @@
     azMessagesDiv.scrollTop = azMessagesDiv.scrollHeight;
   }
 
-  /* API'den yorum listesi çek */
+  
   function azLoadComments() {
     if (!azMessagesDiv) return;
     if (!CHATLIST_API) {
@@ -1128,7 +1134,7 @@
       .catch(function () { azMessagesDiv.innerHTML = ""; });
   }
 
-  /* Küfür uyarısını göster */
+  
   function azShowWarning() {
     var el = document.getElementById("arzcdr-profanity-warning");
     if (!el) return;
@@ -1137,7 +1143,7 @@
     azShowWarning._t = setTimeout(function () { el.style.display = "none"; }, 5000);
   }
 
-  /* Yorum gönder */
+  
   function azSendComment() {
     if (!azIsLoggedIn()) { azGoLogin(); return; }
     var text = (azInput.value || "").trim();
@@ -1176,7 +1182,7 @@
     }
   }
 
-  /* AI mesaj balonu ekle */
+  
   function azAddAiMsg(isUser, text) {
     var wrap = document.createElement("div");
     wrap.className = "az-ai-msg " + (isUser ? "az-ai-msg-user" : "az-ai-msg-bot");
@@ -1195,7 +1201,7 @@
     azAiDiv.scrollTop = azAiDiv.scrollHeight;
   }
 
-  /* AI yanıt al */
+  
   function azFetchAiReply(msg, cb) {
     if (!AI_ASSISTANT_API) {
       cb("Merhaba! Radyo hakkında sorularınızı yanıtlamaya hazırım. API bağlantısı kurulduğunda yanıtlar buradan gelecek.");
@@ -1213,7 +1219,7 @@
       .catch(function () { cb("Şu an yanıt alınamıyor. Lütfen daha sonra deneyin."); });
   }
 
-  /* AI mesaj gönder */
+  
   function azSendAiMsg() {
     if (!azIsLoggedIn()) { azGoLogin(); return; }
     var val = (azAiInput.value || "").trim();
@@ -1223,7 +1229,7 @@
     azFetchAiReply(val, function (reply) { azAddAiMsg(false, reply); });
   }
 
-  /* Tüm modülü başlat */
+  
   function azInit() {
     azMessagesDiv = document.getElementById("messages");
     azInput = document.getElementById("msgInput");
@@ -1236,13 +1242,13 @@
 
     azSetInputState();
 
-    /* Chat olayları */
+    
     azInput.addEventListener("focus", function () { if (!azIsLoggedIn()) { azInput.blur(); azGoLogin(); } });
     azInput.addEventListener("keydown", function (e) { if (!azIsLoggedIn()) { e.preventDefault(); azGoLogin(); } });
     azInput.addEventListener("keypress", function (e) { if (e.key === "Enter") azSendComment(); });
     azSendBtn.onclick = azSendComment;
 
-    /* AI olayları */
+    
     if (azAiDiv && azAiInput && azAiSendBtn) {
       azAiInput.addEventListener("focus", function () { if (!azIsLoggedIn()) { azAiInput.blur(); azGoLogin(); } });
       azAiInput.addEventListener("keydown", function (e) { if (!azIsLoggedIn()) { e.preventDefault(); azGoLogin(); } });
@@ -1251,7 +1257,7 @@
       azAddAiMsg(false, "Merhaba! Ben radyo Al asistanınız. Size nasıl yardımcı olabilirim?");
     }
 
-    /* Yorumları yükle, her 3 sn yenile */
+    
     azLoadComments();
     if (CHATLIST_API) {
       azChatInterval = setInterval(azLoadComments, 3000);
@@ -1259,7 +1265,7 @@
     }
   }
 
-  /* Aktif sayfayı mobil menüde işaretle */
+  
   (function () {
     function azMarkActiveNav() {
       var path = window.location.pathname || "";
