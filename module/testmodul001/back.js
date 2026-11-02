@@ -1,4 +1,5 @@
 
+
 langhtml = "";
 var currentPagePath = (page && typeof page === "object" && page.path !== undefined) ? page.path : "";
 for (const key in webmakerdata.setting.langs) {

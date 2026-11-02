@@ -162,6 +162,27 @@
       "desc": {},
       "index": 7,
       "icon": "home"
+    },
+    {
+      "id": "cerez-politikasi",
+      "name": {
+        "tr": "Çerez Politikası"
+      },
+      "description": {
+        "tr": "Bu politika, VeRadyo tarafından işletilen veradyo.com.tr internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…"
+      },
+      "path": "cerez-politikasi",
+      "icon": "cookie",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vjjhpn"
+        ],
+        "footer": []
+      },
+      "index": 8
     }
   ],
   "index": 2,

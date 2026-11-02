@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://veradyo.com.tr/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-09-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -13,7 +14,7 @@
         <loc>https://veradyo.com.tr/tr/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-09-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -21,7 +22,7 @@
         <loc>https://veradyo.com.tr/tr/yeni-sayfa-ouph/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/yeni-sayfa-ouph/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/yeni-sayfa-ouph/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-05-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -29,7 +30,7 @@
         <loc>https://veradyo.com.tr/tr/hakkimizda/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/hakkimizda/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/hakkimizda/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -37,7 +38,7 @@
         <loc>https://veradyo.com.tr/tr/iletisim/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/iletisim/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/iletisim/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -45,7 +46,7 @@
         <loc>https://veradyo.com.tr/tr/hakkimizda/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/hakkimizda/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/hakkimizda/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -53,7 +54,7 @@
         <loc>https://veradyo.com.tr/tr/misyon/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/misyon/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/misyon/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -61,7 +62,7 @@
         <loc>https://veradyo.com.tr/tr/vizyon/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/vizyon/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/vizyon/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -69,7 +70,7 @@
         <loc>https://veradyo.com.tr/tr/kalite-politikamiz/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/kalite-politikamiz/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/kalite-politikamiz/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -77,7 +78,7 @@
         <loc>https://veradyo.com.tr/tr/gizlilik-politikasi/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/gizlilik-politikasi/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/gizlilik-politikasi/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -85,7 +86,7 @@
         <loc>https://veradyo.com.tr/tr/kisisel-veriler/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/kisisel-veriler/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/kisisel-veriler/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -93,7 +94,7 @@
         <loc>https://veradyo.com.tr/tr/kullanicihaklari/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/kullanicihaklari/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/kullanicihaklari/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -101,23 +102,79 @@
         <loc>https://veradyo.com.tr/tr/yasal-uyari/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/yasal-uyari/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/yasal-uyari/" />
-        <lastmod>2026-06-10</lastmod>
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://veradyo.com.tr/tr/user/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/user/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/user/" />
-        <lastmod>2026-06-10</lastmod>
+        <loc>https://veradyo.com.tr/tr/hakkimizda/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/hakkimizda/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/hakkimizda/" />
+        <lastmod>2026-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://veradyo.com.tr/tr/login/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/login/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/login/" />
-        <lastmod>2026-06-10</lastmod>
+        <loc>https://veradyo.com.tr/tr/misyon/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/misyon/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/misyon/" />
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://veradyo.com.tr/tr/vizyon/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/vizyon/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/vizyon/" />
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://veradyo.com.tr/tr/kalitepolitikamiz/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/kalitepolitikamiz/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/kalitepolitikamiz/" />
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://veradyo.com.tr/tr/gizlilikpolitikasi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/gizlilikpolitikasi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/gizlilikpolitikasi/" />
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://veradyo.com.tr/tr/kisiselveriler/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/kisiselveriler/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/kisiselveriler/" />
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://veradyo.com.tr/tr/kullanicahaklari/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/kullanicahaklari/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/kullanicahaklari/" />
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://veradyo.com.tr/tr/yasaluyari/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/yasaluyari/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/yasaluyari/" />
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://veradyo.com.tr/tr/cerez-politikasi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://veradyo.com.tr/tr/cerez-politikasi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://veradyo.com.tr/tr/cerez-politikasi/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>

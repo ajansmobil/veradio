@@ -1,0 +1,32 @@
+# VeRadyo
+
+> Gaziantep'in sevilen radyosu Veradyo 90.0 Mhz ile en iyi müzikler, canlı yayınlar ve mobil dinleme keyfi sizi bekliyor. Şimdi dinleyin!
+
+Web: https://veradyo.com.tr/tr/
+
+## Sayfalar
+- [VeRadyo](https://veradyo.com.tr/tr/): Gaziantep'in sevilen radyosu Veradyo 90.0 Mhz ile en iyi müzikler, canlı yayınlar ve mobil dinleme keyfi sizi bekliyor.
+- [Künye](https://veradyo.com.tr/tr/yeni-sayfa-ouph/): Veradio medya hizmet sağlayıcı kuruluş kimlik bilgileri.
+- [Bilgilendirme](https://veradyo.com.tr/tr/hakkimizda/): Veradio projesi hakkında detaylı bilgilere bu sayfadan ulaşabilirsiniz.
+- [İletişim](https://veradyo.com.tr/tr/iletisim/): Bu sayfadan bizimle iletişime geçebilir, soru ve görüşlerinizi iletebilirsiniz.
+- [Hakkımızda](https://veradyo.com.tr/tr/hakkimizda/): Veradyo, yenilikçi radyo teknolojileri ve deneyimli ekibiyle dinleyicilere kaliteli içerik ve kesintisiz müzik deneyimi sunar.
+- [Misyon](https://veradyo.com.tr/tr/misyon/): Dijital radyoculukta yenilikçi çözümlerle dinleyicilere en iyi deneyimi sunmayı ve teknolojiyi kullanarak erişilebilir, kaliteli içerikler üretmeyi misyon edindik.
+- [Vizyon](https://veradyo.com.tr/tr/vizyon/): VizyonumuzVizyonumuz, dijital radyo alanında lider ve güvenilir bir platform olmaktır.
+- [Kalite Politikamız](https://veradyo.com.tr/tr/kalite-politikamiz/): Kalite PolitikamızKalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır.
+- [Gizlilik Politikası](https://veradyo.com.tr/tr/gizlilik-politikasi/): Veradio gizlilik politikası.
+- [Kişisel Veriler](https://veradyo.com.tr/tr/kisisel-veriler/): Kişisel verilerinizin güvenliği ve korunması hakkında bilgi edinin.
+- [Kullanıcı Hakları](https://veradyo.com.tr/tr/kullanicihaklari/): Kişisel verilerinizin korunması ve 6698 sayılı KVKK kapsamındaki haklarınız hakkında bilgi edinin.
+- [Yasal Uyarı](https://veradyo.com.tr/tr/yasal-uyari/): Yasal Uyarı Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenle...
+- [Hakkımızda](https://veradyo.com.tr/tr/hakkimizda/)
+- [Misyon](https://veradyo.com.tr/tr/misyon/)
+- [Vizyon](https://veradyo.com.tr/tr/vizyon/)
+- [Kalite Politikamız](https://veradyo.com.tr/tr/kalitepolitikamiz/)
+- [Gizlilik Politikası](https://veradyo.com.tr/tr/gizlilikpolitikasi/)
+- [Kişisel Veriler](https://veradyo.com.tr/tr/kisiselveriler/)
+- [Kullanıcı Hakları](https://veradyo.com.tr/tr/kullanicahaklari/)
+- [Yasal Uyarı](https://veradyo.com.tr/tr/yasaluyari/)
+- [Çerez Politikası](https://veradyo.com.tr/tr/cerez-politikasi/): Bu politika, VeRadyo tarafından işletilen veradyo.com.tr internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…
+
+## Diger
+- [sitemap.xml](https://veradyo.com.tr/sitemap.xml): tum URL listesi
+- [llms-full.txt](https://veradyo.com.tr/llms-full.txt): sayfa govdeleri duz metin

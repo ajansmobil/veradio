@@ -9,7 +9,24 @@
       "desing": {
         "logo": "logo.svg",
         "url": "iletisim",
-        "height": "150px"
+        "height": "150px",
+        "bgcolor": "#ffffff",
+        "color": "#333333",
+        "activebgcolor": "#007bff",
+        "activecolor": "#ffffff",
+        "logosize": "200px",
+        "aria_lang": {
+          "tr": "Dil seçimi",
+          "en": "Language selection"
+        },
+        "aria_nav": {
+          "tr": "Ana menü",
+          "en": "Main menu"
+        },
+        "aria_toggle": {
+          "tr": "Menüyü aç/kapat",
+          "en": "Toggle menu"
+        }
       },
       "id": "toijiy",
       "data": [
@@ -63,7 +80,12 @@
         "bgcolor": "#ee5a24",
         "color": "#fff",
         "img": "",
-        "imgwidth": "250px"
+        "imgwidth": "250px",
+        "stil": "",
+        "showlang": true,
+        "showsocial": true,
+        "social": [],
+        "langcolor": ""
       },
       "id": "w0cn43",
       "data": [],
@@ -78,10 +100,29 @@
       "desing": {
         "height": "200",
         "opacity": "0.5",
-        "backgroundcolor": "#fff",
+        "backgroundcolor": "#ffffff",
         "color": "#1e3046",
         "img": "map.png",
-        "externalUrl": ""
+        "externalUrl": "",
+        "stil": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "badgeText": {
+          "tr": "Konumumuz",
+          "en": "Our Location",
+          "ar": "موقعنا"
+        },
+        "infoTitle": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "اتصل بنا"
+        },
+        "directions": {
+          "tr": "Yol tarifi al",
+          "en": "Get directions",
+          "ar": "احصل على الاتجاهات"
+        }
       },
       "id": "cwurqi",
       "index": 2,
@@ -99,7 +140,9 @@
         "name": {
           "tr": "Bize Ulaşın"
         },
-        "margin": "30px 0px 30px 0px"
+        "margin": "30px 0px 30px 0px",
+        "stil": "",
+        "linkcolor": "#1B3A6B"
       },
       "data": [
         {
@@ -132,7 +175,9 @@
         "font-size": "50",
         "backgroundcolor": "#000",
         "category": "bilgilendirme",
-        "menu-active": "#1e3046"
+        "menu-active": "#1e3046",
+        "textcolor": "#ffffff",
+        "activetext": "#ffffff"
       },
       "id": "jc1rhg"
     },
@@ -247,7 +292,28 @@
         "userAlreadyExists": {
           "tr": "Bu kullanıcı adı zaten kullanılıyor!"
         },
-        "nextUrl": ""
+        "nextUrl": "",
+        "kvkkUrl": "gizlilik-politikasi",
+        "kvkkText": {
+          "tr": "Kişisel verilerimin işlenmesine ilişkin aydınlatma metnini okudum, onaylıyorum.",
+          "en": "I have read and accept the privacy notice on processing my personal data."
+        },
+        "kvkkLinkText": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice"
+        },
+        "kvkkRequired": {
+          "tr": "Devam etmek için aydınlatma metnini onaylayın.",
+          "en": "Please accept the privacy notice to continue."
+        },
+        "uyeKullanilamiyor": {
+          "tr": "Üyelik bu sitede şu an kullanılamıyor. Siparişinizi üye olmadan verebilirsiniz.",
+          "en": "Membership is currently unavailable on this site. You can still order as a guest."
+        },
+        "sessionExpired": {
+          "tr": "Oturumunuzun süresi doldu, lütfen tekrar giriş yapın.",
+          "en": "Your session has expired, please log in again."
+        }
       },
       "id": "k3o6l7",
       "version": "1.0.0",
@@ -260,7 +326,11 @@
       "local": "body",
       "category": "code",
       "id": "arzcdr",
-      "desing": {},
+      "desing": {
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "color": "var(--mx-site-text, #1e3046)",
+        "max": "1200px"
+      },
       "data": [
         {
           "img": "/src/icon/instagram.png",
@@ -300,7 +370,23 @@
         "menuBorder": "#fff",
         "menuActiveBg": "rgba(243,128,32,0.15)",
         "menuActiveText": "#f38020",
-        "bodyText": "#e2e8f0"
+        "bodyText": "#e2e8f0",
+        "profileTitle": {
+          "tr": "Profilim",
+          "en": "My Profile"
+        },
+        "profileName": {
+          "tr": "Üye Adı Soyadı",
+          "en": "Member Name"
+        },
+        "logoutTitle": {
+          "tr": "Oturumu kapat",
+          "en": "Sign out"
+        },
+        "logoutText": {
+          "tr": "Çıkış yap",
+          "en": "Log out"
+        }
       },
       "data": [
         {
@@ -324,6 +410,29 @@
       ],
       "version": "1.0.0",
       "icon": "dashboard"
+    },
+    {
+      "name": "Page Desing 2",
+      "desing": {
+        "height": "100",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "textcolor": "#fff",
+        "category": "page"
+      },
+      "category": "page",
+      "description": "Page Desing 2 modülü. 2 farklı web projesinde kullanılmaktadır. İçerik sunumu ve görsel düzenleme için tasarlanmıştır.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "vjjhpn",
+      "path": "page-text",
+      "local": "body",
+      "data": [],
+      "index": 8
     }
   ]
 }

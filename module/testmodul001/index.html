@@ -331,9 +331,11 @@
 
     function togglePlay() {
       if (isPlaying) {
+
         radioPlayer.pause();
         isPlaying = false;
       } else {
+
         radioPlayer.play();
         isPlaying = true;
       }
@@ -345,6 +347,7 @@
         if (icon) {
           icon.textContent = isPlaying ? "pause" : "play_arrow";
         }
+
         const mobileLi = btn.closest("li");
         if (mobileLi) {
           if (isPlaying) {
@@ -355,13 +358,16 @@
         }
       });
     }
+
     playBtns.forEach((btn) => {
       btn.addEventListener("click", togglePlay);
+
       const mobileLi = btn.closest("li");
       if (mobileLi) {
         mobileLi.addEventListener("click", togglePlay);
       }
     });
+
     radioPlayer.addEventListener("play", function () {
       isPlaying = true;
       updateIcons();

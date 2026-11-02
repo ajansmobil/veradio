@@ -73,6 +73,27 @@
         "body": [],
         "footer": []
       }
+    },
+    {
+      "name": {
+        "tr": "Kurumsal"
+      },
+      "path": "kurumsal",
+      "desc": [],
+      "data": [],
+      "index": 4,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "page": true,
+        "body": true,
+        "detail": true,
+        "img": false
+      },
+      "active": true
     }
   ]
 }
